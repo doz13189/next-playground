@@ -1,6 +1,6 @@
 "use server";
 
-import { writeMessage } from "@/app/_lib/handler/message";
+import { writeMessage } from "@/app/_lib/apiHandler/message";
 import { SendButton } from "./send-button";
 
 export const handleOnClick = () => {

@@ -25,7 +25,6 @@ export async function GET(request: NextRequest) {
 		});
 	}
 
-	console.log("type", type)
 	if (type) {
 		response = response.filter((character: z.infer<typeof CharacterSchema>) => {
 			return character.type === type

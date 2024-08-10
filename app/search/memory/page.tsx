@@ -9,7 +9,7 @@ import { SkillForm } from "../_components/skill-form";
 import { useState } from "react";
 import { MemoryNameForm } from "../_components/memory-name-form";
 
-export default function Search(args: {
+export default function Page(args: {
 	searchParams: { rarity: string; skills: string; name: string };
 }) {
 	const argRarity = args.searchParams?.rarity;

@@ -1,11 +1,16 @@
-import { queryCharacter } from "@/app/_lib/query/character";
-import { getImageNameByAttribute, getImageNameByRarity } from "@/app/search/_lib/utils";
-import Image from "next/image";
+"use client";
+
+import { FC } from "react";
+import { z } from "zod";
+import { CharacterSchema } from "@/app/_data/character/schema";
 import Link from "next/link";
+import Image from "next/image";
+import { getImageNameByAttribute, getImageNameByRarity } from "@/app/search/_lib/utils";
+import { Skills } from "@/app/search/_components/skills";
 
-export async function NewCharacter({ id }: { id: string }) {
-	const character = await queryCharacter(id);
-
+export const CharacterDefaultInfo: FC<{ character: z.infer<typeof CharacterSchema> }> = ({
+	character,
+}) => {
 	return (
 		<Link href={`/search/character/result/${character.id}`}>
 			<div className="flex">
@@ -48,6 +53,7 @@ export async function NewCharacter({ id }: { id: string }) {
 				</div>
 				<div className="content-center mx-3">{`${character.epithet} ${character.name}`}</div>
 			</div>
+			<Skills skills={[...character.skills]} />
 		</Link>
 	);
 };

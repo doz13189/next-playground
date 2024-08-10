@@ -4,7 +4,7 @@ import { SearchFilters } from "../../_components/search-filters";
 import { EditFilterButton } from "../../_components/edit-filter-button";
 import { Loading } from "../../_components/Loading";
 
-export default function MemorySearchResult(args: {
+export default function Page(args: {
 	searchParams: { rarity: string; skills: string, name: string, offset: string, limit: string };
 }) {
 	const argRarity = args.searchParams?.rarity;

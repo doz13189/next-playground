@@ -3,7 +3,6 @@
 import { FC, useState } from "react";
 import { z } from "zod";
 import { MemorySchema } from "@/app/_data/memory/schema";
-import { Memory } from "./list";
 import Image from "next/image";
 
 const getMemoryContent = (activeTabState: number, memory: z.infer<typeof MemorySchema>) => {
@@ -28,10 +27,7 @@ export const MemoryDetailContents: FC<{ memory: z.infer<typeof MemorySchema> }> 
 	const [activeTabState, setActiveTabState] = useState<0 | 1 | 2 | 3>(initialActiveTabState);
 
 	return (
-		<div className="min-h-screen container mx-auto py-1 px-3">
-
-			<Memory memory={memory} />
-
+		<div>
 			<ul className="my-3 flex flex-wrap text-xs font-medium text-center text-gray-500">
 				<li className="me-2">
 					<button
@@ -95,6 +91,7 @@ export const MemoryDetailContents: FC<{ memory: z.infer<typeof MemorySchema> }> 
 			</div>
 
 		</div>
+
 	);
 };
 

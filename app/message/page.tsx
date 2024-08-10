@@ -1,10 +1,9 @@
-// import { SendByApi } from "./_components/send-by-api";
 import Link from "next/link";
 import { FC } from "react";
 import { z } from "zod";
 import { MessageSchema } from "../_data/message/schema";
-import { getMessage } from "../_lib/handler/message";
 import { SendByServerActions } from "./_components/send-by-server-actions";
+import { queryMessage } from "../_lib/query/message";
 
 const MessageDetail: FC<{ message: z.infer<typeof MessageSchema> }> = ({
 	message,
@@ -19,19 +18,19 @@ const MessageDetail: FC<{ message: z.infer<typeof MessageSchema> }> = ({
 };
 
 const Messages: FC = () => {
-	const response = getMessage();
+	const response = queryMessage();
 	return response
-		.then((value) => {
-			const messages = value.messages;
-			if (!messages) {
+		.then((messages) => {
+			const message = messages.messages;
+			if (!message) {
 				return <>No Data</>;
 			}
 
-			if (messages.length === 0) {
+			if (message.length === 0) {
 				return <>No Data</>;
 			}
 
-			return messages.map((message) => <MessageDetail message={message} />);
+			return message.map((value) => <MessageDetail message={value} />);
 		})
 		.catch((err) => {
 			console.error(err);
