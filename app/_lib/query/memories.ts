@@ -1,3 +1,4 @@
+import { MemorySkills } from "@/app/_data/_common/schema";
 import { memories } from "@/app/_data/memory/object";
 import { MemorySchema } from "@/app/_data/memory/schema";
 import { z } from "zod";
@@ -16,8 +17,7 @@ export const queryMemories = async ({ rarity, skills, name, offset, limit }: { r
 			?.split(",")
 			.map((skill) => {
 				response = response.filter((memory: z.infer<typeof MemorySchema>) => {
-					// @ts-ignore
-					return memory.skills.includes(skill)
+					return memory.skills.includes(skill as z.infer<typeof MemorySkills>)
 				});
 			});
 	}

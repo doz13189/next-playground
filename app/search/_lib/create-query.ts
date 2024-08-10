@@ -1,6 +1,5 @@
 type Prop = { rarity: string, skills: string[], name?: string, tags?: string[], type?: string,  offset?: string, limit?: string}
 export const createQuery = ({ rarity, skills, name, tags, type,  offset, limit}: Prop ) => {
-	console.log("rarity", rarity)
 	const rarityQuery = rarity ? `rarity=${rarity}` : null;
 	const typeQuery = type ? `type=${type}` : null;
 	const nameQuery = name ? `name=${name}` : null;

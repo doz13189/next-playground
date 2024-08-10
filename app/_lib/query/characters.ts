@@ -1,16 +1,17 @@
-import { Tags } from "@/app/_data/_common/schema";
+import { CharacterSkills, Tags } from "@/app/_data/_common/schema";
 import { characters } from "@/app/_data/character/object";
 import { CharacterSchema } from "@/app/_data/character/schema";
 import { z } from "zod";
 
-export const getCharacters = async ({
+export const queryCharacters = async ({
 	rarity,
+	type,
 	name,
 	tags,
 	skills,
 	offset,
 	limit
-}: {rarity: string, name: string, tags: string, skills: string, offset: string, limit: string }) => {
+}: {rarity: string, type: string, name: string, tags: string, skills: string, offset: string, limit: string }) => {
 
 	let response = characters.characters;
 
@@ -18,6 +19,12 @@ export const getCharacters = async ({
 	if (rarity) {
 		response = response.filter((character) => {
 			return character.rarity === rarity
+		});
+	}
+
+	if (type) {
+		response = response.filter((character) => {
+			return character.type === type
 		});
 	}
 
@@ -42,8 +49,7 @@ export const getCharacters = async ({
 			?.split(",")
 			.map((skill) => {
 				response = response.filter((character: z.infer<typeof CharacterSchema>) => {
-					// @ts-ignore
-					return character.skills.includes(skill)
+					return character.skills.includes(skill as z.infer<typeof CharacterSkills>)
 				});
 			});
 	}

@@ -11,8 +11,8 @@ import { NameForm } from "../_components/name-form";
 import { TagForm } from "../_components/tag-form";
 import { TypeForm } from "../_components/type-form";
 
-export default function Search(args: {
-	searchParams: { rarity: string; type: string; name: string; skills: string; tags: string };
+export default function Page(args: {
+	searchParams: { rarity?: string; type?: string; name?: string; skills?: string; tags?: string };
 }) {
 	const argRarity = args.searchParams?.rarity;
 	const argType = args.searchParams?.type;
@@ -49,7 +49,6 @@ export default function Search(args: {
 					<SkillForm skills={skills} setSkills={setSkills} skillArray={CharacterSkills} />
 				</div>
 
-
 				<SearchFilters rarity={rarity} type={type} name={name} skills={skills} tags={tags} />
 
 				<label
@@ -58,6 +57,7 @@ export default function Search(args: {
 				>
 					Search
 				</label>
+				
 				<div className="flex justify-end">
 					<div className="flex-initial">
 						<ResetButton setRarity={setRarity} setType={setType} setName={setName} setSkills={setSkills} setTags={setTags} />

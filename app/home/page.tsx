@@ -1,5 +1,7 @@
+import { Suspense } from "react";
 import { NewCharacter } from "./_components/new-character";
 import { NewMemory } from "./_components/new-memory";
+import { Loading } from "../search/_components/Loading";
 
 export default function Page() {
 	return (
@@ -17,12 +19,16 @@ export default function Page() {
 					<p className="text-xs">{`以下のデータ追加に伴うアップデートを実施しました。`}</p>
 					{["1221003"].map((id) => (
 						<div key={id} className="m-2">
-							<NewCharacter key={id} id={id} />
+							<Suspense fallback={<Loading />}>
+								<NewCharacter key={id} id={id} />
+							</Suspense>
 						</div>
 					))}
 					{["2400142", "2300194", "2300195"].map((id) => (
 						<div key={id} className="m-2">
-							<NewMemory key={id} id={id} />
+							<Suspense fallback={<Loading />}>
+								<NewMemory key={id} id={id} />
+							</Suspense>
 						</div>
 					))}
 				</div>
