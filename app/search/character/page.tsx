@@ -18,13 +18,13 @@ export default function Page(args: {
 	const argType = args.searchParams?.type;
 	const argSkills = args.searchParams?.skills?.split(",");
 	const argName = args.searchParams?.name;
-	const argTags = args.searchParams?.tags?.split(",");
+	const argTags = args.searchParams?.tags;
 
 	const [rarity, setRarity] = useState(argRarity || "");
 	const [type, setType] = useState(argType || "");
 	const [skills, setSkills] = useState<string[]>(argSkills || []);
 	const [name, setName] = useState(argName || "");
-	const [tags, setTags] = useState<string[]>(argTags || []);
+	const [tags, setTags] = useState<string>(argTags || "");
 
 	return (
 		<div className="py-1 px-3">
@@ -48,8 +48,6 @@ export default function Page(args: {
 				<div className="my-2">
 					<SkillForm skills={skills} setSkills={setSkills} skillArray={CharacterSkills} />
 				</div>
-
-				<SearchFilters rarity={rarity} type={type} name={name} skills={skills} tags={tags} />
 
 				<label
 					htmlFor="search"

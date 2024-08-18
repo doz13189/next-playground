@@ -4,7 +4,7 @@ import { FC } from "react";
 import { useRouter } from "next/navigation";
 import { createQuery } from "@/app/search/_lib/create-query";
 
-export const NextPage: FC<{ pathname: string, total: number, rarity: string; skills: string[], type?: string; name?: string; tags?: string[], offset?: string, limit?: string }> = ({
+export const NextPage: FC<{ pathname: string, total: number, rarity: string; skills: string[], type?: string; name?: string; tags?: string, offset?: string, limit?: string }> = ({
 	pathname,
 	total,
 	rarity,
@@ -45,7 +45,7 @@ export const NextPage: FC<{ pathname: string, total: number, rarity: string; ski
 };
 
 
-export const BackPage: FC<{ pathname: string, total: number, rarity: string; skills: string[], type?: string, name?: string; tags?: string[], offset?: string, limit?: string }> = ({
+export const BackPage: FC<{ pathname: string, total: number, rarity: string; skills: string[], type?: string, name?: string; tags?: string, offset?: string, limit?: string }> = ({
 	pathname,
 	rarity,
 	skills,
@@ -85,7 +85,7 @@ export const BackPage: FC<{ pathname: string, total: number, rarity: string; ski
 };
 
 
-export const AllPage: FC<{ pathname: string, total: number, rarity: string; skills: string[], type?: string; name?: string; tags?: string[], offset?: string, limit?: string }> = ({
+export const AllPage: FC<{ pathname: string, total: number, rarity: string; skills: string[], type?: string; name?: string; tags?: string, offset?: string, limit?: string }> = ({
 	pathname,
 	total,
 	rarity,

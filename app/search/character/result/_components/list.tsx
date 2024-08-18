@@ -57,13 +57,13 @@ export async function Characters({ args }: {
 			</div>)}
 		<div className="flex my-3">
 			<div className="flex-1">
-				<BackPage pathname="character" total={result.total} rarity={argRarity} type={argType} name={argName} skills={argSkills?.split(",")} tags={argTags?.split(",")} offset={argOffset} limit={argLimit} />
+				<BackPage pathname="character" total={result.total} rarity={argRarity} type={argType} name={argName} skills={argSkills?.split(",")} tags={argTags} offset={argOffset} limit={argLimit} />
 			</div>
 			<div className="flex-1">
-				<NextPage pathname="character" total={result.total} rarity={argRarity} type={argType} name={argName} skills={argSkills?.split(",")} tags={argTags?.split(",")} offset={argOffset} limit={argLimit} />
+				<NextPage pathname="character" total={result.total} rarity={argRarity} type={argType} name={argName} skills={argSkills?.split(",")} tags={argTags} offset={argOffset} limit={argLimit} />
 			</div>
 			<div className="flex-1">
-				<AllPage pathname="character" total={result.total} rarity={argRarity} type={argType} name={argName} skills={argSkills?.split(",")} tags={argTags?.split(",")} offset={argOffset} limit={argLimit} />
+				<AllPage pathname="character" total={result.total} rarity={argRarity} type={argType} name={argName} skills={argSkills?.split(",")} tags={argTags} offset={argOffset} limit={argLimit} />
 			</div>
 		</div>
 	</>)

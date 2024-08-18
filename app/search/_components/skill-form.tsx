@@ -1,56 +1,23 @@
 "use client";
 
 import { CharacterSkills, MemorySkills } from "@/app/_data/_common/schema";
-import { ChangeEvent, Dispatch, FC, SetStateAction } from "react";
+import { Dispatch, FC, SetStateAction } from "react";
+import { Select } from "../_parts/Select";
 
-export const SkillForm: FC<{ skills: string[] ,setSkills:  Dispatch<SetStateAction<string[]>>; skillArray: typeof MemorySkills | typeof CharacterSkills}> = ({
+export const SkillForm: FC<{ skills: string[], setSkills: Dispatch<SetStateAction<string[]>>; skillArray: typeof MemorySkills | typeof CharacterSkills }> = ({
 	skills,
 	setSkills,
 	skillArray
 }) => {
 
-	const handleSelectChange = (event: ChangeEvent<HTMLSelectElement>) => {
-		const options = event.target.options;
-		const values: string[] = [];
-
-		for (let i = 0; i < options.length; i++) {
-			if (options[i].selected) {
-				values.push(options[i].value);
-			}
-		}
-
-		setSkills(values);
-	};
-
 	return (
-		<form>
-		<label htmlFor="countries_multiple" className="block mb-1">
-			スキル効果
-		</label>
-		<select
-			multiple
-			id="countries_multiple"
-			className="
-				block
-				p-2.5
-				bg-gray
-				border-2
-				border-grey
-				rounded-lg
-				w-full
-			"
-			onChange={handleSelectChange}
+		<Select
+			items={skillArray.options.map((skill) => ({ label: skill, value: skill })).sort((a, b) => a.label.localeCompare(b.label))}
+			label="スキル効果"
+			placeholderText={"スキル効果を選んでください"}
 			value={skills}
-		>
-			<option value={""}>スキル効果を選んでください</option>
-			{skillArray.options.sort().map((tag) => {
-				return (
-					<option key={tag} value={tag}>
-						{tag}
-					</option>
-				);
-			})}
-		</select>
-	</form>
+			setValue={setSkills}
+			isMultiple={true}
+		/>
 	);
 };

@@ -4,7 +4,7 @@ import { getTypeLabel } from "../_lib/utils";
 import { Type } from "@/app/_data/_common/schema";
 import { z } from "zod";
 
-export const SearchFilters: FC<{ rarity: string; skills: string[], type?: string;  name?: string; tags?: string[] }> = ({
+export const SearchFilters: FC<{ rarity: string; skills: string[], type?: string;  name?: string; tags?: string }> = ({
 	rarity,
 	type,
 	skills,
@@ -55,15 +55,14 @@ export const SearchFilters: FC<{ rarity: string; skills: string[], type?: string
 						{`${name},`}
 					</span>
 				}
-				{tags?.map((tag) => (
+				{tags &&
 					<span
-						key={tag}
+						key={tags}
 						className="inline-block text-xs"
 					>
-						{`${tag},`}
+						{`${tags},`}
 					</span>
-				))}
-
+				}
 				{skills?.map((skill) => (
 					<span
 						key={skill}
