@@ -3,8 +3,9 @@
 import { useRouter } from "next/navigation";
 import { FC } from "react";
 import { createQuery } from "../_lib/create-query";
+import { SubmitButton } from "../_parts/SubmitButton";
 
-export const EditFilterButton: FC<{ pathname: string, rarity: string;  skills: string[], type?: string; name?: string; tags?: string[], }> = ({
+export const EditFilterButton: FC<{ pathname: string, rarity: string; skills: string[], type?: string; name?: string; tags?: string, }> = ({
 	pathname,
 	rarity,
 	type,
@@ -13,24 +14,13 @@ export const EditFilterButton: FC<{ pathname: string, rarity: string;  skills: s
 	tags
 }) => {
 	const router = useRouter();
-	
+
 	return (
-		<button
-			type="submit"
-			className="
-			my-1
-			px-4
-			py-1
-			w-32
-			text-sm
-			bg-yellow
-			border-2
-			border-grey
-			rounded-lg
-		"
+		<SubmitButton
 			onClick={() => router.push(`/search/${pathname}?${createQuery({ rarity, skills, name, tags, type })}`)}
 		>
-			検索条件変更
-		</button>
+			{"検索条件変更"}
+		</SubmitButton>
+
 	);
 };

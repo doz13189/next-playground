@@ -9,8 +9,10 @@ const config: Config = {
 	theme: {
 		extend: {
 			textColor: {
+				"yellow": "#FAC00F",
 				"orange": "#F8784A",
 				"grey": "rgba(0, 0, 0, 0.6)",
+				"light-gray": "rgba(0, 0, 0, 0.1)",
 			},
 			backgroundImage: {
 				"gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -21,6 +23,7 @@ const config: Config = {
 				"yellow": "#FAC00F",
 				"orange": "#F8784A",
 				"soft-orange": "#FFA07A",
+				"code-grey": "#999999",
 				"grey": "rgba(0, 0, 0, 0.6)",
 				"light-gray": "rgba(0, 0, 0, 0.1)",
 				"very-light-gray": "rgba(0, 0, 0, 0.05)",

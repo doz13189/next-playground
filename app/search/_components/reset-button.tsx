@@ -7,7 +7,7 @@ export const ResetButton: FC<{
 	setSkills: (value: SetStateAction<string[]>) => void,
 	setType?: (value: SetStateAction<string>) => void,
 	setName?: (value: SetStateAction<string>) => void,
-	setTags?: (value: SetStateAction<string[]>) => void,
+	setTags?: (value: SetStateAction<string>) => void,
 }> = ({
 	setRarity,
 	setSkills,
@@ -35,7 +35,7 @@ export const ResetButton: FC<{
 				setSkills([]);
 				setType && setType("");
 				setName && setName("");
-				setTags && setTags([]);
+				setTags && setTags("");
 			}}
 		>
 			リセット

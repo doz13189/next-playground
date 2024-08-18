@@ -47,5 +47,6 @@ export const getTypeLabel = (type: z.infer<typeof Type>) => {
 			return "破";
 		default:
 			const _: never = type;
+			throw new Error("Unknown type");
 	}
 }

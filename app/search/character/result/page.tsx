@@ -11,7 +11,7 @@ export default async function Page(args: {
 	const argType = args.searchParams?.type;
 	const argName = args.searchParams?.name;
 	const argSkills = args.searchParams?.skills?.split(",");
-	const argTags = args.searchParams?.tags?.split(",");
+	const argTags = args.searchParams?.tags;
 
 	return (
 		<div className="min-h-screen container mx-auto py-1 px-3">

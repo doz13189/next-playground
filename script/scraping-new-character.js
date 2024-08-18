@@ -359,7 +359,6 @@ const getCharacterDetailInfo = async (character) => {
   const characterDetailInfo = await getCharacterDetailInfo(characterBaseInfo);
   console.log(JSON.stringify(characterDetailInfo));
 
-  console.log(__dirname, "tmp");
   const f = path.join(__dirname, "tmp", `character_${characterId}.json`);
   await fs.writeFile(f, JSON.stringify(characterDetailInfo), (error) => {
     if (error) {

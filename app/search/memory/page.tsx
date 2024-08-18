@@ -1,10 +1,9 @@
 "use client";
 
-import { MemorySkills } from "@/app/_data/_common/schema";
+import { MemorySkills, Rarity } from "@/app/_data/_common/schema";
 import { FilterButton } from "../_components/filter-button";
 import { RarityForm } from "../_components/rarity-form";
 import { ResetButton } from "../_components/reset-button";
-import { SearchFilters } from "../_components/search-filters";
 import { SkillForm } from "../_components/skill-form";
 import { useState } from "react";
 import { MemoryNameForm } from "../_components/memory-name-form";
@@ -34,8 +33,6 @@ export default function Page(args: {
 				<div className="my-2">
 					<SkillForm skills={skills} setSkills={setSkills} skillArray={MemorySkills} />
 				</div>
-
-				<SearchFilters rarity={rarity} skills={skills} name={name} />
 
 				<label
 					htmlFor="search"
