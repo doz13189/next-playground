@@ -1,0 +1,189 @@
+{
+    "id": "1101021",
+    "epithet": "疾走する意志",
+    "name": "緑谷出久",
+    "rarity": "ur",
+    "type": "str",
+    "sex": "男",
+    "skills": [
+        "クールタイム短縮",
+        "回避",
+        "クリティカル抵抗アップ",
+        "状態変化解除",
+        "クリティカル率アップ",
+        "スキル威力アップ",
+        "最大HPアップ",
+        "ディフェンスアップ",
+        "プルスウルトラゲージ増加",
+        "状態異常無効",
+        "鋭利",
+        "クリティカル威力アップ",
+        "HP自動回復"
+    ],
+    "tags": [
+        "雄英高校1年A組",
+        "雄英高校生徒",
+        "ヒーロー"
+    ],
+    "stats": [
+        {
+            "hp": "4800",
+            "power": "1070",
+            "speed": "105",
+            "defense": "100",
+            "critical": "10"
+        },
+        {
+            "hp": "14675",
+            "power": "3124",
+            "speed": "184",
+            "defense": "100",
+            "critical": "10"
+        },
+        {
+            "hp": "48825",
+            "power": "9604",
+            "speed": "724",
+            "defense": "100",
+            "critical": "10"
+        },
+        {
+            "hp": "57825",
+            "power": "11404",
+            "speed": "904",
+            "defense": "100",
+            "critical": "10"
+        }
+    ],
+    "uniqueSkills": [
+        "自分のHPが25%未満の時、自分に貫通を付与し、自分のスキル威力を15%アップ(2ターン)",
+        "自分のHPが5%未満の時、自分に逆境を付与し、戦闘中に1度だけ自分にくいしばり(3回)を付与",
+        "自分がくいしばり状態の時、自分のパワーを20%アップ(3ターン)",
+        "WAVE開始後、自分のパワーを20%アップ(4ターン)",
+        "3ターン毎に自分のプルスウルトラ技の威力を15%アップ(最大3回)",
+        "自分のHPが50%未満の時、自分のパワーを25%アップ",
+        "クリティカルが3回発生するたびに、自分に回避(1回)を付与(最大3回)"
+    ],
+    "skill": {
+        "levelone": {
+            "plusUltra": {
+                "name": "イグニッションスマッシュ",
+                "description": "敵単体に<span style=\"color: #79ff80;\">550</span>%ダメージ<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮、回避(1回)を付与"
+            },
+            "actionSkill1": {
+                "name": "黒鞭＆発勁",
+                "description": "敵単体に<span style=\"color: #79ff80;\">300</span>%ダメージ<br>味方全体に鋭利(3ターン)を付与<br>味方全体の一時的なクリティカル抵抗アップが2個以上のキャラのクリティカル威力<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)<br>味方全体の一時的なクリティカル抵抗アップが3個以上のキャラのクリティカル威力<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)",
+                "coolTime": "6"
+            },
+            "actionSkill2": {
+                "name": "イメージの構築",
+                "description": "味方全体にHP<span style=\"color: #79ff80;\">10</span>%自動回復(2ターン)を付与、クリティカル抵抗<span style=\"color: #79ff80;\">5</span>%アップ(3ターン)<br>味方全体の鋭利のキャラのクリティカル抵抗<span style=\"color: #79ff80;\">5</span>%アップ(3ターン)",
+                "coolTime": "4"
+            },
+            "autoSkill1": {
+                "name": "友達想い",
+                "description": "自分がHP自動回復のまま、2回ターンをまたいだ時、味方全体のクリティカル抵抗<span style=\"color: #79ff80;\">5</span>%アップ(3ターン)、一時的な状態異常<span style=\"color: #79ff80;\">3</span>個回復<br>自分が鋭利のまま、2回ターンをまたいだ時、味方全体のクリティカル率<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)、スキル威力<span style=\"color: #79ff80;\">6</span>%アップ(最大4回)<br>自分のHPが50%未満の時、自分に回避(2回)を付与(最大1回)"
+            },
+            "autoSkill2": {
+                "name": "多彩な戦闘",
+                "description": "味方全体の最大HP<span style=\"color: #79ff80;\">10</span>%アップ<br>自分のスキルでCHAIN成功時、自分の最大HP<span style=\"color: #79ff80;\">3</span>%アップ(最大5回)<br>自分のスキルでCHAIN成功時、味方全体のディフェンス<span style=\"color: #79ff80;\">10</span>%アップ(最大3回)、プルスウルトラゲージ<span style=\"color: #79ff80;\">10</span>%アップ<br>3ターン毎に、味方全体に状態異常無効(1ターン)を付与"
+            }
+        },
+        "leveltwo": {
+            "plusUltra": {
+                "name": "イグニッションスマッシュ",
+                "description": "敵単体に<span style=\"color: #79ff80;\">600</span>%ダメージ<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮、回避(1回)を付与"
+            },
+            "actionSkill1": {
+                "name": "黒鞭＆発勁",
+                "description": "敵単体に<span style=\"color: #79ff80;\">325</span>%ダメージ<br>味方全体に鋭利(3ターン)を付与<br>味方全体の一時的なクリティカル抵抗アップが2個以上のキャラのクリティカル威力<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)<br>味方全体の一時的なクリティカル抵抗アップが3個以上のキャラのクリティカル威力<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)",
+                "coolTime": "5"
+            },
+            "actionSkill2": {
+                "name": "イメージの構築",
+                "description": "味方全体にHP<span style=\"color: #79ff80;\">10</span>%自動回復(2ターン)を付与、クリティカル抵抗<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)<br>味方全体の鋭利のキャラのクリティカル抵抗<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)",
+                "coolTime": "4"
+            },
+            "autoSkill1": {
+                "name": "友達想い",
+                "description": "自分がHP自動回復のまま、2回ターンをまたいだ時、味方全体のクリティカル抵抗<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)、一時的な状態異常<span style=\"color: #79ff80;\">3</span>個回復<br>自分が鋭利のまま、2回ターンをまたいだ時、味方全体のクリティカル率<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)、スキル威力<span style=\"color: #79ff80;\">8</span>%アップ(最大4回)<br>自分のHPが50%未満の時、自分に回避(2回)を付与(最大1回)"
+            },
+            "autoSkill2": {
+                "name": "多彩な戦闘",
+                "description": "味方全体の最大HP<span style=\"color: #79ff80;\">15</span>%アップ<br>自分のスキルでCHAIN成功時、自分の最大HP<span style=\"color: #79ff80;\">5</span>%アップ(最大5回)<br>自分のスキルでCHAIN成功時、味方全体のディフェンス<span style=\"color: #79ff80;\">10</span>%アップ(最大3回)、プルスウルトラゲージ<span style=\"color: #79ff80;\">15</span>%アップ<br>3ターン毎に、味方全体に状態異常無効(1ターン)を付与"
+            }
+        },
+        "levelthree": {
+            "plusUltra": {
+                "name": "イグニッションスマッシュ",
+                "description": "敵単体に<span style=\"color: #79ff80;\">650</span>%ダメージ<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮、回避(1回)を付与"
+            },
+            "actionSkill1": {
+                "name": "黒鞭＆発勁",
+                "description": "敵単体に<span style=\"color: #79ff80;\">350</span>%ダメージ<br>味方全体に鋭利(3ターン)を付与<br>味方全体の一時的なクリティカル抵抗アップが2個以上のキャラのクリティカル威力<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)<br>味方全体の一時的なクリティカル抵抗アップが3個以上のキャラのクリティカル威力<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)",
+                "coolTime": "4"
+            },
+            "actionSkill2": {
+                "name": "イメージの構築",
+                "description": "味方全体にHP<span style=\"color: #79ff80;\">10</span>%自動回復(2ターン)を付与、クリティカル抵抗<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)<br>味方全体の鋭利のキャラのクリティカル抵抗<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)",
+                "coolTime": "4"
+            },
+            "autoSkill1": {
+                "name": "友達想い",
+                "description": "自分がHP自動回復のまま、2回ターンをまたいだ時、味方全体のクリティカル抵抗<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)、一時的な状態異常<span style=\"color: #79ff80;\">3</span>個回復<br>自分が鋭利のまま、2回ターンをまたいだ時、味方全体のクリティカル率<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)、スキル威力<span style=\"color: #79ff80;\">10</span>%アップ(最大4回)<br>自分のHPが50%未満の時、自分に回避(2回)を付与(最大1回)"
+            },
+            "autoSkill2": {
+                "name": "多彩な戦闘",
+                "description": "味方全体の最大HP<span style=\"color: #79ff80;\">20</span>%アップ<br>自分のスキルでCHAIN成功時、自分の最大HP<span style=\"color: #79ff80;\">7</span>%アップ(最大5回)<br>自分のスキルでCHAIN成功時、味方全体のディフェンス<span style=\"color: #79ff80;\">10</span>%アップ(最大3回)、プルスウルトラゲージ<span style=\"color: #79ff80;\">20</span>%アップ<br>3ターン毎に、味方全体に状態異常無効(1ターン)を付与"
+            }
+        },
+        "dxlevelone": {
+            "plusUltra": {
+                "name": "イグニッションスマッシュ",
+                "description": "敵単体に<span style=\"color: #79ff80;\">650</span>%ダメージ<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮、回避(1回)を付与"
+            },
+            "actionSkill1": {
+                "name": "黒鞭＆発勁 DX",
+                "description": "敵単体に<span style=\"color: #79ff80;\">375</span>%ダメージ<br>味方全体に鋭利(3ターン)を付与<br>味方全体の一時的なクリティカル抵抗アップが2個以上のキャラのクリティカル威力<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)<br>味方全体の一時的なクリティカル抵抗アップが3個以上のキャラのクリティカル威力<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)",
+                "coolTime": "4"
+            },
+            "actionSkill2": {
+                "name": "イメージの構築 DX",
+                "description": "味方全体にHP<span style=\"color: #79ff80;\">10</span>%自動回復(3ターン)を付与、クリティカル抵抗<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)<br>味方全体の鋭利のキャラのクリティカル抵抗<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)",
+                "coolTime": "4"
+            },
+            "autoSkill1": {
+                "name": "友達想い",
+                "description": "自分がHP自動回復のまま、2回ターンをまたいだ時、味方全体のクリティカル抵抗<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)、一時的な状態異常<span style=\"color: #79ff80;\">3</span>個回復<br>自分が鋭利のまま、2回ターンをまたいだ時、味方全体のクリティカル率<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)、スキル威力<span style=\"color: #79ff80;\">10</span>%アップ(最大4回)<br>自分のHPが50%未満の時、自分に回避(2回)を付与(最大1回)"
+            },
+            "autoSkill2": {
+                "name": "多彩な戦闘",
+                "description": "味方全体の最大HP<span style=\"color: #79ff80;\">20</span>%アップ<br>自分のスキルでCHAIN成功時、自分の最大HP<span style=\"color: #79ff80;\">7</span>%アップ(最大5回)<br>自分のスキルでCHAIN成功時、味方全体のディフェンス<span style=\"color: #79ff80;\">10</span>%アップ(最大3回)、プルスウルトラゲージ<span style=\"color: #79ff80;\">20</span>%アップ<br>3ターン毎に、味方全体に状態異常無効(1ターン)を付与"
+            }
+        },
+        "dxleveltwo": {
+            "plusUltra": {
+                "name": "イグニッションスマッシュ",
+                "description": "敵単体に<span style=\"color: #79ff80;\">650</span>%ダメージ<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮、回避(1回)を付与"
+            },
+            "actionSkill1": {
+                "name": "黒鞭＆発勁 DX",
+                "description": "敵単体に<span style=\"color: #79ff80;\">400</span>%ダメージ<br>味方全体に鋭利(3ターン)を付与<br>味方全体の一時的なクリティカル抵抗アップが2個以上のキャラのクリティカル威力<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)<br>味方全体の一時的なクリティカル抵抗アップが3個以上のキャラのクリティカル威力<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)",
+                "coolTime": "4"
+            },
+            "actionSkill2": {
+                "name": "イメージの構築 DX",
+                "description": "味方全体にHP<span style=\"color: #79ff80;\">15</span>%自動回復(3ターン)を付与、クリティカル抵抗<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)<br>味方全体の鋭利のキャラのクリティカル抵抗<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)",
+                "coolTime": "4"
+            },
+            "autoSkill1": {
+                "name": "友達想い",
+                "description": "自分がHP自動回復のまま、2回ターンをまたいだ時、味方全体のクリティカル抵抗<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)、一時的な状態異常<span style=\"color: #79ff80;\">3</span>個回復<br>自分が鋭利のまま、2回ターンをまたいだ時、味方全体のクリティカル率<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)、スキル威力<span style=\"color: #79ff80;\">10</span>%アップ(最大4回)<br>自分のHPが50%未満の時、自分に回避(2回)を付与(最大1回)"
+            },
+            "autoSkill2": {
+                "name": "多彩な戦闘",
+                "description": "味方全体の最大HP<span style=\"color: #79ff80;\">20</span>%アップ<br>自分のスキルでCHAIN成功時、自分の最大HP<span style=\"color: #79ff80;\">7</span>%アップ(最大5回)<br>自分のスキルでCHAIN成功時、味方全体のディフェンス<span style=\"color: #79ff80;\">10</span>%アップ(最大3回)、プルスウルトラゲージ<span style=\"color: #79ff80;\">20</span>%アップ<br>3ターン毎に、味方全体に状態異常無効(1ターン)を付与"
+            }
+        }
+    }
+}

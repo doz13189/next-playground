@@ -16,35 +16,36 @@ const serviceImageUrl = "https://search-the-hero.vercel.app/_next/image?url=%2Fm
 const serviceUrl = "https://search-the-hero.vercel.app";
 
 export const metadata: Metadata = {
-  title: serviceTitle,
-  description: serviceDescription,
-  openGraph: {
-    type: 'website',
-    url: serviceUrl,
-    title: serviceTitle,
-    description: serviceDescription,
-    images: [
-      {
-        url: serviceImageUrl,
-        width: 800,
-        height: 600,
-        alt: 'Og Image Alt',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary',
-    title: serviceTitle,
-    description: serviceDescription,
-    images: [
-      {
-        url: serviceImageUrl,
-        alt: 'Twitter Image Alt',
-      },
-    ],
-  },
+	metadataBase: new URL(serviceUrl),
+	title: serviceTitle,
+	description: serviceDescription,
+	openGraph: {
+		type: 'website',
+		url: serviceUrl,
+		title: serviceTitle,
+		description: serviceDescription,
+		images: [
+			{
+				url: serviceImageUrl,
+				width: 800,
+				height: 600,
+				alt: 'Og Image Alt',
+			},
+		],
+	},
+	twitter: {
+		card: 'summary',
+		title: serviceTitle,
+		description: serviceDescription,
+		images: [
+			{
+				url: serviceImageUrl,
+				alt: 'Twitter Image Alt',
+			},
+		],
+	},
 }
-   
+
 
 export default function RootLayout({
 	children,

@@ -18,7 +18,7 @@ export const Menu: FC = ({
 					className={`
 					text-xs
 					m-1
-					p-2
+					py-2
 					flex
 					justify-center
 					border-2
@@ -36,7 +36,7 @@ export const Menu: FC = ({
 					className={`
 					text-xs
 					m-1
-					p-2
+					py-2
 					flex
 					justify-center
 					border-2
@@ -54,7 +54,7 @@ export const Menu: FC = ({
 					className={`
 					text-xs
 					m-1
-					p-2
+					py-2
 					flex
 					justify-center
 					border-2
