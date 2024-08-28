@@ -16,7 +16,7 @@ export default function Page() {
 					rounded-lg
 				">
 					<p className="text-xs">{`以下のデータ追加に伴うアップデートを実施しました。`}</p>
-					{["1101021", "1143004"].map((id) => (
+					{["1222002", "1101021", "1143004"].map((id) => (
 						<div key={id} className="m-2">
 							<Suspense fallback={<Loading />}>
 								<NewCharacter key={id} id={id} />

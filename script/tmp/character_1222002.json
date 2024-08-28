@@ -1,0 +1,184 @@
+{
+    "id": "1222002",
+    "epithet": "氷龍の咆哮",
+    "name": "外典",
+    "rarity": "ur",
+    "type": "int",
+    "sex": "男",
+    "skills": [
+        "必中",
+        "Attack All Opponents",
+        "霜",
+        "凍傷",
+        "氷結",
+        "スピードダウン",
+        "クリティカル抵抗ダウン",
+        "被ダメージ回復",
+        "最大HPアップ",
+        "状態異常無効"
+    ],
+    "tags": [
+        "敵＜ヴィラン＞"
+    ],
+    "stats": [
+        {
+            "hp": "5960",
+            "power": "822",
+            "speed": "125",
+            "defense": "105",
+            "critical": "10"
+        },
+        {
+            "hp": "15440",
+            "power": "2402",
+            "speed": "204",
+            "defense": "105",
+            "critical": "10"
+        },
+        {
+            "hp": "47640",
+            "power": "8682",
+            "speed": "774",
+            "defense": "105",
+            "critical": "10"
+        },
+        {
+            "hp": "56640",
+            "power": "10482",
+            "speed": "954",
+            "defense": "105",
+            "critical": "10"
+        }
+    ],
+    "uniqueSkills": [
+        "自分の氷結、凍傷にする確率を上げる、氷結、凍傷になる確率を下げる",
+        "味方全体の\"敵<ヴィラン>\"のパワーを15%アップ",
+        "味方全体の\"敵<ヴィラン>\"のクリティカル率を15%アップ",
+        "2ターン毎に自分のスキル威力が10%アップ(最大3回)",
+        "自分よりパワーが高い相手から攻撃を2回受けきった後に、自分が受けるダメージを15%カット(2ターン)",
+        "自分のスキル威力がアップしている時、プルスウルトラゲージ上昇量を40%アップ",
+        "自分で敵を倒すたび、自分にバリア(1ヒット)を付与(最大6回)"
+    ],
+    "skill": {
+        "levelone": {
+            "plusUltra": {
+                "name": "氷龍の牙",
+                "description": "敵全体に<span style=\"color: #79ff80;\">350</span>%ダメージ、霜<span style=\"color: #ff6f6f;\">15</span>個(1回)を付与、低確率 (30%)で凍傷(3ターン)を付与、低確率 (30%)で氷結(2ターン)を付与<br>このスキルに必中を付与"
+            },
+            "actionSkill1": {
+                "name": "氷原",
+                "description": "敵全体に<span style=\"color: #79ff80;\">175</span>%ダメージ、霜<span style=\"color: #ff6f6f;\">10</span>個(1回)を付与、中確率 (40%)で氷結(1ターン)を付与<br>味方全体に被ダメージ<span style=\"color: #79ff80;\">15</span>%回復(3ターン)を付与",
+                "coolTime": "6"
+            },
+            "actionSkill2": {
+                "name": "氷針",
+                "description": "敵全体に<span style=\"color: #79ff80;\">200</span>%ダメージ、霜<span style=\"color: #ff6f6f;\">10</span>個(1回)を付与、中確率 (35%)で凍傷(3ターン)を付与<br>このスキルでCHAIN成功時、敵全体のスピード<span style=\"color: #ff6f6f;\">15</span>%ダウン(3ターン)、クリティカル抵抗<span style=\"color: #ff6f6f;\">15</span>%ダウン(3ターン)",
+                "coolTime": "6"
+            },
+            "autoSkill1": {
+                "name": "容赦ない氷撃",
+                "description": "1ターン毎に、敵全体に霜<span style=\"color: #ff6f6f;\">10</span>個(1回)を付与※この効果はゲストでは発動しない<br>敵全体の\"ヒーロー\"のスピード<span style=\"color: #ff6f6f;\">10</span>%ダウン、クリティカル抵抗<span style=\"color: #ff6f6f;\">10</span>%ダウン"
+            },
+            "autoSkill2": {
+                "name": "巨大な氷塊",
+                "description": "3ターン毎に、敵全体に霜<span style=\"color: #ff6f6f;\">15</span>個(1回)を付与※この効果はゲストでは発動しない<br>3ターン毎に、味方全体に被ダメージ<span style=\"color: #79ff80;\">20</span>%回復(2ターン)を付与<br>自分が霜の相手から攻撃を1回受けきった時、味方全体の最大HP<span style=\"color: #79ff80;\">10</span>%アップ(最大5回)<br>自分が霜の相手から攻撃を2回受けきった時、味方全体に状態異常無効(1回)を付与(最大3回)"
+            }
+        },
+        "leveltwo": {
+            "plusUltra": {
+                "name": "氷龍の牙",
+                "description": "敵全体に<span style=\"color: #79ff80;\">400</span>%ダメージ、霜<span style=\"color: #ff6f6f;\">20</span>個(1回)を付与、低確率 (30%)で凍傷(3ターン)を付与、低確率 (30%)で氷結(2ターン)を付与<br>このスキルに必中を付与"
+            },
+            "actionSkill1": {
+                "name": "氷原",
+                "description": "敵全体に<span style=\"color: #79ff80;\">200</span>%ダメージ、霜<span style=\"color: #ff6f6f;\">10</span>個(1回)を付与、中確率 (40%)で氷結(1ターン)を付与<br>味方全体に被ダメージ<span style=\"color: #79ff80;\">20</span>%回復(3ターン)を付与",
+                "coolTime": "5"
+            },
+            "actionSkill2": {
+                "name": "氷針",
+                "description": "敵全体に<span style=\"color: #79ff80;\">225</span>%ダメージ、霜<span style=\"color: #ff6f6f;\">10</span>個(1回)を付与、中確率 (35%)で凍傷(3ターン)を付与<br>このスキルでCHAIN成功時、敵全体のスピード<span style=\"color: #ff6f6f;\">20</span>%ダウン(3ターン)、クリティカル抵抗<span style=\"color: #ff6f6f;\">20</span>%ダウン(3ターン)",
+                "coolTime": "5"
+            },
+            "autoSkill1": {
+                "name": "容赦ない氷撃",
+                "description": "1ターン毎に、敵全体に霜<span style=\"color: #ff6f6f;\">10</span>個(1回)を付与※この効果はゲストでは発動しない<br>敵全体の\"ヒーロー\"のスピード<span style=\"color: #ff6f6f;\">15</span>%ダウン、クリティカル抵抗<span style=\"color: #ff6f6f;\">15</span>%ダウン"
+            },
+            "autoSkill2": {
+                "name": "巨大な氷塊",
+                "description": "3ターン毎に、敵全体に霜<span style=\"color: #ff6f6f;\">15</span>個(1回)を付与※この効果はゲストでは発動しない<br>3ターン毎に、味方全体に被ダメージ<span style=\"color: #79ff80;\">25</span>%回復(2ターン)を付与<br>自分が霜の相手から攻撃を1回受けきった時、味方全体の最大HP<span style=\"color: #79ff80;\">10</span>%アップ(最大5回)<br>自分が霜の相手から攻撃を2回受けきった時、味方全体に状態異常無効(1回)を付与(最大3回)"
+            }
+        },
+        "levelthree": {
+            "plusUltra": {
+                "name": "氷龍の牙",
+                "description": "敵全体に<span style=\"color: #79ff80;\">450</span>%ダメージ、霜<span style=\"color: #ff6f6f;\">25</span>個(1回)を付与、低確率 (30%)で凍傷(3ターン)を付与、低確率 (30%)で氷結(2ターン)を付与<br>このスキルに必中を付与"
+            },
+            "actionSkill1": {
+                "name": "氷原",
+                "description": "敵全体に<span style=\"color: #79ff80;\">225</span>%ダメージ、霜<span style=\"color: #ff6f6f;\">10</span>個(1回)を付与、中確率 (40%)で氷結(1ターン)を付与<br>味方全体に被ダメージ<span style=\"color: #79ff80;\">25</span>%回復(3ターン)を付与",
+                "coolTime": "4"
+            },
+            "actionSkill2": {
+                "name": "氷針",
+                "description": "敵全体に<span style=\"color: #79ff80;\">250</span>%ダメージ、霜<span style=\"color: #ff6f6f;\">10</span>個(1回)を付与、中確率 (35%)で凍傷(3ターン)を付与<br>このスキルでCHAIN成功時、敵全体のスピード<span style=\"color: #ff6f6f;\">25</span>%ダウン(3ターン)、クリティカル抵抗<span style=\"color: #ff6f6f;\">25</span>%ダウン(3ターン)",
+                "coolTime": "4"
+            },
+            "autoSkill1": {
+                "name": "容赦ない氷撃",
+                "description": "1ターン毎に、敵全体に霜<span style=\"color: #ff6f6f;\">10</span>個(1回)を付与※この効果はゲストでは発動しない<br>敵全体の\"ヒーロー\"のスピード<span style=\"color: #ff6f6f;\">20</span>%ダウン、クリティカル抵抗<span style=\"color: #ff6f6f;\">20</span>%ダウン"
+            },
+            "autoSkill2": {
+                "name": "巨大な氷塊",
+                "description": "3ターン毎に、敵全体に霜<span style=\"color: #ff6f6f;\">15</span>個(1回)を付与※この効果はゲストでは発動しない<br>3ターン毎に、味方全体に被ダメージ<span style=\"color: #79ff80;\">30</span>%回復(2ターン)を付与<br>自分が霜の相手から攻撃を1回受けきった時、味方全体の最大HP<span style=\"color: #79ff80;\">10</span>%アップ(最大5回)<br>自分が霜の相手から攻撃を2回受けきった時、味方全体に状態異常無効(1回)を付与(最大3回)"
+            }
+        },
+        "dxlevelone": {
+            "plusUltra": {
+                "name": "氷龍の牙",
+                "description": "敵全体に<span style=\"color: #79ff80;\">450</span>%ダメージ、霜<span style=\"color: #ff6f6f;\">25</span>個(1回)を付与、低確率 (30%)で凍傷(3ターン)を付与、低確率 (30%)で氷結(2ターン)を付与<br>このスキルに必中を付与"
+            },
+            "actionSkill1": {
+                "name": "氷原 DX",
+                "description": "敵全体に<span style=\"color: #79ff80;\">250</span>%ダメージ、霜<span style=\"color: #ff6f6f;\">15</span>個(1回)を付与、中確率 (40%)で氷結(1ターン)を付与<br>味方全体に被ダメージ<span style=\"color: #79ff80;\">25</span>%回復(3ターン)を付与",
+                "coolTime": "4"
+            },
+            "actionSkill2": {
+                "name": "氷針 DX",
+                "description": "敵全体に<span style=\"color: #79ff80;\">275</span>%ダメージ、霜<span style=\"color: #ff6f6f;\">10</span>個(1回)を付与、中確率 (35%)で凍傷(3ターン)を付与<br>このスキルでCHAIN成功時、敵全体のスピード<span style=\"color: #ff6f6f;\">25</span>%ダウン(3ターン)、クリティカル抵抗<span style=\"color: #ff6f6f;\">25</span>%ダウン(3ターン)",
+                "coolTime": "4"
+            },
+            "autoSkill1": {
+                "name": "容赦ない氷撃",
+                "description": "1ターン毎に、敵全体に霜<span style=\"color: #ff6f6f;\">10</span>個(1回)を付与※この効果はゲストでは発動しない<br>敵全体の\"ヒーロー\"のスピード<span style=\"color: #ff6f6f;\">20</span>%ダウン、クリティカル抵抗<span style=\"color: #ff6f6f;\">20</span>%ダウン"
+            },
+            "autoSkill2": {
+                "name": "巨大な氷塊",
+                "description": "3ターン毎に、敵全体に霜<span style=\"color: #ff6f6f;\">15</span>個(1回)を付与※この効果はゲストでは発動しない<br>3ターン毎に、味方全体に被ダメージ<span style=\"color: #79ff80;\">30</span>%回復(2ターン)を付与<br>自分が霜の相手から攻撃を1回受けきった時、味方全体の最大HP<span style=\"color: #79ff80;\">10</span>%アップ(最大5回)<br>自分が霜の相手から攻撃を2回受けきった時、味方全体に状態異常無効(1回)を付与(最大3回)"
+            }
+        },
+        "dxleveltwo": {
+            "plusUltra": {
+                "name": "氷龍の牙",
+                "description": "敵全体に<span style=\"color: #79ff80;\">450</span>%ダメージ、霜<span style=\"color: #ff6f6f;\">25</span>個(1回)を付与、低確率 (30%)で凍傷(3ターン)を付与、低確率 (30%)で氷結(2ターン)を付与<br>このスキルに必中を付与"
+            },
+            "actionSkill1": {
+                "name": "氷原 DX",
+                "description": "敵全体に<span style=\"color: #79ff80;\">275</span>%ダメージ、霜<span style=\"color: #ff6f6f;\">15</span>個(1回)を付与、中確率 (40%)で氷結(1ターン)を付与<br>味方全体に被ダメージ<span style=\"color: #79ff80;\">30</span>%回復(3ターン)を付与",
+                "coolTime": "4"
+            },
+            "actionSkill2": {
+                "name": "氷針 DX",
+                "description": "敵全体に<span style=\"color: #79ff80;\">300</span>%ダメージ、霜<span style=\"color: #ff6f6f;\">10</span>個(1回)を付与、中確率 (35%)で凍傷(3ターン)を付与<br>このスキルでCHAIN成功時、敵全体のスピード<span style=\"color: #ff6f6f;\">30</span>%ダウン(3ターン)、クリティカル抵抗<span style=\"color: #ff6f6f;\">30</span>%ダウン(3ターン)",
+                "coolTime": "4"
+            },
+            "autoSkill1": {
+                "name": "容赦ない氷撃",
+                "description": "1ターン毎に、敵全体に霜<span style=\"color: #ff6f6f;\">10</span>個(1回)を付与※この効果はゲストでは発動しない<br>敵全体の\"ヒーロー\"のスピード<span style=\"color: #ff6f6f;\">20</span>%ダウン、クリティカル抵抗<span style=\"color: #ff6f6f;\">20</span>%ダウン"
+            },
+            "autoSkill2": {
+                "name": "巨大な氷塊",
+                "description": "3ターン毎に、敵全体に霜<span style=\"color: #ff6f6f;\">15</span>個(1回)を付与※この効果はゲストでは発動しない<br>3ターン毎に、味方全体に被ダメージ<span style=\"color: #79ff80;\">30</span>%回復(2ターン)を付与<br>自分が霜の相手から攻撃を1回受けきった時、味方全体の最大HP<span style=\"color: #79ff80;\">10</span>%アップ(最大5回)<br>自分が霜の相手から攻撃を2回受けきった時、味方全体に状態異常無効(1回)を付与(最大3回)"
+            }
+        }
+    }
+}
