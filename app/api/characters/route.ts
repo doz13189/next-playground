@@ -4,8 +4,20 @@ import { CharacterSchema } from "@/app/_data/character/schema";
 import JsonQuery from "json-query";
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
+import { authenticate } from "../_utils/authorization";
 
 export async function GET(request: NextRequest) {
+
+	try {
+		const authenticatedInformation = authenticate(request);
+		console.info("authenticated", authenticatedInformation);
+	} catch (error) {
+		if (error instanceof Error) {
+			return NextResponse.json({ error: error.message }, { status: 401 });
+		}
+		return NextResponse.json({ error: "unknown error" }, { status: 500 });
+	}
+
 	const rarity = request.nextUrl.searchParams.get("rarity");
 	const type = request.nextUrl.searchParams.get("type");
 	const name = request.nextUrl.searchParams.get("name");
