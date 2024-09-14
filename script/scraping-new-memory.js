@@ -35,7 +35,7 @@ const getMemoryIcon = async (memoryId) => {
 
   try {
     await downloadImage(fullImageUrl, savePath);
-    console.log("アイコンを保存しました:", savePath);
+    console.info("アイコンを保存しました:", savePath);
   } catch (error) {
     console.error("画像の保存中にエラーが発生しました:", error);
   }
@@ -50,7 +50,7 @@ const getMemoryFullImage = async (memoryId) => {
 
   try {
     await downloadImage(fullImageUrl, savePath);
-    console.log("アイコンを保存しました:", savePath);
+    console.info("アイコンを保存しました:", savePath);
   } catch (error) {
     console.error("画像の保存中にエラーが発生しました:", error);
   }
@@ -179,7 +179,7 @@ const getMemoryDetailInfo = async (memory) => {
     if (error) {
       console.error("Error writing file:", error);
     } else {
-      console.log("File successfully written!");
+      console.info("File successfully written!");
     }
   });
 })();

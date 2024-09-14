@@ -35,7 +35,7 @@ const getCharacterIcon = async (characterId) => {
 
   try {
     await downloadImage(fullImageUrl, savePath);
-    console.log("アイコンを保存しました:", savePath);
+    console.info("アイコンを保存しました:", savePath);
   } catch (error) {
     console.error("画像の保存中にエラーが発生しました:", error);
   }
@@ -357,14 +357,14 @@ const getCharacterDetailInfo = async (character) => {
   await getCharacterIcon(characterId);
   const characterBaseInfo = await getCharacterBaseInfo(characterId);
   const characterDetailInfo = await getCharacterDetailInfo(characterBaseInfo);
-  console.log(JSON.stringify(characterDetailInfo));
+  console.info(JSON.stringify(characterDetailInfo));
 
   const f = path.join(__dirname, "tmp", `character_${characterId}.json`);
   await fs.writeFile(f, JSON.stringify(characterDetailInfo), (error) => {
     if (error) {
       console.error("Error writing file:", error);
     } else {
-      console.log("File successfully written!");
+      console.info("File successfully written!");
     }
   });
 })();
