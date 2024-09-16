@@ -44438,6 +44438,194 @@ export const characters: z.infer<typeof CharactersSchema> = {
                     }
                 }
             }
+        },
+        {
+            "id": "1194004",
+            "epithet": "侵す者",
+            "name": "オール・フォー・ワン",
+            "rarity": "ur",
+            "type": "dst",
+            "sex": "男",
+            "skills": [
+                "貫通",
+                "強奪",
+                "クールタイム短縮",
+                "最大HPアップ",
+                "HP自動回復",
+                "プルスウルトラ技威力ダウン",
+                "プルスウルトラゲージ増加",
+                "余裕",
+                "全体攻撃",
+                "アクションスキル威力ダウン",
+                "ディフェンスダウン",
+                "与ダメージ回復",
+                "高揚"
+            ],
+            "tags": [
+                "敵＜ヴィラン＞連合",
+                "敵＜ヴィラン＞"
+            ],
+            "stats": [
+                {
+                    "hp": "3264",
+                    "power": "1178",
+                    "speed": "90",
+                    "defense": "100",
+                    "critical": "10"
+                },
+                {
+                    "hp": "9189",
+                    "power": "3232",
+                    "speed": "169",
+                    "defense": "100",
+                    "critical": "10"
+                },
+                {
+                    "hp": "40339",
+                    "power": "9852",
+                    "speed": "689",
+                    "defense": "100",
+                    "critical": "10"
+                },
+                {
+                    "hp": "49339",
+                    "power": "11652",
+                    "speed": "869",
+                    "defense": "100",
+                    "critical": "10"
+                }
+            ],
+            "uniqueSkills": [
+                "自分のスキルでCHAIN成功時、自分のパワーを5%アップ、ディフェンスを5%アップ(最大6回)",
+                "自分のスキル封印、麻痺、混乱、恐怖状態になる確率を下げる",
+                "戦闘開始後、自分の状態異常を防ぐ(2回)、自分のディフェンスを10%アップ",
+                "WAVE開始後、自分のパワーを20%アップ(4ターン)",
+                "WAVE開始後、味方全体のスピードを15%アップ(2ターン)",
+                "自分のHPが50%未満の時、戦闘中に1度だけ自分にHP20%自動回復(2ターン)を付与",
+                "毎ターン、自分のディフェンスが5%アップ(最大6回)"
+            ],
+            "skill": {
+                "levelone": {
+                    "plusUltra": {
+                        "name": "歪みの衝撃",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">500</span>%ダメージ、一時的な強化<span style=\"color: #79ff80;\">2</span>個強奪<br>敵単体の\"信タイプ\"の一時的な強化全て強奪<br>自分のクールタイム<span style=\"color: #79ff80;\">2</span>短縮<br>敵が\"プロヒーロー\"だったら、このスキルに貫通を付与"
+                    },
+                    "actionSkill1": {
+                        "name": "黒爪無窮",
+                        "description": "敵全体に<span style=\"color: #79ff80;\">200</span>%ダメージ<br>敵全体の\"信タイプ\"のアクションスキル威力<span style=\"color: #ff6f6f;\">20</span>%ダウン(3ターン)、ディフェンス<span style=\"color: #ff6f6f;\">20</span>%ダウン(3ターン)<br>自分に与ダメージ<span style=\"color: #79ff80;\">6</span>%回復(3ターン)を付与",
+                        "coolTime": "5"
+                    },
+                    "actionSkill2": {
+                        "name": "斬撃波",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">300</span>%ダメージ<br>敵が\"信タイプ\"だったら、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">20</span>%アップ<br>自分に高揚(3ターン)を付与<br>敵が\"信タイプ\"だったら、このスキルに貫通を付与",
+                        "coolTime": "5"
+                    },
+                    "autoSkill1": {
+                        "name": "“個性”の強奪",
+                        "description": "3ターン毎に、自分の最大HP<span style=\"color: #79ff80;\">9</span>%アップ(最大3回)、HP<span style=\"color: #79ff80;\">15</span>%自動回復(2ターン)を付与(最大3回)<br>3ターン毎に、ターゲットを無視してランダムな敵単体の一時的な強化<span style=\"color: #79ff80;\">2</span>個強奪※この効果はゲストでは発動しない<br>自分のHPが30%未満の時、敵全体の一時的な強化<span style=\"color: #79ff80;\">2</span>個強奪(最大1回)"
+                    },
+                    "autoSkill2": {
+                        "name": "究極の悪",
+                        "description": "敵全体の\"プロヒーロー\"のプルスウルトラ技威力<span style=\"color: #ff6f6f;\">15</span>%ダウン<br>味方が1人戦闘不能になった時、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">30</span>%アップ<br>自分の最大HP<span style=\"color: #79ff80;\">20</span>%アップ、余裕(10ターン)を付与(最大1回)"
+                    }
+                },
+                "leveltwo": {
+                    "plusUltra": {
+                        "name": "歪みの衝撃",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">550</span>%ダメージ、一時的な強化<span style=\"color: #79ff80;\">2</span>個強奪<br>敵単体の\"信タイプ\"の一時的な強化全て強奪<br>自分のクールタイム<span style=\"color: #79ff80;\">2</span>短縮<br>敵が\"プロヒーロー\"だったら、このスキルに貫通を付与"
+                    },
+                    "actionSkill1": {
+                        "name": "黒爪無窮",
+                        "description": "敵全体に<span style=\"color: #79ff80;\">225</span>%ダメージ<br>敵全体の\"信タイプ\"のアクションスキル威力<span style=\"color: #ff6f6f;\">25</span>%ダウン(3ターン)、ディフェンス<span style=\"color: #ff6f6f;\">20</span>%ダウン(3ターン)<br>自分に与ダメージ<span style=\"color: #79ff80;\">8</span>%回復(3ターン)を付与",
+                        "coolTime": "5"
+                    },
+                    "actionSkill2": {
+                        "name": "斬撃波",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">325</span>%ダメージ<br>敵が\"信タイプ\"だったら、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">25</span>%アップ<br>自分に高揚(3ターン)を付与<br>敵が\"信タイプ\"だったら、このスキルに貫通を付与",
+                        "coolTime": "5"
+                    },
+                    "autoSkill1": {
+                        "name": "“個性”の強奪",
+                        "description": "3ターン毎に、自分の最大HP<span style=\"color: #79ff80;\">12</span>%アップ(最大3回)、HP<span style=\"color: #79ff80;\">15</span>%自動回復(2ターン)を付与(最大3回)<br>3ターン毎に、ターゲットを無視してランダムな敵単体の一時的な強化<span style=\"color: #79ff80;\">2</span>個強奪※この効果はゲストでは発動しない<br>自分のHPが30%未満の時、敵全体の一時的な強化<span style=\"color: #79ff80;\">2</span>個強奪(最大1回)"
+                    },
+                    "autoSkill2": {
+                        "name": "究極の悪",
+                        "description": "敵全体の\"プロヒーロー\"のプルスウルトラ技威力<span style=\"color: #ff6f6f;\">20</span>%ダウン<br>味方が1人戦闘不能になった時、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">40</span>%アップ<br>自分の最大HP<span style=\"color: #79ff80;\">20</span>%アップ、余裕(10ターン)を付与(最大1回)"
+                    }
+                },
+                "levelthree": {
+                    "plusUltra": {
+                        "name": "歪みの衝撃",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">600</span>%ダメージ、一時的な強化<span style=\"color: #79ff80;\">2</span>個強奪<br>敵単体の\"信タイプ\"の一時的な強化全て強奪<br>自分のクールタイム<span style=\"color: #79ff80;\">2</span>短縮<br>敵が\"プロヒーロー\"だったら、このスキルに貫通を付与"
+                    },
+                    "actionSkill1": {
+                        "name": "黒爪無窮",
+                        "description": "敵全体に<span style=\"color: #79ff80;\">250</span>%ダメージ<br>敵全体の\"信タイプ\"のアクションスキル威力<span style=\"color: #ff6f6f;\">30</span>%ダウン(3ターン)、ディフェンス<span style=\"color: #ff6f6f;\">20</span>%ダウン(3ターン)<br>自分に与ダメージ<span style=\"color: #79ff80;\">10</span>%回復(3ターン)を付与",
+                        "coolTime": "5"
+                    },
+                    "actionSkill2": {
+                        "name": "斬撃波",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">350</span>%ダメージ<br>敵が\"信タイプ\"だったら、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">30</span>%アップ<br>自分に高揚(3ターン)を付与<br>敵が\"信タイプ\"だったら、このスキルに貫通を付与",
+                        "coolTime": "5"
+                    },
+                    "autoSkill1": {
+                        "name": "“個性”の強奪",
+                        "description": "3ターン毎に、自分の最大HP<span style=\"color: #79ff80;\">15</span>%アップ(最大3回)、HP<span style=\"color: #79ff80;\">15</span>%自動回復(2ターン)を付与(最大3回)<br>3ターン毎に、ターゲットを無視してランダムな敵単体の一時的な強化<span style=\"color: #79ff80;\">2</span>個強奪※この効果はゲストでは発動しない<br>自分のHPが30%未満の時、敵全体の一時的な強化<span style=\"color: #79ff80;\">2</span>個強奪(最大1回)"
+                    },
+                    "autoSkill2": {
+                        "name": "究極の悪",
+                        "description": "敵全体の\"プロヒーロー\"のプルスウルトラ技威力<span style=\"color: #ff6f6f;\">25</span>%ダウン<br>味方が1人戦闘不能になった時、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">50</span>%アップ<br>自分の最大HP<span style=\"color: #79ff80;\">20</span>%アップ、余裕(10ターン)を付与(最大1回)"
+                    }
+                },
+                "dxlevelone": {
+                    "plusUltra": {
+                        "name": "歪みの衝撃",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">600</span>%ダメージ、一時的な強化<span style=\"color: #79ff80;\">2</span>個強奪<br>敵単体の\"信タイプ\"の一時的な強化全て強奪<br>自分のクールタイム<span style=\"color: #79ff80;\">2</span>短縮<br>敵が\"プロヒーロー\"だったら、このスキルに貫通を付与"
+                    },
+                    "actionSkill1": {
+                        "name": "黒爪無窮 DX",
+                        "description": "敵全体に<span style=\"color: #79ff80;\">275</span>%ダメージ<br>敵全体の\"信タイプ\"のアクションスキル威力<span style=\"color: #ff6f6f;\">30</span>%ダウン(3ターン)、ディフェンス<span style=\"color: #ff6f6f;\">20</span>%ダウン(3ターン)<br>自分に与ダメージ<span style=\"color: #79ff80;\">10</span>%回復(3ターン)を付与",
+                        "coolTime": "5"
+                    },
+                    "actionSkill2": {
+                        "name": "斬撃波 DX",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">375</span>%ダメージ<br>敵が\"信タイプ\"だったら、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">30</span>%アップ<br>自分に高揚(3ターン)を付与<br>敵が\"信タイプ\"だったら、このスキルに貫通を付与",
+                        "coolTime": "5"
+                    },
+                    "autoSkill1": {
+                        "name": "“個性”の強奪",
+                        "description": "3ターン毎に、自分の最大HP<span style=\"color: #79ff80;\">15</span>%アップ(最大3回)、HP<span style=\"color: #79ff80;\">15</span>%自動回復(2ターン)を付与(最大3回)<br>3ターン毎に、ターゲットを無視してランダムな敵単体の一時的な強化<span style=\"color: #79ff80;\">2</span>個強奪※この効果はゲストでは発動しない<br>自分のHPが30%未満の時、敵全体の一時的な強化<span style=\"color: #79ff80;\">2</span>個強奪(最大1回)"
+                    },
+                    "autoSkill2": {
+                        "name": "究極の悪",
+                        "description": "敵全体の\"プロヒーロー\"のプルスウルトラ技威力<span style=\"color: #ff6f6f;\">25</span>%ダウン<br>味方が1人戦闘不能になった時、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">50</span>%アップ<br>自分の最大HP<span style=\"color: #79ff80;\">20</span>%アップ、余裕(10ターン)を付与(最大1回)"
+                    }
+                },
+                "dxleveltwo": {
+                    "plusUltra": {
+                        "name": "歪みの衝撃",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">600</span>%ダメージ、一時的な強化<span style=\"color: #79ff80;\">2</span>個強奪<br>敵単体の\"信タイプ\"の一時的な強化全て強奪<br>自分のクールタイム<span style=\"color: #79ff80;\">2</span>短縮<br>敵が\"プロヒーロー\"だったら、このスキルに貫通を付与"
+                    },
+                    "actionSkill1": {
+                        "name": "黒爪無窮 DX",
+                        "description": "敵全体に<span style=\"color: #79ff80;\">300</span>%ダメージ<br>敵全体の\"信タイプ\"のアクションスキル威力<span style=\"color: #ff6f6f;\">30</span>%ダウン(3ターン)、ディフェンス<span style=\"color: #ff6f6f;\">20</span>%ダウン(3ターン)<br>自分に与ダメージ<span style=\"color: #79ff80;\">10</span>%回復(3ターン)を付与",
+                        "coolTime": "5"
+                    },
+                    "actionSkill2": {
+                        "name": "斬撃波 DX",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">400</span>%ダメージ<br>敵が\"信タイプ\"だったら、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">35</span>%アップ<br>自分に高揚(3ターン)を付与<br>敵が\"信タイプ\"だったら、このスキルに貫通を付与",
+                        "coolTime": "5"
+                    },
+                    "autoSkill1": {
+                        "name": "“個性”の強奪",
+                        "description": "3ターン毎に、自分の最大HP<span style=\"color: #79ff80;\">15</span>%アップ(最大3回)、HP<span style=\"color: #79ff80;\">15</span>%自動回復(2ターン)を付与(最大3回)<br>3ターン毎に、ターゲットを無視してランダムな敵単体の一時的な強化<span style=\"color: #79ff80;\">2</span>個強奪※この効果はゲストでは発動しない<br>自分のHPが30%未満の時、敵全体の一時的な強化<span style=\"color: #79ff80;\">2</span>個強奪(最大1回)"
+                    },
+                    "autoSkill2": {
+                        "name": "究極の悪",
+                        "description": "敵全体の\"プロヒーロー\"のプルスウルトラ技威力<span style=\"color: #ff6f6f;\">25</span>%ダウン<br>味方が1人戦闘不能になった時、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">50</span>%アップ<br>自分の最大HP<span style=\"color: #79ff80;\">20</span>%アップ、余裕(10ターン)を付与(最大1回)"
+                    }
+                }
+            }
         }
     ]
 };
