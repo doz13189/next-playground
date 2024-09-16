@@ -1,6 +1,6 @@
 "use client";
 
-import { MemorySkills, Rarity } from "@/app/_data/_common/schema";
+import { MemorySkills } from "@/app/_data/_common/schema";
 import { FilterButton } from "../_components/filter-button";
 import { RarityForm } from "../_components/rarity-form";
 import { ResetButton } from "../_components/reset-button";
@@ -49,27 +49,6 @@ export default function Page(args: {
 					</div>
 				</div>
 			</div>
-
-			{/*
-			<div className="fixed bottom-3 left-1">
-				<Link
-					href={"/message"}
-					className="
-						my-1
-						mx-1
-						px-4
-						py-1
-						text-sm
-						bg-yellow
-						border-2
-						border-grey
-						rounded-lg
-					"
-				>
-					Question
-				</Link>
-			</div>
-			*/}
 		</div>
 	);
 }
