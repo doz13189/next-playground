@@ -190,6 +190,7 @@ export const CharacterSkills = z.enum([
 	"鋭利",
 	"クリティカル率ダウン完全耐性",
 	"索敵",
+	"強奪",
 ] as const)
 
 export const MemorySkills = z.enum([
