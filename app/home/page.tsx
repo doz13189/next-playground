@@ -16,14 +16,14 @@ export default function Page() {
 					rounded-lg
 				">
 					<p className="text-xs">{`以下のデータ追加に伴うアップデートを実施しました。`}</p>
-					{["1194004"].map((id) => (
+					{["1147009", "1194004"].map((id) => (
 						<div key={id} className="m-2">
 							<Suspense fallback={<Loading />}>
 								<NewCharacter key={id} id={id} />
 							</Suspense>
 						</div>
 					))}
-					{["2400147", "2300200", "2300201"].map((id) => (
+					{["2400146", "2400147", "2300200", "2300201"].map((id) => (
 						<div key={id} className="m-2">
 							<Suspense fallback={<Loading />}>
 								<NewMemory key={id} id={id} />

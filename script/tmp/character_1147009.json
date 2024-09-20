@@ -1,0 +1,193 @@
+{
+    "id": "1147009",
+    "epithet": "スチームパンク",
+    "name": "相澤消太",
+    "rarity": "ur",
+    "type": "int",
+    "sex": "男",
+    "skills": [
+        "状態変化解除",
+        "回復",
+        "くいしばり",
+        "クールタイム短縮",
+        "スタン耐性アップ",
+        "拘束耐性アップ",
+        "スキル封印耐性アップ",
+        "プルスウルトラゲージ増加",
+        "ダメージカット",
+        "状態異常無効",
+        "パワーアップ",
+        "クリティカル率アップ",
+        "クリティカル威力アップ",
+        "クリティカル率ダウン",
+        "スキル威力アップ",
+        "貫通",
+        "与ダメージ回復"
+    ],
+    "tags": [
+        "雄英高校教師",
+        "プロヒーロー",
+        "ヒーロー"
+    ],
+    "stats": [
+        {
+            "hp": "5200",
+            "power": "747",
+            "speed": "115",
+            "defense": "100",
+            "critical": "15"
+        },
+        {
+            "hp": "17050",
+            "power": "2801",
+            "speed": "194",
+            "defense": "100",
+            "critical": "15"
+        },
+        {
+            "hp": "52450",
+            "power": "9281",
+            "speed": "734",
+            "defense": "100",
+            "critical": "15"
+        },
+        {
+            "hp": "61450",
+            "power": "11081",
+            "speed": "914",
+            "defense": "100",
+            "critical": "15"
+        }
+    ],
+    "uniqueSkills": [
+        "自分が回復を受けるたび、自分の状態異常を1つ回復する",
+        "戦闘開始後、自分の状態異常を防ぐ(2回)、自分のディフェンスを10%アップ",
+        "自分が戦闘不能になった時、味方全体の状態異常を全て回復する",
+        "クリティカル攻撃を受けきった後に、自分のスキル威力を10%アップ(2ターン)",
+        "自分のスキル威力がアップしている時、プルスウルトラゲージ上昇量を40%アップ",
+        "戦闘開始後、味方全体のクリティカル時の威力を20%アップ(3ターン)",
+        "WAVE開始後、自分のプルスウルトラ技の威力を25%アップ(4ターン)"
+    ],
+    "skill": {
+        "levelone": {
+            "plusUltra": {
+                "name": "スチーム連撃",
+                "description": "敵単体の一時的な強化<span style=\"color: #79ff80;\">3</span>個解除、<span style=\"color: #79ff80;\">550</span>%ダメージ<br>自分のHPが50%未満の時、自分のHP<span style=\"color: #79ff80;\">10</span>%回復<br>自分にくいしばり(3回)を付与<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮"
+            },
+            "actionSkill1": {
+                "name": "錐揉みキック",
+                "description": "敵単体に<span style=\"color: #79ff80;\">300</span>%ダメージ、クリティカル率<span style=\"color: #ff6f6f;\">20</span>%ダウン(2ターン)<br>味方全体のパワー<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)<br>このスキルで2CHAIN以上成功時、味方全体のスキル威力<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)",
+                "coolTime": "5"
+            },
+            "actionSkill2": {
+                "name": "最善手",
+                "description": "味方単体のクリティカル率<span style=\"color: #79ff80;\">20</span>%アップ(2ターン)、クリティカル威力<span style=\"color: #79ff80;\">20</span>%アップ(2ターン)、貫通(2ターン)・与ダメージ<span style=\"color: #79ff80;\">5</span>%回復(3ターン)を付与",
+                "coolTime": "7"
+            },
+            "autoSkill1": {
+                "name": "捕縛援護",
+                "description": "味方全体のスタン・拘束・スキル封印耐性アップ<br>自分にくいしばり(1回)を付与(最大1回)<br>3ターン毎に、味方全体のプルスウルトラゲージ<span style=\"color: #79ff80;\">20</span>%アップ<br>自分が状態異常無効の時、味方全体のダメージ<span style=\"color: #79ff80;\">20</span>%カット"
+            },
+            "autoSkill2": {
+                "name": "導く助言",
+                "description": "自分がHP回復を2回受けきった時、自分に状態異常無効(1回)を付与<br>自分がHP回復を2回受けきった時、自分以外の味方全体のパワー<span style=\"color: #79ff80;\">8</span>%アップ(4ターン)、クリティカル率<span style=\"color: #79ff80;\">4</span>%アップ(4ターン)、クリティカル威力<span style=\"color: #79ff80;\">4</span>%アップ(4ターン)<br>自分がクリティカル率ダウンの相手から攻撃を3回受けきった時、味方全体のHP<span style=\"color: #79ff80;\">5</span>%回復"
+            }
+        },
+        "leveltwo": {
+            "plusUltra": {
+                "name": "スチーム連撃",
+                "description": "敵単体の一時的な強化<span style=\"color: #79ff80;\">4</span>個解除、<span style=\"color: #79ff80;\">600</span>%ダメージ<br>自分のHPが50%未満の時、自分のHP<span style=\"color: #79ff80;\">15</span>%回復<br>自分にくいしばり(3回)を付与<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮"
+            },
+            "actionSkill1": {
+                "name": "錐揉みキック",
+                "description": "敵単体に<span style=\"color: #79ff80;\">325</span>%ダメージ、クリティカル率<span style=\"color: #ff6f6f;\">20</span>%ダウン(2ターン)<br>味方全体のパワー<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)<br>このスキルで2CHAIN以上成功時、味方全体のスキル威力<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)",
+                "coolTime": "5"
+            },
+            "actionSkill2": {
+                "name": "最善手",
+                "description": "味方単体のクリティカル率<span style=\"color: #79ff80;\">25</span>%アップ(2ターン)、クリティカル威力<span style=\"color: #79ff80;\">20</span>%アップ(2ターン)、貫通(2ターン)・与ダメージ<span style=\"color: #79ff80;\">5</span>%回復(3ターン)を付与",
+                "coolTime": "6"
+            },
+            "autoSkill1": {
+                "name": "捕縛援護",
+                "description": "味方全体のスタン・拘束・スキル封印耐性アップ<br>自分にくいしばり(1回)を付与(最大1回)<br>3ターン毎に、味方全体のプルスウルトラゲージ<span style=\"color: #79ff80;\">25</span>%アップ<br>自分が状態異常無効の時、味方全体のダメージ<span style=\"color: #79ff80;\">25</span>%カット"
+            },
+            "autoSkill2": {
+                "name": "導く助言",
+                "description": "自分がHP回復を2回受けきった時、自分に状態異常無効(1回)を付与<br>自分がHP回復を2回受けきった時、自分以外の味方全体のパワー<span style=\"color: #79ff80;\">8</span>%アップ(4ターン)、クリティカル率<span style=\"color: #79ff80;\">6</span>%アップ(4ターン)、クリティカル威力<span style=\"color: #79ff80;\">5</span>%アップ(4ターン)<br>自分がクリティカル率ダウンの相手から攻撃を3回受けきった時、味方全体のHP<span style=\"color: #79ff80;\">5</span>%回復"
+            }
+        },
+        "levelthree": {
+            "plusUltra": {
+                "name": "スチーム連撃",
+                "description": "敵単体の一時的な強化<span style=\"color: #79ff80;\">5</span>個解除、<span style=\"color: #79ff80;\">650</span>%ダメージ<br>自分のHPが50%未満の時、自分のHP<span style=\"color: #79ff80;\">20</span>%回復<br>自分にくいしばり(3回)を付与<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮"
+            },
+            "actionSkill1": {
+                "name": "錐揉みキック",
+                "description": "敵単体に<span style=\"color: #79ff80;\">350</span>%ダメージ、クリティカル率<span style=\"color: #ff6f6f;\">20</span>%ダウン(2ターン)<br>味方全体のパワー<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>このスキルで2CHAIN以上成功時、味方全体のスキル威力<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)",
+                "coolTime": "5"
+            },
+            "actionSkill2": {
+                "name": "最善手",
+                "description": "味方単体のクリティカル率<span style=\"color: #79ff80;\">30</span>%アップ(2ターン)、クリティカル威力<span style=\"color: #79ff80;\">20</span>%アップ(2ターン)、貫通(2ターン)・与ダメージ<span style=\"color: #79ff80;\">5</span>%回復(3ターン)を付与",
+                "coolTime": "5"
+            },
+            "autoSkill1": {
+                "name": "捕縛援護",
+                "description": "味方全体のスタン・拘束・スキル封印耐性アップ<br>自分にくいしばり(1回)を付与(最大1回)<br>3ターン毎に、味方全体のプルスウルトラゲージ<span style=\"color: #79ff80;\">30</span>%アップ<br>自分が状態異常無効の時、味方全体のダメージ<span style=\"color: #79ff80;\">30</span>%カット"
+            },
+            "autoSkill2": {
+                "name": "導く助言",
+                "description": "自分がHP回復を2回受けきった時、自分に状態異常無効(1回)を付与<br>自分がHP回復を2回受けきった時、自分以外の味方全体のパワー<span style=\"color: #79ff80;\">8</span>%アップ(4ターン)、クリティカル率<span style=\"color: #79ff80;\">8</span>%アップ(4ターン)、クリティカル威力<span style=\"color: #79ff80;\">6</span>%アップ(4ターン)<br>自分がクリティカル率ダウンの相手から攻撃を3回受けきった時、味方全体のHP<span style=\"color: #79ff80;\">5</span>%回復"
+            }
+        },
+        "dxlevelone": {
+            "plusUltra": {
+                "name": "スチーム連撃",
+                "description": "敵単体の一時的な強化<span style=\"color: #79ff80;\">5</span>個解除、<span style=\"color: #79ff80;\">650</span>%ダメージ<br>自分のHPが50%未満の時、自分のHP<span style=\"color: #79ff80;\">20</span>%回復<br>自分にくいしばり(3回)を付与<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮"
+            },
+            "actionSkill1": {
+                "name": "錐揉みキック DX",
+                "description": "敵単体に<span style=\"color: #79ff80;\">375</span>%ダメージ、クリティカル率<span style=\"color: #ff6f6f;\">20</span>%ダウン(2ターン)<br>味方全体のパワー<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>このスキルで2CHAIN以上成功時、味方全体のスキル威力<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)",
+                "coolTime": "5"
+            },
+            "actionSkill2": {
+                "name": "最善手 DX",
+                "description": "味方単体のクリティカル率<span style=\"color: #79ff80;\">35</span>%アップ(2ターン)、クリティカル威力<span style=\"color: #79ff80;\">20</span>%アップ(2ターン)、貫通(2ターン)を付与<br>味方全体に与ダメージ<span style=\"color: #79ff80;\">5</span>%回復(3ターン)を付与",
+                "coolTime": "5"
+            },
+            "autoSkill1": {
+                "name": "捕縛援護",
+                "description": "味方全体のスタン・拘束・スキル封印耐性アップ<br>自分にくいしばり(1回)を付与(最大1回)<br>3ターン毎に、味方全体のプルスウルトラゲージ<span style=\"color: #79ff80;\">30</span>%アップ<br>自分が状態異常無効の時、味方全体のダメージ<span style=\"color: #79ff80;\">30</span>%カット"
+            },
+            "autoSkill2": {
+                "name": "導く助言",
+                "description": "自分がHP回復を2回受けきった時、自分に状態異常無効(1回)を付与<br>自分がHP回復を2回受けきった時、自分以外の味方全体のパワー<span style=\"color: #79ff80;\">8</span>%アップ(4ターン)、クリティカル率<span style=\"color: #79ff80;\">8</span>%アップ(4ターン)、クリティカル威力<span style=\"color: #79ff80;\">6</span>%アップ(4ターン)<br>自分がクリティカル率ダウンの相手から攻撃を3回受けきった時、味方全体のHP<span style=\"color: #79ff80;\">5</span>%回復"
+            }
+        },
+        "dxleveltwo": {
+            "plusUltra": {
+                "name": "スチーム連撃",
+                "description": "敵単体の一時的な強化<span style=\"color: #79ff80;\">5</span>個解除、<span style=\"color: #79ff80;\">650</span>%ダメージ<br>自分のHPが50%未満の時、自分のHP<span style=\"color: #79ff80;\">20</span>%回復<br>自分にくいしばり(3回)を付与<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮"
+            },
+            "actionSkill1": {
+                "name": "錐揉みキック DX",
+                "description": "敵単体に<span style=\"color: #79ff80;\">400</span>%ダメージ、クリティカル率<span style=\"color: #ff6f6f;\">20</span>%ダウン(2ターン)<br>味方全体のパワー<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>このスキルで2CHAIN以上成功時、味方全体のスキル威力<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)",
+                "coolTime": "5"
+            },
+            "actionSkill2": {
+                "name": "最善手 DX",
+                "description": "味方単体のクリティカル率<span style=\"color: #79ff80;\">40</span>%アップ(2ターン)、クリティカル威力<span style=\"color: #79ff80;\">25</span>%アップ(2ターン)、貫通(2ターン)を付与<br>味方全体に与ダメージ<span style=\"color: #79ff80;\">10</span>%回復(3ターン)を付与",
+                "coolTime": "5"
+            },
+            "autoSkill1": {
+                "name": "捕縛援護",
+                "description": "味方全体のスタン・拘束・スキル封印耐性アップ<br>自分にくいしばり(1回)を付与(最大1回)<br>3ターン毎に、味方全体のプルスウルトラゲージ<span style=\"color: #79ff80;\">30</span>%アップ<br>自分が状態異常無効の時、味方全体のダメージ<span style=\"color: #79ff80;\">30</span>%カット"
+            },
+            "autoSkill2": {
+                "name": "導く助言",
+                "description": "自分がHP回復を2回受けきった時、自分に状態異常無効(1回)を付与<br>自分がHP回復を2回受けきった時、自分以外の味方全体のパワー<span style=\"color: #79ff80;\">8</span>%アップ(4ターン)、クリティカル率<span style=\"color: #79ff80;\">8</span>%アップ(4ターン)、クリティカル威力<span style=\"color: #79ff80;\">6</span>%アップ(4ターン)<br>自分がクリティカル率ダウンの相手から攻撃を3回受けきった時、味方全体のHP<span style=\"color: #79ff80;\">5</span>%回復"
+            }
+        }
+    }
+}
