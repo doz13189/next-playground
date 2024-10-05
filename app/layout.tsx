@@ -1,4 +1,4 @@
-import { Analytics } from "@vercel/analytics/react";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import { RocknRoll_One } from "next/font/google";
 import "./globals.css";
@@ -78,7 +78,7 @@ export default function RootLayout({
           <Menu />
 
           {children}
-          <Analytics />
+          <GoogleAnalytics gaId="G-KC2FT82FBP" />
         </div>
       </body>
     </html>
