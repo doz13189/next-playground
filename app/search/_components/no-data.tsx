@@ -1,7 +1,5 @@
-import { FC } from "react";
+import type { FC } from "react";
 
 export const NoData: FC = () => {
-	return (
-		<p>見つかりません。</p>
-	);
+  return <p>見つかりません。</p>;
 };

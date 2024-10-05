@@ -28,7 +28,7 @@ const downloadImage = async (url, savePath) => {
 
 const getCharacterIcon = async (characterId) => {
   const fullImageUrl = new URL(
-    `https://myheroui.com/assets/card_m_icons/icon_m_${characterId}_00.webp`
+    `https://myheroui.com/assets/card_m_icons/icon_m_${characterId}_00.webp`,
   ).href;
   const imageName = fullImageUrl.split("/").pop();
   const savePath = path.join(`${__dirname}/tmp`, imageName);
@@ -209,7 +209,7 @@ const getCharacterBaseInfo = async (characterId) => {
 
 const getCharacterDetailInfo = async (character) => {
   const response = await request(
-    `https://jp.myheroui.com/character/${character.id}`
+    `https://jp.myheroui.com/character/${character.id}`,
   );
   const $ = cheerio.load(response);
 

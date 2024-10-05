@@ -1,11 +1,10 @@
-import { Select as ArkSelect, ark } from '@ark-ui/react'
-import { Dispatch, SetStateAction } from 'react';
-
+import { Select as ArkSelect, ark } from "@ark-ui/react";
+import type { Dispatch, SetStateAction } from "react";
 
 type Item = {
   label: string;
   value: string;
-}
+};
 
 type Props = ArkSelect.RootProps<Item> & {
   label: string;
@@ -15,11 +14,8 @@ type Props = ArkSelect.RootProps<Item> & {
   isMultiple?: boolean;
 };
 
-export const Select = ({
-  isMultiple = false,
-  ...props
-}: Props) => {
-  const { items, label, placeholderText, value, setValue } = props
+export const Select = ({ isMultiple = false, ...props }: Props) => {
+  const { items, label, placeholderText, value, setValue } = props;
 
   return (
     <ArkSelect.Root
@@ -35,13 +31,13 @@ export const Select = ({
         setValue(items.value);
       }}
     >
-      <ArkSelect.Label
-      >{label}</ArkSelect.Label>
+      <ArkSelect.Label>{label}</ArkSelect.Label>
       <ArkSelect.Control>
-        <ArkSelect.Trigger
-          className="appearance-none inline-flex items-center justify-between w-full px-3 py-2 bg-white border-2 border-grey rounded-lg cursor-pointer transition-all duration-200 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-        >
-          <ArkSelect.ValueText placeholder={placeholderText} className="text-gray" />
+        <ArkSelect.Trigger className="appearance-none inline-flex items-center justify-between w-full px-3 py-2 bg-white border-2 border-grey rounded-lg cursor-pointer transition-all duration-200 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+          <ArkSelect.ValueText
+            placeholder={placeholderText}
+            className="text-gray"
+          />
           <ArkSelect.Indicator>
             <ark.svg
               xmlns="http://www.w3.org/2000/svg"
@@ -89,6 +85,5 @@ export const Select = ({
         </ArkSelect.Content>
       </ArkSelect.Positioner>
     </ArkSelect.Root>
-  )
-}
-
+  );
+};

@@ -37,5 +37,5 @@ console.info(token);
 console.info(
   `Token will expire in ${argv.expiry} seconds (approximately ${
     argv.expiry / (24 * 60 * 60)
-  } days)`
+  } days)`,
 );

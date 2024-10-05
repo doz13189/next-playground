@@ -1,7 +1,7 @@
 import { ark } from "@ark-ui/react";
-import { SVGAttributes } from "react";
+import type { SVGAttributes } from "react";
 
-type Props = SVGAttributes<HTMLOrSVGElement>
+type Props = SVGAttributes<HTMLOrSVGElement>;
 
 export const Spinner = (props: Props) => {
   return (
