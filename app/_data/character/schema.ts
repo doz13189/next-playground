@@ -65,3 +65,16 @@ export const CharactersResponseSchema = z.object({
 		total: z.number(),
 	}),
 });
+
+export const CharacterRatingRequestSchema = z.object({
+	id: z.string(),
+	arena: z.number().optional(),
+	circleFestival: z.number().optional(),
+	veTower: z.number().optional(),
+});
+
+export const CharacterRatingResponseSchema = z.object({
+	arena: z.number().array(),
+	circleFestival: z.number().array(),
+	veTower: z.number().array(),
+});

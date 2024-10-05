@@ -4,7 +4,6 @@ import { CharacterSkills } from "@/app/_data/_common/schema";
 import { FilterButton } from "../_components/filter-button";
 import { RarityForm } from "../_components/rarity-form";
 import { ResetButton } from "../_components/reset-button";
-import { SearchFilters } from "../_components/search-filters";
 import { SkillForm } from "../_components/skill-form";
 import { useState } from "react";
 import { NameForm } from "../_components/name-form";
@@ -65,27 +64,6 @@ export default function Page(args: {
 					</div>
 				</div>
 			</div>
-
-			{/*
-			<div className="fixed bottom-3 left-1">
-				<Link
-					href={"/message"}
-					className="
-						my-1
-						mx-1
-						px-4
-						py-1
-						text-sm
-						bg-yellow
-						border-2
-						border-grey
-						rounded-lg
-					"
-				>
-					Question
-				</Link>
-			</div>
-			*/}
 		</div>
 	);
 }
