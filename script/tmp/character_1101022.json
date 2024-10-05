@@ -1,191 +1,187 @@
 {
-    "id": "1101022",
-    "epithet": "オーバードライブ",
-    "name": "緑谷出久",
-    "rarity": "ur",
-    "type": "mnd",
-    "sex": "男",
-    "skills": [
-        "必中",
-        "貫通",
-        "与ダメージ回復",
-        "Skill impact increases depending on character's speed.",
-        "プルスウルトラ技威力アップ",
-        "スピードアップ",
-        "隠れる",
-        "状態異常無効",
-        "回避",
-        "状態変化解除",
-        "ディフェンスダウン",
-        "プルスウルトラゲージ増加",
-        "パワーアップ",
-        "スキル威力アップ",
-        "拘束"
-    ],
-    "tags": [
-        "雄英高校1年A組",
-        "雄英高校生徒",
-        "ヒーロー"
-    ],
-    "stats": [
-        {
-            "hp": "5150",
-            "power": "905",
-            "speed": "110",
-            "defense": "100",
-            "critical": "10"
-        },
-        {
-            "hp": "13050",
-            "power": "2485",
-            "speed": "189",
-            "defense": "100",
-            "critical": "10"
-        },
-        {
-            "hp": "44250",
-            "power": "8765",
-            "speed": "759",
-            "defense": "100",
-            "critical": "10"
-        },
-        {
-            "hp": "53250",
-            "power": "10565",
-            "speed": "939",
-            "defense": "100",
-            "critical": "10"
-        }
-    ],
-    "uniqueSkills": [
-        "自分のHPが25%未満の時、自分に貫通を付与し、自分のスキル威力を15%アップ(2ターン)",
-        "自分のHPが5%未満の時、自分に逆境を付与し、戦闘中に1度だけ自分にくいしばり(3回)を付与",
-        "自分がくいしばり状態の時、自分のパワーを20%アップ(3ターン)",
-        "WAVE開始後、自分のパワーを20%アップ(4ターン)",
-        "3ターン毎に自分のプルスウルトラ技の威力を15%アップ(最大3回)",
-        "自分のHPが50%未満の時、自分のパワーを25%アップ",
-        "クリティカルが3回発生するたびに、自分に回避(1回)を付与(最大3回)"
-    ],
-    "skill": {
-        "levelone": {
-            "plusUltra": {
-                "name": "五速デトロイトスマッシュ",
-                "description": "自分の一時的なスピードアップが9個以上の時、自分に与ダメージ<span style=\"color: #79ff80;\">15</span>%回復(1ターン)を付与<br>敵単体に<span style=\"color: #79ff80;\">450</span>%ダメージ<br>自分のスピードに応じてスキル威力超大幅アップ<br>自分が隠れるでない時、自分以外の味方全体のプルスウルトラ技威力<span style=\"color: #79ff80;\">25</span>%アップ(1ターン)、スピード<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>自分が隠れるでない時、自分に隠れる(4ターン)を付与※この効果は強化解除、強化阻害できない<br>自分の一時的なスピードアップが5個以上の時、このスキルに必中を付与<br>自分の一時的なスピードアップが9個以上の時、このスキルに貫通を付与"
-            },
-            "actionSkill1": {
-                "name": "黒鎖",
-                "description": "敵単体に<span style=\"color: #79ff80;\">300</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与<br>自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)",
-                "coolTime": "3"
-            },
-            "actionSkill2": {
-                "name": "デトロイトスマッシュ",
-                "description": "敵単体に<span style=\"color: #79ff80;\">100</span>%ダメージ<br>自分のスピードに応じてスキル威力アップ<br>自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)<br>自分が回避の時、このスキルに必中を付与",
-                "coolTime": "3"
-            },
-            "autoSkill1": {
-                "name": "全てをかけて",
-                "description": "自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">30</span>%アップ(3ターン)、状態異常無効(3回)・回避(3回)を付与<br>自分が隠れるの時、自分の一時的なスピードアップ全て解除、ディフェンス<span style=\"color: #ff6f6f;\">50</span>%ダウン"
-            },
-            "autoSkill2": {
-                "name": "自制心",
-                "description": "自分のスキルでCHAIN成功時、自分のスピード<span style=\"color: #79ff80;\">6</span>%アップ(3ターン)、プルスウルトラゲージ<span style=\"color: #79ff80;\">10</span>%アップ<br>自分よりスピードが低い相手から攻撃を1回受けきった時、自分のパワー<span style=\"color: #79ff80;\">3</span>%アップ(累積)、スキル威力<span style=\"color: #79ff80;\">3</span>%アップ(累積)"
-            }
-        },
-        "leveltwo": {
-            "plusUltra": {
-                "name": "五速デトロイトスマッシュ",
-                "description": "自分の一時的なスピードアップが9個以上の時、自分に与ダメージ<span style=\"color: #79ff80;\">20</span>%回復(1ターン)を付与<br>敵単体に<span style=\"color: #79ff80;\">500</span>%ダメージ<br>自分のスピードに応じてスキル威力超大幅アップ<br>自分が隠れるでない時、自分以外の味方全体のプルスウルトラ技威力<span style=\"color: #79ff80;\">25</span>%アップ(1ターン)、スピード<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>自分が隠れるでない時、自分に隠れる(4ターン)を付与※この効果は強化解除、強化阻害できない<br>自分の一時的なスピードアップが5個以上の時、このスキルに必中を付与<br>自分の一時的なスピードアップが9個以上の時、このスキルに貫通を付与"
-            },
-            "actionSkill1": {
-                "name": "黒鎖",
-                "description": "敵単体に<span style=\"color: #79ff80;\">325</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与<br>自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)",
-                "coolTime": "3"
-            },
-            "actionSkill2": {
-                "name": "デトロイトスマッシュ",
-                "description": "敵単体に<span style=\"color: #79ff80;\">125</span>%ダメージ<br>自分のスピードに応じてスキル威力アップ<br>自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)<br>自分が回避の時、このスキルに必中を付与",
-                "coolTime": "3"
-            },
-            "autoSkill1": {
-                "name": "全てをかけて",
-                "description": "自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">35</span>%アップ(3ターン)、状態異常無効(3回)・回避(3回)を付与<br>自分が隠れるの時、自分の一時的なスピードアップ全て解除、ディフェンス<span style=\"color: #ff6f6f;\">50</span>%ダウン"
-            },
-            "autoSkill2": {
-                "name": "自制心",
-                "description": "自分のスキルでCHAIN成功時、自分のスピード<span style=\"color: #79ff80;\">8</span>%アップ(3ターン)、プルスウルトラゲージ<span style=\"color: #79ff80;\">10</span>%アップ<br>自分よりスピードが低い相手から攻撃を1回受けきった時、自分のパワー<span style=\"color: #79ff80;\">4</span>%アップ(累積)、スキル威力<span style=\"color: #79ff80;\">4</span>%アップ(累積)"
-            }
-        },
-        "levelthree": {
-            "plusUltra": {
-                "name": "五速デトロイトスマッシュ",
-                "description": "自分の一時的なスピードアップが9個以上の時、自分に与ダメージ<span style=\"color: #79ff80;\">25</span>%回復(1ターン)を付与<br>敵単体に<span style=\"color: #79ff80;\">550</span>%ダメージ<br>自分のスピードに応じてスキル威力超大幅アップ<br>自分が隠れるでない時、自分以外の味方全体のプルスウルトラ技威力<span style=\"color: #79ff80;\">25</span>%アップ(1ターン)、スピード<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>自分が隠れるでない時、自分に隠れる(4ターン)を付与※この効果は強化解除、強化阻害できない<br>自分の一時的なスピードアップが5個以上の時、このスキルに必中を付与<br>自分の一時的なスピードアップが9個以上の時、このスキルに貫通を付与"
-            },
-            "actionSkill1": {
-                "name": "黒鎖",
-                "description": "敵単体に<span style=\"color: #79ff80;\">350</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与<br>自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">25</span>%アップ(3ターン)",
-                "coolTime": "3"
-            },
-            "actionSkill2": {
-                "name": "デトロイトスマッシュ",
-                "description": "敵単体に<span style=\"color: #79ff80;\">150</span>%ダメージ<br>自分のスピードに応じてスキル威力アップ<br>自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>自分が回避の時、このスキルに必中を付与",
-                "coolTime": "3"
-            },
-            "autoSkill1": {
-                "name": "全てをかけて",
-                "description": "自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">40</span>%アップ(3ターン)、状態異常無効(3回)・回避(3回)を付与<br>自分が隠れるの時、自分の一時的なスピードアップ全て解除、ディフェンス<span style=\"color: #ff6f6f;\">50</span>%ダウン"
-            },
-            "autoSkill2": {
-                "name": "自制心",
-                "description": "自分のスキルでCHAIN成功時、自分のスピード<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)、プルスウルトラゲージ<span style=\"color: #79ff80;\">10</span>%アップ<br>自分よりスピードが低い相手から攻撃を1回受けきった時、自分のパワー<span style=\"color: #79ff80;\">5</span>%アップ(累積)、スキル威力<span style=\"color: #79ff80;\">5</span>%アップ(累積)"
-            }
-        },
-        "dxlevelone": {
-            "plusUltra": {
-                "name": "五速デトロイトスマッシュ",
-                "description": "自分の一時的なスピードアップが9個以上の時、自分に与ダメージ<span style=\"color: #79ff80;\">25</span>%回復(1ターン)を付与<br>敵単体に<span style=\"color: #79ff80;\">550</span>%ダメージ<br>自分のスピードに応じてスキル威力超大幅アップ<br>自分が隠れるでない時、自分以外の味方全体のプルスウルトラ技威力<span style=\"color: #79ff80;\">25</span>%アップ(1ターン)、スピード<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>自分が隠れるでない時、自分に隠れる(4ターン)を付与※この効果は強化解除、強化阻害できない<br>自分の一時的なスピードアップが5個以上の時、このスキルに必中を付与<br>自分の一時的なスピードアップが9個以上の時、このスキルに貫通を付与"
-            },
-            "actionSkill1": {
-                "name": "黒鎖 DX",
-                "description": "敵単体に<span style=\"color: #79ff80;\">375</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与<br>自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">30</span>%アップ(3ターン)",
-                "coolTime": "3"
-            },
-            "actionSkill2": {
-                "name": "デトロイトスマッシュ DX",
-                "description": "敵単体に<span style=\"color: #79ff80;\">175</span>%ダメージ<br>自分のスピードに応じてスキル威力アップ<br>自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>自分が回避の時、このスキルに必中を付与",
-                "coolTime": "3"
-            },
-            "autoSkill1": {
-                "name": "全てをかけて",
-                "description": "自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">40</span>%アップ(3ターン)、状態異常無効(3回)・回避(3回)を付与<br>自分が隠れるの時、自分の一時的なスピードアップ全て解除、ディフェンス<span style=\"color: #ff6f6f;\">50</span>%ダウン"
-            },
-            "autoSkill2": {
-                "name": "自制心",
-                "description": "自分のスキルでCHAIN成功時、自分のスピード<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)、プルスウルトラゲージ<span style=\"color: #79ff80;\">10</span>%アップ<br>自分よりスピードが低い相手から攻撃を1回受けきった時、自分のパワー<span style=\"color: #79ff80;\">5</span>%アップ(累積)、スキル威力<span style=\"color: #79ff80;\">5</span>%アップ(累積)"
-            }
-        },
-        "dxleveltwo": {
-            "plusUltra": {
-                "name": "五速デトロイトスマッシュ",
-                "description": "自分の一時的なスピードアップが9個以上の時、自分に与ダメージ<span style=\"color: #79ff80;\">25</span>%回復(1ターン)を付与<br>敵単体に<span style=\"color: #79ff80;\">550</span>%ダメージ<br>自分のスピードに応じてスキル威力超大幅アップ<br>自分が隠れるでない時、自分以外の味方全体のプルスウルトラ技威力<span style=\"color: #79ff80;\">25</span>%アップ(1ターン)、スピード<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>自分が隠れるでない時、自分に隠れる(4ターン)を付与※この効果は強化解除、強化阻害できない<br>自分の一時的なスピードアップが5個以上の時、このスキルに必中を付与<br>自分の一時的なスピードアップが9個以上の時、このスキルに貫通を付与"
-            },
-            "actionSkill1": {
-                "name": "黒鎖 DX",
-                "description": "敵単体に<span style=\"color: #79ff80;\">400</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与<br>自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">40</span>%アップ(3ターン)",
-                "coolTime": "3"
-            },
-            "actionSkill2": {
-                "name": "デトロイトスマッシュ DX",
-                "description": "敵単体に<span style=\"color: #79ff80;\">200</span>%ダメージ<br>自分のスピードに応じてスキル威力アップ<br>自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>自分が回避の時、このスキルに必中を付与",
-                "coolTime": "3"
-            },
-            "autoSkill1": {
-                "name": "全てをかけて",
-                "description": "自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">40</span>%アップ(3ターン)、状態異常無効(3回)・回避(3回)を付与<br>自分が隠れるの時、自分の一時的なスピードアップ全て解除、ディフェンス<span style=\"color: #ff6f6f;\">50</span>%ダウン"
-            },
-            "autoSkill2": {
-                "name": "自制心",
-                "description": "自分のスキルでCHAIN成功時、自分のスピード<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)、プルスウルトラゲージ<span style=\"color: #79ff80;\">10</span>%アップ<br>自分よりスピードが低い相手から攻撃を1回受けきった時、自分のパワー<span style=\"color: #79ff80;\">5</span>%アップ(累積)、スキル威力<span style=\"color: #79ff80;\">5</span>%アップ(累積)"
-            }
-        }
+  "id": "1101022",
+  "epithet": "オーバードライブ",
+  "name": "緑谷出久",
+  "rarity": "ur",
+  "type": "mnd",
+  "sex": "男",
+  "skills": [
+    "必中",
+    "貫通",
+    "与ダメージ回復",
+    "Skill impact increases depending on character's speed.",
+    "プルスウルトラ技威力アップ",
+    "スピードアップ",
+    "隠れる",
+    "状態異常無効",
+    "回避",
+    "状態変化解除",
+    "ディフェンスダウン",
+    "プルスウルトラゲージ増加",
+    "パワーアップ",
+    "スキル威力アップ",
+    "拘束"
+  ],
+  "tags": ["雄英高校1年A組", "雄英高校生徒", "ヒーロー"],
+  "stats": [
+    {
+      "hp": "5150",
+      "power": "905",
+      "speed": "110",
+      "defense": "100",
+      "critical": "10"
+    },
+    {
+      "hp": "13050",
+      "power": "2485",
+      "speed": "189",
+      "defense": "100",
+      "critical": "10"
+    },
+    {
+      "hp": "44250",
+      "power": "8765",
+      "speed": "759",
+      "defense": "100",
+      "critical": "10"
+    },
+    {
+      "hp": "53250",
+      "power": "10565",
+      "speed": "939",
+      "defense": "100",
+      "critical": "10"
     }
+  ],
+  "uniqueSkills": [
+    "自分のHPが25%未満の時、自分に貫通を付与し、自分のスキル威力を15%アップ(2ターン)",
+    "自分のHPが5%未満の時、自分に逆境を付与し、戦闘中に1度だけ自分にくいしばり(3回)を付与",
+    "自分がくいしばり状態の時、自分のパワーを20%アップ(3ターン)",
+    "WAVE開始後、自分のパワーを20%アップ(4ターン)",
+    "3ターン毎に自分のプルスウルトラ技の威力を15%アップ(最大3回)",
+    "自分のHPが50%未満の時、自分のパワーを25%アップ",
+    "クリティカルが3回発生するたびに、自分に回避(1回)を付与(最大3回)"
+  ],
+  "skill": {
+    "levelone": {
+      "plusUltra": {
+        "name": "五速デトロイトスマッシュ",
+        "description": "自分の一時的なスピードアップが9個以上の時、自分に与ダメージ<span style=\"color: #79ff80;\">15</span>%回復(1ターン)を付与<br>敵単体に<span style=\"color: #79ff80;\">450</span>%ダメージ<br>自分のスピードに応じてスキル威力超大幅アップ<br>自分が隠れるでない時、自分以外の味方全体のプルスウルトラ技威力<span style=\"color: #79ff80;\">25</span>%アップ(1ターン)、スピード<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>自分が隠れるでない時、自分に隠れる(4ターン)を付与※この効果は強化解除、強化阻害できない<br>自分の一時的なスピードアップが5個以上の時、このスキルに必中を付与<br>自分の一時的なスピードアップが9個以上の時、このスキルに貫通を付与"
+      },
+      "actionSkill1": {
+        "name": "黒鎖",
+        "description": "敵単体に<span style=\"color: #79ff80;\">300</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与<br>自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)",
+        "coolTime": "3"
+      },
+      "actionSkill2": {
+        "name": "デトロイトスマッシュ",
+        "description": "敵単体に<span style=\"color: #79ff80;\">100</span>%ダメージ<br>自分のスピードに応じてスキル威力アップ<br>自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)<br>自分が回避の時、このスキルに必中を付与",
+        "coolTime": "3"
+      },
+      "autoSkill1": {
+        "name": "全てをかけて",
+        "description": "自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">30</span>%アップ(3ターン)、状態異常無効(3回)・回避(3回)を付与<br>自分が隠れるの時、自分の一時的なスピードアップ全て解除、ディフェンス<span style=\"color: #ff6f6f;\">50</span>%ダウン"
+      },
+      "autoSkill2": {
+        "name": "自制心",
+        "description": "自分のスキルでCHAIN成功時、自分のスピード<span style=\"color: #79ff80;\">6</span>%アップ(3ターン)、プルスウルトラゲージ<span style=\"color: #79ff80;\">10</span>%アップ<br>自分よりスピードが低い相手から攻撃を1回受けきった時、自分のパワー<span style=\"color: #79ff80;\">3</span>%アップ(累積)、スキル威力<span style=\"color: #79ff80;\">3</span>%アップ(累積)"
+      }
+    },
+    "leveltwo": {
+      "plusUltra": {
+        "name": "五速デトロイトスマッシュ",
+        "description": "自分の一時的なスピードアップが9個以上の時、自分に与ダメージ<span style=\"color: #79ff80;\">20</span>%回復(1ターン)を付与<br>敵単体に<span style=\"color: #79ff80;\">500</span>%ダメージ<br>自分のスピードに応じてスキル威力超大幅アップ<br>自分が隠れるでない時、自分以外の味方全体のプルスウルトラ技威力<span style=\"color: #79ff80;\">25</span>%アップ(1ターン)、スピード<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>自分が隠れるでない時、自分に隠れる(4ターン)を付与※この効果は強化解除、強化阻害できない<br>自分の一時的なスピードアップが5個以上の時、このスキルに必中を付与<br>自分の一時的なスピードアップが9個以上の時、このスキルに貫通を付与"
+      },
+      "actionSkill1": {
+        "name": "黒鎖",
+        "description": "敵単体に<span style=\"color: #79ff80;\">325</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与<br>自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)",
+        "coolTime": "3"
+      },
+      "actionSkill2": {
+        "name": "デトロイトスマッシュ",
+        "description": "敵単体に<span style=\"color: #79ff80;\">125</span>%ダメージ<br>自分のスピードに応じてスキル威力アップ<br>自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)<br>自分が回避の時、このスキルに必中を付与",
+        "coolTime": "3"
+      },
+      "autoSkill1": {
+        "name": "全てをかけて",
+        "description": "自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">35</span>%アップ(3ターン)、状態異常無効(3回)・回避(3回)を付与<br>自分が隠れるの時、自分の一時的なスピードアップ全て解除、ディフェンス<span style=\"color: #ff6f6f;\">50</span>%ダウン"
+      },
+      "autoSkill2": {
+        "name": "自制心",
+        "description": "自分のスキルでCHAIN成功時、自分のスピード<span style=\"color: #79ff80;\">8</span>%アップ(3ターン)、プルスウルトラゲージ<span style=\"color: #79ff80;\">10</span>%アップ<br>自分よりスピードが低い相手から攻撃を1回受けきった時、自分のパワー<span style=\"color: #79ff80;\">4</span>%アップ(累積)、スキル威力<span style=\"color: #79ff80;\">4</span>%アップ(累積)"
+      }
+    },
+    "levelthree": {
+      "plusUltra": {
+        "name": "五速デトロイトスマッシュ",
+        "description": "自分の一時的なスピードアップが9個以上の時、自分に与ダメージ<span style=\"color: #79ff80;\">25</span>%回復(1ターン)を付与<br>敵単体に<span style=\"color: #79ff80;\">550</span>%ダメージ<br>自分のスピードに応じてスキル威力超大幅アップ<br>自分が隠れるでない時、自分以外の味方全体のプルスウルトラ技威力<span style=\"color: #79ff80;\">25</span>%アップ(1ターン)、スピード<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>自分が隠れるでない時、自分に隠れる(4ターン)を付与※この効果は強化解除、強化阻害できない<br>自分の一時的なスピードアップが5個以上の時、このスキルに必中を付与<br>自分の一時的なスピードアップが9個以上の時、このスキルに貫通を付与"
+      },
+      "actionSkill1": {
+        "name": "黒鎖",
+        "description": "敵単体に<span style=\"color: #79ff80;\">350</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与<br>自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">25</span>%アップ(3ターン)",
+        "coolTime": "3"
+      },
+      "actionSkill2": {
+        "name": "デトロイトスマッシュ",
+        "description": "敵単体に<span style=\"color: #79ff80;\">150</span>%ダメージ<br>自分のスピードに応じてスキル威力アップ<br>自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>自分が回避の時、このスキルに必中を付与",
+        "coolTime": "3"
+      },
+      "autoSkill1": {
+        "name": "全てをかけて",
+        "description": "自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">40</span>%アップ(3ターン)、状態異常無効(3回)・回避(3回)を付与<br>自分が隠れるの時、自分の一時的なスピードアップ全て解除、ディフェンス<span style=\"color: #ff6f6f;\">50</span>%ダウン"
+      },
+      "autoSkill2": {
+        "name": "自制心",
+        "description": "自分のスキルでCHAIN成功時、自分のスピード<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)、プルスウルトラゲージ<span style=\"color: #79ff80;\">10</span>%アップ<br>自分よりスピードが低い相手から攻撃を1回受けきった時、自分のパワー<span style=\"color: #79ff80;\">5</span>%アップ(累積)、スキル威力<span style=\"color: #79ff80;\">5</span>%アップ(累積)"
+      }
+    },
+    "dxlevelone": {
+      "plusUltra": {
+        "name": "五速デトロイトスマッシュ",
+        "description": "自分の一時的なスピードアップが9個以上の時、自分に与ダメージ<span style=\"color: #79ff80;\">25</span>%回復(1ターン)を付与<br>敵単体に<span style=\"color: #79ff80;\">550</span>%ダメージ<br>自分のスピードに応じてスキル威力超大幅アップ<br>自分が隠れるでない時、自分以外の味方全体のプルスウルトラ技威力<span style=\"color: #79ff80;\">25</span>%アップ(1ターン)、スピード<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>自分が隠れるでない時、自分に隠れる(4ターン)を付与※この効果は強化解除、強化阻害できない<br>自分の一時的なスピードアップが5個以上の時、このスキルに必中を付与<br>自分の一時的なスピードアップが9個以上の時、このスキルに貫通を付与"
+      },
+      "actionSkill1": {
+        "name": "黒鎖 DX",
+        "description": "敵単体に<span style=\"color: #79ff80;\">375</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与<br>自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">30</span>%アップ(3ターン)",
+        "coolTime": "3"
+      },
+      "actionSkill2": {
+        "name": "デトロイトスマッシュ DX",
+        "description": "敵単体に<span style=\"color: #79ff80;\">175</span>%ダメージ<br>自分のスピードに応じてスキル威力アップ<br>自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>自分が回避の時、このスキルに必中を付与",
+        "coolTime": "3"
+      },
+      "autoSkill1": {
+        "name": "全てをかけて",
+        "description": "自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">40</span>%アップ(3ターン)、状態異常無効(3回)・回避(3回)を付与<br>自分が隠れるの時、自分の一時的なスピードアップ全て解除、ディフェンス<span style=\"color: #ff6f6f;\">50</span>%ダウン"
+      },
+      "autoSkill2": {
+        "name": "自制心",
+        "description": "自分のスキルでCHAIN成功時、自分のスピード<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)、プルスウルトラゲージ<span style=\"color: #79ff80;\">10</span>%アップ<br>自分よりスピードが低い相手から攻撃を1回受けきった時、自分のパワー<span style=\"color: #79ff80;\">5</span>%アップ(累積)、スキル威力<span style=\"color: #79ff80;\">5</span>%アップ(累積)"
+      }
+    },
+    "dxleveltwo": {
+      "plusUltra": {
+        "name": "五速デトロイトスマッシュ",
+        "description": "自分の一時的なスピードアップが9個以上の時、自分に与ダメージ<span style=\"color: #79ff80;\">25</span>%回復(1ターン)を付与<br>敵単体に<span style=\"color: #79ff80;\">550</span>%ダメージ<br>自分のスピードに応じてスキル威力超大幅アップ<br>自分が隠れるでない時、自分以外の味方全体のプルスウルトラ技威力<span style=\"color: #79ff80;\">25</span>%アップ(1ターン)、スピード<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>自分が隠れるでない時、自分に隠れる(4ターン)を付与※この効果は強化解除、強化阻害できない<br>自分の一時的なスピードアップが5個以上の時、このスキルに必中を付与<br>自分の一時的なスピードアップが9個以上の時、このスキルに貫通を付与"
+      },
+      "actionSkill1": {
+        "name": "黒鎖 DX",
+        "description": "敵単体に<span style=\"color: #79ff80;\">400</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与<br>自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">40</span>%アップ(3ターン)",
+        "coolTime": "3"
+      },
+      "actionSkill2": {
+        "name": "デトロイトスマッシュ DX",
+        "description": "敵単体に<span style=\"color: #79ff80;\">200</span>%ダメージ<br>自分のスピードに応じてスキル威力アップ<br>自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>自分が回避の時、このスキルに必中を付与",
+        "coolTime": "3"
+      },
+      "autoSkill1": {
+        "name": "全てをかけて",
+        "description": "自分が隠れるでない時、自分のスピード<span style=\"color: #79ff80;\">40</span>%アップ(3ターン)、状態異常無効(3回)・回避(3回)を付与<br>自分が隠れるの時、自分の一時的なスピードアップ全て解除、ディフェンス<span style=\"color: #ff6f6f;\">50</span>%ダウン"
+      },
+      "autoSkill2": {
+        "name": "自制心",
+        "description": "自分のスキルでCHAIN成功時、自分のスピード<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)、プルスウルトラゲージ<span style=\"color: #79ff80;\">10</span>%アップ<br>自分よりスピードが低い相手から攻撃を1回受けきった時、自分のパワー<span style=\"color: #79ff80;\">5</span>%アップ(累積)、スキル威力<span style=\"color: #79ff80;\">5</span>%アップ(累積)"
+      }
+    }
+  }
 }

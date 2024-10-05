@@ -1,66 +1,76 @@
-import { CharacterSkills, Tags } from "@/app/_data/_common/schema";
+import type { CharacterSkills, Tags } from "@/app/_data/_common/schema";
 import { characters } from "@/app/_data/character/object";
-import { CharacterSchema } from "@/app/_data/character/schema";
-import { z } from "zod";
+import type { CharacterSchema } from "@/app/_data/character/schema";
+import type { z } from "zod";
 
 export const queryCharacters = async ({
-	rarity,
-	type,
-	name,
-	tags,
-	skills,
-	offset,
-	limit
-}: {rarity: string, type: string, name: string, tags: string, skills: string, offset: string, limit: string }) => {
+  rarity,
+  type,
+  name,
+  tags,
+  skills,
+  offset,
+  limit,
+}: {
+  rarity: string;
+  type: string;
+  name: string;
+  tags: string;
+  skills: string;
+  offset: string;
+  limit: string;
+}) => {
+  let response = characters.characters;
 
-	let response = characters.characters;
+  if (rarity) {
+    response = response.filter((character) => {
+      return character.rarity === rarity;
+    });
+  }
 
+  if (type) {
+    response = response.filter((character) => {
+      return character.type === type;
+    });
+  }
 
-	if (rarity) {
-		response = response.filter((character) => {
-			return character.rarity === rarity
-		});
-	}
+  if (name) {
+    response = response.filter((character) => {
+      return character.name.includes(name);
+    });
+  }
 
-	if (type) {
-		response = response.filter((character) => {
-			return character.type === type
-		});
-	}
+  if (tags) {
+    tags?.split(",").map((tag) => {
+      response = response.filter(
+        (character: z.infer<typeof CharacterSchema>) => {
+          return character.tags.includes(tag as z.infer<typeof Tags>);
+        },
+      );
+    });
+  }
 
-	if (name) {
-		response = response.filter((character) => {
-			return character.name.includes(name);
-		});
-	}
+  if (skills) {
+    skills?.split(",").map((skill) => {
+      response = response.filter(
+        (character: z.infer<typeof CharacterSchema>) => {
+          return character.skills.includes(
+            skill as z.infer<typeof CharacterSkills>,
+          );
+        },
+      );
+    });
+  }
 
-	if (tags) {
-		tags
-			?.split(",")
-			.map((tag) => {
-				response = response.filter((character: z.infer<typeof CharacterSchema>) => {
-					return character.tags.includes(tag as z.infer<typeof Tags>)
-				});
-			})
-	}
-	
-	if (skills) {
-		skills
-			?.split(",")
-			.map((skill) => {
-				response = response.filter((character: z.infer<typeof CharacterSchema>) => {
-					return character.skills.includes(skill as z.infer<typeof CharacterSkills>)
-				});
-			});
-	}
-
-	return {
-		characters: response.slice(parseInt(offset), parseInt(offset) + parseInt(limit)),
-		result: {
-			offset: parseInt(offset),
-			limit: parseInt(limit),
-			total: response.length
-		}
-
-	}
+  return {
+    characters: response.slice(
+      Number.parseInt(offset),
+      Number.parseInt(offset) + Number.parseInt(limit),
+    ),
+    result: {
+      offset: Number.parseInt(offset),
+      limit: Number.parseInt(limit),
+      total: response.length,
+    },
+  };
 };

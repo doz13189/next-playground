@@ -1,7 +1,7 @@
 "use client";
 
-import { FC } from "react";
 import { useRouter } from "next/navigation";
+import type { FC } from "react";
 import { createQuery } from "../_lib/create-query";
 import { SubmitButton } from "../_parts/SubmitButton";
 
@@ -25,16 +25,10 @@ export const FilterButton: FC<{
             name,
             tags,
             type,
-          })}`
+          })}`,
         );
       }}
-      disabled={
-        (skills.length === 0 &&
-          !rarity &&
-          !type &&
-          !name &&
-          !tags) 
-      }
+      disabled={skills.length === 0 && !rarity && !type && !name && !tags}
     >
       {"検索"}
     </SubmitButton>

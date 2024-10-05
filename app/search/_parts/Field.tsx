@@ -1,13 +1,13 @@
 import { Field } from "@ark-ui/react";
-import { Dispatch, InputHTMLAttributes, SetStateAction } from "react";
+import type { Dispatch, InputHTMLAttributes, SetStateAction } from "react";
 
 type Props = InputHTMLAttributes<HTMLInputElement> & {
-	value: string;
-	setValue: Dispatch<SetStateAction<string>>;
-	label: string;
-	helperText?: string;
-	errorText?: string;
-  }
+  value: string;
+  setValue: Dispatch<SetStateAction<string>>;
+  label: string;
+  helperText?: string;
+  errorText?: string;
+};
 
 export const Input = ({
   value,
@@ -34,10 +34,10 @@ export const Input = ({
 		`}
         onChange={(event) => setValue(event.target.value)}
         value={value}
-		{...props}
+        {...props}
       />
       {helperText && <Field.HelperText>{helperText}</Field.HelperText>}
-      {errorText &&  <Field.ErrorText>{errorText}</Field.ErrorText>}
+      {errorText && <Field.ErrorText>{errorText}</Field.ErrorText>}
     </Field.Root>
   );
 };
