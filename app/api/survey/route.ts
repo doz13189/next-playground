@@ -3,7 +3,7 @@ import path from "node:path";
 import { type NextRequest, NextResponse } from "next/server";
 
 export async function GET(request: NextRequest) {
-  const filePath = path.join(process.cwd(), "public/survey", "text.json");
+  const filePath = path.join(process.cwd(), "app/_data/survey", "text.json");
 
   let existingData: object[];
   try {

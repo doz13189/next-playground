@@ -3,6 +3,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { z } from "zod";
 import "server-only";
+import { execSync } from "node:child_process";
 import { sleep } from "@/app/_lib/utils/sleep";
 import { cookies } from "next/headers";
 import { v4 as uuidv4 } from "uuid";
@@ -59,7 +60,7 @@ export const submitSurvey = async (
     }
   }
 
-  const filePath = path.join(process.cwd(), "/public/survey/", "text.json");
+  const filePath = path.join(process.cwd(), "app/_data/survey", "text.json");
   const body = {
     name: formData.get("name"),
     message: formData.get("message"),
@@ -72,6 +73,12 @@ export const submitSurvey = async (
   } catch (error) {
     if ((error as NodeJS.ErrnoException).code === "ENOENT") {
       try {
+        console.log("Directory contents before writing:");
+        console.log(execSync(`ls -la ${process.cwd()}`).toString());
+
+        console.log("Current user:");
+        console.log(execSync("whoami").toString());
+
         await writeFile(filePath, JSON.stringify({ [uuidv4()]: body }));
         console.info("New file created successfully.");
         return { message: "入力ありがとうございました。" };
