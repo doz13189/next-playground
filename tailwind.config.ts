@@ -9,6 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       textColor: {
+        red: "#FA3232",
         yellow: "#FAC00F",
         orange: "#F8784A",
         grey: "rgba(0, 0, 0, 0.6)",
