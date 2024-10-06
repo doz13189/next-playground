@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 import { Loading } from "../search/_components/Loading";
+import { Survey } from "./_components/Survey";
 import { NewCharacter } from "./_components/new-character";
 import { NewMemory } from "./_components/new-memory";
 
@@ -16,7 +17,9 @@ export default function Page() {
 					rounded-lg
 				"
         >
-          <p className="text-xs">{`以下のデータ追加に伴うアップデートを実施しました。`}</p>
+          <p className="text-xs">
+            以下のデータ追加に伴うアップデートを実施しました。
+          </p>
           {["1101022"].map((id) => (
             <div key={id} className="m-2">
               <Suspense fallback={<Loading />}>
@@ -49,6 +52,21 @@ export default function Page() {
           {
             "僕のヒーローアカデミア ULTRA IMPACT(ヒロトラ)のプレイキャラ/メモリーを検索することができる非公式サービスです。また、リーク情報は扱いません。"
           }
+        </div>
+      </div>
+
+      <div className="py-2">
+        <p className="text-orange">アンケート</p>
+        <div
+          className="
+					text-xs
+					mt-1
+					p-1
+					bg-very-light-gray
+					rounded-lg
+				"
+        >
+          <Survey />
         </div>
       </div>
     </div>

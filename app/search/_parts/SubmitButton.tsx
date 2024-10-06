@@ -1,5 +1,6 @@
 import { ark } from "@ark-ui/react";
 import { type ButtonHTMLAttributes, forwardRef, useState } from "react";
+import { useFormStatus } from "react-dom";
 import { Spinner } from "./Spinner";
 
 type Props = ButtonHTMLAttributes<HTMLButtonElement> & {
@@ -22,11 +23,13 @@ export const SubmitButton = forwardRef<HTMLButtonElement, Props>(
       props;
 
     const [loading, setLoading] = useState(false);
-    const trulyDisabled = loading || disabled;
+    const { pending } = useFormStatus();
+    const trulyDisabled = loading || disabled || pending;
 
     const handleClick = async (event: React.MouseEvent<HTMLButtonElement>) => {
       setLoading(true);
       onClick && (await onClick(event));
+      setLoading(false);
     };
 
     return (
