@@ -4,6 +4,7 @@ import { Survey } from "./_components/Survey";
 import { NewCharacter } from "./_components/new-character";
 import { NewMemory } from "./_components/new-memory";
 
+const ENABLE_SURVEY = false;
 export default function Page() {
   return (
     <div className="min-h-screen container mx-auto py-1 px-3">
@@ -55,20 +56,22 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="py-2">
-        <p className="text-orange">アンケート</p>
-        <div
-          className="
+      {ENABLE_SURVEY && (
+        <div className="py-2">
+          <p className="text-orange">アンケート</p>
+          <div
+            className="
 					text-xs
 					mt-1
 					p-1
 					bg-very-light-gray
 					rounded-lg
 				"
-        >
-          <Survey />
+          >
+            <Survey />
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }
