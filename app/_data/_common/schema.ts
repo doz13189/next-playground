@@ -236,6 +236,7 @@ export const MemorySkills = z.enum([
   "恐怖",
   "クリティカル抵抗ダウン",
   "見切り",
+  "かばう",
 ] as const);
 
 export const Tags = z.enum([
