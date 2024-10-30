@@ -166,7 +166,7 @@ const getMemoryDetailInfo = async (memory) => {
 
 (async () => {
   const memories = [];
-  for (const memoryId of ["2400149", "2400151", "2300203", "2300205"]) {
+  for (const memoryId of ["2300207", "2300206", "2400153"]) {
     await getMemoryIcon(memoryId);
     await getMemoryFullImage(memoryId);
     const memoryBaseInfo = await getMemoryBaseInfo(memoryId);
