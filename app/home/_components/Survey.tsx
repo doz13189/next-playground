@@ -19,9 +19,9 @@ export function Survey() {
   const [optimisticMessages, addOptimisticMessage] = useOptimistic<
     typeof initialState,
     typeof initialState
-  >(state, (state, newState) => ({
-    ...state,
-    ...newState,
+  >(state, (currentState, optimisticState) => ({
+    ...currentState,
+    ...optimisticState,
   }));
 
   const formActionWithOptimistic = async (formData: FormData) => {
