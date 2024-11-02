@@ -13,12 +13,18 @@ const schema = z.object({
   message: z.string(),
 });
 
+export interface SurveyFormData extends FormData {
+  get(key: "name"): string | null;
+  get(key: "message"): string | null;
+  // get(key: string): FormDataEntryValue | null;
+}
+
 export const submitSurvey = async (
   // prevState: z.infer<typeof CharacterRatingRequestSchema>,
   prevState: {
     message: string | null;
   },
-  formData: FormData,
+  formData: SurveyFormData,
 ) => {
   await sleep(2000);
 
