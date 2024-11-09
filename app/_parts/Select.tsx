@@ -50,6 +50,7 @@ export const Select = ({ isMultiple = false, ...props }: Props) => {
               strokeLinecap="round"
               strokeLinejoin="round"
             >
+              <title>{label}</title>
               <ark.path d="m6 9 6 6 6-6" />
             </ark.svg>
           </ArkSelect.Indicator>
@@ -76,7 +77,8 @@ export const Select = ({ isMultiple = false, ...props }: Props) => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   >
-                    <ark.polyline points="20 6 9 17 4 12"></ark.polyline>
+                    <title>{item.label}</title>
+                    <ark.polyline points="20 6 9 17 4 12" />
                   </ark.svg>
                 </ArkSelect.ItemIndicator>
               </ArkSelect.Item>

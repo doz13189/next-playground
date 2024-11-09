@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { FC } from "react";
 
-export const Menu: FC = ({}) => {
+export const Menu: FC = () => {
   const pathname = usePathname();
   const isHome = pathname.includes("/home");
   const isCharacterPage = pathname.includes("/search/character");

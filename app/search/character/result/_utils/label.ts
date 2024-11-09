@@ -4,17 +4,23 @@ import type { z } from "zod";
 type H = z.infer<typeof CharacterSchema>;
 export const typeLabel = (type: H["type"]) => {
   switch (type) {
-    case "str":
+    case "str": {
       return "力";
-    case "abl":
+    }
+    case "abl": {
       return "技";
-    case "int":
+    }
+    case "int": {
       return "知";
-    case "mnd":
+    }
+    case "mnd": {
       return "信";
-    case "dst":
+    }
+    case "dst": {
       return "破";
-    default:
+    }
+    default: {
       const _: never = type;
+    }
   }
 };

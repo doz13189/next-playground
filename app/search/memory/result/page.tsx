@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import { Loading } from "../../_components/Loading";
+import { Loading } from "../../../_parts/Loading";
 import { EditFilterButton } from "../../_components/edit-filter-button";
 import { SearchFilters } from "../../_components/search-filters";
 import { Memories } from "./_components/list";

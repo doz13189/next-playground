@@ -7,7 +7,7 @@ import {
   type FC,
   type SetStateAction,
 } from "react";
-import { Select } from "../_parts/Select";
+import { Select } from "../../_parts/Select";
 
 export const TagForm: FC<{
   tags: string;

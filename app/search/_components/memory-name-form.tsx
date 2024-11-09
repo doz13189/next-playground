@@ -1,5 +1,5 @@
 import type { Dispatch, FC, SetStateAction } from "react";
-import { Input } from "../_parts/Field";
+import { Input } from "../../_parts/Field";
 
 export const MemoryNameForm: FC<{
   name: string;

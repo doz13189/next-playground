@@ -3,50 +3,67 @@ import type { z } from "zod";
 
 export const getImageNameByRarity = (rarity: z.infer<typeof Rarity>) => {
   switch (rarity) {
-    case "ur":
+    case "ur": {
       return "4";
-    case "sr":
+    }
+    case "sr": {
       return "3";
-    case "r":
+    }
+    case "r": {
       return "2";
-    case "n":
+    }
+    case "n": {
       return "1";
-    default:
+    }
+    default: {
       const _: never = rarity;
+    }
   }
 };
 
 export const getImageNameByAttribute = (rarity: z.infer<typeof Type>) => {
   switch (rarity) {
-    case "str":
+    case "str": {
       return "1";
-    case "abl":
+    }
+    case "abl": {
       return "2";
-    case "int":
+    }
+    case "int": {
       return "3";
-    case "mnd":
+    }
+    case "mnd": {
       return "4";
-    case "dst":
+    }
+    case "dst": {
       return "5";
-    default:
+    }
+    default: {
       const _: never = rarity;
+    }
   }
 };
 
 export const getTypeLabel = (type: z.infer<typeof Type>) => {
   switch (type) {
-    case "str":
+    case "str": {
       return "力";
-    case "abl":
+    }
+    case "abl": {
       return "技";
-    case "int":
+    }
+    case "int": {
       return "知";
-    case "mnd":
+    }
+    case "mnd": {
       return "信";
-    case "dst":
+    }
+    case "dst": {
       return "破";
-    default:
+    }
+    default: {
       const _: never = type;
       throw new Error("Unknown type");
+    }
   }
 };

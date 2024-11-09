@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import { Loading } from "../search/_components/Loading";
+import { Loading } from "../_parts/Loading";
 import { Survey } from "./_components/Survey";
 import { NewCharacter } from "./_components/new-character";
 import { NewMemory } from "./_components/new-memory";

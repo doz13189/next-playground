@@ -1,6 +1,6 @@
 import { Name } from "@/app/_data/_common/schema";
 import type { Dispatch, FC, SetStateAction } from "react";
-import { Select } from "../_parts/Select";
+import { Select } from "../../_parts/Select";
 
 export const NameForm: FC<{
   name: string;
