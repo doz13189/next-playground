@@ -17,7 +17,7 @@ export const Textarea = ({ label, helperText, errorText, ...props }: Props) => {
       )}
       <Field.Textarea
         className="rounded-md focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50"
-        name="message"
+        name="contents"
         required
         {...props}
       />

@@ -1,20 +1,18 @@
 "use server";
-import { readFile, writeFile } from "node:fs/promises";
-import path from "node:path";
 import { z } from "zod";
 import "server-only";
-import { execSync } from "node:child_process";
 import { sleep } from "@/app/_lib/utils/sleep";
+import { PrismaClient } from "@prisma/client";
 import { cookies } from "next/headers";
-import { v4 as uuidv4 } from "uuid";
+
+const prisma = new PrismaClient();
 
 const schema = z.object({
   name: z.string(),
-  message: z.string(),
+  contents: z.string(),
 });
 
 export const submitSurvey = async (
-  // prevState: z.infer<typeof CharacterRatingRequestSchema>,
   prevState: {
     message: string | null;
   },
@@ -24,7 +22,7 @@ export const submitSurvey = async (
 
   const validatedFields = schema.safeParse({
     name: formData.get("name"),
-    message: formData.get("message"),
+    contents: formData.get("contents"),
   });
 
   if (!validatedFields.success) {
@@ -60,53 +58,23 @@ export const submitSurvey = async (
     }
   }
 
-  const filePath = path.join(process.cwd(), "app/_data/survey", "text.json");
-  const body = {
-    name: formData.get("name"),
-    message: formData.get("message"),
-    createdAt: new Date().toISOString(),
-  };
-
-  let data = "";
   try {
-    data = await readFile(filePath, "utf-8");
-  } catch (error) {
-    if ((error as NodeJS.ErrnoException).code === "ENOENT") {
-      try {
-        console.log("Directory contents before writing:");
-        console.log(execSync(`ls -la ${process.cwd()}`).toString());
-
-        console.log("Current user:");
-        console.log(execSync("whoami").toString());
-
-        await writeFile(filePath, JSON.stringify({ [uuidv4()]: body }));
-        console.info("New file created successfully.");
-        return { message: "入力ありがとうございました。" };
-      } catch (error) {
-        console.error(error);
-        if (error instanceof Error) {
-          throw new Error(error.message);
-        }
-        throw new Error("Unknown error");
-      }
-    }
-  }
-
-  try {
-    await writeFile(
-      filePath,
-      JSON.stringify({
-        ...JSON.parse(data),
-        [uuidv4()]: body,
-      }),
-    );
-    console.info("File updated successfully.");
-    return { message: "入力ありがとうございました。" };
+    prisma;
+    await prisma.questionnaire.create({
+      data: {
+        name: validatedFields.data.name,
+        contents: validatedFields.data.contents,
+      },
+    });
   } catch (error) {
     console.error(error);
     if (error instanceof Error) {
       throw new Error(error.message);
     }
     throw new Error("Unknown error");
+  } finally {
+    await prisma.$disconnect();
   }
+
+  return { message: "入力ありがとうございました。" };
 };
