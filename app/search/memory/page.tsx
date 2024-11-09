@@ -62,27 +62,6 @@ export default function Page(args: {
           </div>
         </div>
       </div>
-
-      {/*
-			<div className="fixed bottom-3 left-1">
-				<Link
-					href={"/message"}
-					className="
-						my-1
-						mx-1
-						px-4
-						py-1
-						text-sm
-						bg-yellow
-						border-2
-						border-grey
-						rounded-lg
-					"
-				>
-					Question
-				</Link>
-			</div>
-			*/}
     </div>
   );
 }

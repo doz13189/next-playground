@@ -1,6 +1,6 @@
 import { memories } from "@/app/_data/memory/object";
 import { queryMemory } from "@/app/_lib/query/memory";
-import { Loading } from "@/app/search/_components/Loading";
+import { Loading } from "@/app/_parts/Loading";
 import { Suspense } from "react";
 import { MemoryDefaultInfo } from "../_components/memoryDefaultInfo";
 import { MemoryDetailContents } from "../_components/memoryDetailContents";

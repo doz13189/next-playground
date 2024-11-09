@@ -34,6 +34,7 @@ export const CharacterDetailContents: FC<{
       <ul className="my-3 flex flex-wrap text-xs font-medium text-center text-gray-500">
         <li className="me-2">
           <button
+            type="button"
             onClick={() => setActiveTabState(0)}
             className={`
 						inline-block px-2 py-1 rounded-lg
@@ -46,6 +47,7 @@ export const CharacterDetailContents: FC<{
         </li>
         <li className="me-2">
           <button
+            type="button"
             onClick={() => setActiveTabState(1)}
             className={`
 					inline-block px-2 py-1 rounded-lg
@@ -57,6 +59,7 @@ export const CharacterDetailContents: FC<{
         </li>
         <li className="me-2">
           <button
+            type="button"
             onClick={() => setActiveTabState(2)}
             className={`
 					inline-block px-2 py-1 rounded-lg
@@ -68,6 +71,7 @@ export const CharacterDetailContents: FC<{
         </li>
         <li className="me-2">
           <button
+            type="button"
             onClick={() => setActiveTabState(3)}
             className={`
 					inline-block px-2 py-1 rounded-lg
@@ -79,6 +83,7 @@ export const CharacterDetailContents: FC<{
         </li>
         <li className="me-2">
           <button
+            type="button"
             onClick={() => setActiveTabState(4)}
             className={`
 					inline-block px-2 py-1 rounded-lg
@@ -102,6 +107,7 @@ export const CharacterDetailContents: FC<{
 					bg-very-light-gray
 					rounded-lg
 				"
+          // biome-ignore lint/security/noDangerouslySetInnerHtml:
           dangerouslySetInnerHTML={{
             __html: getCharacterContent(activeTabState, character).plusUltra
               .description,
@@ -124,6 +130,7 @@ export const CharacterDetailContents: FC<{
 					bg-very-light-gray
 					rounded-lg
 				"
+          // biome-ignore lint/security/noDangerouslySetInnerHtml:
           dangerouslySetInnerHTML={{
             __html: getCharacterContent(activeTabState, character).actionSkill1
               .description,
@@ -146,6 +153,7 @@ export const CharacterDetailContents: FC<{
 					bg-very-light-gray
 					rounded-lg
 				"
+          // biome-ignore lint/security/noDangerouslySetInnerHtml:
           dangerouslySetInnerHTML={{
             __html: getCharacterContent(activeTabState, character).actionSkill2
               .description,
@@ -165,6 +173,7 @@ export const CharacterDetailContents: FC<{
 					bg-very-light-gray
 					rounded-lg
 				"
+          // biome-ignore lint/security/noDangerouslySetInnerHtml:
           dangerouslySetInnerHTML={{
             __html: getCharacterContent(activeTabState, character).autoSkill1
               .description,
@@ -184,6 +193,7 @@ export const CharacterDetailContents: FC<{
 					bg-very-light-gray
 					rounded-lg
 				"
+          // biome-ignore lint/security/noDangerouslySetInnerHtml:
           dangerouslySetInnerHTML={{
             __html: getCharacterContent(activeTabState, character).autoSkill2
               .description,
@@ -192,7 +202,7 @@ export const CharacterDetailContents: FC<{
       </div>
 
       <div className="py-2">
-        <p className="text-orange text-xs">{`専用EXオートスキル`}</p>
+        <p className="text-orange text-xs">専用EXオートスキル</p>
         <div
           className="
 					mt-1

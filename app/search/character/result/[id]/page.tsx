@@ -1,6 +1,6 @@
 import { characters } from "@/app/_data/character/object";
 import { queryCharacter } from "@/app/_lib/query/character";
-import { Loading } from "@/app/search/_components/Loading";
+import { Loading } from "@/app/_parts/Loading";
 import { Suspense } from "react";
 import { CharacterDefaultInfo } from "../_components/characterDefaultInfo";
 import { CharacterDetailContents } from "../_components/characterDetailContents";

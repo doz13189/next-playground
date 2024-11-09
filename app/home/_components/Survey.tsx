@@ -1,8 +1,8 @@
 "use client";
 
+import { SubmitButton } from "@/app/_parts/SubmitButton";
 import { Text } from "@/app/_parts/Text";
 import { Textarea } from "@/app/_parts/Textarea";
-import { SubmitButton } from "@/app/search/_parts/SubmitButton";
 import { ark } from "@ark-ui/react";
 import { useOptimistic } from "react";
 import { useFormState } from "react-dom";

@@ -2,8 +2,8 @@
 
 import { useRouter } from "next/navigation";
 import type { FC } from "react";
+import { SubmitButton } from "../../_parts/SubmitButton";
 import { createQuery } from "../_lib/create-query";
-import { SubmitButton } from "../_parts/SubmitButton";
 
 export const FilterButton: FC<{
   pathname: string;
