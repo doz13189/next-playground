@@ -1,7 +1,8 @@
+import { Link } from "@/app/_parts/Link";
 import { Suspense } from "react";
 import { Loading } from "../../../_parts/Loading";
-import { EditFilterButton } from "../../_components/edit-filter-button";
 import { SearchFilters } from "../../_components/search-filters";
+import { createQuery } from "../../_lib/create-query";
 import { Memories } from "./_components/list";
 
 export default function Page(args: {
@@ -27,12 +28,7 @@ export default function Page(args: {
 					justify-end
 				"
         >
-          <EditFilterButton
-            pathname={"memory"}
-            rarity={argRarity}
-            skills={argSkills}
-            name={argName}
-          />
+          <Link href={`/search/memory?${createQuery({ rarity: argRarity, skills: argSkills, name: argName })}`} prefetch={false}>{"検索条件変更"}</Link>
         </div>
       </div>
 

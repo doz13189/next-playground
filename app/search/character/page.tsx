@@ -1,15 +1,13 @@
 "use client";
 
-import { CharacterSkills } from "@/app/_data/_common/schema";
-import { useState } from "react";
-import { FilterButton } from "../_components/filter-button";
-import { NameForm } from "../_components/name-form";
-import { RarityForm } from "../_components/rarity-form";
+import { CharacterSkills, Name, Rarity, Tags, Type } from "@/app/_data/_common/schema";
+import { useDebounce } from "@/app/_hooks/useDebounce";
+import { Link } from "@/app/_parts/Link";
+import { Select } from "@/app/_parts/Select";
+import { useMemo, useState } from "react";
 import { ResetButton } from "../_components/reset-button";
-import { SearchFilters } from "../_components/search-filters";
-import { SkillForm } from "../_components/skill-form";
-import { TagForm } from "../_components/tag-form";
-import { TypeForm } from "../_components/type-form";
+import { createQuery } from "../_lib/create-query";
+import { getTypeLabel } from "../_lib/utils";
 
 export default function Page(args: {
   searchParams: {
@@ -32,30 +30,87 @@ export default function Page(args: {
   const [name, setName] = useState(argName || "");
   const [tags, setTags] = useState<string>(argTags || "");
 
+  // biome-ignore lint/correctness/useExhaustiveDependencies:
+  const memorizedQuery = useMemo(() => {
+    return createQuery({ rarity, skills, name, tags, type });
+  }, [rarity, JSON.stringify(skills), name, tags, type]);
+  const [query, debounceState] = useDebounce(memorizedQuery, 500);
+
   return (
     <div className="py-1 px-3">
       <div className="mb-3">
         <div>
-          <RarityForm rarity={rarity} setRarity={setRarity} />
+          <Select
+            items={Rarity.options.map((rarity) => ({
+              label: rarity.toUpperCase(),
+              value: rarity,
+            }))}
+            label="レアリティ"
+            placeholdertext={"レアリティを選択してください"}
+            value={[rarity]}
+            // @ts-ignore
+            setValue={(values: string[]) => {
+              values.length > 0 && setRarity(values[0]);
+            }}
+            isMultiple={false}
+          />
         </div>
 
         <div className="my-2">
-          <TypeForm type={type} setType={setType} />
+          <Select
+            items={Type.options.map((type) => ({
+              label: getTypeLabel(type),
+              value: type,
+            }))}
+            label="タイプ"
+            placeholdertext={"タイプを選んでください"}
+            value={[type]}
+            // @ts-ignore
+            setValue={(values: string[]) => {
+              values.length > 0 && setType(values[0]);
+            }}
+            isMultiple={false}
+          />
         </div>
 
         <div className="my-2">
-          <NameForm name={name} setName={setName} />
+          <Select
+            items={Name.options.map((name) => ({ label: name, value: name }))}
+            label="キャラクター名"
+            placeholdertext={"キャラクター名を選んでください"}
+            value={[name]}
+            // @ts-ignore
+            setValue={(values: string[]) => {
+              values.length > 0 && setName(values[0]);
+            }}
+            isMultiple={false}
+          />
         </div>
 
         <div className="my-2">
-          <TagForm tags={tags} setTags={setTags} />
+          <Select
+            items={Tags.options.map((tag) => ({ label: tag, value: tag }))}
+            label="所属"
+            placeholdertext={"所属を選んでください"}
+            value={[tags]}
+            // @ts-ignore
+            setValue={(values: string[]) => {
+              values.length > 0 && setTags(values[0]);
+            }}
+            isMultiple={false}
+          />
         </div>
 
         <div className="my-2">
-          <SkillForm
-            skills={skills}
-            setSkills={setSkills}
-            skillArray={CharacterSkills}
+          <Select
+            items={CharacterSkills.options
+              .map((skill) => ({ label: skill, value: skill }))
+              .sort((a, b) => a.label.localeCompare(b.label))}
+            label="スキル効果"
+            placeholdertext={"スキル効果を選んでください"}
+            value={skills}
+            setValue={setSkills}
+            isMultiple={true}
           />
         </div>
 
@@ -77,38 +132,16 @@ export default function Page(args: {
             />
           </div>
           <div className="flex-initial">
-            <FilterButton
-              pathname="character"
-              rarity={rarity}
-              type={type}
-              name={name}
-              skills={skills}
-              tags={tags}
-            />
+            <Link
+              href={`/search/character/result?${query}`}
+              disabled={(skills.length === 0 && !rarity && !type && !name && !tags) || debounceState !== "ready"}
+              // NOTE: クエリーが空の状態で遷移は発生しないため prefetch を抑止する
+              prefetch={query !== ""}
+              loading={debounceState === "idle" || debounceState === "debouncing"}
+            >{"検索"}</Link>
           </div>
         </div>
       </div>
-
-      {/*
-			<div className="fixed bottom-3 left-1">
-				<Link
-					href={"/message"}
-					className="
-						my-1
-						mx-1
-						px-4
-						py-1
-						text-sm
-						bg-yellow
-						border-2
-						border-grey
-						rounded-lg
-					"
-				>
-					Question
-				</Link>
-			</div>
-			*/}
     </div>
   );
 }

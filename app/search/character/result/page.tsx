@@ -1,7 +1,8 @@
+import { Link } from "@/app/_parts/Link";
 import { Suspense } from "react";
 import { Loading } from "../../../_parts/Loading";
-import { EditFilterButton } from "../../_components/edit-filter-button";
 import { SearchFilters } from "../../_components/search-filters";
+import { createQuery } from "../../_lib/create-query";
 import { Characters } from "./_components/list";
 
 export default async function Page(args: {
@@ -37,14 +38,7 @@ export default async function Page(args: {
 					justify-end
 				"
         >
-          <EditFilterButton
-            pathname={"character"}
-            rarity={argRarity}
-            type={argType}
-            name={argName}
-            skills={argSkills}
-            tags={argTags}
-          />
+          <Link href={`/search/character?${createQuery({ rarity: argRarity, skills: argSkills, name: argName, tags: argTags, type: argType })}`} prefetch={false}>{"検索条件変更"}</Link>
         </div>
       </div>
 
