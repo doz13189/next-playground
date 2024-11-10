@@ -1,16 +1,19 @@
 import { ark } from "@ark-ui/react";
 import { default as NextLink } from "next/link";
 import type { ComponentProps, FC } from "react";
+import { Spinner } from "./Spinner";
 
 type Props = ComponentProps<typeof NextLink> & {
   disabled?: boolean;
   enabledColor?: "bg-yellow"
   disabledColor?: "bg-gray-300 text-gray-500"
+  loading?: boolean;
 }
 
 export const Link: FC<Props> = ({
   enabledColor = "bg-yellow",
   disabledColor = "bg-gray-300 text-gray-500",
+  loading,
   ...props
 }) => {
   return (
@@ -31,7 +34,9 @@ export const Link: FC<Props> = ({
             justify-center
             ${props.disabled ? disabledColor : enabledColor}
         `}
-      >{props.children}</ark.div>
+      >
+        {loading ? <Spinner /> : props.children}
+      </ark.div>
     </NextLink>
   );
 };

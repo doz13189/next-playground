@@ -38,7 +38,7 @@ export default async function Page(args: {
 					justify-end
 				"
         >
-          <Link href={`/search/character?${createQuery({ rarity: argRarity, skills: argSkills, name: argName, tags: argTags, type: argTags })}`} >{"検索条件変更"}</Link>
+          <Link href={`/search/character?${createQuery({ rarity: argRarity, skills: argSkills, name: argName, tags: argTags, type: argType })}`} prefetch={false}>{"検索条件変更"}</Link>
         </div>
       </div>
 

@@ -1,6 +1,7 @@
 "use client";
 
 import { CharacterSkills, Name, Rarity, Tags, Type } from "@/app/_data/_common/schema";
+import { useDebounce } from "@/app/_hooks/useDebounce";
 import { Link } from "@/app/_parts/Link";
 import { Select } from "@/app/_parts/Select";
 import { useMemo, useState } from "react";
@@ -29,10 +30,11 @@ export default function Page(args: {
   const [name, setName] = useState(argName || "");
   const [tags, setTags] = useState<string>(argTags || "");
 
-  const searchUrl = useMemo(() => {
-    const query = createQuery({ rarity, skills, name, tags, type });
-    return `/search/character/result?${query}`;
-  }, [rarity, skills, name, tags, type]);
+  // biome-ignore lint/correctness/useExhaustiveDependencies:
+  const memorizedQuery = useMemo(() => {
+    return createQuery({ rarity, skills, name, tags, type });
+  }, [rarity, JSON.stringify(skills), name, tags, type]);
+  const [query, debounceState] = useDebounce(memorizedQuery, 500);
 
   return (
     <div className="py-1 px-3">
@@ -130,7 +132,13 @@ export default function Page(args: {
             />
           </div>
           <div className="flex-initial">
-            <Link href={searchUrl} disabled={skills.length === 0 && !rarity && !type && !name && !tags}>{"検索"}</Link>
+            <Link
+              href={`/search/character/result?${query}`}
+              disabled={(skills.length === 0 && !rarity && !type && !name && !tags) || debounceState !== "ready"}
+              // NOTE: クエリーが空の状態で遷移は発生しないため prefetch を抑止する
+              prefetch={query !== ""}
+              loading={debounceState === "idle" || debounceState === "debouncing"}
+            >{"検索"}</Link>
           </div>
         </div>
       </div>

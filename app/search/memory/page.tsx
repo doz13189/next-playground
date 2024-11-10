@@ -20,10 +20,12 @@ export default function Page(args: {
   const [skills, setSkills] = useState<string[]>(argSkills || []);
   const [name, setName] = useState(argName || "");
 
-  const query = useDebounce(createQuery({ rarity, skills, name }), 3000)
-  const searchUrl = useMemo(() => {
-    return `/search/memory/result?${query}`;
-  }, [query]);
+  // biome-ignore lint/correctness/useExhaustiveDependencies:
+  const memorizedQuery = useMemo(() => {
+    return createQuery({ rarity, skills, name });
+  }, [rarity, JSON.stringify(skills), name]);
+
+  const [query, debounceState] = useDebounce(memorizedQuery, 500)
 
   return (
     <div className="py-1 px-3">
@@ -77,7 +79,13 @@ export default function Page(args: {
             />
           </div>
           <div className="flex-initial">
-            <Link href={searchUrl} disabled={skills.length === 0 && !rarity && !name}>{"検索"}</Link>
+            <Link
+              href={`/search/memory/result?${query}`}
+              disabled={(skills.length === 0 && !rarity && !name) || debounceState !== "ready"}
+              // NOTE: クエリーが空の状態で遷移は発生しないため prefetch を抑止する
+              prefetch={query !== ""}
+              loading={debounceState === "idle" || debounceState === "debouncing"}
+            >{"検索"}</Link>
           </div>
         </div>
       </div>

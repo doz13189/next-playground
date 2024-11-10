@@ -28,7 +28,7 @@ export default function Page(args: {
 					justify-end
 				"
         >
-          <Link href={`/search/memory?${createQuery({ rarity: argRarity, skills: argSkills, name: argName })}`} >{"検索条件変更"}</Link>
+          <Link href={`/search/memory?${createQuery({ rarity: argRarity, skills: argSkills, name: argName })}`} prefetch={false}>{"検索条件変更"}</Link>
         </div>
       </div>
 
