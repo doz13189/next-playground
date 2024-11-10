@@ -1,12 +1,12 @@
 "use client";
 
 import { MemorySkills, Rarity } from "@/app/_data/_common/schema";
+import { Input } from "@/app/_parts/Field";
+import { Link } from "@/app/_parts/Link";
+import { Select } from "@/app/_parts/Select";
 import { useState } from "react";
-import { FilterButton } from "../_components/filter-button";
-import { MemoryNameForm } from "../_components/memory-name-form";
-import { RarityForm } from "../_components/rarity-form";
 import { ResetButton } from "../_components/reset-button";
-import { SkillForm } from "../_components/skill-form";
+import { createQuery } from "../_lib/create-query";
 
 export default function Page(args: {
   searchParams: { rarity: string; skills: string; name: string };
@@ -23,18 +23,36 @@ export default function Page(args: {
     <div className="py-1 px-3">
       <div className="mb-3">
         <div>
-          <MemoryNameForm name={name} setName={setName} />
+          <Input setValue={setName} value={name} label="メモリー名" />
         </div>
 
         <div className="my-2">
-          <RarityForm rarity={rarity} setRarity={setRarity} />
+          <Select
+            items={Rarity.options.map((rarity) => ({
+              label: rarity.toUpperCase(),
+              value: rarity,
+            }))}
+            label="レアリティ"
+            placeholderText={"レアリティを選択してください"}
+            value={[rarity]}
+            // @ts-ignore
+            setValue={(values: string[]) => {
+              values.length > 0 && setRarity(values[0]);
+            }}
+            isMultiple={false}
+          />
         </div>
 
         <div className="my-2">
-          <SkillForm
-            skills={skills}
-            setSkills={setSkills}
-            skillArray={MemorySkills}
+          <Select
+            items={MemorySkills.options
+              .map((skill) => ({ label: skill, value: skill }))
+              .sort((a, b) => a.label.localeCompare(b.label))}
+            label="スキル効果"
+            placeholderText={"スキル効果を選んでください"}
+            value={skills}
+            setValue={setSkills}
+            isMultiple={true}
           />
         </div>
 
@@ -53,12 +71,7 @@ export default function Page(args: {
             />
           </div>
           <div className="flex-initial">
-            <FilterButton
-              pathname="memory"
-              rarity={rarity}
-              skills={skills}
-              name={name}
-            />
+            <Link href={`/search/memory?${createQuery({ rarity: argRarity, skills: argSkills, name: argName })}`} disabled={skills.length === 0 && !rarity && !name}>{"検索"}</Link>
           </div>
         </div>
       </div>
