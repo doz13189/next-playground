@@ -23,17 +23,16 @@ export const NextPage: FC<{
     <button
       type="submit"
       className={`
-		text-xs
-		my-1
-		px-4
-		py-1
-		text-sm
-		border-2
-		border-grey
-		rounded-lg
-		${disable ? "bg-gray-300 text-gray-500" : "bg-yellow"}
-
-  `}
+        text-xs
+        my-1
+        px-4
+        py-1
+        text-sm
+        border-2
+        border-grey
+        rounded-lg
+        ${disable ? "bg-gray-300 text-gray-500" : "bg-yellow"}
+      `}
       onClick={() =>
         router.push(
           `/search/${pathname}/result?${createQuery({ rarity, skills, type, name, tags, offset: String(nextOffset), limit })}`,
@@ -65,16 +64,16 @@ export const BackPage: FC<{
     <button
       type="submit"
       className={`
-		text-xs
-		my-1
-		px-4
-		py-1
-		text-sm
-		border-2
-		border-grey
-		rounded-lg
-		${disable ? "bg-gray-300 text-gray-500" : "bg-yellow"}
-  `}
+        text-xs
+        my-1
+        px-4
+        py-1
+        text-sm
+        border-2
+        border-grey
+        rounded-lg
+        ${disable ? "bg-gray-300 text-gray-500" : "bg-yellow"}
+      `}
       onClick={() =>
         router.push(
           `/search/${pathname}/result?${createQuery({ rarity, skills, type, name, tags, offset: String(nextOffset), limit })}`,
@@ -105,17 +104,16 @@ export const AllPage: FC<{
     <button
       type="submit"
       className={`
-		text-xs
-		my-1
-		px-4
-		py-1
-		text-sm
-		border-2
-		border-grey
-		rounded-lg
-		${disable ? "bg-gray-300 text-gray-500" : "bg-yellow"}
-
-  `}
+        text-xs
+        my-1
+        px-4
+        py-1
+        text-sm
+        border-2
+        border-grey
+        rounded-lg
+        ${disable ? "bg-gray-300 text-gray-500" : "bg-yellow"}
+      `}
       onClick={() =>
         router.push(
           `/search/${pathname}/result?${createQuery({ rarity, skills, type, name, tags, offset: String(0), limit: String(total) })}`,
