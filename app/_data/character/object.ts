@@ -45280,7 +45280,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
                 "levelone": {
                     "plusUltra": {
                         "name": "大氷海嘯",
-                        "description": "自分が平静の時、自分のプルスウルトラ技威力<span style=\"color: #79ff80;\">20</span>%アップ(累積)<br>敵単体に<span style=\"color: #79ff80;\">500</span>%ダメージ、中確率 (30%)で凍傷(3ターン)を付与、低確率 (50%)で氷結(2ターン)を付与<br>自分にバリア(2ヒット)を付与"
+                        "description": "自分が平静の時、自分のプルスウルトラ技威力<span style=\"color: #79ff80;\">20</span>%アップ(累積)<br>敵単体に<span style=\"color: #79ff80;\">500</span>%ダメージ、中確率 (50%)で凍傷(3ターン)を付与、低確率 (30%)で氷結(2ターン)を付与<br>自分にバリア(2ヒット)を付与"
                     },
                     "actionSkill1": {
                         "name": "赫灼熱拳“燐”",
@@ -45304,7 +45304,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
                 "leveltwo": {
                     "plusUltra": {
                         "name": "大氷海嘯",
-                        "description": "自分が平静の時、自分のプルスウルトラ技威力<span style=\"color: #79ff80;\">25</span>%アップ(累積)<br>敵単体に<span style=\"color: #79ff80;\">550</span>%ダメージ、中確率 (30%)で凍傷(3ターン)を付与、低確率 (50%)で氷結(2ターン)を付与<br>自分にバリア(2ヒット)を付与"
+                        "description": "自分が平静の時、自分のプルスウルトラ技威力<span style=\"color: #79ff80;\">25</span>%アップ(累積)<br>敵単体に<span style=\"color: #79ff80;\">550</span>%ダメージ、中確率 (50%)で凍傷(3ターン)を付与、低確率 (30%)で氷結(2ターン)を付与<br>自分にバリア(2ヒット)を付与"
                     },
                     "actionSkill1": {
                         "name": "赫灼熱拳“燐”",
@@ -45328,7 +45328,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
                 "levelthree": {
                     "plusUltra": {
                         "name": "大氷海嘯",
-                        "description": "自分が平静の時、自分のプルスウルトラ技威力<span style=\"color: #79ff80;\">30</span>%アップ(累積)<br>敵単体に<span style=\"color: #79ff80;\">600</span>%ダメージ、中確率 (30%)で凍傷(3ターン)を付与、低確率 (50%)で氷結(2ターン)を付与<br>自分にバリア(2ヒット)を付与"
+                        "description": "自分が平静の時、自分のプルスウルトラ技威力<span style=\"color: #79ff80;\">30</span>%アップ(累積)<br>敵単体に<span style=\"color: #79ff80;\">600</span>%ダメージ、中確率 (50%)で凍傷(3ターン)を付与、低確率 (30%)で氷結(2ターン)を付与<br>自分にバリア(2ヒット)を付与"
                     },
                     "actionSkill1": {
                         "name": "赫灼熱拳“燐”",
@@ -45352,7 +45352,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
                 "dxlevelone": {
                     "plusUltra": {
                         "name": "大氷海嘯",
-                        "description": "自分が平静の時、自分のプルスウルトラ技威力<span style=\"color: #79ff80;\">30</span>%アップ(累積)<br>敵単体に<span style=\"color: #79ff80;\">600</span>%ダメージ、中確率 (30%)で凍傷(3ターン)を付与、低確率 (50%)で氷結(2ターン)を付与<br>自分にバリア(2ヒット)を付与"
+                        "description": "自分が平静の時、自分のプルスウルトラ技威力<span style=\"color: #79ff80;\">30</span>%アップ(累積)<br>敵単体に<span style=\"color: #79ff80;\">600</span>%ダメージ、中確率 (50%)で凍傷(3ターン)を付与、低確率 (30%)で氷結(2ターン)を付与<br>自分にバリア(2ヒット)を付与"
                     },
                     "actionSkill1": {
                         "name": "赫灼熱拳“燐” DX",
@@ -45376,7 +45376,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
                 "dxleveltwo": {
                     "plusUltra": {
                         "name": "大氷海嘯",
-                        "description": "自分が平静の時、自分のプルスウルトラ技威力<span style=\"color: #79ff80;\">30</span>%アップ(累積)<br>敵単体に<span style=\"color: #79ff80;\">600</span>%ダメージ、中確率 (30%)で凍傷(3ターン)を付与、低確率 (50%)で氷結(2ターン)を付与<br>自分にバリア(2ヒット)を付与"
+                        "description": "自分が平静の時、自分のプルスウルトラ技威力<span style=\"color: #79ff80;\">30</span>%アップ(累積)<br>敵単体に<span style=\"color: #79ff80;\">600</span>%ダメージ、中確率 (50%)で凍傷(3ターン)を付与、低確率 (30%)で氷結(2ターン)を付与<br>自分にバリア(2ヒット)を付与"
                     },
                     "actionSkill1": {
                         "name": "赫灼熱拳“燐” DX",
