@@ -21,14 +21,14 @@ export default function Page() {
           <p className="text-xs">
             以下のデータ追加に伴うアップデートを実施しました。
           </p>
-          {["1105015"].map((id) => (
+          {["1118001"].map((id) => (
             <div key={id} className="m-2">
               <Suspense fallback={<Loading />}>
                 <NewCharacter key={id} id={id} />
               </Suspense>
             </div>
           ))}
-          {["2300207", "2300206", "2400153"].map((id) => (
+          {["2400154", "2400155", "2300208", "2300209"].map((id) => (
             <div key={id} className="m-2">
               <Suspense fallback={<Loading />}>
                 <NewMemory key={id} id={id} />

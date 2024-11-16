@@ -45398,6 +45398,192 @@ export const characters: z.infer<typeof CharactersSchema> = {
                     }
                 }
             }
+        },
+        {
+            "id": "1118001",
+            "epithet": "屈折する光",
+            "name": "葉隠透",
+            "rarity": "ur",
+            "type": "abl",
+            "sex": "女",
+            "skills": [
+                "暗闇",
+                "最大HPアップ",
+                "回避",
+                "隠れる",
+                "状態異常無効",
+                "HP自動回復",
+                "パワーダウン",
+                "プルスウルトラゲージ増加",
+                "クリティカル率ダウン",
+                "スキル威力ダウン"
+            ],
+            "tags": [
+                "雄英高校1年A組",
+                "雄英高校生徒",
+                "ヒーロー"
+            ],
+            "stats": [
+                {
+                    "hp": "4848",
+                    "power": "720",
+                    "speed": "105",
+                    "defense": "100",
+                    "critical": "20"
+                },
+                {
+                    "hp": "12353",
+                    "power": "2379",
+                    "speed": "184",
+                    "defense": "100",
+                    "critical": "20"
+                },
+                {
+                    "hp": "45003",
+                    "power": "8609",
+                    "speed": "724",
+                    "defense": "100",
+                    "critical": "20"
+                },
+                {
+                    "hp": "54003",
+                    "power": "10409",
+                    "speed": "904",
+                    "defense": "100",
+                    "critical": "20"
+                }
+            ],
+            "uniqueSkills": [
+                "自分がパワーダウンの相手から2回攻撃を受けきった時、味方全体に回避(1回)を付与(最大2回)",
+                "自分が隠れるのまま、1回ターンをまたいだ時、味方全体のパワー5%アップ(最大10回)",
+                "自分が回避の時、味方全体の最大HP10%アップ",
+                "戦闘開始後、自分のスキル威力を10%ダウン、クリティカル率を30%アップ(3ターン)",
+                "毎ターン、自分のプルスウルトラゲージを5%アップする(最大8回)",
+                "自分のHPが50%未満の時、戦闘中に1度だけ自分にHP20%自動回復(2ターン)を付与",
+                "クリティカルが3回発生するたびに、自分に回避(1回)を付与(最大3回)"
+            ],
+            "skill": {
+                "levelone": {
+                    "plusUltra": {
+                        "name": "集光屈折ハイチーズ",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">500</span>%ダメージ、高確率 (75%)で暗闇(3ターン)を付与<br>自分がクリティカル抵抗アップでない時、味方全体の最大HP<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)、回避(1回)を付与"
+                    },
+                    "actionSkill1": {
+                        "name": "全力パンチ",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">275</span>%ダメージ、パワー<span style=\"color: #ff6f6f;\">15</span>%ダウン(3ターン)、クリティカル率<span style=\"color: #ff6f6f;\">15</span>%ダウン(3ターン)<br>自分がクリティカル抵抗アップでない時、味方全体の最大HP<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)",
+                        "coolTime": "6"
+                    },
+                    "actionSkill2": {
+                        "name": "グルグルパンチ",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">250</span>%ダメージ、スキル威力<span style=\"color: #ff6f6f;\">10</span>%ダウン(3ターン)<br>味方全体にHP<span style=\"color: #79ff80;\">10</span>%自動回復(2ターン)を付与",
+                        "coolTime": "6"
+                    },
+                    "autoSkill1": {
+                        "name": "隠密行動",
+                        "description": "自分に隠れるを付与<br>味方全体に状態異常無効(5回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<br>自分が回避の時、味方全体にHP<span style=\"color: #79ff80;\">15</span>%自動回復を付与※この効果はゲストでは発動しない"
+                    },
+                    "autoSkill2": {
+                        "name": "柔軟性",
+                        "description": "自分に回避(2回)を付与(最大1回)<br>自分が回避の時、敵全体のパワー<span style=\"color: #ff6f6f;\">10</span>%ダウン<br>自分が回避のまま、1回ターンをまたいだ時、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">6</span>%アップ"
+                    }
+                },
+                "leveltwo": {
+                    "plusUltra": {
+                        "name": "集光屈折ハイチーズ",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">550</span>%ダメージ、高確率 (75%)で暗闇(3ターン)を付与<br>自分がクリティカル抵抗アップでない時、味方全体の最大HP<span style=\"color: #79ff80;\">25</span>%アップ(3ターン)、回避(1回)を付与"
+                    },
+                    "actionSkill1": {
+                        "name": "全力パンチ",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">300</span>%ダメージ、パワー<span style=\"color: #ff6f6f;\">20</span>%ダウン(3ターン)、クリティカル率<span style=\"color: #ff6f6f;\">20</span>%ダウン(3ターン)<br>自分がクリティカル抵抗アップでない時、味方全体の最大HP<span style=\"color: #79ff80;\">25</span>%アップ(3ターン)",
+                        "coolTime": "5"
+                    },
+                    "actionSkill2": {
+                        "name": "グルグルパンチ",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">275</span>%ダメージ、スキル威力<span style=\"color: #ff6f6f;\">15</span>%ダウン(3ターン)<br>味方全体にHP<span style=\"color: #79ff80;\">10</span>%自動回復(2ターン)を付与",
+                        "coolTime": "5"
+                    },
+                    "autoSkill1": {
+                        "name": "隠密行動",
+                        "description": "自分に隠れるを付与<br>味方全体に状態異常無効(5回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<br>自分が回避の時、味方全体にHP<span style=\"color: #79ff80;\">20</span>%自動回復を付与※この効果はゲストでは発動しない"
+                    },
+                    "autoSkill2": {
+                        "name": "柔軟性",
+                        "description": "自分に回避(2回)を付与(最大1回)<br>自分が回避の時、敵全体のパワー<span style=\"color: #ff6f6f;\">10</span>%ダウン<br>自分が回避のまま、1回ターンをまたいだ時、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">8</span>%アップ"
+                    }
+                },
+                "levelthree": {
+                    "plusUltra": {
+                        "name": "集光屈折ハイチーズ",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">600</span>%ダメージ、高確率 (75%)で暗闇(3ターン)を付与<br>自分がクリティカル抵抗アップでない時、味方全体の最大HP<span style=\"color: #79ff80;\">30</span>%アップ(3ターン)、回避(1回)を付与"
+                    },
+                    "actionSkill1": {
+                        "name": "全力パンチ",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">325</span>%ダメージ、パワー<span style=\"color: #ff6f6f;\">25</span>%ダウン(3ターン)、クリティカル率<span style=\"color: #ff6f6f;\">25</span>%ダウン(3ターン)<br>自分がクリティカル抵抗アップでない時、味方全体の最大HP<span style=\"color: #79ff80;\">30</span>%アップ(3ターン)",
+                        "coolTime": "4"
+                    },
+                    "actionSkill2": {
+                        "name": "グルグルパンチ",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">300</span>%ダメージ、スキル威力<span style=\"color: #ff6f6f;\">20</span>%ダウン(3ターン)<br>味方全体にHP<span style=\"color: #79ff80;\">10</span>%自動回復(2ターン)を付与",
+                        "coolTime": "4"
+                    },
+                    "autoSkill1": {
+                        "name": "隠密行動",
+                        "description": "自分に隠れるを付与<br>味方全体に状態異常無効(5回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<br>自分が回避の時、味方全体にHP<span style=\"color: #79ff80;\">25</span>%自動回復を付与※この効果はゲストでは発動しない"
+                    },
+                    "autoSkill2": {
+                        "name": "柔軟性",
+                        "description": "自分に回避(2回)を付与(最大1回)<br>自分が回避の時、敵全体のパワー<span style=\"color: #ff6f6f;\">10</span>%ダウン<br>自分が回避のまま、1回ターンをまたいだ時、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">10</span>%アップ"
+                    }
+                },
+                "dxlevelone": {
+                    "plusUltra": {
+                        "name": "集光屈折ハイチーズ",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">600</span>%ダメージ、高確率 (75%)で暗闇(3ターン)を付与<br>自分がクリティカル抵抗アップでない時、味方全体の最大HP<span style=\"color: #79ff80;\">30</span>%アップ(3ターン)、回避(1回)を付与"
+                    },
+                    "actionSkill1": {
+                        "name": "全力パンチ DX",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">350</span>%ダメージ、パワー<span style=\"color: #ff6f6f;\">25</span>%ダウン(3ターン)、クリティカル率<span style=\"color: #ff6f6f;\">25</span>%ダウン(3ターン)<br>自分がクリティカル抵抗アップでない時、味方全体の最大HP<span style=\"color: #79ff80;\">30</span>%アップ(3ターン)",
+                        "coolTime": "4"
+                    },
+                    "actionSkill2": {
+                        "name": "グルグルパンチ DX",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">325</span>%ダメージ、スキル威力<span style=\"color: #ff6f6f;\">20</span>%ダウン(3ターン)<br>味方全体にHP<span style=\"color: #79ff80;\">15</span>%自動回復(2ターン)を付与",
+                        "coolTime": "4"
+                    },
+                    "autoSkill1": {
+                        "name": "隠密行動",
+                        "description": "自分に隠れるを付与<br>味方全体に状態異常無効(5回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<br>自分が回避の時、味方全体にHP<span style=\"color: #79ff80;\">25</span>%自動回復を付与※この効果はゲストでは発動しない"
+                    },
+                    "autoSkill2": {
+                        "name": "柔軟性",
+                        "description": "自分に回避(2回)を付与(最大1回)<br>自分が回避の時、敵全体のパワー<span style=\"color: #ff6f6f;\">10</span>%ダウン<br>自分が回避のまま、1回ターンをまたいだ時、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">10</span>%アップ"
+                    }
+                },
+                "dxleveltwo": {
+                    "plusUltra": {
+                        "name": "集光屈折ハイチーズ",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">600</span>%ダメージ、高確率 (75%)で暗闇(3ターン)を付与<br>自分がクリティカル抵抗アップでない時、味方全体の最大HP<span style=\"color: #79ff80;\">30</span>%アップ(3ターン)、回避(1回)を付与"
+                    },
+                    "actionSkill1": {
+                        "name": "全力パンチ DX",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">375</span>%ダメージ、パワー<span style=\"color: #ff6f6f;\">30</span>%ダウン(3ターン)、クリティカル率<span style=\"color: #ff6f6f;\">25</span>%ダウン(3ターン)<br>自分がクリティカル抵抗アップでない時、味方全体の最大HP<span style=\"color: #79ff80;\">30</span>%アップ(3ターン)",
+                        "coolTime": "4"
+                    },
+                    "actionSkill2": {
+                        "name": "グルグルパンチ DX",
+                        "description": "敵単体に<span style=\"color: #79ff80;\">350</span>%ダメージ、スキル威力<span style=\"color: #ff6f6f;\">25</span>%ダウン(3ターン)<br>味方全体にHP<span style=\"color: #79ff80;\">15</span>%自動回復(2ターン)を付与",
+                        "coolTime": "4"
+                    },
+                    "autoSkill1": {
+                        "name": "隠密行動",
+                        "description": "自分に隠れるを付与<br>味方全体に状態異常無効(5回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<br>自分が回避の時、味方全体にHP<span style=\"color: #79ff80;\">25</span>%自動回復を付与※この効果はゲストでは発動しない"
+                    },
+                    "autoSkill2": {
+                        "name": "柔軟性",
+                        "description": "自分に回避(2回)を付与(最大1回)<br>自分が回避の時、敵全体のパワー<span style=\"color: #ff6f6f;\">10</span>%ダウン<br>自分が回避のまま、1回ターンをまたいだ時、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">10</span>%アップ"
+                    }
+                }
+            }
         }
 
     ]
