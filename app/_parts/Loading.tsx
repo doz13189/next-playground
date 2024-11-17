@@ -1,13 +1,15 @@
+import { ark } from "@ark-ui/react";
+
 export const Loading = () => {
   return (
-    <div className="my-5 flex items-center justify-center">
-      <p>Loading...</p>
-      <img
+    <ark.div className="my-5 flex items-center justify-center">
+      <ark.p>Loading...</ark.p>
+      <ark.img
         src="/man-superhero-svgrepo-com.svg"
         alt="Superman Icon"
         width={30}
         height={30}
       />
-    </div>
+    </ark.div>
   );
 };
