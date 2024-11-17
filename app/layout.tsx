@@ -2,8 +2,7 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import { RocknRoll_One } from "next/font/google";
 import "./globals.css";
-import Head from "next/head";
-import { Menu } from "./search/_components/menu";
+import { Menu } from "./_components/menu";
 
 const font = RocknRoll_One({
   weight: ["400"],

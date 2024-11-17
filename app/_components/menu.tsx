@@ -1,17 +1,24 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import type { FC } from "react";
+import { usePathname, useRouter } from "next/navigation";
+import { type FC, useTransition } from "react";
+import { NavigationLoading } from "../_parts/NavigationLoading";
 
 export const Menu: FC = () => {
   const pathname = usePathname();
+  const router = useRouter();
+  const [isPending, startTransition] = useTransition();
+
   const isHome = pathname.includes("/home");
   const isCharacterPage = pathname.includes("/search/character");
   const isMemoryPage = pathname.includes("/search/memory");
+
   return (
     <div className="flex">
+      {isPending && <NavigationLoading />}
       <div className="flex-1">
+
         <Link
           href="/home"
           className={`
@@ -25,6 +32,11 @@ export const Menu: FC = () => {
 					rounded-lg
 					${isHome ? "bg-orange" : "bg-soft-orange text-grey"}
 				`}
+          onClick={() => {
+            startTransition(() => {
+              router.push("/home");
+            });
+          }}
         >
           ホーム
         </Link>
@@ -43,6 +55,12 @@ export const Menu: FC = () => {
 					rounded-lg
 					${isCharacterPage ? "bg-orange" : "bg-soft-orange text-grey"}
 				`}
+          onClick={() => {
+            startTransition(() => {
+              router.push("/search/character");
+            });
+          }}
+          prefetch={false}
         >
           プレイキャラ検索
         </Link>
@@ -61,6 +79,12 @@ export const Menu: FC = () => {
 					rounded-lg
 					${isMemoryPage ? "bg-orange" : "bg-soft-orange text-grey"}
 					`}
+          onClick={() => {
+            startTransition(() => {
+              router.push("/search/memory");
+            });
+          }}
+          prefetch={false}
         >
           メモリー検索
         </Link>
