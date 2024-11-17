@@ -1,13 +1,11 @@
-import { ark } from "@ark-ui/react";
+
 import { type ButtonHTMLAttributes, forwardRef, useState } from "react";
 import { useFormStatus } from "react-dom";
-import { Spinner } from "./Spinner";
+import { Button } from "./Button";
 
 type Props = ButtonHTMLAttributes<HTMLButtonElement> & {
-  loadingText?: React.ReactNode;
   enabledColor?: string;
   disabledColor?: string;
-  className?: string;
 };
 
 export const SubmitButton = forwardRef<HTMLButtonElement, Props>(
@@ -19,12 +17,13 @@ export const SubmitButton = forwardRef<HTMLButtonElement, Props>(
     },
     ref,
   ) => {
-    const { disabled, loadingText, className, children, onClick, ...rest } =
+    const { disabled, children, onClick, ...rest } =
       props;
 
     const [loading, setLoading] = useState(false);
     const { pending } = useFormStatus();
     const trulyDisabled = loading || disabled || pending;
+    const trulyLoading = loading || pending;
 
     const handleClick = async (event: React.MouseEvent<HTMLButtonElement>) => {
       setLoading(true);
@@ -33,34 +32,27 @@ export const SubmitButton = forwardRef<HTMLButtonElement, Props>(
     };
 
     return (
-      <ark.button
+      <Button
         type="submit"
         disabled={trulyDisabled}
+        loading={trulyLoading}
         ref={ref}
         className={`
-        my-1
-        px-4
-        py-1
-        w-32
-        text-sm
-        border-2
-        border-grey
-        rounded-lg
-        ${trulyDisabled ? disabledColor : enabledColor}
-    `}
+          my-1
+          px-4
+          py-1
+          w-32
+          text-sm
+          border-2
+          border-grey
+          rounded-lg
+          ${trulyDisabled ? disabledColor : enabledColor}
+        `}
         onClick={handleClick}
         {...rest}
       >
-        {loading && !loadingText ? (
-          <ark.div className="flex justify-center items-center w-full h-full">
-            <Spinner />
-          </ark.div>
-        ) : loadingText ? (
-          loadingText
-        ) : (
-          children
-        )}
-      </ark.button>
+        {children}
+      </Button>
     );
   },
 );
