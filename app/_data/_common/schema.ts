@@ -180,6 +180,8 @@ export const CharacterSkills = z.enum([
   "強奪",
   "スキル封印耐性アップ",
   "疲労",
+  "霜ダメージ軽減",
+  "強化阻害完全耐性",
 ] as const);
 
 export const MemorySkills = z.enum([
