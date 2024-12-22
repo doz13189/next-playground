@@ -1,5 +1,6 @@
 "use client";
 
+import { Button } from "@/app/_parts/Button";
 import type { FC, SetStateAction } from "react";
 
 export const ResetButton: FC<{
@@ -10,20 +11,10 @@ export const ResetButton: FC<{
   setTags?: (value: SetStateAction<string>) => void;
 }> = ({ setRarity, setSkills, setType, setName, setTags }) => {
   return (
-    <button
+    <Button
       type="submit"
-      className="
-        my-1
-        mx-1
-        px-4
-        py-1
-        w-32
-        text-sm
-        bg-yellow
-        border-2
-        border-grey
-        rounded-lg	
-      "
+      height={"8"}
+      width={"32"}
       onClick={() => {
         setRarity("");
         setSkills([]);
@@ -33,6 +24,6 @@ export const ResetButton: FC<{
       }}
     >
       リセット
-    </button>
+    </Button>
   );
 };

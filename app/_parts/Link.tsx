@@ -9,16 +9,12 @@ type NextLinkProps = ComponentProps<typeof NextLink>;
 type ArkButtonProps = Omit<ComponentProps<typeof ark.button>, "asChild">;
 
 type Props = {
-  enabledColor?: string;
-  disabledColor?: string;
   loading?: boolean;
   children: React.ReactNode;
 } & NextLinkProps &
   ArkButtonProps;
 
 export const Link: FC<Props> = ({
-  enabledColor = "bg-yellow",
-  disabledColor = "bg-gray-300 text-gray-500",
   disabled,
   loading,
   children,
@@ -40,17 +36,8 @@ export const Link: FC<Props> = ({
 
   return (
     <Button
-      className={`
-        my-1
-        px-4
-        py-1
-        w-32
-        text-sm
-        border-2
-        border-grey
-        rounded-lg
-        ${trulyDisabled ? disabledColor : enabledColor}
-      `}
+      height={"8"}
+      width={"32"}
       disabled={trulyDisabled}
       loading={trulyLoading}
       onClick={handleClick}

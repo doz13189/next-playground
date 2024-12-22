@@ -37,17 +37,8 @@ export const SubmitButton = forwardRef<HTMLButtonElement, Props>(
         disabled={trulyDisabled}
         loading={trulyLoading}
         ref={ref}
-        className={`
-          my-1
-          px-4
-          py-1
-          w-32
-          text-sm
-          border-2
-          border-grey
-          rounded-lg
-          ${trulyDisabled ? disabledColor : enabledColor}
-        `}
+        width={"80%"}
+        height={"8"}
         onClick={handleClick}
         {...rest}
       >

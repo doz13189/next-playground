@@ -1,3 +1,4 @@
+import { css } from "@/styled-system/css";
 import { Field } from "@ark-ui/react";
 import type { Dispatch, InputHTMLAttributes, SetStateAction } from "react";
 
@@ -22,16 +23,34 @@ export const Input = ({
     <Field.Root>
       <Field.Label>{label}</Field.Label>
       <Field.Input
-        className={`
-			block
-			p-2.5
-			bg-gray
-			border-2
-			border-grey
-			rounded-lg
-			w-full
-			${className}
-		`}
+        className={css({
+          appearance: "none",
+          background: "none",
+          outline: 0,
+          paddingX: "2.5",
+          fontSize: { base: "3", sm: "3", md: "3", lg: "3.5" },
+          height: "10",
+          width: "full",
+          backgroundColor: "grey.80",
+          borderRadius: "6px",
+          borderWidth: "1px",
+          borderColor: "tertiary",
+          _focus: {
+            borderColor: "blue.100",
+          },
+          _disabled: {
+            opacity: 0.4,
+            cursor: "not-allowed",
+          },
+          _invalid: {
+            borderColor: "primary",
+            backgroundColor: "red.20",
+            _focus: {
+              borderColor: "primary",
+              backgroundColor: "red.20",
+            },
+          },
+        })}
         onChange={(event) => setValue(event.target.value)}
         value={value}
         {...props}

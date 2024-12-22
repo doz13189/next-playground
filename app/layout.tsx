@@ -1,13 +1,15 @@
 import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
-import { RocknRoll_One } from "next/font/google";
+import localFont from 'next/font/local'
 import "./globals.css";
+import { css } from "@/styled-system/css";
+import { Container } from "@/styled-system/jsx";
+import { MainLayout } from "./_components/MainLayout";
 import { Menu } from "./_components/menu";
 
-const font = RocknRoll_One({
-  weight: ["400"],
-  subsets: ["cyrillic"],
-});
+const font = localFont({
+  src: "./_fonts/RocknRollOne-Regular.ttf",
+})
 
 const serviceTitle = "Search the hero";
 const serviceDescription =
@@ -54,12 +56,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body className={font.className}>
-        <div className="container mx-auto">
-          <Menu />
+      <body
+        className={`${font.className} ${css({ backgroundColor: "grey.100" })}`}
+      >
+        <Menu />
+        <Container>
+
           {children}
           <GoogleAnalytics gaId="G-KC2FT82FBP" />
-        </div>
+        </Container>
+
+        <Container>
+          <MainLayout backgroundColor={"black.100"}>
+            <footer className={css({ textAlign: "center", color: "white.100", paddingY: "5" })}>
+              <p>{"Copyright © 2024-2025 HS All Rights Reserved."}</p>
+            </footer>
+          </MainLayout>
+        </Container>
+
       </body>
     </html>
   );

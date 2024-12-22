@@ -1,77 +1,51 @@
+import { Box } from "@/styled-system/jsx";
 import { Suspense } from "react";
+import { MainLayout } from "../_components/MainLayout";
+import { Heading } from "../_parts/Heading";
 import { Loading } from "../_parts/Loading";
+import { Typography } from "../_parts/Typography";
 import { Survey } from "./_components/Survey";
 import { NewCharacter } from "./_components/new-character";
 import { NewMemory } from "./_components/new-memory";
 
-const ENABLE_SURVEY = true;
 export default function Page() {
   return (
-    <div className="min-h-screen container mx-auto py-1 px-3">
-      <div className="py-2">
-        <p className="text-orange">お知らせ</p>
-        <div
-          className="
-					mt-1
-					p-1
-					bg-very-light-gray
-					rounded-lg
-				"
-        >
-          <p className="text-xs">
-            以下のデータ追加に伴うアップデートを実施しました。
-          </p>
-          {["1106010"].map((id) => (
-            <div key={id} className="m-2">
-              <Suspense fallback={<Loading />}>
-                <NewCharacter key={id} id={id} />
-              </Suspense>
-            </div>
-          ))}
-          {["2400159", "2400161", "2300213", "2300214"].map((id) => (
-            <div key={id} className="m-2">
-              <Suspense fallback={<Loading />}>
-                <NewMemory key={id} id={id} />
-              </Suspense>
-            </div>
-          ))}
-        </div>
-      </div>
+    <Box>
+      <MainLayout >
+        <Box marginBottom={"2"}>
+          <Heading>お知らせ</Heading>
+        </Box>
+        <Typography>以下のデータ追加に伴うアップデートを実施しました。</Typography>
+        {["1106010"].map((id) => (
+          <Box key={id} marginY={"2"}>
+            <Suspense fallback={<Loading />}>
+              <NewCharacter key={id} id={id} />
+            </Suspense>
+          </Box>
+        ))}
+        {["2400159", "2400161", "2300213", "2300214"].map((id) => (
+          <Box key={id} marginY={"2"}>
+            <Suspense fallback={<Loading />}>
+              <NewMemory key={id} id={id} />
+            </Suspense>
+          </Box>
+        ))}
+      </MainLayout>
 
-      <div className="py-2">
-        <p className="text-orange">このサービスについて</p>
 
-        <div
-          className="
-					text-xs
-					mt-1
-					p-1
-					bg-very-light-gray
-					rounded-lg
-				"
-        >
-          {
-            "僕のヒーローアカデミア ULTRA IMPACT(ヒロトラ)のプレイキャラ/メモリーを検索することができる非公式サービスです。また、リーク情報は扱いません。"
-          }
-        </div>
-      </div>
+      <MainLayout>
+        <Box marginBottom={"2"}>
+          <Heading>このサービスについて</Heading>
+        </Box>
+        <Typography>僕のヒーローアカデミア ULTRA IMPACT(ヒロトラ)のプレイキャラ/メモリーを検索することができる非公式サービスです。また、リーク情報は扱いません。</Typography>
+      </MainLayout>
 
-      {ENABLE_SURVEY && (
-        <div className="py-2">
-          <p className="text-orange">アンケート</p>
-          <div
-            className="
-					text-xs
-					mt-1
-					p-1
-					bg-very-light-gray
-					rounded-lg
-				"
-          >
-            <Survey />
-          </div>
-        </div>
-      )}
-    </div>
+      <MainLayout>
+        <Box marginBottom={"2"}>
+          <Heading>アンケート</Heading>
+        </Box>
+        <Survey />
+      </MainLayout>
+    </Box>
   );
 }
