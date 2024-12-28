@@ -5,7 +5,7 @@ import "./globals.css";
 import { css } from "@/styled-system/css";
 import { Container } from "@/styled-system/jsx";
 import { MainLayout } from "./_components/MainLayout";
-import { Menu } from "./_components/menu";
+import { Menu } from "./_components/Menu";
 
 const font = localFont({
   src: "./_fonts/RocknRollOne-Regular.ttf",

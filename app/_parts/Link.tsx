@@ -28,6 +28,10 @@ export const Link: FC<Props> = ({
   const handleClick = async (event: React.MouseEvent) => {
     event.preventDefault();
 
+    if (trulyDisabled || trulyLoading) {
+      return;
+    }
+
     setInsideLoading(true);
     if (linkRef.current) {
       linkRef.current.click();

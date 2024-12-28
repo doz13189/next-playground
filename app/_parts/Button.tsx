@@ -20,6 +20,7 @@ const buttonStyle = cva({
       true: {
         color: "grey",
         backgroundColor: "grey.80",
+        cursor: 'not-allowed',
       },
       false: {
         color: "secondary",
@@ -44,7 +45,11 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>((props, ref) =>
   const trulyDisabled = loading || disabled
 
   return (
-    <InnerButton disabled={trulyDisabled} ref={ref} {...rest}>
+    <InnerButton
+      disabled={trulyDisabled}
+      ref={ref}
+      {...rest}
+    >
       {loading ? (
         <ButtonSpinner />
       ) : (

@@ -132,7 +132,7 @@ export default function Page(args: {
               href={`/search/character/result?${query}`}
               disabled={(skills.length === 0 && !rarity && !type && !name && !tags) || debounceState !== "ready"}
               // NOTE: クエリーが空の状態で遷移は発生しないため prefetch を抑止する
-              prefetch={query !== ""}
+              prefetch={(query !== "")}
               loading={debounceState === "idle" || debounceState === "debouncing"}
             >{"検索"}</Link>
           </Box>

@@ -1,6 +1,7 @@
 import { characters } from "@/app/_data/character/object";
 import { queryCharacter } from "@/app/_lib/query/character";
-import { Loading } from "@/app/_parts/Loading";
+import { NavigationLoading } from "@/app/_parts/NavigationLoading";
+import { Box } from "@/styled-system/jsx";
 import { Suspense } from "react";
 import { CharacterDefaultInfo } from "../_components/characterDefaultInfo";
 import { CharacterDetailContents } from "../_components/characterDetailContents";
@@ -16,16 +17,16 @@ export async function generateStaticParams() {
 async function CharacterContent({ id }: { id: string }) {
   const character = await queryCharacter(id);
   return (
-    <div className="min-h-screen container mx-auto py-1 px-3">
+    <Box>
       <CharacterDefaultInfo character={character} />
       <CharacterDetailContents character={character} />
-    </div>
+    </Box>
   );
 }
 
 export default function Page({ params }: { params: { id: string } }) {
   return (
-    <Suspense fallback={<Loading />}>
+    <Suspense fallback={<NavigationLoading />}>
       <CharacterContent id={params.id} />
     </Suspense>
   );

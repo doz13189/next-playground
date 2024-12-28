@@ -1,4 +1,7 @@
+
 import type { Type } from "@/app/_data/_common/schema";
+import { css } from "@/styled-system/css";
+import { flex } from "@/styled-system/patterns";
 import type { FC } from "react";
 import type { z } from "zod";
 import { getTypeLabel } from "../_lib/utils";
@@ -11,10 +14,22 @@ export const SearchFilters: FC<{
   tags?: string;
 }> = ({ rarity, type, skills, name, tags }) => {
   return (
-    <div className="relative">
-      <div className="inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+    <div className={css({ position: 'relative' })}>
+      <div className={flex({
+        position: 'absolute',
+        insetY: '0',
+        start: '0',
+        alignItems: 'center',
+        ps: '3',
+        pointerEvents: 'none'
+      })}>
         <svg
-          className="w-4 h-4 text-gray-500 text-gray-400"
+          className={css({
+            w: '4',
+            h: '4',
+            color: 'gray.500',
+            _dark: { color: 'gray.400' }
+          })}
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -29,29 +44,44 @@ export const SearchFilters: FC<{
           />
         </svg>
       </div>
-      <div className="ps-10">
+      <div className={css({ ps: '10' })}>
         {rarity && (
-          <span key={rarity} className="inline-block text-xs">
+          <span key={rarity} className={css({
+            display: 'inline-block',
+            fontSize: 'xs'
+          })}>
             {`${rarity.toUpperCase()},`}
           </span>
         )}
         {type && (
-          <span key={type} className="inline-block text-xs">
+          <span key={type} className={css({
+            display: 'inline-block',
+            fontSize: 'xs'
+          })}>
             {`${getTypeLabel(type as z.infer<typeof Type>)},`}
           </span>
         )}
         {name && (
-          <span key={name} className="inline-block text-xs">
+          <span key={name} className={css({
+            display: 'inline-block',
+            fontSize: 'xs'
+          })}>
             {`${name},`}
           </span>
         )}
         {tags && (
-          <span key={tags} className="inline-block text-xs">
+          <span key={tags} className={css({
+            display: 'inline-block',
+            fontSize: 'xs'
+          })}>
             {`${tags},`}
           </span>
         )}
         {skills?.map((skill) => (
-          <span key={skill} className="inline-block text-xs">
+          <span key={skill} className={css({
+            display: 'inline-block',
+            fontSize: 'xs'
+          })}>
             {`${skill},`}
           </span>
         ))}

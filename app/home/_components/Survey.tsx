@@ -54,7 +54,7 @@ export function Survey() {
             <Spacer />
           </ark.div>
           {!!optimisticMessages.message && (
-            <ark.div className="my-2 flex justify-end">
+            <ark.div className={css({ textAlign: "center" })}>
               <Typography>{optimisticMessages.message}</Typography>
             </ark.div>
           )}

@@ -1,9 +1,11 @@
 "use client";
 
+import { MainLayout } from "@/app/_components/MainLayout";
+import { MiniMemoryIcon } from "@/app/_components/MiniMemoryIcon";
 import type { MemorySchema } from "@/app/_data/memory/schema";
+import { Typography } from "@/app/_parts/Typography";
 import { Skills } from "@/app/search/_components/skills";
-import { getImageNameByRarity } from "@/app/search/_lib/utils";
-import Image from "next/image";
+import { Box, Flex, Spacer, VStack } from "@/styled-system/jsx";
 import Link from "next/link";
 import type { FC } from "react";
 import type { z } from "zod";
@@ -13,33 +15,19 @@ export const MemoryDefaultInfo: FC<{
 }> = ({ memory }) => {
   return (
     <Link href={`/search/memory/result/${memory.id}`}>
-      <div className="flex">
-        <div className="relative w-12 h-12">
-          <Image
-            src={`/memory-icon/icon_m_${memory.id}.webp`}
-            width={50}
-            height={50}
-            alt="memory icon"
-            className="absolute top-0 left-0"
-          />
-          <Image
-            src={`/frame/chara_frame_10${getImageNameByRarity(memory.rarity)}.webp`}
-            width={50}
-            height={50}
-            alt="memory icon"
-            className="absolute top-0 left-0"
-          />
-          <Image
-            src={`/rarity/card_rarity_0${getImageNameByRarity(memory.rarity)}.webp`}
-            width={20}
-            height={20}
-            alt="memory icon"
-            className="absolute top-0 left-0"
-          />
-        </div>
-        <div className="content-center mx-3">{`${memory.name}`}</div>
-      </div>
-      <Skills skills={[...memory.skills]} />
+      <MainLayout key={memory.id}>
+        <Flex>
+          <MiniMemoryIcon memory={memory} />
+          <VStack marginX={"2"}>
+            <Spacer />
+            <Typography>{`${memory.name}`}</Typography>
+            <Spacer />
+          </VStack>
+        </Flex>
+        <Box marginTop={"4"}>
+          <Skills skills={[...memory.skills]} />
+        </Box>
+      </MainLayout>
     </Link>
   );
 };

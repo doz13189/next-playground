@@ -67,7 +67,6 @@ export const Select = ({
         })}>
           <ArkSelect.ValueText
             placeholder={placeholdertext}
-            className="text-gray"
           />
           <ArkSelect.Indicator>
             <ark.svg

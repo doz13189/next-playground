@@ -11,7 +11,7 @@ type Props = InputHTMLAttributes<HTMLTextAreaElement> & {
 
 export const Textarea = ({ label, helperText, errorText, ...props }: Props) => {
   return (
-    <Field.Root className="flex flex-col gap-1.5">
+    <Field.Root>
       {label && (
         <Field.Label>
           <Typography>{label}</Typography>

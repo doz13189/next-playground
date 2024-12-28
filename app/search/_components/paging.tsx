@@ -1,5 +1,6 @@
 "use client";
 
+import { Button } from "@/app/_parts/Button";
 import { createQuery } from "@/app/search/_lib/create-query";
 import { useRouter } from "next/navigation";
 import type { FC } from "react";
@@ -20,28 +21,17 @@ export const NextPage: FC<{
   const disable = total <= nextOffset;
 
   return (
-    <button
+    <Button
       type="submit"
-      className={`
-        text-xs
-        my-1
-        px-4
-        py-1
-        text-sm
-        border-2
-        border-grey
-        rounded-lg
-        ${disable ? "bg-gray-300 text-gray-500" : "bg-yellow"}
-      `}
+      height={"8"}
+      width={"32"}
       onClick={() =>
         router.push(
           `/search/${pathname}/result?${createQuery({ rarity, skills, type, name, tags, offset: String(nextOffset), limit })}`,
         )
       }
       disabled={disable}
-    >
-      次ページへ
-    </button>
+    >次ページへ</Button>
   );
 };
 
@@ -61,28 +51,17 @@ export const BackPage: FC<{
   const disable = nextOffset < 0;
 
   return (
-    <button
+    <Button
       type="submit"
-      className={`
-        text-xs
-        my-1
-        px-4
-        py-1
-        text-sm
-        border-2
-        border-grey
-        rounded-lg
-        ${disable ? "bg-gray-300 text-gray-500" : "bg-yellow"}
-      `}
+      height={"8"}
+      width={"32"}
       onClick={() =>
         router.push(
           `/search/${pathname}/result?${createQuery({ rarity, skills, type, name, tags, offset: String(nextOffset), limit })}`,
         )
       }
       disabled={disable}
-    >
-      前のページへ
-    </button>
+    >前のページへ</Button>
   );
 };
 
@@ -101,19 +80,10 @@ export const AllPage: FC<{
   const disable = Number(limit) >= total;
 
   return (
-    <button
+    <Button
       type="submit"
-      className={`
-        text-xs
-        my-1
-        px-4
-        py-1
-        text-sm
-        border-2
-        border-grey
-        rounded-lg
-        ${disable ? "bg-gray-300 text-gray-500" : "bg-yellow"}
-      `}
+      height={"8"}
+      width={"32"}
       onClick={() =>
         router.push(
           `/search/${pathname}/result?${createQuery({ rarity, skills, type, name, tags, offset: String(0), limit: String(total) })}`,
@@ -122,6 +92,6 @@ export const AllPage: FC<{
       disabled={disable}
     >
       全て表示する
-    </button>
+    </Button>
   );
 };

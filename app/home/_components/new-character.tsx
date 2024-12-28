@@ -1,12 +1,7 @@
+import { MiniCharacterIcon } from "@/app/_components/MiniCharacterIcon";
 import { queryCharacter } from "@/app/_lib/query/character";
 import { Typography } from "@/app/_parts/Typography";
-import {
-  getImageNameByAttribute,
-  getImageNameByRarity,
-} from "@/app/search/_lib/utils";
-import { css } from "@/styled-system/css";
-import { Box, Flex, Spacer, VStack } from "@/styled-system/jsx";
-import Image from "next/image";
+import { Flex, Spacer, VStack } from "@/styled-system/jsx";
 import Link from "next/link";
 
 export async function NewCharacter({ id }: { id: string }) {
@@ -15,59 +10,7 @@ export async function NewCharacter({ id }: { id: string }) {
   return (
     <Link href={`/search/character/result/${character.id}`}>
       <Flex>
-        <Box position={"relative"} width={"48px"} height={"48px"}>
-          <Image
-            src={`/bg/chara_bg_10${getImageNameByRarity(character.rarity)}.webp`}
-            width={50}
-            height={50}
-            alt="character icon"
-            className={css({
-              position: 'absolute',
-              top: 0,
-              left: 0
-            })}
-          />
-          <Image
-            src={`/character-icon/icon_m_${character.id}_00.webp`}
-            width={50}
-            height={50}
-            alt="character icon"
-            className={css({
-              position: 'absolute',
-              top: 0,
-              left: 0
-            })}
-          />
-          <Image
-            src={`/frame/chara_frame_10${getImageNameByRarity(character.rarity)}.webp`}
-            width={50}
-            height={50}
-            alt="character icon"
-            className={css({
-              position: 'absolute',
-              top: 0,
-              left: 0
-            })}
-          />
-          <Image
-            src={`/attribute/card_attribute_0${getImageNameByAttribute(character.type)}.webp`}
-            width={15}
-            height={15}
-            alt="character icon"
-            className="absolute bottom-0 left-0"
-          />
-          <Image
-            src={`/rarity/card_rarity_0${getImageNameByRarity(character.rarity)}.webp`}
-            width={20}
-            height={20}
-            alt="character icon"
-            className={css({
-              position: 'absolute',
-              top: 0,
-              left: 0
-            })}
-          />
-        </Box>
+        <MiniCharacterIcon character={character} />
         <VStack marginX={"2"}>
           <Spacer />
           <Typography>{`${character.epithet} ${character.name}`}</Typography>

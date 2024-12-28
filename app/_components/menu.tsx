@@ -16,9 +16,9 @@ const linkStyle = (isActive: boolean) => css({
   justifyContent: 'center',
   borderWidth: '2px',
   borderRadius: 'lg',
-  backgroundColor: isActive ? 'primary' : 'orange.80',
-  color: 'black.100',
-  borderColor: 'black.100',
+  backgroundColor: isActive ? 'primary' : "white",
+  color: isActive ? 'white' : "primary",
+  borderColor: 'primary',
 });
 
 export const Menu: FC = () => {

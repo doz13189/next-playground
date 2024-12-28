@@ -6,6 +6,7 @@ const headingStyle = cva({
     fontSize: { base: "4", sm: "4", md: "4", lg: "5" },
     fontWeight: "bold",
     color: "primary",
+    borderColor: "primary",
   },
 })
 

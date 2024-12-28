@@ -62,7 +62,7 @@ export default defineConfig({
           yellow: { 100: { value: "#FAC00F" } },
           orange: { 100: { value: "#F8784A" }, 80: { value: "#FFA07A" } },
           grey: { 100: { value: "#DBDBDB" }, 80: { value: "#F5F5F5" } },
-          white: { 100: { value: "#FFFFFF" } },
+          white: { 100: { value: "#F8F9FA" } },
           black: { 100: { value: "#262626" } },
         },
         sizes: baseSize,
