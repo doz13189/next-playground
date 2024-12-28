@@ -1,6 +1,12 @@
 "use client";
 
+import { MainLayout } from "@/app/_components/MainLayout";
 import type { MemorySchema } from "@/app/_data/memory/schema";
+import { Button } from "@/app/_parts/Button";
+import { Heading } from "@/app/_parts/Heading";
+import { Typography } from "@/app/_parts/Typography";
+import { css } from "@/styled-system/css";
+import { Box, Flex } from "@/styled-system/jsx";
 import Image from "next/image";
 import { type FC, useState } from "react";
 import type { z } from "zod";
@@ -23,87 +29,101 @@ const getMemoryContent = (
   }
 };
 
+const getMemoryLevelLabel = (
+  activeTabState: number,
+) => {
+  switch (activeTabState) {
+    case 0:
+      return "Lv.1";
+    case 1:
+      return "Lv.2";
+    case 2:
+      return "Lv.3";
+    case 3:
+      return "DX Lv.1";
+    default:
+      return "DX Lv.1";
+  }
+};
+
+const linkStyle = (isActive: boolean) => css({
+  width: "full",
+  fontSize: 'xs',
+  margin: '1',
+  paddingX: '1',
+  display: 'flex',
+  justifyContent: 'center',
+  borderWidth: '2px',
+  borderRadius: 'lg',
+  backgroundColor: isActive ? 'primary' : "secondary",
+  color: isActive ? 'secondary' : "primary",
+  borderColor: 'primary',
+});
+
 export const MemoryDetailContents: FC<{
   memory: z.infer<typeof MemorySchema>;
 }> = ({ memory }) => {
-  const initialActiveTabState = memory.rarity === "r" ? 2 : 3;
+  const initialActiveTabState = memory.rarity === "r" || memory.rarity === "n" ? 2 : 3;
   const [activeTabState, setActiveTabState] = useState<0 | 1 | 2 | 3>(
     initialActiveTabState,
   );
 
+
   return (
-    <div>
-      <ul className="my-3 flex flex-wrap text-xs font-medium text-center text-gray-500">
-        <li className="me-2">
-          <button
+    <Box>
+      <MainLayout>
+        <Heading>{`詳細（${getMemoryLevelLabel(activeTabState)}）`}</Heading>
+        <Flex justifyContent={"center"} marginY={"4"}>
+          <Button
             onClick={() => setActiveTabState(0)}
-            className={`
-						inline-block px-2 py-1 rounded-lg
-						${activeTabState === 0 ? "text-white bg-orange active" : "hover:text-gray-900 hover:bg-gray-100"}
-				`}
-            aria-current="page"
+            className={linkStyle(activeTabState === 0)}
           >
             Lv.1
-          </button>
-        </li>
-        <li className="me-2">
-          <button
+          </Button>
+          <Button
             onClick={() => setActiveTabState(1)}
-            className={`
-					inline-block px-2 py-1 rounded-lg
-					${activeTabState === 1 ? "text-white bg-orange active" : "hover:text-gray-900 hover:bg-gray-100"}
-				`}
+            className={linkStyle(activeTabState === 1)}
           >
             Lv.2
-          </button>
-        </li>
-        <li className="me-2">
-          <button
+          </Button>
+          <Button
             onClick={() => setActiveTabState(2)}
-            className={`
-					inline-block px-2 py-1 rounded-lg
-					${activeTabState === 2 ? "text-white bg-orange active" : "hover:text-gray-900 hover:bg-gray-100"}
-				`}
+            className={linkStyle(activeTabState === 2)}
           >
             Lv.3
-          </button>
-        </li>
-        {memory.rarity === "r" ? null : (
-          <li className="me-2">
-            <button
+          </Button>
+          {memory.rarity === "r" || memory.rarity === "n" ? null : (
+            <Button
               onClick={() => setActiveTabState(3)}
-              className={`
-					inline-block px-2 py-1 rounded-lg
-					${activeTabState === 3 ? "text-white bg-orange active" : "hover:text-gray-900 hover:bg-gray-100"}
-				`}
+              className={linkStyle(activeTabState === 3)}
             >
               DX Lv.1
-            </button>
-          </li>
-        )}
-      </ul>
+            </Button>
+          )}
+        </Flex>
 
-      <div className="py-2">
-        <p className="text-orange text-xs">効果</p>
 
-        <div
-          className="
-					mt-1
-					p-1
-					text-xs
-					bg-very-light-gray
-					rounded-lg
-				"
-        >
-          {getMemoryContent(activeTabState, memory)}
-        </div>
-      </div>
+        <Box marginBottom={"4"}>
+          <Box marginBottom={"1"}>
+            <Typography color={"primary"}>
+              効果
+            </Typography>
+          </Box>
 
-      <div className="py-2">
-        <div className="relative w-full h-64">
-          <p className="absolute top-0 left-0 text-orange text-xs">
-            フルイメージ
-          </p>
+          <Typography>
+            {getMemoryContent(activeTabState, memory)}
+          </Typography>
+
+        </Box>
+      </MainLayout>
+
+      <MainLayout>
+        <Heading>フルイメージ</Heading>
+        <Box className={css({
+          position: "relative",
+          width: "full",
+          height: "64",
+        })}>
           <Image
             src={`/memory-image/memory_l_${memory.id}.webp`}
             style={{ objectFit: "contain" }}
@@ -111,8 +131,8 @@ export const MemoryDetailContents: FC<{
             priority={false}
             alt="memory"
           />
-        </div>
-      </div>
-    </div>
+        </Box>
+      </MainLayout>
+    </Box>
   );
 };

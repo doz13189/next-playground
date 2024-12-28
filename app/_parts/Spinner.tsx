@@ -1,3 +1,4 @@
+import { css } from "@/styled-system/css";
 import { ark } from "@ark-ui/react";
 import type { SVGAttributes } from "react";
 
@@ -6,7 +7,13 @@ type Props = SVGAttributes<HTMLOrSVGElement>;
 export const Spinner = (props: Props) => {
   return (
     <ark.svg
-      className="w-5 h-5 text-light-gray animate-spin fill-yellow-600"
+      className={css({
+        width: '20px',
+        height: '20px',
+        color: 'lightgray',
+        animation: 'spin 1s linear infinite',
+        fill: 'yellow.600'
+      })}
       viewBox="0 0 100 101"
       fill="none"
       {...props}

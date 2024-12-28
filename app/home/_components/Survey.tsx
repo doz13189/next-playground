@@ -3,6 +3,9 @@
 import { SubmitButton } from "@/app/_parts/SubmitButton";
 import { Text } from "@/app/_parts/Text";
 import { Textarea } from "@/app/_parts/Textarea";
+import { Typography } from "@/app/_parts/Typography";
+import { css } from "@/styled-system/css";
+import { Box, Spacer } from "@/styled-system/jsx";
 import { ark } from "@ark-ui/react";
 import { useOptimistic } from "react";
 import { useFormState } from "react-dom";
@@ -33,26 +36,30 @@ export function Survey() {
 
   return (
     <>
-      <p className="my-1">{"当サイトの感想など適当にご記入ください。"}</p>
-      <p className="my-1 text-red">
-        {"アンケートは24時間に1回のみ回答できます。"}
-      </p>
-      <form action={formActionWithOptimistic}>
-        <ark.div className="my-2">
-          <Text label="名前" />
-        </ark.div>
-        <ark.div className="my-2">
-          <Textarea label="内容" />
-        </ark.div>
-        <ark.div className="my-2 flex justify-end">
-          <SubmitButton>{"送信"}</SubmitButton>
-        </ark.div>
-        {!!optimisticMessages.message && (
-          <ark.div className="my-2 flex justify-end">
-            <p className="my-1">{optimisticMessages.message}</p>
+      <Typography>当サイトの感想など適当にご記入ください。</Typography>
+      <Typography>アンケートは24時間に1回のみ回答できます。</Typography>
+
+      <Box marginBottom={"2"}>
+        <ark.form action={formActionWithOptimistic}>
+          <ark.div className={css({ marginY: "2" })}>
+            <Text label="名前" />
           </ark.div>
-        )}
-      </form>
+          <ark.div className={css({ marginY: "2" })}>
+            <Textarea label="内容" />
+          </ark.div>
+          <ark.div className={css({ marginY: "2", display: "flex" })}>
+            <Spacer />
+            <SubmitButton>{"送信"}</SubmitButton>
+
+            <Spacer />
+          </ark.div>
+          {!!optimisticMessages.message && (
+            <ark.div className={css({ textAlign: "center" })}>
+              <Typography>{optimisticMessages.message}</Typography>
+            </ark.div>
+          )}
+        </ark.form>
+      </Box>
     </>
   );
 }

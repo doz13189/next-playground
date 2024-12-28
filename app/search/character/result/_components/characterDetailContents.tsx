@@ -1,6 +1,12 @@
 "use client";
 
+import { MainLayout } from "@/app/_components/MainLayout";
 import type { CharacterSchema } from "@/app/_data/character/schema";
+import { Button } from "@/app/_parts/Button";
+import { Heading } from "@/app/_parts/Heading";
+import { Typography } from "@/app/_parts/Typography";
+import { css } from "@/styled-system/css";
+import { Box, Flex } from "@/styled-system/jsx";
 import { type FC, useState } from "react";
 import type { z } from "zod";
 
@@ -24,203 +30,181 @@ const getCharacterContent = (
   }
 };
 
+const getCharacterLevelLabel = (
+  activeTabState: number,
+) => {
+  switch (activeTabState) {
+    case 0:
+      return "Lv.1";
+    case 1:
+      return "Lv.2";
+    case 2:
+      return "Lv.3";
+    case 3:
+      return "DX Lv.1";
+    case 4:
+      return "DX Lv.2";
+    default:
+      return "DX Lv.2";
+  }
+};
+
+const linkStyle = (isActive: boolean) => css({
+  width: "full",
+  fontSize: 'xs',
+  margin: '1',
+  paddingX: '1',
+  display: 'flex',
+  justifyContent: 'center',
+  borderWidth: '2px',
+  borderRadius: 'lg',
+  backgroundColor: isActive ? 'primary' : "secondary",
+  color: isActive ? 'secondary' : "primary",
+  borderColor: 'primary',
+});
+
 export const CharacterDetailContents: FC<{
   character: z.infer<typeof CharacterSchema>;
 }> = ({ character }) => {
   const [activeTabState, setActiveTabState] = useState<0 | 1 | 2 | 3 | 4>(4);
 
   return (
-    <div>
-      <ul className="my-3 flex flex-wrap text-xs font-medium text-center text-gray-500">
-        <li className="me-2">
-          <button
-            type="button"
+    <Box>
+
+      <MainLayout>
+        <Heading>{`詳細（${getCharacterLevelLabel(activeTabState)}）`}</Heading>
+
+        <Flex justifyContent={"center"} marginY={"4"}>
+          <Button
             onClick={() => setActiveTabState(0)}
-            className={`
-						inline-block px-2 py-1 rounded-lg
-						${activeTabState === 0 ? "text-white bg-orange active" : "hover:text-gray-900 hover:bg-gray-100"}
-				`}
-            aria-current="page"
+            className={linkStyle(activeTabState === 0)}
           >
             Lv.1
-          </button>
-        </li>
-        <li className="me-2">
-          <button
-            type="button"
+          </Button>
+          <Button
             onClick={() => setActiveTabState(1)}
-            className={`
-					inline-block px-2 py-1 rounded-lg
-					${activeTabState === 1 ? "text-white bg-orange active" : "hover:text-gray-900 hover:bg-gray-100"}
-				`}
+            className={linkStyle(activeTabState === 1)}
           >
             Lv.2
-          </button>
-        </li>
-        <li className="me-2">
-          <button
-            type="button"
+          </Button>
+          <Button
             onClick={() => setActiveTabState(2)}
-            className={`
-					inline-block px-2 py-1 rounded-lg
-					${activeTabState === 2 ? "text-white bg-orange active" : "hover:text-gray-900 hover:bg-gray-100"}
-				`}
+            className={linkStyle(activeTabState === 2)}
           >
             Lv.3
-          </button>
-        </li>
-        <li className="me-2">
-          <button
-            type="button"
+          </Button>
+          <Button
             onClick={() => setActiveTabState(3)}
-            className={`
-					inline-block px-2 py-1 rounded-lg
-					${activeTabState === 3 ? "text-white bg-orange active" : "hover:text-gray-900 hover:bg-gray-100"}
-				`}
+            className={linkStyle(activeTabState === 3)}
           >
             DX Lv.1
-          </button>
-        </li>
-        <li className="me-2">
-          <button
-            type="button"
+          </Button>
+          <Button
             onClick={() => setActiveTabState(4)}
-            className={`
-					inline-block px-2 py-1 rounded-lg
-					${activeTabState === 4 ? "text-white bg-orange active" : "hover:text-gray-900 hover:bg-gray-100"}
-				`}
+            className={linkStyle(activeTabState === 4)}
           >
             DX Lv.2
-          </button>
-        </li>
-      </ul>
+          </Button>
+        </Flex>
 
-      <div className="py-2">
-        <p className="text-orange text-xs">
-          {`プルスウルトラ技（${getCharacterContent(activeTabState, character).plusUltra.name}）`}
-        </p>
-        <div
-          className="
-					mt-1
-					p-1
-					text-xs
-					bg-very-light-gray
-					rounded-lg
-				"
-          // biome-ignore lint/security/noDangerouslySetInnerHtml:
-          dangerouslySetInnerHTML={{
-            __html: getCharacterContent(activeTabState, character).plusUltra
-              .description,
-          }}
-        />
-      </div>
+        <Box marginBottom={"4"}>
+          <Box marginBottom={"1"}>
+            <Typography color={"primary"}>
+              {`プルスウルトラ技（${getCharacterContent(activeTabState, character).plusUltra.name}）`}
+            </Typography>
+          </Box>
 
-      <div className="py-2">
-        <p className="text-orange text-xs">
-          {`アクションスキル（${getCharacterContent(activeTabState, character).actionSkill1.name}）`}
-        </p>
-        <div className="py-1">
-          <p className="text-xs">{`クールタイム ${getCharacterContent(activeTabState, character).actionSkill1.coolTime} ターン`}</p>
-        </div>
-        <div
-          className="
-					mt-1
-					p-1
-					text-xs
-					bg-very-light-gray
-					rounded-lg
-				"
-          // biome-ignore lint/security/noDangerouslySetInnerHtml:
-          dangerouslySetInnerHTML={{
-            __html: getCharacterContent(activeTabState, character).actionSkill1
-              .description,
-          }}
-        />
-      </div>
+          <Typography
+            // biome-ignore lint/security/noDangerouslySetInnerHtml:
+            dangerouslySetInnerHTML={{
+              __html: getCharacterContent(activeTabState, character).plusUltra
+                .description,
+            }}
+          />
+        </Box>
 
-      <div className="py-2">
-        <p className="text-orange text-xs">
-          {`アクションスキル（${getCharacterContent(activeTabState, character).actionSkill2.name}）`}
-        </p>
-        <div className="py-1">
-          <p className="text-xs">{`クールタイム ${getCharacterContent(activeTabState, character).actionSkill2.coolTime} ターン`}</p>
-        </div>
-        <div
-          className="
-					mt-1
-					p-1
-					text-xs
-					bg-very-light-gray
-					rounded-lg
-				"
-          // biome-ignore lint/security/noDangerouslySetInnerHtml:
-          dangerouslySetInnerHTML={{
-            __html: getCharacterContent(activeTabState, character).actionSkill2
-              .description,
-          }}
-        />
-      </div>
+        <Box marginBottom={"4"}>
+          <Box marginBottom={"1"}>
+            <Typography color={"primary"}>
+              {`アクションスキル（${getCharacterContent(activeTabState, character).actionSkill1.name}）`}
+            </Typography>
+          </Box>
 
-      <div className="py-2">
-        <p className="text-orange text-xs">
-          {`オートスキル（${getCharacterContent(activeTabState, character).autoSkill1.name}）`}
-        </p>
-        <div
-          className="
-					mt-1
-					p-1
-					text-xs
-					bg-very-light-gray
-					rounded-lg
-				"
-          // biome-ignore lint/security/noDangerouslySetInnerHtml:
-          dangerouslySetInnerHTML={{
-            __html: getCharacterContent(activeTabState, character).autoSkill1
-              .description,
-          }}
-        />
-      </div>
+          <Typography>
+            {`クールタイム ${getCharacterContent(activeTabState, character).actionSkill1.coolTime} ターン`}
+          </Typography>
 
-      <div className="py-2">
-        <p className="text-orange text-xs">
-          {`オートスキル（${getCharacterContent(activeTabState, character).autoSkill2.name}）`}
-        </p>
-        <div
-          className="
-					mt-1
-					p-1
-					text-xs
-					bg-very-light-gray
-					rounded-lg
-				"
-          // biome-ignore lint/security/noDangerouslySetInnerHtml:
-          dangerouslySetInnerHTML={{
-            __html: getCharacterContent(activeTabState, character).autoSkill2
-              .description,
-          }}
-        />
-      </div>
+          <Typography
+            // biome-ignore lint/security/noDangerouslySetInnerHtml:
+            dangerouslySetInnerHTML={{
+              __html: getCharacterContent(activeTabState, character).actionSkill1
+                .description,
+            }}
+          />
+        </Box>
 
-      <div className="py-2">
-        <p className="text-orange text-xs">専用EXオートスキル</p>
-        <div
-          className="
-					mt-1
-					p-1
-					text-xs
-					bg-very-light-gray
-					rounded-lg
-				"
-        >
-          {character.uniqueSkills.map((skill, index) => {
-            return (
-              <p className="m-1" key={skill}>
-                ・{skill}
-              </p>
-            );
-          })}
-        </div>
-      </div>
-    </div>
+        <Box marginBottom={"4"}>
+          <Box marginBottom={"1"}>
+            <Typography color={"primary"}>
+              {`アクションスキル（${getCharacterContent(activeTabState, character).actionSkill2.name}）`}
+            </Typography>
+          </Box>
+
+          <Typography >
+            {`クールタイム ${getCharacterContent(activeTabState, character).actionSkill2.coolTime} ターン`}
+          </Typography>
+
+          <Typography
+            // biome-ignore lint/security/noDangerouslySetInnerHtml:
+            dangerouslySetInnerHTML={{
+              __html: getCharacterContent(activeTabState, character).actionSkill2
+                .description,
+            }}
+          />
+        </Box>
+
+        <Box marginBottom={"4"}>
+          <Box marginBottom={"1"}>
+            <Typography color={"primary"}>
+              {`オートスキル（${getCharacterContent(activeTabState, character).autoSkill1.name}）`}
+            </Typography>
+          </Box>
+
+          <Typography
+            // biome-ignore lint/security/noDangerouslySetInnerHtml:
+            dangerouslySetInnerHTML={{
+              __html: getCharacterContent(activeTabState, character).autoSkill1
+                .description,
+            }}
+          />
+        </Box>
+
+        <Box marginBottom={"4"}>
+          <Box marginBottom={"1"}>
+            <Typography color={"primary"}>
+              {`オートスキル（${getCharacterContent(activeTabState, character).autoSkill2.name}）`}
+            </Typography>
+          </Box>
+          <Typography
+            // biome-ignore lint/security/noDangerouslySetInnerHtml:
+            dangerouslySetInnerHTML={{
+              __html: getCharacterContent(activeTabState, character).autoSkill2
+                .description
+            }}
+          />
+        </Box>
+      </MainLayout>
+
+      <MainLayout>
+        <Heading>EXオートスキル</Heading>
+        {character.uniqueSkills.map((skill, index) => {
+          return (
+            <Box key={skill} marginY={"2"}>
+              <Typography>{`(${index + 1}) ${skill}`}</Typography>
+            </Box>
+          );
+        })}
+      </MainLayout>
+    </Box >
   );
 };

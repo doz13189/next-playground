@@ -1,3 +1,4 @@
+import { css } from "@/styled-system/css";
 import { Select as ArkSelect, ark } from "@ark-ui/react";
 import type { Dispatch, SetStateAction } from "react";
 
@@ -39,10 +40,33 @@ export const Select = ({
     >
       <ArkSelect.Label>{label}</ArkSelect.Label>
       <ArkSelect.Control>
-        <ArkSelect.Trigger className="appearance-none inline-flex items-center justify-between w-full px-3 py-2 bg-white border-2 border-grey rounded-lg cursor-pointer transition-all duration-200 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+        <ArkSelect.Trigger className={css({
+          appearance: 'none',
+          display: 'inline-flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          width: '100%',
+          px: '3',
+          py: '2',
+          bg: 'white',
+          borderWidth: "1px",
+          borderColor: "tertiary",
+          borderRadius: 'lg',
+          cursor: 'pointer',
+          transition: 'all',
+          transitionDuration: '200ms',
+          '&:hover': {
+            bg: 'gray.50'
+          },
+          '&:focus': {
+            outline: 'none',
+            ring: '2',
+            ringColor: 'blue.500',
+            borderColor: 'blue.500'
+          }
+        })}>
           <ArkSelect.ValueText
             placeholder={placeholdertext}
-            className="text-gray"
           />
           <ArkSelect.Indicator>
             <ark.svg
@@ -63,18 +87,43 @@ export const Select = ({
         </ArkSelect.Trigger>
       </ArkSelect.Control>
       <ArkSelect.Positioner>
-        <ArkSelect.Content className="bg-white border-2 border-gray rounded-lg shadow-lg z-50 animate-fadeIn">
+        <ArkSelect.Content className={css({
+          bg: 'white',
+          borderWidth: '1px',
+          borderColor: "tertiary",
+          borderRadius: 'lg',
+          boxShadow: 'lg',
+          zIndex: '50',
+          animation: 'fadeIn'
+        })}>
           <ArkSelect.ItemGroup>
             {items.map((item) => (
               <ArkSelect.Item
                 key={item.value}
                 item={item}
-                className="flex items-center justify-between px-2 py-2 text-sm cursor-pointer transition-colors duration-150 hover:bg-gray-100 rounded-md"
+                className={css({
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  px: '2',
+                  py: '2',
+                  fontSize: 'sm',
+                  cursor: 'pointer',
+                  transition: 'colors',
+                  transitionDuration: '150ms',
+                  borderRadius: 'md',
+                  '&:hover': {
+                    bg: 'gray.100'
+                  }
+                })}
               >
                 <ArkSelect.ItemText>{item.label}</ArkSelect.ItemText>
                 <ArkSelect.ItemIndicator>
                   <ark.svg
-                    className={"w-4 h-4"}
+                    className={css({
+                      width: '4',
+                      height: '4'
+                    })}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="none"

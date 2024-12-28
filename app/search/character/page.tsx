@@ -1,9 +1,11 @@
 "use client";
 
+import { MainLayout } from "@/app/_components/MainLayout";
 import { CharacterSkills, Name, Rarity, Tags, Type } from "@/app/_data/_common/schema";
 import { useDebounce } from "@/app/_hooks/useDebounce";
 import { Link } from "@/app/_parts/Link";
 import { Select } from "@/app/_parts/Select";
+import { Box, HStack, Spacer } from "@/styled-system/jsx";
 import { useMemo, useState } from "react";
 import { ResetButton } from "../_components/reset-button";
 import { createQuery } from "../_lib/create-query";
@@ -37,9 +39,9 @@ export default function Page(args: {
   const [query, debounceState] = useDebounce(memorizedQuery, 500);
 
   return (
-    <div className="py-1 px-3">
-      <div className="mb-3">
-        <div>
+    <MainLayout>
+      <Box marginBottom={"2"}>
+        <Box marginBottom={"2"}>
           <Select
             items={Rarity.options.map((rarity) => ({
               label: rarity.toUpperCase(),
@@ -54,9 +56,9 @@ export default function Page(args: {
             }}
             isMultiple={false}
           />
-        </div>
+        </Box>
 
-        <div className="my-2">
+        <Box marginBottom={"2"}>
           <Select
             items={Type.options.map((type) => ({
               label: getTypeLabel(type),
@@ -71,9 +73,9 @@ export default function Page(args: {
             }}
             isMultiple={false}
           />
-        </div>
+        </Box>
 
-        <div className="my-2">
+        <Box marginBottom={"2"}>
           <Select
             items={Name.options.map((name) => ({ label: name, value: name }))}
             label="キャラクター名"
@@ -85,9 +87,9 @@ export default function Page(args: {
             }}
             isMultiple={false}
           />
-        </div>
+        </Box>
 
-        <div className="my-2">
+        <Box marginBottom={"2"}>
           <Select
             items={Tags.options.map((tag) => ({ label: tag, value: tag }))}
             label="所属"
@@ -99,9 +101,9 @@ export default function Page(args: {
             }}
             isMultiple={false}
           />
-        </div>
+        </Box>
 
-        <div className="my-2">
+        <Box marginBottom={"2"}>
           <Select
             items={CharacterSkills.options
               .map((skill) => ({ label: skill, value: skill }))
@@ -112,17 +114,11 @@ export default function Page(args: {
             setValue={setSkills}
             isMultiple={true}
           />
-        </div>
+        </Box>
 
-        <label
-          htmlFor="search"
-          className="text-sm font-medium text-gray-900 sr-only text-white"
-        >
-          Search
-        </label>
-
-        <div className="flex justify-end">
-          <div className="flex-initial">
+        <HStack>
+          <Spacer />
+          <Box>
             <ResetButton
               setRarity={setRarity}
               setType={setType}
@@ -130,18 +126,18 @@ export default function Page(args: {
               setSkills={setSkills}
               setTags={setTags}
             />
-          </div>
-          <div className="flex-initial">
+          </Box>
+          <Box>
             <Link
               href={`/search/character/result?${query}`}
               disabled={(skills.length === 0 && !rarity && !type && !name && !tags) || debounceState !== "ready"}
               // NOTE: クエリーが空の状態で遷移は発生しないため prefetch を抑止する
-              prefetch={query !== ""}
+              prefetch={(query !== "")}
               loading={debounceState === "idle" || debounceState === "debouncing"}
             >{"検索"}</Link>
-          </div>
-        </div>
-      </div>
-    </div>
+          </Box>
+        </HStack>
+      </Box>
+    </MainLayout>
   );
 }

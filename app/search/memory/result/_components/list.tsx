@@ -1,6 +1,8 @@
 import { queryMemories } from "@/app/_lib/query/memories";
+import { Typography } from "@/app/_parts/Typography";
 import { NoData } from "@/app/search/_components/no-data";
 import { AllPage, BackPage, NextPage } from "@/app/search/_components/paging";
+import { Box, Flex } from "@/styled-system/jsx";
 import { MemoryDefaultInfo } from "./memoryDefaultInfo";
 
 export async function Memories({
@@ -44,58 +46,52 @@ export async function Memories({
 
   return (
     <>
-      <div className="flex my-3">
-        <div className="mr-2">
-          <p className="text-xs">{`検索結果: ${result.total} 件`}</p>
-        </div>
-        <div className="mr-2">
-          <p className="text-xs">
+      <Flex gap={"2"} marginY={"2"}>
+        <Box>
+          <Typography>
+            {`検索結果: ${result.total} 件`}
+          </Typography>
+        </Box>
+        <Box>
+          <Typography>
             {`表示件数: ${result.offset + 1}-${result.offset + result.limit >= result.total ? result.total : result.offset + result.limit} 件`}
-          </p>
-        </div>
-      </div>
+          </Typography>
+        </Box>
+      </Flex>
 
       {memories.map((memory) => (
-        <div key={memory.id} className="p-2 mb-1 bg-very-light-gray rounded-md">
-          <MemoryDefaultInfo key={memory.id} memory={memory} />
-        </div>
+        <MemoryDefaultInfo key={memory.id} memory={memory} />
       ))}
 
-      <div className="flex my-3">
-        <div className="flex-1">
-          <BackPage
-            pathname="memory"
-            total={result.total}
-            rarity={argRarity}
-            skills={argSkills?.split(",")}
-            name={argName}
-            offset={argOffset}
-            limit={argLimit}
-          />
-        </div>
-        <div className="flex-1">
-          <NextPage
-            pathname="memory"
-            total={result.total}
-            rarity={argRarity}
-            skills={argSkills?.split(",")}
-            name={argName}
-            offset={argOffset}
-            limit={argLimit}
-          />
-        </div>
-        <div className="flex-1">
-          <AllPage
-            pathname="memory"
-            total={result.total}
-            rarity={argRarity}
-            skills={argSkills?.split(",")}
-            name={argName}
-            offset={argOffset}
-            limit={argLimit}
-          />
-        </div>
-      </div>
+      <Flex width={"full"} justifyContent={"center"} gap={"1"}>
+        <BackPage
+          pathname="memory"
+          total={result.total}
+          rarity={argRarity}
+          skills={argSkills?.split(",")}
+          name={argName}
+          offset={argOffset}
+          limit={argLimit}
+        />
+        <NextPage
+          pathname="memory"
+          total={result.total}
+          rarity={argRarity}
+          skills={argSkills?.split(",")}
+          name={argName}
+          offset={argOffset}
+          limit={argLimit}
+        />
+        <AllPage
+          pathname="memory"
+          total={result.total}
+          rarity={argRarity}
+          skills={argSkills?.split(",")}
+          name={argName}
+          offset={argOffset}
+          limit={argLimit}
+        />
+      </Flex>
     </>
   );
 }

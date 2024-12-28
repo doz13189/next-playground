@@ -1,6 +1,7 @@
 import { memories } from "@/app/_data/memory/object";
 import { queryMemory } from "@/app/_lib/query/memory";
-import { Loading } from "@/app/_parts/Loading";
+import { NavigationLoading } from "@/app/_parts/NavigationLoading";
+import { Box } from "@/styled-system/jsx";
 import { Suspense } from "react";
 import { MemoryDefaultInfo } from "../_components/memoryDefaultInfo";
 import { MemoryDetailContents } from "../_components/memoryDetailContents";
@@ -17,16 +18,16 @@ async function MemoryContent({ id }: { id: string }) {
   const memory = await queryMemory(id);
 
   return (
-    <div className="min-h-screen container mx-auto py-1 px-3">
+    <Box>
       <MemoryDefaultInfo memory={memory} />
       <MemoryDetailContents memory={memory} />
-    </div>
+    </Box>
   );
 }
 
 export default function Page({ params }: { params: { id: string } }) {
   return (
-    <Suspense fallback={<Loading />}>
+    <Suspense fallback={<NavigationLoading />}>
       <MemoryContent id={params.id} />
     </Suspense>
   );
