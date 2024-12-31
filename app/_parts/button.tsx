@@ -2,7 +2,7 @@ import { css, cva } from "@/styled-system/css";
 import { styled } from "@/styled-system/jsx";
 import { ark } from "@ark-ui/react";
 import { type ButtonHTMLAttributes, type ComponentProps, forwardRef } from 'react'
-import { Spinner } from './spinner'
+import { Spinner } from "./spinner"
 
 const buttonStyle = cva({
   base: {
