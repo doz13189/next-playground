@@ -1,4 +1,4 @@
-## （管理者用） JWT トークン生成
+### （管理者用） JWT トークン生成
 
 1) 秘密鍵生成
 2) 環境変数(`JWT_SECRET_KEY `)を設定
@@ -13,7 +13,7 @@ node script/jwt-generate-secret-key.js
 node script/jwt-sign.js
 ```
 
-## （ユーザー用） API 使用方法
+### （ユーザー用） API 使用方法
 
 1) 管理者に連絡をして JWT トークンを受け取る
 2) JWT トークンをヘッダーに設定してリクエストする
