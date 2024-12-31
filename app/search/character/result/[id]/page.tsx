@@ -1,6 +1,6 @@
 import { characters } from "@/app/_data/character/object";
 import { queryCharacter } from "@/app/_lib/query/character";
-import { NavigationLoading } from "@/app/_parts/NavigationLoading";
+import { NavigationLoading } from "@/app/_parts/navigation-loading";
 import { Box } from "@/styled-system/jsx";
 import { Suspense } from "react";
 import { CharacterDefaultInfo } from "../_components/characterDefaultInfo";

@@ -1,5 +1,5 @@
 import { queryCharacters } from "@/app/_lib/query/characters";
-import { Typography } from "@/app/_parts/Typography";
+import { Typography } from "@/app/_parts/typography";
 import { NoData } from "@/app/search/_components/no-data";
 import { Box, Flex } from "@/styled-system/jsx";
 import { AllPage, BackPage, NextPage } from "../../../_components/paging";

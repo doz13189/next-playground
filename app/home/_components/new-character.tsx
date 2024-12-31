@@ -1,6 +1,6 @@
-import { MiniCharacterIcon } from "@/app/_components/MiniCharacterIcon";
+import { MiniCharacterIcon } from "@/app/_components/mini-characterIcon";
 import { queryCharacter } from "@/app/_lib/query/character";
-import { Typography } from "@/app/_parts/Typography";
+import { Typography } from "@/app/_parts/typography";
 import { Flex, Spacer, VStack } from "@/styled-system/jsx";
 import Link from "next/link";
 

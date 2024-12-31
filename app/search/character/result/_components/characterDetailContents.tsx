@@ -1,10 +1,10 @@
 "use client";
 
-import { MainLayout } from "@/app/_components/MainLayout";
+import { MainLayout } from "@/app/_components/main-layout";
 import type { CharacterSchema } from "@/app/_data/character/schema";
-import { Button } from "@/app/_parts/Button";
-import { Heading } from "@/app/_parts/Heading";
-import { Typography } from "@/app/_parts/Typography";
+import { Button } from "@/app/_parts/button";
+import { Heading } from "@/app/_parts/heading";
+import { Typography } from "@/app/_parts/typography";
 import { css } from "@/styled-system/css";
 import { Box, Flex } from "@/styled-system/jsx";
 import { type FC, useState } from "react";

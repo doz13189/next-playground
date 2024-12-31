@@ -1,15 +1,15 @@
 "use client";
 
-import { SubmitButton } from "@/app/_parts/SubmitButton";
-import { Text } from "@/app/_parts/Text";
-import { Textarea } from "@/app/_parts/Textarea";
-import { Typography } from "@/app/_parts/Typography";
+import { SubmitButton } from "@/app/_parts/submit-button";
+import { Text } from "@/app/_parts/text";
+import { Textarea } from "@/app/_parts/textarea";
+import { Typography } from "@/app/_parts/typography";
 import { css } from "@/styled-system/css";
 import { Box, Spacer } from "@/styled-system/jsx";
 import { ark } from "@ark-ui/react";
 import { useOptimistic } from "react";
 import { useFormState } from "react-dom";
-import { submitSurvey } from "../_lib/mutate/submitSurvey";
+import { submitSurvey } from "../_lib/mutate/submit-survey";
 
 const initialState: {
   message: string | null;

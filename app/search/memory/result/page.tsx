@@ -1,11 +1,11 @@
-import { Link } from "@/app/_parts/Link";
+import { Link } from "@/app/_parts/link";
+import { NavigationLoading } from "@/app/_parts/navigation-loading";
 import { css } from "@/styled-system/css";
 import { Box, Flex } from "@/styled-system/jsx";
 import { Suspense } from "react";
 import { SearchFilters } from "../../_components/search-filters";
 import { createQuery } from "../../_lib/create-query";
 import { Memories } from "./_components/list";
-import { NavigationLoading } from "@/app/_parts/NavigationLoading";
 
 export default function Page(args: {
   searchParams: {

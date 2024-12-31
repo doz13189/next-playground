@@ -1,10 +1,10 @@
 import { memories } from "@/app/_data/memory/object";
 import { queryMemory } from "@/app/_lib/query/memory";
-import { NavigationLoading } from "@/app/_parts/NavigationLoading";
+import { NavigationLoading } from "@/app/_parts/navigation-loading";
 import { Box } from "@/styled-system/jsx";
 import { Suspense } from "react";
-import { MemoryDefaultInfo } from "../_components/memoryDefaultInfo";
-import { MemoryDetailContents } from "../_components/memoryDetailContents";
+import { MemoryDefaultInfo } from "../_components/memory-default-info";
+import { MemoryDetailContents } from "../_components/memory-detail-contents";
 
 export async function generateStaticParams() {
   return memories.memories.map((memory) => ({

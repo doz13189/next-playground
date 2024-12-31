@@ -1,9 +1,9 @@
 import { queryMemories } from "@/app/_lib/query/memories";
-import { Typography } from "@/app/_parts/Typography";
+import { Typography } from "@/app/_parts/typography";
 import { NoData } from "@/app/search/_components/no-data";
 import { AllPage, BackPage, NextPage } from "@/app/search/_components/paging";
 import { Box, Flex } from "@/styled-system/jsx";
-import { MemoryDefaultInfo } from "./memoryDefaultInfo";
+import { MemoryDefaultInfo } from "./memory-default-info";
 
 export async function Memories({
   args,
