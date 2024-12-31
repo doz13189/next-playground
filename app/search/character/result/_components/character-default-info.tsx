@@ -3,7 +3,7 @@
 import { MainLayout } from "@/app/_components/main-layout";
 import { MiniCharacterIcon } from "@/app/_components/mini-character-icon";
 import type { CharacterSchema } from "@/app/_data/character/schema";
-import { Typography } from "@/app/_parts/Typography";
+import { Typography } from "@/app/_parts/typography";
 import { Skills } from "@/app/search/_components/skills";
 import { Box, Flex, Spacer, VStack } from "@/styled-system/jsx";
 import Link from "next/link";

@@ -1,6 +1,6 @@
 import type { CharacterSchema } from "@/app/_data/character/schema";
 import type { MemorySchema } from "@/app/_data/memory/schema";
-import { Typography } from "@/app/_parts/Typography";
+import { Typography } from "@/app/_parts/typography";
 import { css } from "@/styled-system/css";
 import type { FC } from "react";
 import type { z } from "zod";

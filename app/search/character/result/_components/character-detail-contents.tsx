@@ -2,8 +2,8 @@
 
 import { MainLayout } from "@/app/_components/main-layout";
 import type { CharacterSchema } from "@/app/_data/character/schema";
-import { Heading } from "@/app/_parts/Heading";
-import { Typography } from "@/app/_parts/Typography";
+import { Heading } from "@/app/_parts/heading";
+import { Typography } from "@/app/_parts/typography";
 import { Button } from "@/app/_parts/button";
 import { css } from "@/styled-system/css";
 import { Box, Flex } from "@/styled-system/jsx";

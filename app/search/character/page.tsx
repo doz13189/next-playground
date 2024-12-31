@@ -3,8 +3,8 @@
 import { MainLayout } from "@/app/_components/main-layout";
 import { CharacterSkills, Name, Rarity, Tags, Type } from "@/app/_data/_common/schema";
 import { useDebounce } from "@/app/_hooks/use-debounce";
-import { Select } from "@/app/_parts/Select";
 import { Link } from "@/app/_parts/link";
+import { Select } from "@/app/_parts/select";
 import { Box, HStack, Spacer } from "@/styled-system/jsx";
 import { useMemo, useState } from "react";
 import { ResetButton } from "../_components/reset-button";

@@ -3,7 +3,7 @@
 import { SubmitButton } from "@/app/_parts/submit-button";
 import { Text } from "@/app/_parts/text";
 import { Textarea } from "@/app/_parts/textarea";
-import { Typography } from "@/app/_parts/Typography";
+import { Typography } from "@/app/_parts/typography";
 import { css } from "@/styled-system/css";
 import { Box, Spacer } from "@/styled-system/jsx";
 import { ark } from "@ark-ui/react";

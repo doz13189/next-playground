@@ -1,6 +1,6 @@
 import { MiniMemoryIcon } from "@/app/_components/mini-memory-icon";
 import { queryMemory } from "@/app/_lib/query/memory";
-import { Typography } from "@/app/_parts/Typography";
+import { Typography } from "@/app/_parts/typography";
 import { getImageNameByRarity } from "@/app/search/_lib/utils";
 import { css } from "@/styled-system/css";
 import { Box, Flex, Spacer, VStack } from "@/styled-system/jsx";

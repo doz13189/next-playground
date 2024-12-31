@@ -1,7 +1,7 @@
 import { css } from "@/styled-system/css";
 import { Field } from "@ark-ui/react/field";
 import type { InputHTMLAttributes } from "react";
-import { Typography } from "./Typography";
+import { Typography } from "./typography";
 
 type Props = InputHTMLAttributes<HTMLTextAreaElement> & {
   label: string;
