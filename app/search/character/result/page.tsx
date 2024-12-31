@@ -1,5 +1,5 @@
-import { Link } from "@/app/_parts/Link";
-import { NavigationLoading } from "@/app/_parts/NavigationLoading";
+import { Link } from "@/app/_parts/link";
+import { NavigationLoading } from "@/app/_parts/navigation-loading";
 import { css } from "@/styled-system/css";
 import { Box, Flex, Spacer } from "@/styled-system/jsx";
 import { Suspense } from "react";

@@ -1,4 +1,4 @@
-import { MiniMemoryIcon } from "@/app/_components/MiniMemoryIcon";
+import { MiniMemoryIcon } from "@/app/_components/mini-memory-icon";
 import { queryMemory } from "@/app/_lib/query/memory";
 import { Typography } from "@/app/_parts/Typography";
 import { getImageNameByRarity } from "@/app/search/_lib/utils";

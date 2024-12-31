@@ -3,7 +3,7 @@ import { Typography } from "@/app/_parts/Typography";
 import { NoData } from "@/app/search/_components/no-data";
 import { AllPage, BackPage, NextPage } from "@/app/search/_components/paging";
 import { Box, Flex } from "@/styled-system/jsx";
-import { MemoryDefaultInfo } from "./memoryDefaultInfo";
+import { MemoryDefaultInfo } from "./memory-default-info";
 
 export async function Memories({
   args,

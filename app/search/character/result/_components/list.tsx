@@ -3,7 +3,7 @@ import { Typography } from "@/app/_parts/Typography";
 import { NoData } from "@/app/search/_components/no-data";
 import { Box, Flex } from "@/styled-system/jsx";
 import { AllPage, BackPage, NextPage } from "../../../_components/paging";
-import { CharacterDefaultInfo } from "./characterDefaultInfo";
+import { CharacterDefaultInfo } from "./character-default-info";
 
 export async function Characters({
   args,

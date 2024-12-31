@@ -1,10 +1,10 @@
 import { characters } from "@/app/_data/character/object";
 import { queryCharacter } from "@/app/_lib/query/character";
-import { NavigationLoading } from "@/app/_parts/NavigationLoading";
+import { NavigationLoading } from "@/app/_parts/navigation-loading";
 import { Box } from "@/styled-system/jsx";
 import { Suspense } from "react";
-import { CharacterDefaultInfo } from "../_components/characterDefaultInfo";
-import { CharacterDetailContents } from "../_components/characterDetailContents";
+import { CharacterDefaultInfo } from "../_components/character-default-info";
+import { CharacterDetailContents } from "../_components/character-detail-contents";
 
 export async function generateStaticParams() {
   return characters.characters.map((character) => ({

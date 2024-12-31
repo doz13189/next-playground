@@ -1,7 +1,7 @@
 
 import { type ButtonHTMLAttributes, forwardRef, useState } from "react";
 import { useFormStatus } from "react-dom";
-import { Button } from "./Button";
+import { Button } from "./button";
 
 type Props = ButtonHTMLAttributes<HTMLButtonElement> & {
   enabledColor?: string;
