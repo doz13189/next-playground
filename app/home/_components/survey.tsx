@@ -1,6 +1,5 @@
 "use client";
 
-import { SubmitButton } from "@/app/_parts/submit-button";
 import { Text } from "@/app/_parts/text";
 import { Textarea } from "@/app/_parts/textarea";
 import { Typography } from "@/app/_parts/typography";
@@ -10,6 +9,8 @@ import { ark } from "@ark-ui/react";
 import { useOptimistic } from "react";
 import { useFormState } from "react-dom";
 import { submitSurvey } from "../_lib/mutate/submit-survey";
+import { Link } from "@/app/_parts/link";
+import { Button } from "@/app/_parts/button";
 
 const initialState: {
   message: string | null;
@@ -49,7 +50,7 @@ export function Survey() {
           </ark.div>
           <ark.div className={css({ marginY: "2", display: "flex" })}>
             <Spacer />
-            <SubmitButton>{"送信"}</SubmitButton>
+            <Button width={"80%"} height={"8"}>{"送信"}</Button>
 
             <Spacer />
           </ark.div>
