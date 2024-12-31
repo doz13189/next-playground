@@ -2,19 +2,23 @@
 
 import type { ark } from "@ark-ui/react";
 import { default as NextLink } from "next/link";
-import { type ComponentProps, type FC, useRef, useState } from "react";
+import { type ButtonHTMLAttributes, type ComponentProps, type FC, useRef, useState } from "react";
 import { Button } from "./button";
 
 type NextLinkProps = ComponentProps<typeof NextLink>;
 type ArkButtonProps = Omit<ComponentProps<typeof ark.button>, "asChild">;
 
 type Props = {
+  width?: string;
+  height?: string;
   loading?: boolean;
   children: React.ReactNode;
-} & NextLinkProps &
+} & ButtonHTMLAttributes<HTMLButtonElement> & NextLinkProps &
   ArkButtonProps;
 
 export const Link: FC<Props> = ({
+  width = "32",
+  height = "8",
   disabled,
   loading,
   children,
@@ -40,8 +44,8 @@ export const Link: FC<Props> = ({
 
   return (
     <Button
-      height={"8"}
-      width={"32"}
+      height={height}
+      width={width}
       disabled={trulyDisabled}
       loading={trulyLoading}
       onClick={handleClick}
