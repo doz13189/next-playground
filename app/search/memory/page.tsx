@@ -1,11 +1,11 @@
 "use client";
 
-import { MainLayout } from "@/app/_components/MainLayout";
+import { MainLayout } from "@/app/_components/main-layout";
 import { MemorySkills, Rarity } from "@/app/_data/_common/schema";
-import { useDebounce } from "@/app/_hooks/useDebounce";
-import { Input } from "@/app/_parts/Field";
-import { Link } from "@/app/_parts/Link";
-import { Select } from "@/app/_parts/Select";
+import { useDebounce } from "@/app/_hooks/use-debounce";
+import { Input } from "@/app/_parts/field";
+import { Select } from "@/app/_parts/select";
+import { Link } from "@/app/_parts/link";
 import { Box, HStack, Spacer } from "@/styled-system/jsx";
 import { useMemo, useState } from "react";
 import { ResetButton } from "../_components/reset-button";

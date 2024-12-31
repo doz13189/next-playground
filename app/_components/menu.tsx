@@ -5,7 +5,7 @@ import { Box } from "@/styled-system/jsx";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { type FC, useTransition } from "react";
-import { NavigationLoading } from "../_parts/NavigationLoading";
+import { NavigationLoading } from "../_parts/navigation-loading";
 
 const linkStyle = (isActive: boolean) => css({
   width: 'full',

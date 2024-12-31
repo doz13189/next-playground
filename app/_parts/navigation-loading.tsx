@@ -1,6 +1,6 @@
 import { css } from "@/styled-system/css";
 import { ark } from "@ark-ui/react";
-import { Spinner } from "./Spinner";
+import { Spinner } from "./spinner";
 
 export const NavigationLoading = () => {
   return (

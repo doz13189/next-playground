@@ -1,12 +1,12 @@
 import { Box } from "@/styled-system/jsx";
 import { Suspense } from "react";
-import { MainLayout } from "../_components/MainLayout";
-import { Heading } from "../_parts/Heading";
-import { Loading } from "../_parts/Loading";
-import { Typography } from "../_parts/Typography";
-import { Survey } from "./_components/Survey";
+import { MainLayout } from "../_components/main-layout";
+import { Heading } from "../_parts/heading";
+import { Loading } from "../_parts/loading";
+import { Typography } from "../_parts/typography";
 import { NewCharacter } from "./_components/new-character";
 import { NewMemory } from "./_components/new-memory";
+import { Survey } from "./_components/survey";
 
 export default function Page() {
   return (

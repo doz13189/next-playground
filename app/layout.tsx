@@ -2,7 +2,7 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import localFont from 'next/font/local'
 import "./globals.css";
-import { MainLayout } from "@/app/_components/MainLayout";
+import { MainLayout } from "@/app/_components/main-layout";
 import { Menu } from "@/app/_components/menu";
 import { css } from "@/styled-system/css";
 import { Container } from "@/styled-system/jsx";

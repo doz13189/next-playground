@@ -1,9 +1,9 @@
 "use client";
 
-import { MainLayout } from "@/app/_components/MainLayout";
-import { MiniMemoryIcon } from "@/app/_components/MiniMemoryIcon";
+import { MainLayout } from "@/app/_components/main-layout";
+import { MiniMemoryIcon } from "@/app/_components/mini-memory-icon";
 import type { MemorySchema } from "@/app/_data/memory/schema";
-import { Typography } from "@/app/_parts/Typography";
+import { Typography } from "@/app/_parts/typography";
 import { Skills } from "@/app/search/_components/skills";
 import { Box, Flex, Spacer, VStack } from "@/styled-system/jsx";
 import Link from "next/link";

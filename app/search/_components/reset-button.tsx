@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@/app/_parts/Button";
+import { Button } from "@/app/_parts/button";
 import type { FC, SetStateAction } from "react";
 
 export const ResetButton: FC<{

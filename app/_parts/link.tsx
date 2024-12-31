@@ -3,7 +3,7 @@
 import type { ark } from "@ark-ui/react";
 import { default as NextLink } from "next/link";
 import { type ComponentProps, type FC, useRef, useState } from "react";
-import { Button } from "./Button";
+import { Button } from "./button";
 
 type NextLinkProps = ComponentProps<typeof NextLink>;
 type ArkButtonProps = Omit<ComponentProps<typeof ark.button>, "asChild">;
