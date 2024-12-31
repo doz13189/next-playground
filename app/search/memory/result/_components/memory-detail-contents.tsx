@@ -2,7 +2,6 @@
 
 import { MainLayout } from "@/app/_components/main-layout";
 import type { MemorySchema } from "@/app/_data/memory/schema";
-import { Button } from "@/app/_parts/button";
 import { Heading } from "@/app/_parts/heading";
 import { Typography } from "@/app/_parts/typography";
 import { css } from "@/styled-system/css";
@@ -10,6 +9,7 @@ import { Box, Flex } from "@/styled-system/jsx";
 import Image from "next/image";
 import { type FC, useState } from "react";
 import type { z } from "zod";
+import { Button } from "../../../../_parts/button";
 
 const getMemoryContent = (
   activeTabState: number,

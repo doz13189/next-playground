@@ -1,9 +1,9 @@
 "use client";
 
-import { Button } from "@/app/_parts/button";
 import { createQuery } from "@/app/search/_lib/create-query";
 import { useRouter } from "next/navigation";
 import type { FC } from "react";
+import { Button } from "../../_parts/button";
 
 export const NextPage: FC<{
   pathname: string;
