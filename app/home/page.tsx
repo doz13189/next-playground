@@ -2,7 +2,7 @@ import { Box } from "@/styled-system/jsx";
 import { Suspense } from "react";
 import { MainLayout } from "../_components/main-layout";
 import { Heading } from "../_parts/heading";
-import { Loading } from "../_parts/loading";
+import { Skeleton } from "../_parts/skeleton";
 import { Typography } from "../_parts/typography";
 import { NewCharacter } from "./_components/new-character";
 import { NewMemory } from "./_components/new-memory";
@@ -18,20 +18,27 @@ export default function Page() {
         <Typography>以下のデータ追加に伴うアップデートを実施しました。</Typography>
         {["1113011", "1111011"].map((id) => (
           <Box key={id} marginY={"2"}>
-            <Suspense fallback={<Loading />}>
+            <Suspense fallback={
+              <Skeleton>
+                <Box height={"48px"} margin={"1"} paddingY={"2"} />
+              </Skeleton>}
+            >
               <NewCharacter key={id} id={id} />
             </Suspense>
           </Box>
         ))}
         {["2400163", "2300215", "2300216"].map((id) => (
           <Box key={id} marginY={"2"}>
-            <Suspense fallback={<Loading />}>
+            <Suspense fallback={
+              <Skeleton>
+                <Box height={"48px"} margin={"1"} paddingY={"2"} />
+              </Skeleton>
+            }>
               <NewMemory key={id} id={id} />
             </Suspense>
           </Box>
         ))}
       </MainLayout>
-
 
       <MainLayout>
         <Box marginBottom={"2"}>

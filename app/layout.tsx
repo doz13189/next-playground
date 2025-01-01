@@ -68,7 +68,7 @@ export default function RootLayout({
 
         <Container>
           <MainLayout backgroundColor={"black.100"}>
-            <footer className={css({ textAlign: "center", color: "white.100", paddingY: "5" })}>
+            <footer className={css({ textAlign: "center", color: "white.100", paddingY: "5", fontSize: "3" })}>
               <p>{"Copyright © 2024-2025 HS All Rights Reserved."}</p>
             </footer>
           </MainLayout>

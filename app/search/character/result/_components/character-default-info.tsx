@@ -1,5 +1,3 @@
-"use client";
-
 import { MainLayout } from "@/app/_components/main-layout";
 import { MiniCharacterIcon } from "@/app/_components/mini-character-icon";
 import type { CharacterSchema } from "@/app/_data/character/schema";

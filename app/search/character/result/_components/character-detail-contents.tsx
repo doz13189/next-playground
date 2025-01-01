@@ -2,9 +2,9 @@
 
 import { MainLayout } from "@/app/_components/main-layout";
 import type { CharacterSchema } from "@/app/_data/character/schema";
+import { Button } from "@/app/_parts/button";
 import { Heading } from "@/app/_parts/heading";
 import { Typography } from "@/app/_parts/typography";
-import { Button } from "@/app/_parts/button";
 import { css } from "@/styled-system/css";
 import { Box, Flex } from "@/styled-system/jsx";
 import { type FC, useState } from "react";
@@ -72,36 +72,35 @@ export const CharacterDetailContents: FC<{
     <Box>
 
       <MainLayout>
-        <Heading>{`詳細（${getCharacterLevelLabel(activeTabState)}）`}</Heading>
-
-        <Flex justifyContent={"center"} marginY={"4"}>
+        <Heading>詳細</Heading>
+        <Flex justifyContent={"center"} marginY={"4"} gap={"1"}>
           <Button
             onClick={() => setActiveTabState(0)}
-            className={linkStyle(activeTabState === 0)}
+            active={activeTabState === 0}
           >
             Lv.1
           </Button>
           <Button
             onClick={() => setActiveTabState(1)}
-            className={linkStyle(activeTabState === 1)}
+            active={activeTabState === 1}
           >
             Lv.2
           </Button>
           <Button
             onClick={() => setActiveTabState(2)}
-            className={linkStyle(activeTabState === 2)}
+            active={activeTabState === 2}
           >
             Lv.3
           </Button>
           <Button
             onClick={() => setActiveTabState(3)}
-            className={linkStyle(activeTabState === 3)}
+            active={activeTabState === 3}
           >
             DX Lv.1
           </Button>
           <Button
             onClick={() => setActiveTabState(4)}
-            className={linkStyle(activeTabState === 4)}
+            active={activeTabState === 4}
           >
             DX Lv.2
           </Button>
