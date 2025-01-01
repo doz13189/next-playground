@@ -1,6 +1,7 @@
+import { MainLayout } from "@/app/_components/main-layout";
 import { memories } from "@/app/_data/memory/object";
 import { queryMemory } from "@/app/_lib/query/memory";
-import { NavigationLoading } from "@/app/_parts/navigation-loading";
+import { Skeleton } from "@/app/_parts/skeleton";
 import { Box } from "@/styled-system/jsx";
 import { Suspense } from "react";
 import { MemoryDefaultInfo } from "../_components/memory-default-info";
@@ -27,7 +28,25 @@ async function MemoryContent({ id }: { id: string }) {
 
 export default function Page({ params }: { params: { id: string } }) {
   return (
-    <Suspense fallback={<NavigationLoading />}>
+    <Suspense fallback={
+      <Box>
+        <MainLayout>
+          <Skeleton>
+            <Box height={"96px"} margin={"1"} paddingY={"2"} />
+          </Skeleton>
+        </MainLayout>
+        <MainLayout>
+          <Skeleton>
+            <Box height={"192"} margin={"1"} paddingY={"2"} />
+          </Skeleton>
+        </MainLayout>
+        <MainLayout>
+          <Skeleton>
+            <Box height={"96px"} margin={"1"} paddingY={"2"} />
+          </Skeleton>
+        </MainLayout>
+      </Box>
+    }>
       <MemoryContent id={params.id} />
     </Suspense>
   );

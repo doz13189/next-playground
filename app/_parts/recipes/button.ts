@@ -7,20 +7,37 @@ export const buttonRecipe = cva({
     height: "6",
     width: "20",
     textAlign: "center",
+    alignContent: "center",
     color: "secondary",
     borderRadius: "6px",
     backgroundColor: "primary",
+    cursor: "pointer",
+    _disabled: {
+      color: "grey",
+      backgroundColor: "grey.80",
+      borderColor: "grey.100",
+      borderWidth: "2px",
+      cursor: "not-allowed",
+    },
   },
   variants: {
-    disabled: {
+    active: {
       true: {
-        color: "grey",
-        backgroundColor: "grey.80",
-        cursor: "not-allowed",
-      },
-      false: {
         color: "secondary",
         backgroundColor: "primary",
+      },
+      false: {
+        color: "primary",
+        backgroundColor: "secondary",
+        borderColor: "primary",
+        borderWidth: "2px",
+      },
+    },
+    // FIXME: カスタムの link コンポーネントを定義して width を指定可能にする
+    fullWidth: {
+      true: {
+        width: "full",
+        height: "8",
       },
     },
   },

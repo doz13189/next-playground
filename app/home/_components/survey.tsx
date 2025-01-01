@@ -1,5 +1,6 @@
 "use client";
 
+import { Button } from "@/app/_parts/button";
 import { Text } from "@/app/_parts/text";
 import { Textarea } from "@/app/_parts/textarea";
 import { Typography } from "@/app/_parts/typography";
@@ -9,8 +10,6 @@ import { ark } from "@ark-ui/react";
 import { useOptimistic } from "react";
 import { useFormState } from "react-dom";
 import { submitSurvey } from "../_lib/mutate/submit-survey";
-import { Link } from "@/app/_parts/link";
-import { Button } from "@/app/_parts/button";
 
 const initialState: {
   message: string | null;

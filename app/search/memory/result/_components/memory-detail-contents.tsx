@@ -2,9 +2,9 @@
 
 import { MainLayout } from "@/app/_components/main-layout";
 import type { MemorySchema } from "@/app/_data/memory/schema";
+import { Button } from "@/app/_parts/button";
 import { Heading } from "@/app/_parts/heading";
 import { Typography } from "@/app/_parts/typography";
-import { Button } from "@/app/_parts/button";
 import { css } from "@/styled-system/css";
 import { Box, Flex } from "@/styled-system/jsx";
 import Image from "next/image";
@@ -46,20 +46,6 @@ const getMemoryLevelLabel = (
   }
 };
 
-const linkStyle = (isActive: boolean) => css({
-  width: "full",
-  fontSize: 'xs',
-  margin: '1',
-  paddingX: '1',
-  display: 'flex',
-  justifyContent: 'center',
-  borderWidth: '2px',
-  borderRadius: 'lg',
-  backgroundColor: isActive ? 'primary' : "secondary",
-  color: isActive ? 'secondary' : "primary",
-  borderColor: 'primary',
-});
-
 export const MemoryDetailContents: FC<{
   memory: z.infer<typeof MemorySchema>;
 }> = ({ memory }) => {
@@ -72,30 +58,30 @@ export const MemoryDetailContents: FC<{
   return (
     <Box>
       <MainLayout>
-        <Heading>{`詳細（${getMemoryLevelLabel(activeTabState)}）`}</Heading>
-        <Flex justifyContent={"center"} marginY={"4"}>
+        <Heading>詳細</Heading>
+        <Flex justifyContent={"center"} gap="1" marginY={"4"}>
           <Button
             onClick={() => setActiveTabState(0)}
-            className={linkStyle(activeTabState === 0)}
+            active={activeTabState === 0}
           >
             Lv.1
           </Button>
           <Button
             onClick={() => setActiveTabState(1)}
-            className={linkStyle(activeTabState === 1)}
+            active={activeTabState === 1}
           >
             Lv.2
           </Button>
           <Button
             onClick={() => setActiveTabState(2)}
-            className={linkStyle(activeTabState === 2)}
+            active={activeTabState === 2}
           >
             Lv.3
           </Button>
           {memory.rarity === "r" || memory.rarity === "n" ? null : (
             <Button
               onClick={() => setActiveTabState(3)}
-              className={linkStyle(activeTabState === 3)}
+              active={activeTabState === 3}
             >
               DX Lv.1
             </Button>

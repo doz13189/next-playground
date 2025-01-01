@@ -1,5 +1,3 @@
-"use client";
-
 import { MainLayout } from "@/app/_components/main-layout";
 import { MiniMemoryIcon } from "@/app/_components/mini-memory-icon";
 import type { MemorySchema } from "@/app/_data/memory/schema";

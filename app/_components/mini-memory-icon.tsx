@@ -1,5 +1,3 @@
-"use client";
-
 import { css } from "@/styled-system/css";
 import { Box } from "@/styled-system/jsx";
 import Image from "next/image";

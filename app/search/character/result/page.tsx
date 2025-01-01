@@ -1,5 +1,6 @@
+import { MainLayout } from "@/app/_components/main-layout";
 import { Link } from "@/app/_parts/link";
-import { NavigationLoading } from "@/app/_parts/navigation-loading";
+import { Skeleton } from "@/app/_parts/skeleton";
 import { css } from "@/styled-system/css";
 import { Box, Flex, Spacer } from "@/styled-system/jsx";
 import { Suspense } from "react";
@@ -45,7 +46,15 @@ export default async function Page(args: {
         </Flex>
       </Box>
 
-      <Suspense fallback={<NavigationLoading />}>
+      <Suspense fallback={
+        Array.from({ length: 10 }, (_, index) => index).map((_) => (
+          <MainLayout key={_}>
+            <Skeleton>
+              <Box height={"96px"} margin={"1"} paddingY={"2"} />
+            </Skeleton>
+          </MainLayout>)
+        )
+      }>
         <Characters args={args} />
       </Suspense>
     </Box>
