@@ -182,6 +182,9 @@ export const CharacterSkills = z.enum([
   "疲労",
   "霜ダメージ軽減",
   "強化阻害完全耐性",
+  "状態異常効果ターン短縮",
+  "状態異常回復阻害",
+  "麻痺完全耐性",
 ] as const);
 
 export const MemorySkills = z.enum([
@@ -241,6 +244,7 @@ export const MemorySkills = z.enum([
   "クリティカル抵抗ダウン",
   "見切り",
   "かばう",
+  "状態異常効果ターン短縮",
 ] as const);
 
 export const Tags = z.enum([
