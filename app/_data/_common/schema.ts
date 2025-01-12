@@ -185,6 +185,7 @@ export const CharacterSkills = z.enum([
   "状態異常効果ターン短縮",
   "状態異常回復阻害",
   "麻痺完全耐性",
+  "熱傷",
 ] as const);
 
 export const MemorySkills = z.enum([

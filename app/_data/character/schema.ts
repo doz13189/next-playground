@@ -49,7 +49,7 @@ export const CharacterSchema = z.object({
       speed: z.string(),
       defense: z.string(),
       critical: z.string(),
-    }),
+    })
   ),
   skill: z.object({
     levelone: SkillSchema,
