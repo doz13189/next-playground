@@ -96,7 +96,7 @@ export const Dialog = ({ dialogButton, content, loading }: Props) => {
                 <InnerContent>
                     <MainLayout>
                         <VStack>
-                            <Box width={"full"} marginBottom={"10"}>
+                            <Box width={"full"} marginBottom={"10"} overflowY="auto">
                                 {content}
                             </Box>
                             <HStack width={"full"} justifyContent={"flex-end"}>
