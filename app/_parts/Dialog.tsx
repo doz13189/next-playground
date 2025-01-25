@@ -53,8 +53,9 @@ const InnerContent = styled(
     cva({
         base: {
             width: "full",
+            height: "full",
+            overflowY: "scroll",
             maxWidth: "768px",
-            paddingX: "2",
             position: "relative",
             _open: {
                 animation: "slide-in 400ms token(easings.easeIn)",
@@ -69,10 +70,9 @@ const InnerContent = styled(
 type Props = {
     dialogButton: ReactElement<ButtonProps>
     content: ReactElement
-    loading?: boolean
 }
 
-export const Dialog = ({ dialogButton, content, loading }: Props) => {
+export const Dialog = ({ dialogButton, content }: Props) => {
     const [isOpen, setIsOpen] = useState(false)
 
     const clonedButton = cloneElement(dialogButton, {
@@ -94,9 +94,9 @@ export const Dialog = ({ dialogButton, content, loading }: Props) => {
             <InnerBackdrop />
             <InnerPositioner>
                 <InnerContent>
-                    <MainLayout>
+                    <MainLayout margin={"4"}>
                         <VStack>
-                            <Box width={"full"} marginBottom={"10"} overflowY="auto">
+                            <Box width={"full"} marginBottom={"4"}>
                                 {content}
                             </Box>
                             <HStack width={"full"} justifyContent={"flex-end"}>
