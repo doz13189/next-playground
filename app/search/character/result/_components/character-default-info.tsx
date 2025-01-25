@@ -36,7 +36,7 @@ export const CharacterDefaultInfo: FC<{
                 backgroundColor={"#E8E8E8"}
               >
                 <HStack marginX={"1"} justifyContent={"center"} alignItems={"center"}>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#F8784A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" style={{ stroke: "#F8784A" }} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <title>external link</title>
                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
                     <polyline points="15 3 21 3 21 9" />
