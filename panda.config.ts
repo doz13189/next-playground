@@ -57,6 +57,24 @@ export default defineConfig({
         md: "768px", // NOTE: tablet
         lg: "1920px", // NOTE: pc
       },
+      keyframes: {
+        "fade-in": {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+        "fade-out": {
+          "0%": { opacity: "1" },
+          "100%": { opacity: "0" },
+        },
+        "slide-in": {
+          "0%": { opacity: "0", transform: "translateY(64px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        "slide-out": {
+          "0%": { opacity: "1", transform: "translateY(0)" },
+          "100%": { opacity: "0", transform: "translateY(64px)" },
+        },
+      },
       tokens: {
         colors: {
           yellow: { 100: { value: "#FAC00F" } },
@@ -68,6 +86,10 @@ export default defineConfig({
         sizes: baseSize,
         spacing: baseSize,
         fontSizes: baseSize,
+        easings: {
+          "ease-in": { value: "cubic-bezier(0.05, 0.7, 0.1, 1.0)" },
+          "ease-out": { value: "cubic-bezier(0.3, 0.0, 0.8, 0.15)" },
+        },
       },
       semanticTokens: {
         colors: {
