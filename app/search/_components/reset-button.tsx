@@ -15,6 +15,7 @@ export const ResetButton: FC<{
       type="submit"
       height={"8"}
       width={"32"}
+      backgroundColor={"#5D5D5D"}
       onClick={() => {
         setRarity("");
         setSkills([]);
