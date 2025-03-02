@@ -1,0 +1,190 @@
+{
+    "id": "1157002",
+    "epithet": "心弾む休日",
+    "name": "Mt.レディ",
+    "rarity": "ur",
+    "type": "mnd",
+    "sex": "女",
+    "skills": [
+        "Attack All Opponents",
+        "HP Restoration",
+        "回復",
+        "クールタイム短縮",
+        "強化阻害",
+        "自然体",
+        "ディフェンスアップ",
+        "くいしばり",
+        "必中",
+        "ディフェンスダウン",
+        "クリティカル抵抗ダウン",
+        "クリティカル抵抗アップ",
+        "スキル威力アップ",
+        "パワーダウン",
+        "HP自動回復"
+    ],
+    "tags": [
+        "プロヒーロー",
+        "ヒーロー"
+    ],
+    "stats": [
+        {
+            "hp": "5211",
+            "power": "897",
+            "speed": "80",
+            "defense": "100",
+            "critical": "10"
+        },
+        {
+            "hp": "12321",
+            "power": "2635",
+            "speed": "159",
+            "defense": "100",
+            "critical": "10"
+        },
+        {
+            "hp": "44721",
+            "power": "8915",
+            "speed": "699",
+            "defense": "100",
+            "critical": "10"
+        },
+        {
+            "hp": "53721",
+            "power": "10715",
+            "speed": "879",
+            "defense": "100",
+            "critical": "10"
+        }
+    ],
+    "uniqueSkills": [
+        "自分のパワーがアップしている時、自分のスキル威力を20%アップ",
+        "自分のディフェンスがアップしている時、自分の最大HPを20%アップ",
+        "クリティカルが2ヒット発生するたびに、自分のスキル威力を15%アップ(2ターン)",
+        "戦闘開始後、自分にクリティカルダメージを30%カット(4ターン)を付与",
+        "自分のHPが50%未満の時、自分のパワーを25%アップ",
+        "自分のパワーがアップしている時、自分のディフェンスを20%アップ",
+        "毎ターン、自分のディフェンスが5%アップ(最大6回)"
+    ],
+    "skill": {
+        "levelone": {
+            "plusUltra": {
+                "name": "ダイナミックプレス",
+                "description": "敵全体に<span style=\"color: #79ff80;\">400</span>%ダメージ<br>味方全体のHP<span style=\"color: #79ff80;\">15</span>%回復<br>味方全体の\"プロヒーロー\"のHP<span style=\"color: #79ff80;\">5</span>%回復<br>自分のクールタイム<span style=\"color: #79ff80;\">2</span>短縮<br>自分以外の味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<br>自分が必中の時、敵全体に強化阻害(2ターン)を付与"
+            },
+            "actionSkill1": {
+                "name": "警鐘",
+                "description": "味方全体のHP<span style=\"color: #79ff80;\">10</span>%回復、クリティカル抵抗<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)<br>自分が必中の時、味方全体のスキル威力<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)",
+                "coolTime": "7"
+            },
+            "actionSkill2": {
+                "name": "ギガントナックル",
+                "description": "敵全体に<span style=\"color: #79ff80;\">225</span>%ダメージ、パワー<span style=\"color: #ff6f6f;\">8</span>%ダウン(2ターン)<br>味方全体にHP<span style=\"color: #79ff80;\">10</span>%自動回復(3ターン)を付与<br>自分以外の味方全体に自然体(3ターン)を付与<br>自分が必中の時、敵全体に中確率 (50%)で強化阻害(2ターン)を付与",
+                "coolTime": "7"
+            },
+            "autoSkill1": {
+                "name": "体を張った守り",
+                "description": "自分に自然体を付与<br>味方全体の\"プロヒーロー\"のディフェンス<span style=\"color: #79ff80;\">9</span>%アップ<br>自分が貫通の相手から攻撃を1回受けきった時、味方全体のHP<span style=\"color: #79ff80;\">5</span>%回復<br>自分が貫通の相手から攻撃を1回受けきった時、自分にくいしばり(1回)を付与、必中(3ターン)を付与"
+            },
+            "autoSkill2": {
+                "name": "迫力満点",
+                "description": "自分にくいしばり(2回)を付与(最大1回)<br>自分以外の味方全体に自然体(1ターン)を付与(最大1回)<br>自分が必中の時、敵全体のディフェンス<span style=\"color: #ff6f6f;\">9</span>%ダウン、クリティカル抵抗<span style=\"color: #ff6f6f;\">10</span>%ダウン"
+            }
+        },
+        "leveltwo": {
+            "plusUltra": {
+                "name": "ダイナミックプレス",
+                "description": "敵全体に<span style=\"color: #79ff80;\">450</span>%ダメージ<br>味方全体のHP<span style=\"color: #79ff80;\">15</span>%回復<br>味方全体の\"プロヒーロー\"のHP<span style=\"color: #79ff80;\">10</span>%回復<br>自分のクールタイム<span style=\"color: #79ff80;\">2</span>短縮<br>自分以外の味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<br>自分が必中の時、敵全体に強化阻害(2ターン)を付与"
+            },
+            "actionSkill1": {
+                "name": "警鐘",
+                "description": "味方全体のHP<span style=\"color: #79ff80;\">15</span>%回復、クリティカル抵抗<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)<br>自分が必中の時、味方全体のスキル威力<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)",
+                "coolTime": "6"
+            },
+            "actionSkill2": {
+                "name": "ギガントナックル",
+                "description": "敵全体に<span style=\"color: #79ff80;\">250</span>%ダメージ、パワー<span style=\"color: #ff6f6f;\">12</span>%ダウン(2ターン)<br>味方全体にHP<span style=\"color: #79ff80;\">15</span>%自動回復(3ターン)を付与<br>自分以外の味方全体に自然体(3ターン)を付与<br>自分が必中の時、敵全体に中確率 (50%)で強化阻害(2ターン)を付与",
+                "coolTime": "6"
+            },
+            "autoSkill1": {
+                "name": "体を張った守り",
+                "description": "自分に自然体を付与<br>味方全体の\"プロヒーロー\"のディフェンス<span style=\"color: #79ff80;\">12</span>%アップ<br>自分が貫通の相手から攻撃を1回受けきった時、味方全体のHP<span style=\"color: #79ff80;\">5</span>%回復<br>自分が貫通の相手から攻撃を1回受けきった時、自分にくいしばり(1回)を付与、必中(3ターン)を付与"
+            },
+            "autoSkill2": {
+                "name": "迫力満点",
+                "description": "自分にくいしばり(2回)を付与(最大1回)<br>自分以外の味方全体に自然体(1ターン)を付与(最大1回)<br>自分が必中の時、敵全体のディフェンス<span style=\"color: #ff6f6f;\">12</span>%ダウン、クリティカル抵抗<span style=\"color: #ff6f6f;\">15</span>%ダウン"
+            }
+        },
+        "levelthree": {
+            "plusUltra": {
+                "name": "ダイナミックプレス",
+                "description": "敵全体に<span style=\"color: #79ff80;\">500</span>%ダメージ<br>味方全体のHP<span style=\"color: #79ff80;\">15</span>%回復<br>味方全体の\"プロヒーロー\"のHP<span style=\"color: #79ff80;\">15</span>%回復<br>自分のクールタイム<span style=\"color: #79ff80;\">2</span>短縮<br>自分以外の味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<br>自分が必中の時、敵全体に強化阻害(2ターン)を付与"
+            },
+            "actionSkill1": {
+                "name": "警鐘",
+                "description": "味方全体のHP<span style=\"color: #79ff80;\">20</span>%回復、クリティカル抵抗<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)<br>自分が必中の時、味方全体のスキル威力<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)",
+                "coolTime": "5"
+            },
+            "actionSkill2": {
+                "name": "ギガントナックル",
+                "description": "敵全体に<span style=\"color: #79ff80;\">275</span>%ダメージ、パワー<span style=\"color: #ff6f6f;\">16</span>%ダウン(2ターン)<br>味方全体にHP<span style=\"color: #79ff80;\">20</span>%自動回復(3ターン)を付与<br>自分以外の味方全体に自然体(3ターン)を付与<br>自分が必中の時、敵全体に中確率 (50%)で強化阻害(2ターン)を付与",
+                "coolTime": "5"
+            },
+            "autoSkill1": {
+                "name": "体を張った守り",
+                "description": "自分に自然体を付与<br>味方全体の\"プロヒーロー\"のディフェンス<span style=\"color: #79ff80;\">15</span>%アップ<br>自分が貫通の相手から攻撃を1回受けきった時、味方全体のHP<span style=\"color: #79ff80;\">5</span>%回復<br>自分が貫通の相手から攻撃を1回受けきった時、自分にくいしばり(1回)を付与、必中(3ターン)を付与"
+            },
+            "autoSkill2": {
+                "name": "迫力満点",
+                "description": "自分にくいしばり(2回)を付与(最大1回)<br>自分以外の味方全体に自然体(1ターン)を付与(最大1回)<br>自分が必中の時、敵全体のディフェンス<span style=\"color: #ff6f6f;\">15</span>%ダウン、クリティカル抵抗<span style=\"color: #ff6f6f;\">20</span>%ダウン"
+            }
+        },
+        "dxlevelone": {
+            "plusUltra": {
+                "name": "ダイナミックプレス",
+                "description": "敵全体に<span style=\"color: #79ff80;\">500</span>%ダメージ<br>味方全体のHP<span style=\"color: #79ff80;\">15</span>%回復<br>味方全体の\"プロヒーロー\"のHP<span style=\"color: #79ff80;\">15</span>%回復<br>自分のクールタイム<span style=\"color: #79ff80;\">2</span>短縮<br>自分以外の味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<br>自分が必中の時、敵全体に強化阻害(2ターン)を付与"
+            },
+            "actionSkill1": {
+                "name": "警鐘 DX",
+                "description": "味方全体のHP<span style=\"color: #79ff80;\">20</span>%回復、クリティカル抵抗<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)<br>自分が必中の時、味方全体のスキル威力<span style=\"color: #79ff80;\">25</span>%アップ(3ターン)",
+                "coolTime": "5"
+            },
+            "actionSkill2": {
+                "name": "ギガントナックル DX",
+                "description": "敵全体に<span style=\"color: #79ff80;\">300</span>%ダメージ、パワー<span style=\"color: #ff6f6f;\">20</span>%ダウン(2ターン)<br>味方全体にHP<span style=\"color: #79ff80;\">20</span>%自動回復(3ターン)を付与<br>自分以外の味方全体に自然体(3ターン)を付与<br>自分が必中の時、敵全体に中確率 (50%)で強化阻害(2ターン)を付与",
+                "coolTime": "5"
+            },
+            "autoSkill1": {
+                "name": "体を張った守り",
+                "description": "自分に自然体を付与<br>味方全体の\"プロヒーロー\"のディフェンス<span style=\"color: #79ff80;\">15</span>%アップ<br>自分が貫通の相手から攻撃を1回受けきった時、味方全体のHP<span style=\"color: #79ff80;\">5</span>%回復<br>自分が貫通の相手から攻撃を1回受けきった時、自分にくいしばり(1回)を付与、必中(3ターン)を付与"
+            },
+            "autoSkill2": {
+                "name": "迫力満点",
+                "description": "自分にくいしばり(2回)を付与(最大1回)<br>自分以外の味方全体に自然体(1ターン)を付与(最大1回)<br>自分が必中の時、敵全体のディフェンス<span style=\"color: #ff6f6f;\">15</span>%ダウン、クリティカル抵抗<span style=\"color: #ff6f6f;\">20</span>%ダウン"
+            }
+        },
+        "dxleveltwo": {
+            "plusUltra": {
+                "name": "ダイナミックプレス",
+                "description": "敵全体に<span style=\"color: #79ff80;\">500</span>%ダメージ<br>味方全体のHP<span style=\"color: #79ff80;\">15</span>%回復<br>味方全体の\"プロヒーロー\"のHP<span style=\"color: #79ff80;\">15</span>%回復<br>自分のクールタイム<span style=\"color: #79ff80;\">2</span>短縮<br>自分以外の味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<br>自分が必中の時、敵全体に強化阻害(2ターン)を付与"
+            },
+            "actionSkill1": {
+                "name": "警鐘 DX",
+                "description": "味方全体のHP<span style=\"color: #79ff80;\">20</span>%回復、クリティカル抵抗<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)<br>自分が必中の時、味方全体のスキル威力<span style=\"color: #79ff80;\">30</span>%アップ(3ターン)",
+                "coolTime": "5"
+            },
+            "actionSkill2": {
+                "name": "ギガントナックル DX",
+                "description": "敵全体に<span style=\"color: #79ff80;\">325</span>%ダメージ、パワー<span style=\"color: #ff6f6f;\">20</span>%ダウン(2ターン)<br>味方全体にHP<span style=\"color: #79ff80;\">25</span>%自動回復(3ターン)を付与<br>自分以外の味方全体に自然体(3ターン)を付与<br>自分が必中の時、敵全体に中確率 (50%)で強化阻害(2ターン)を付与",
+                "coolTime": "5"
+            },
+            "autoSkill1": {
+                "name": "体を張った守り",
+                "description": "自分に自然体を付与<br>味方全体の\"プロヒーロー\"のディフェンス<span style=\"color: #79ff80;\">15</span>%アップ<br>自分が貫通の相手から攻撃を1回受けきった時、味方全体のHP<span style=\"color: #79ff80;\">5</span>%回復<br>自分が貫通の相手から攻撃を1回受けきった時、自分にくいしばり(1回)を付与、必中(3ターン)を付与"
+            },
+            "autoSkill2": {
+                "name": "迫力満点",
+                "description": "自分にくいしばり(2回)を付与(最大1回)<br>自分以外の味方全体に自然体(1ターン)を付与(最大1回)<br>自分が必中の時、敵全体のディフェンス<span style=\"color: #ff6f6f;\">15</span>%ダウン、クリティカル抵抗<span style=\"color: #ff6f6f;\">20</span>%ダウン"
+            }
+        }
+    }
+}
