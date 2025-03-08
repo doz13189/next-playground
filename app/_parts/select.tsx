@@ -2,11 +2,6 @@ import { css } from "@/styled-system/css";
 import { Select as ArkSelect, ark } from "@ark-ui/react";
 import type { Dispatch, SetStateAction } from "react";
 
-type Item = {
-  label: string;
-  value: string;
-};
-
 type Props<T> = ArkSelect.RootProps<T> & {
   label: string;
   placeholdertext: string;
@@ -97,7 +92,7 @@ export const Select = <T extends Record<string, string>>({
           animation: 'fadeIn'
         })}>
           <ArkSelect.ItemGroup>
-            {collection.items.map((item) => (
+            {collection?.items.map((item) => (
               <ArkSelect.Item
                 key={item.value}
                 item={item}

@@ -8,16 +8,17 @@ import { Link } from "@/app/_parts/link";
 import { Select } from "@/app/_parts/select";
 import { Box, HStack, Spacer } from "@/styled-system/jsx";
 import { createListCollection } from "@ark-ui/react";
-import { useMemo, useState } from "react";
+import { use, useMemo, useState } from "react";
 import { ResetButton } from "../_components/reset-button";
 import { createQuery } from "../_lib/create-query";
 
 export default function Page(args: {
-  searchParams: { rarity: string; skills: string; name: string };
+  searchParams: Promise<{ rarity: string; skills: string; name: string }>;
 }) {
-  const argRarity = args.searchParams?.rarity;
-  const argSkills = args.searchParams?.skills?.split(",");
-  const argName = args.searchParams?.name;
+  const searchParams = use(args.searchParams);
+  const argRarity = searchParams?.rarity;
+  const argSkills = searchParams?.skills?.split(",");
+  const argName = searchParams?.name;
 
   const [rarity, setRarity] = useState(argRarity || "");
   const [skills, setSkills] = useState<string[]>(argSkills || []);
@@ -38,10 +39,12 @@ export default function Page(args: {
 
       <Box marginBottom={"2"}>
         <Select
-          items={Rarity.options.map((rarity) => ({
-            label: rarity.toUpperCase(),
-            value: rarity,
-          }))}
+          collection={createListCollection({
+            items: Rarity.options.map((rarity) => ({
+              label: rarity.toUpperCase(),
+              value: rarity,
+            }))
+          })}
           label="レアリティ"
           placeholdertext={"レアリティを選択してください"}
           value={[rarity]}
@@ -82,7 +85,8 @@ export default function Page(args: {
             href={`/search/memory/result?${query}`}
             disabled={(skills.length === 0 && !rarity && !name) || debounceState !== "ready"}
             // NOTE: クエリーが空の状態で遷移は発生しないため prefetch を抑止する
-            prefetch={query !== ""}
+            // FIXME: 一時的に prefetch を
+            {...(query !== "" ? { prefetch: true } : {})}
             loading={debounceState === "idle" || debounceState === "debouncing"}
           >{"検索"}</Link>
         </Box>

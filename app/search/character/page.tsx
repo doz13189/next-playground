@@ -7,25 +7,26 @@ import { Link } from "@/app/_parts/link";
 import { Select } from "@/app/_parts/select";
 import { Box, HStack, Spacer } from "@/styled-system/jsx";
 import { createListCollection } from "@ark-ui/react";
-import { useMemo, useState } from "react";
+import { use, useMemo, useState } from "react";
 import { ResetButton } from "../_components/reset-button";
 import { createQuery } from "../_lib/create-query";
 import { getTypeLabel } from "../_lib/utils";
 
 export default function Page(args: {
-  searchParams: {
+  searchParams: Promise<{
     rarity?: string;
     type?: string;
     name?: string;
     skills?: string;
     tags?: string;
-  };
+  }>;
 }) {
-  const argRarity = args.searchParams?.rarity;
-  const argType = args.searchParams?.type;
-  const argSkills = args.searchParams?.skills?.split(",");
-  const argName = args.searchParams?.name;
-  const argTags = args.searchParams?.tags;
+  const searchParams = use(args.searchParams);
+  const argRarity = searchParams?.rarity;
+  const argType = searchParams?.type;
+  const argSkills = searchParams?.skills?.split(",");
+  const argName = searchParams?.name;
+  const argTags = searchParams?.tags;
 
   const [rarity, setRarity] = useState(argRarity || "");
   const [type, setType] = useState(argType || "");
@@ -44,10 +45,12 @@ export default function Page(args: {
       <Box marginBottom={"2"}>
         <Box marginBottom={"2"}>
           <Select
-            items={Rarity.options.map((rarity) => ({
-              label: rarity.toUpperCase(),
-              value: rarity,
-            }))}
+            collection={createListCollection({
+              items: Rarity.options.map((rarity) => ({
+                label: rarity.toUpperCase(),
+                value: rarity,
+              })),
+            })}
             label="レアリティ"
             placeholdertext={"レアリティを選択してください"}
             value={[rarity]}
@@ -61,10 +64,12 @@ export default function Page(args: {
 
         <Box marginBottom={"2"}>
           <Select
-            items={Type.options.map((type) => ({
-              label: getTypeLabel(type),
-              value: type,
-            }))}
+            collection={createListCollection({
+              items: Type.options.map((type) => ({
+                label: getTypeLabel(type),
+                value: type,
+              }))
+            })}
             label="タイプ"
             placeholdertext={"タイプを選んでください"}
             value={[type]}
@@ -78,7 +83,7 @@ export default function Page(args: {
 
         <Box marginBottom={"2"}>
           <Select
-            items={Name.options.map((name) => ({ label: name, value: name }))}
+            collection={createListCollection({ items: Name.options.map((name) => ({ label: name, value: name })) })}
             label="キャラクター名"
             placeholdertext={"キャラクター名を選んでください"}
             value={[name]}
@@ -92,7 +97,7 @@ export default function Page(args: {
 
         <Box marginBottom={"2"}>
           <Select
-            items={Tags.options.map((tag) => ({ label: tag, value: tag }))}
+            collection={createListCollection({ items: Tags.options.map((tag) => ({ label: tag, value: tag })) })}
             label="所属"
             placeholdertext={"所属を選んでください"}
             value={[tags]}
@@ -135,7 +140,7 @@ export default function Page(args: {
               href={`/search/character/result?${query}`}
               disabled={(skills.length === 0 && !rarity && !type && !name && !tags) || debounceState !== "ready"}
               // NOTE: クエリーが空の状態で遷移は発生しないため prefetch を抑止する
-              prefetch={(query !== "")}
+              {...(query !== "" ? { prefetch: true } : {})}
               loading={debounceState === "idle" || debounceState === "debouncing"}
             >{"検索"}</Link>
           </Box>

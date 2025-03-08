@@ -3,23 +3,26 @@ import { Link } from "@/app/_parts/link";
 import { Skeleton } from "@/app/_parts/skeleton";
 import { css } from "@/styled-system/css";
 import { Box, Flex } from "@/styled-system/jsx";
-import { Suspense } from "react";
+import { Suspense, use } from "react";
 import { SearchFilters } from "../../_components/search-filters";
 import { createQuery } from "../../_lib/create-query";
 import { Memories } from "./_components/list";
 
-export default function Page(args: {
-  searchParams: {
-    rarity: string;
-    skills: string;
-    name: string;
-    offset: string;
-    limit: string;
-  };
-}) {
-  const argRarity = args.searchParams?.rarity;
-  const argSkills = args.searchParams?.skills?.split(",");
-  const argName = args.searchParams?.name;
+export default async function Page(
+  args: {
+    searchParams: Promise<{
+      rarity: string;
+      skills: string;
+      name: string;
+      offset: string;
+      limit: string;
+    }>;
+  }
+) {
+  const searchParams = use(args.searchParams)
+  const argRarity = searchParams?.rarity;
+  const argSkills = searchParams?.skills?.split(",");
+  const argName = searchParams?.name;
 
   return (
     <Box>
