@@ -7,8 +7,7 @@ import { Typography } from "@/app/_parts/typography";
 import { css } from "@/styled-system/css";
 import { Box, Spacer } from "@/styled-system/jsx";
 import { ark } from "@ark-ui/react";
-import { useOptimistic } from "react";
-import { useFormState } from "react-dom";
+import { useActionState, useOptimistic } from "react";
 import { submitSurvey } from "../_lib/mutate/submit-survey";
 
 const initialState: {
@@ -18,7 +17,7 @@ const initialState: {
 };
 
 export function Survey() {
-  const [state, formAction] = useFormState(submitSurvey, initialState);
+  const [state, formAction] = useActionState(submitSurvey, initialState);
   const [optimisticMessages, addOptimisticMessage] = useOptimistic<
     typeof initialState,
     typeof initialState
