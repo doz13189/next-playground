@@ -16,7 +16,7 @@ export const submitSurvey = async (
   prevState: {
     message: string | null;
   },
-  formData: FormData,
+  formData: FormData
 ) => {
   await sleep(2000);
 
@@ -32,10 +32,10 @@ export const submitSurvey = async (
     };
   }
 
-  const session = cookies().get("search-the-hero-session")?.value;
+  const session = (await cookies()).get("search-the-hero-session")?.value;
 
   if (session === undefined) {
-    cookies().set(
+    (await cookies()).set(
       "search-the-hero-session",
       JSON.stringify({ isEvaluated: true }),
       {
@@ -47,7 +47,7 @@ export const submitSurvey = async (
             : new Date(Date.now() + 60 * 1000),
         sameSite: "lax",
         path: "/",
-      },
+      }
     );
   } else {
     const sessionData = JSON.parse(session);

@@ -6,6 +6,7 @@ import { useDebounce } from "@/app/_hooks/use-debounce";
 import { Link } from "@/app/_parts/link";
 import { Select } from "@/app/_parts/select";
 import { Box, HStack, Spacer } from "@/styled-system/jsx";
+import { createListCollection } from "@ark-ui/react";
 import { useMemo, useState } from "react";
 import { ResetButton } from "../_components/reset-button";
 import { createQuery } from "../_lib/create-query";
@@ -105,9 +106,11 @@ export default function Page(args: {
 
         <Box marginBottom={"2"}>
           <Select
-            items={CharacterSkills.options
-              .map((skill) => ({ label: skill, value: skill }))
-              .sort((a, b) => a.label.localeCompare(b.label))}
+            collection={createListCollection({
+              items: CharacterSkills.options
+                .map((skill) => ({ label: skill, value: skill }))
+                .sort((a, b) => a.label.localeCompare(b.label)),
+            })}
             label="スキル効果"
             placeholdertext={"スキル効果を選んでください"}
             value={skills}

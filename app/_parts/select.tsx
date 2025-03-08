@@ -7,7 +7,7 @@ type Item = {
   value: string;
 };
 
-type Props = ArkSelect.RootProps<Item> & {
+type Props<T> = ArkSelect.RootProps<T> & {
   label: string;
   placeholdertext: string;
   value: string[];
@@ -15,14 +15,14 @@ type Props = ArkSelect.RootProps<Item> & {
   isMultiple?: boolean;
 };
 
-export const Select = ({
+export const Select = <T extends Record<string, string>>({
   label,
   placeholdertext,
   value,
   setValue,
   isMultiple = false,
-  ...props }: Props) => {
-  const { items } = props;
+  ...props }: Props<T>) => {
+  const { collection } = props;
 
   return (
     <ArkSelect.Root
@@ -32,7 +32,7 @@ export const Select = ({
         sameWidth: true,
       }}
       multiple={isMultiple}
-      items={items}
+      collection={collection}
       value={value}
       onValueChange={(items) => {
         setValue(items.value);
@@ -97,7 +97,7 @@ export const Select = ({
           animation: 'fadeIn'
         })}>
           <ArkSelect.ItemGroup>
-            {items.map((item) => (
+            {collection.items.map((item) => (
               <ArkSelect.Item
                 key={item.value}
                 item={item}
