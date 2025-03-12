@@ -1,0 +1,188 @@
+{
+    "id": "1101023",
+    "epithet": "100MILLION",
+    "name": "緑谷出久",
+    "rarity": "ur",
+    "type": "abl",
+    "sex": "男",
+    "skills": [
+        "スキル威力アップ",
+        "クリティカル率アップ",
+        "クールタイム短縮",
+        "受け流し",
+        "見切り",
+        "スピードアップ",
+        "状態変化解除",
+        "くいしばり",
+        "プルスウルトラゲージ増加",
+        "パワーアップ",
+        "最大HPアップ",
+        "被ダメージ回復"
+    ],
+    "tags": [
+        "雄英高校1年A組",
+        "雄英高校生徒",
+        "ヒーロー"
+    ],
+    "stats": [
+        {
+            "hp": "4242",
+            "power": "1060",
+            "speed": "115",
+            "defense": "100",
+            "critical": "10"
+        },
+        {
+            "hp": "12142",
+            "power": "3351",
+            "speed": "194",
+            "defense": "100",
+            "critical": "10"
+        },
+        {
+            "hp": "44542",
+            "power": "10121",
+            "speed": "714",
+            "defense": "100",
+            "critical": "10"
+        },
+        {
+            "hp": "53542",
+            "power": "11921",
+            "speed": "894",
+            "defense": "100",
+            "critical": "10"
+        }
+    ],
+    "uniqueSkills": [
+        "自分のHPが25%未満の時、自分に貫通を付与し、自分のスキル威力を15%アップ(2ターン)",
+        "自分のHPが5%未満の時、自分に逆境を付与し、戦闘中に1度だけ自分にくいしばり(3回)を付与",
+        "自分がくいしばり状態の時、自分のパワーを20%アップ(3ターン)",
+        "WAVE開始後、自分のパワーを20%アップ(4ターン)",
+        "3ターン毎に自分のプルスウルトラ技の威力を15%アップ(最大3回)",
+        "自分のHPが50%未満の時、自分のパワーを25%アップ",
+        "クリティカルが3回発生するたびに、自分に回避(1回)を付与(最大3回)"
+    ],
+    "skill": {
+        "levelone": {
+            "plusUltra": {
+                "name": "100Mシュート",
+                "description": "敵単体に<span style=\"color: #79ff80;\">400</span>%ダメージ<br>自分が受け流しの時、自分のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<br>自分が受け流しの時、このスキルのスキル威力<span style=\"color: #79ff80;\">30</span>%アップ<br>自分がくいしばりの時、このスキルのクリティカル率<span style=\"color: #79ff80;\">15</span>%アップ"
+            },
+            "actionSkill1": {
+                "name": "デラウェアスマッシュ",
+                "description": "敵単体に<span style=\"color: #79ff80;\">300</span>%ダメージ<br>自分がくいしばりの時、味方全体のパワー<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)<br>自分が受け流しの時、このスキルのスキル威力<span style=\"color: #79ff80;\">20</span>%アップ",
+                "coolTime": "7"
+            },
+            "actionSkill2": {
+                "name": "危機感知",
+                "description": "味方全体に受け流し<span style=\"color: #79ff80;\">200</span>%(3ターン)を付与、一時的な状態異常<span style=\"color: #79ff80;\">1</span>個回復<br>味方全体の見切りのキャラの最大HP<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)、被ダメージ<span style=\"color: #79ff80;\">15</span>%回復(3ターン)を付与",
+                "coolTime": "8"
+            },
+            "autoSkill1": {
+                "name": "問題解決力",
+                "description": "味方全体に受け流し<span style=\"color: #79ff80;\">200</span>%(1ターン)を付与(最大1回)<br>自分に見切り<span style=\"color: #79ff80;\">20</span>%を付与<br>自分が受け流し中に、相手に1回攻撃しきった時、自分のスピード<span style=\"color: #79ff80;\">2</span>%アップ(最大15回)<br>3ターン毎に、自分の一時的な状態異常<span style=\"color: #79ff80;\">3</span>個回復(最大3回)"
+            },
+            "autoSkill2": {
+                "name": "並列思考",
+                "description": "自分が受け流しのまま、2回ターンをまたいだ時、自分のスキル威力<span style=\"color: #79ff80;\">6</span>%アップ(最大3回)、クリティカル率<span style=\"color: #79ff80;\">3</span>%アップ(最大4回)<br>自分が受け流しのまま、3回ターンをまたいだ時、自分にくいしばり(3回)を付与(最大3回)<br>自分が受け流しのまま、3回ターンをまたいだ時、味方全体のプルスウルトラゲージ<span style=\"color: #79ff80;\">6</span>%アップ(最大2回)"
+            }
+        },
+        "leveltwo": {
+            "plusUltra": {
+                "name": "100Mシュート",
+                "description": "敵単体に<span style=\"color: #79ff80;\">450</span>%ダメージ<br>自分が受け流しの時、自分のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<br>自分が受け流しの時、このスキルのスキル威力<span style=\"color: #79ff80;\">40</span>%アップ<br>自分がくいしばりの時、このスキルのクリティカル率<span style=\"color: #79ff80;\">20</span>%アップ"
+            },
+            "actionSkill1": {
+                "name": "デラウェアスマッシュ",
+                "description": "敵単体に<span style=\"color: #79ff80;\">325</span>%ダメージ<br>自分がくいしばりの時、味方全体のパワー<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>自分が受け流しの時、このスキルのスキル威力<span style=\"color: #79ff80;\">25</span>%アップ",
+                "coolTime": "6"
+            },
+            "actionSkill2": {
+                "name": "危機感知",
+                "description": "味方全体に受け流し<span style=\"color: #79ff80;\">225</span>%(3ターン)を付与、一時的な状態異常<span style=\"color: #79ff80;\">1</span>個回復<br>味方全体の見切りのキャラの最大HP<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)、被ダメージ<span style=\"color: #79ff80;\">20</span>%回復(3ターン)を付与",
+                "coolTime": "7"
+            },
+            "autoSkill1": {
+                "name": "問題解決力",
+                "description": "味方全体に受け流し<span style=\"color: #79ff80;\">225</span>%(1ターン)を付与(最大1回)<br>自分に見切り<span style=\"color: #79ff80;\">25</span>%を付与<br>自分が受け流し中に、相手に1回攻撃しきった時、自分のスピード<span style=\"color: #79ff80;\">2</span>%アップ(最大15回)<br>3ターン毎に、自分の一時的な状態異常<span style=\"color: #79ff80;\">3</span>個回復(最大3回)"
+            },
+            "autoSkill2": {
+                "name": "並列思考",
+                "description": "自分が受け流しのまま、2回ターンをまたいだ時、自分のスキル威力<span style=\"color: #79ff80;\">8</span>%アップ(最大3回)、クリティカル率<span style=\"color: #79ff80;\">4</span>%アップ(最大4回)<br>自分が受け流しのまま、3回ターンをまたいだ時、自分にくいしばり(3回)を付与(最大3回)<br>自分が受け流しのまま、3回ターンをまたいだ時、味方全体のプルスウルトラゲージ<span style=\"color: #79ff80;\">8</span>%アップ(最大2回)"
+            }
+        },
+        "levelthree": {
+            "plusUltra": {
+                "name": "100Mシュート",
+                "description": "敵単体に<span style=\"color: #79ff80;\">500</span>%ダメージ<br>自分が受け流しの時、自分のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<br>自分が受け流しの時、このスキルのスキル威力<span style=\"color: #79ff80;\">50</span>%アップ<br>自分がくいしばりの時、このスキルのクリティカル率<span style=\"color: #79ff80;\">25</span>%アップ"
+            },
+            "actionSkill1": {
+                "name": "デラウェアスマッシュ",
+                "description": "敵単体に<span style=\"color: #79ff80;\">350</span>%ダメージ<br>自分がくいしばりの時、味方全体のパワー<span style=\"color: #79ff80;\">25</span>%アップ(3ターン)<br>自分が受け流しの時、このスキルのスキル威力<span style=\"color: #79ff80;\">30</span>%アップ",
+                "coolTime": "5"
+            },
+            "actionSkill2": {
+                "name": "危機感知",
+                "description": "味方全体に受け流し<span style=\"color: #79ff80;\">250</span>%(3ターン)を付与、一時的な状態異常<span style=\"color: #79ff80;\">1</span>個回復<br>味方全体の見切りのキャラの最大HP<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)、被ダメージ<span style=\"color: #79ff80;\">25</span>%回復(3ターン)を付与",
+                "coolTime": "6"
+            },
+            "autoSkill1": {
+                "name": "問題解決力",
+                "description": "味方全体に受け流し<span style=\"color: #79ff80;\">250</span>%(1ターン)を付与(最大1回)<br>自分に見切り<span style=\"color: #79ff80;\">30</span>%を付与<br>自分が受け流し中に、相手に1回攻撃しきった時、自分のスピード<span style=\"color: #79ff80;\">2</span>%アップ(最大15回)<br>3ターン毎に、自分の一時的な状態異常<span style=\"color: #79ff80;\">3</span>個回復(最大3回)"
+            },
+            "autoSkill2": {
+                "name": "並列思考",
+                "description": "自分が受け流しのまま、2回ターンをまたいだ時、自分のスキル威力<span style=\"color: #79ff80;\">10</span>%アップ(最大3回)、クリティカル率<span style=\"color: #79ff80;\">5</span>%アップ(最大4回)<br>自分が受け流しのまま、3回ターンをまたいだ時、自分にくいしばり(3回)を付与(最大3回)<br>自分が受け流しのまま、3回ターンをまたいだ時、味方全体のプルスウルトラゲージ<span style=\"color: #79ff80;\">10</span>%アップ(最大2回)"
+            }
+        },
+        "dxlevelone": {
+            "plusUltra": {
+                "name": "100Mシュート",
+                "description": "敵単体に<span style=\"color: #79ff80;\">500</span>%ダメージ<br>自分が受け流しの時、自分のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<br>自分が受け流しの時、このスキルのスキル威力<span style=\"color: #79ff80;\">50</span>%アップ<br>自分がくいしばりの時、このスキルのクリティカル率<span style=\"color: #79ff80;\">25</span>%アップ"
+            },
+            "actionSkill1": {
+                "name": "デラウェアスマッシュ DX",
+                "description": "敵単体に<span style=\"color: #79ff80;\">375</span>%ダメージ<br>自分がくいしばりの時、味方全体のパワー<span style=\"color: #79ff80;\">25</span>%アップ(3ターン)<br>自分が受け流しの時、このスキルのスキル威力<span style=\"color: #79ff80;\">30</span>%アップ",
+                "coolTime": "5"
+            },
+            "actionSkill2": {
+                "name": "危機感知 DX",
+                "description": "味方全体に受け流し<span style=\"color: #79ff80;\">275</span>%(3ターン)を付与、一時的な状態異常<span style=\"color: #79ff80;\">2</span>個回復<br>味方全体の見切りのキャラの最大HP<span style=\"color: #79ff80;\">30</span>%アップ(3ターン)、被ダメージ<span style=\"color: #79ff80;\">25</span>%回復(3ターン)を付与",
+                "coolTime": "6"
+            },
+            "autoSkill1": {
+                "name": "問題解決力",
+                "description": "味方全体に受け流し<span style=\"color: #79ff80;\">250</span>%(1ターン)を付与(最大1回)<br>自分に見切り<span style=\"color: #79ff80;\">30</span>%を付与<br>自分が受け流し中に、相手に1回攻撃しきった時、自分のスピード<span style=\"color: #79ff80;\">2</span>%アップ(最大15回)<br>3ターン毎に、自分の一時的な状態異常<span style=\"color: #79ff80;\">3</span>個回復(最大3回)"
+            },
+            "autoSkill2": {
+                "name": "並列思考",
+                "description": "自分が受け流しのまま、2回ターンをまたいだ時、自分のスキル威力<span style=\"color: #79ff80;\">10</span>%アップ(最大3回)、クリティカル率<span style=\"color: #79ff80;\">5</span>%アップ(最大4回)<br>自分が受け流しのまま、3回ターンをまたいだ時、自分にくいしばり(3回)を付与(最大3回)<br>自分が受け流しのまま、3回ターンをまたいだ時、味方全体のプルスウルトラゲージ<span style=\"color: #79ff80;\">10</span>%アップ(最大2回)"
+            }
+        },
+        "dxleveltwo": {
+            "plusUltra": {
+                "name": "100Mシュート",
+                "description": "敵単体に<span style=\"color: #79ff80;\">500</span>%ダメージ<br>自分が受け流しの時、自分のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<br>自分が受け流しの時、このスキルのスキル威力<span style=\"color: #79ff80;\">50</span>%アップ<br>自分がくいしばりの時、このスキルのクリティカル率<span style=\"color: #79ff80;\">25</span>%アップ"
+            },
+            "actionSkill1": {
+                "name": "デラウェアスマッシュ DX",
+                "description": "敵単体に<span style=\"color: #79ff80;\">400</span>%ダメージ<br>自分がくいしばりの時、味方全体のパワー<span style=\"color: #79ff80;\">30</span>%アップ(3ターン)<br>自分が受け流しの時、このスキルのスキル威力<span style=\"color: #79ff80;\">30</span>%アップ",
+                "coolTime": "5"
+            },
+            "actionSkill2": {
+                "name": "危機感知 DX",
+                "description": "味方全体に受け流し<span style=\"color: #79ff80;\">300</span>%(3ターン)を付与、一時的な状態異常<span style=\"color: #79ff80;\">2</span>個回復<br>味方全体の見切りのキャラの最大HP<span style=\"color: #79ff80;\">30</span>%アップ(3ターン)、被ダメージ<span style=\"color: #79ff80;\">30</span>%回復(3ターン)を付与",
+                "coolTime": "6"
+            },
+            "autoSkill1": {
+                "name": "問題解決力",
+                "description": "味方全体に受け流し<span style=\"color: #79ff80;\">250</span>%(1ターン)を付与(最大1回)<br>自分に見切り<span style=\"color: #79ff80;\">30</span>%を付与<br>自分が受け流し中に、相手に1回攻撃しきった時、自分のスピード<span style=\"color: #79ff80;\">2</span>%アップ(最大15回)<br>3ターン毎に、自分の一時的な状態異常<span style=\"color: #79ff80;\">3</span>個回復(最大3回)"
+            },
+            "autoSkill2": {
+                "name": "並列思考",
+                "description": "自分が受け流しのまま、2回ターンをまたいだ時、自分のスキル威力<span style=\"color: #79ff80;\">10</span>%アップ(最大3回)、クリティカル率<span style=\"color: #79ff80;\">5</span>%アップ(最大4回)<br>自分が受け流しのまま、3回ターンをまたいだ時、自分にくいしばり(3回)を付与(最大3回)<br>自分が受け流しのまま、3回ターンをまたいだ時、味方全体のプルスウルトラゲージ<span style=\"color: #79ff80;\">10</span>%アップ(最大2回)"
+            }
+        }
+    }
+}
