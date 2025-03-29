@@ -3,13 +3,13 @@ import { Link } from "@/app/_parts/link";
 import { Skeleton } from "@/app/_parts/skeleton";
 import { css } from "@/styled-system/css";
 import { Box, Flex, Spacer } from "@/styled-system/jsx";
-import { Suspense } from "react";
+import { Suspense, use } from "react";
 import { SearchFilters } from "../../_components/search-filters";
 import { createQuery } from "../../_lib/create-query";
 import { Characters } from "./_components/list";
 
 export default async function Page(args: {
-  searchParams: {
+  searchParams: Promise<{
     rarity: string;
     type: string;
     name: string;
@@ -17,13 +17,14 @@ export default async function Page(args: {
     tags: string;
     offset: string;
     limit: string;
-  };
+  }>;
 }) {
-  const argRarity = args.searchParams?.rarity;
-  const argType = args.searchParams?.type;
-  const argName = args.searchParams?.name;
-  const argSkills = args.searchParams?.skills?.split(",");
-  const argTags = args.searchParams?.tags;
+  const searchParams = use(args.searchParams)
+  const argRarity = searchParams?.rarity;
+  const argType = searchParams?.type;
+  const argName = searchParams?.name;
+  const argSkills = searchParams?.skills?.split(",");
+  const argTags = searchParams?.tags;
 
   return (
 

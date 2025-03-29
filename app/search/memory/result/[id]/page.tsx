@@ -26,7 +26,8 @@ async function MemoryContent({ id }: { id: string }) {
   );
 }
 
-export default function Page({ params }: { params: { id: string } }) {
+export default async function Page(props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   return (
     <Suspense fallback={
       <Box>
