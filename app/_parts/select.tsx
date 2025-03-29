@@ -201,7 +201,7 @@ export const Select = ({
                         fontSize: 'lg',
                         fontWeight: "medium",
                         cursor: 'pointer',
-                        transition: 'all',
+                        transition: 'background-color, color',
                         transitionDuration: '150ms',
                         borderBottomWidth: "1px",
                         borderColor: "gray.200",
