@@ -40,7 +40,6 @@ const InnerPositioner = styled(
             overflow: "auto",
             position: "fixed",
             top: "0",
-
             width: "full",
             height: "full",
             zIndex: "1400",
@@ -53,10 +52,13 @@ const InnerContent = styled(
     cva({
         base: {
             width: "full",
-            height: "full",
-            overflowY: "scroll",
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+            maxHeight: "90vh",
+            overflowY: "auto",
             maxWidth: "768px",
-            position: "relative",
             _open: {
                 animation: "slide-in 400ms token(easings.easeIn)",
             },
