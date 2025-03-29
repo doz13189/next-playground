@@ -1,7 +1,12 @@
+"use client"
+
 import type { CharacterSchema } from "@/app/_data/character/schema";
 import type { MemorySchema } from "@/app/_data/memory/schema";
+import { querySkill } from "@/app/_lib/query/skill";
+import { Dialog } from "@/app/_parts/Dialog";
+import { Button } from "@/app/_parts/button";
+import { Heading } from "@/app/_parts/heading";
 import { Typography } from "@/app/_parts/typography";
-import { css } from "@/styled-system/css";
 import type { FC } from "react";
 import type { z } from "zod";
 
@@ -15,21 +20,44 @@ export const Skills: FC<{
       {Array.from(new Set(skills))
         .sort()
         .map((tag) => (
-          <span
-            key={tag}
-            className={css({
-              display: 'inline-block',
-              bg: 'tertiary',
-              color: 'black',
-              paddingY: '1',
-              paddingX: '2',
-              marginRight: '2',
-              marginY: '1',
-              borderRadius: "6px",
-            })}
+          <Dialog key={tag} dialogButton={<Button
+            width={"auto"}
+            color={"black"}
+            backgroundColor={"tertiary"}
+            paddingX={'2'}
+            marginY={'1'}
+            marginX={'1'}
+            marginRight={'1'}
+            fontWeight={"light"}
           >
-            <Typography>{tag}</Typography>
-          </span>
+            {tag}
+          </Button>
+          }
+            content={(() => {
+              const skill = querySkill(tag)
+              if (!skill) {
+                return (
+                  <>
+                    <Heading>{"404"}</Heading>
+                    <Typography>{"該当のスキルが見つかりませんでした"}</Typography>
+                    <Typography>{"開発者にお知らせ頂ければ対応するはずです✌️"}</Typography>
+                  </>
+                );
+              }
+
+
+              return (
+                <>
+                  <Heading my={"2"}>{skill.name}</Heading>
+                  <Typography
+                    // biome-ignore lint/security/noDangerouslySetInnerHtml:
+                    dangerouslySetInnerHTML={{
+                      __html: skill.description,
+                    }} />
+                </>
+              );
+            })()}
+          />
         ))}
     </>
   );
