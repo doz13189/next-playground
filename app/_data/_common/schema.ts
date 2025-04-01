@@ -192,6 +192,7 @@ export const CharacterSkills = z.enum([
   "プルスウルトラ技ダメージ軽減",
   "自然体",
   "受け流し",
+  "衰弱",
 ] as const);
 
 export const MemorySkills = z.enum([
@@ -253,6 +254,8 @@ export const MemorySkills = z.enum([
   "かばう",
   "状態異常効果ターン短縮",
   "スキル封印",
+  "挑発",
+  "混乱",
 ] as const);
 
 export const Tags = z.enum([
