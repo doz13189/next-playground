@@ -53774,5 +53774,214 @@ export const characters: z.infer<typeof CharactersSchema> = {
         },
       },
     },
+    {
+      id: "1235002",
+      epithet: "トップスナイパー",
+      name: "レディ・ナガン",
+      rarity: "ur",
+      type: "int",
+      sex: "女",
+      skills: [
+        "スキル威力アップ",
+        "クリティカル率アップ",
+        "スキル威力ダウン",
+        "必中",
+        "クリティカル威力アップ",
+        "スピードアップ",
+        "クリティカル抵抗ダウン",
+        "パワーダウン",
+        "全体攻撃",
+        "状態異常回復阻害",
+        "衰弱",
+        "スピードダウン",
+      ],
+      tags: ["プロヒーロー", "ヒーロー", "敵＜ヴィラン＞"],
+      stats: [
+        {
+          hp: "4149",
+          power: "901",
+          speed: "90",
+          defense: "100",
+          critical: "15",
+        },
+        {
+          hp: "10469",
+          power: "2876",
+          speed: "169",
+          defense: "100",
+          critical: "15",
+        },
+        {
+          hp: "37769",
+          power: "10106",
+          speed: "649",
+          defense: "100",
+          critical: "15",
+        },
+        {
+          hp: "46769",
+          power: "11906",
+          speed: "829",
+          defense: "100",
+          critical: "15",
+        },
+      ],
+      uniqueSkills: [
+        "自分が必中の時、自分のクリティカル率を20%アップ",
+        "自分で敵を倒すたび、自分のプルスウルトラ技の威力を20%アップ",
+        "自分よりパワーが高い相手から攻撃を3回受けきった後に、自分に回避(1回)を付与(最大5回)",
+        "毎ターン、自分のプルスウルトラゲージを5%アップする(最大8回)",
+        "自分のスピードがアップしている時、自分のパワーを20%アップ",
+        "WAVE開始後、自分のスピードを35%アップ(1ターン)",
+        "WAVE開始後、自分のプルスウルトラ技の威力を25%アップ(4ターン)",
+      ],
+      skill: {
+        levelone: {
+          plusUltra: {
+            name: "ラピッドスナイプ",
+            description:
+              '敵単体に<span style="color: #79ff80;">550</span>%ダメージ、スキル威力<span style="color: #ff6f6f;">6</span>%ダウン(10ターン)<br>自分に必中(3ターン)を付与<br>敵がクリティカル抵抗ダウンだったら、このスキルのスキル威力<span style="color: #79ff80;">30</span>%アップ<br>敵がパワーダウンだったら、このスキルのクリティカル率<span style="color: #79ff80;">15</span>%アップ',
+          },
+          actionSkill1: {
+            name: "一発必中",
+            description:
+              '敵単体に<span style="color: #79ff80;">325</span>%ダメージ、パワー<span style="color: #ff6f6f;">2</span>%ダウン(10ターン)※この効果は状態異常無効で防げず、解除もできない<br>敵がクリティカル抵抗ダウンだったら、このスキルのスキル威力<span style="color: #79ff80;">25</span>%アップ<br>敵がパワーダウンだったら、このスキルのクリティカル率<span style="color: #79ff80;">15</span>%アップ',
+            coolTime: "6",
+          },
+          actionSkill2: {
+            name: "バレットレイン",
+            description:
+              '敵全体に<span style="color: #79ff80;">200</span>%ダメージ、状態異常回復阻害(1ターン)・衰弱(2ターン)を付与、スピード<span style="color: #ff6f6f;">2</span>%ダウン(10ターン)',
+            coolTime: "6",
+          },
+          autoSkill1: {
+            name: "スナイパーアイ",
+            description:
+              '自分に必中(2ターン)を付与(最大1回)<br>3ターン毎に、自分に必中(1ターン)を付与<br>自分が敵を1人撃破した時、自分のクリティカル威力<span style="color: #79ff80;">5</span>%アップ(累積)',
+          },
+          autoSkill2: {
+            name: "二色の毛髪",
+            description:
+              '自分が必中の時、自分のクリティカル威力<span style="color: #79ff80;">20</span>%アップ、スピード<span style="color: #79ff80;">20</span>%アップ<br>自分のクリティカル攻撃が2回発生しなかった時、自分のクリティカル率<span style="color: #79ff80;">5</span>%アップ(最大10回)<br>自分のクリティカル攻撃が2回発生しきった時、敵全体のクリティカル抵抗<span style="color: #ff6f6f;">5</span>%ダウン(10ターン)',
+          },
+        },
+        leveltwo: {
+          plusUltra: {
+            name: "ラピッドスナイプ",
+            description:
+              '敵単体に<span style="color: #79ff80;">600</span>%ダメージ、スキル威力<span style="color: #ff6f6f;">8</span>%ダウン(10ターン)<br>自分に必中(3ターン)を付与<br>敵がクリティカル抵抗ダウンだったら、このスキルのスキル威力<span style="color: #79ff80;">40</span>%アップ<br>敵がパワーダウンだったら、このスキルのクリティカル率<span style="color: #79ff80;">15</span>%アップ',
+          },
+          actionSkill1: {
+            name: "一発必中",
+            description:
+              '敵単体に<span style="color: #79ff80;">350</span>%ダメージ、パワー<span style="color: #ff6f6f;">4</span>%ダウン(10ターン)※この効果は状態異常無効で防げず、解除もできない<br>敵がクリティカル抵抗ダウンだったら、このスキルのスキル威力<span style="color: #79ff80;">25</span>%アップ<br>敵がパワーダウンだったら、このスキルのクリティカル率<span style="color: #79ff80;">15</span>%アップ',
+            coolTime: "5",
+          },
+          actionSkill2: {
+            name: "バレットレイン",
+            description:
+              '敵全体に<span style="color: #79ff80;">225</span>%ダメージ、状態異常回復阻害(1ターン)・衰弱(2ターン)を付与、スピード<span style="color: #ff6f6f;">4</span>%ダウン(10ターン)',
+            coolTime: "5",
+          },
+          autoSkill1: {
+            name: "スナイパーアイ",
+            description:
+              '自分に必中(2ターン)を付与(最大1回)<br>3ターン毎に、自分に必中(1ターン)を付与<br>自分が敵を1人撃破した時、自分のクリティカル威力<span style="color: #79ff80;">10</span>%アップ(累積)',
+          },
+          autoSkill2: {
+            name: "二色の毛髪",
+            description:
+              '自分が必中の時、自分のクリティカル威力<span style="color: #79ff80;">30</span>%アップ、スピード<span style="color: #79ff80;">30</span>%アップ<br>自分のクリティカル攻撃が2回発生しなかった時、自分のクリティカル率<span style="color: #79ff80;">5</span>%アップ(最大10回)<br>自分のクリティカル攻撃が2回発生しきった時、敵全体のクリティカル抵抗<span style="color: #ff6f6f;">5</span>%ダウン(10ターン)',
+          },
+        },
+        levelthree: {
+          plusUltra: {
+            name: "ラピッドスナイプ",
+            description:
+              '敵単体に<span style="color: #79ff80;">650</span>%ダメージ、スキル威力<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)<br>自分に必中(3ターン)を付与<br>敵がクリティカル抵抗ダウンだったら、このスキルのスキル威力<span style="color: #79ff80;">50</span>%アップ<br>敵がパワーダウンだったら、このスキルのクリティカル率<span style="color: #79ff80;">15</span>%アップ',
+          },
+          actionSkill1: {
+            name: "一発必中",
+            description:
+              '敵単体に<span style="color: #79ff80;">375</span>%ダメージ、パワー<span style="color: #ff6f6f;">6</span>%ダウン(10ターン)※この効果は状態異常無効で防げず、解除もできない<br>敵がクリティカル抵抗ダウンだったら、このスキルのスキル威力<span style="color: #79ff80;">25</span>%アップ<br>敵がパワーダウンだったら、このスキルのクリティカル率<span style="color: #79ff80;">15</span>%アップ',
+            coolTime: "4",
+          },
+          actionSkill2: {
+            name: "バレットレイン",
+            description:
+              '敵全体に<span style="color: #79ff80;">250</span>%ダメージ、状態異常回復阻害(1ターン)・衰弱(2ターン)を付与、スピード<span style="color: #ff6f6f;">6</span>%ダウン(10ターン)',
+            coolTime: "4",
+          },
+          autoSkill1: {
+            name: "スナイパーアイ",
+            description:
+              '自分に必中(2ターン)を付与(最大1回)<br>3ターン毎に、自分に必中(1ターン)を付与<br>自分が敵を1人撃破した時、自分のクリティカル威力<span style="color: #79ff80;">15</span>%アップ(累積)',
+          },
+          autoSkill2: {
+            name: "二色の毛髪",
+            description:
+              '自分が必中の時、自分のクリティカル威力<span style="color: #79ff80;">40</span>%アップ、スピード<span style="color: #79ff80;">40</span>%アップ<br>自分のクリティカル攻撃が2回発生しなかった時、自分のクリティカル率<span style="color: #79ff80;">5</span>%アップ(最大10回)<br>自分のクリティカル攻撃が2回発生しきった時、敵全体のクリティカル抵抗<span style="color: #ff6f6f;">5</span>%ダウン(10ターン)',
+          },
+        },
+        dxlevelone: {
+          plusUltra: {
+            name: "ラピッドスナイプ",
+            description:
+              '敵単体に<span style="color: #79ff80;">650</span>%ダメージ、スキル威力<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)<br>自分に必中(3ターン)を付与<br>敵がクリティカル抵抗ダウンだったら、このスキルのスキル威力<span style="color: #79ff80;">50</span>%アップ<br>敵がパワーダウンだったら、このスキルのクリティカル率<span style="color: #79ff80;">15</span>%アップ',
+          },
+          actionSkill1: {
+            name: "一発必中 DX",
+            description:
+              '敵単体に<span style="color: #79ff80;">400</span>%ダメージ、パワー<span style="color: #ff6f6f;">8</span>%ダウン(10ターン)※この効果は状態異常無効で防げず、解除もできない<br>敵がクリティカル抵抗ダウンだったら、このスキルのスキル威力<span style="color: #79ff80;">25</span>%アップ<br>敵がパワーダウンだったら、このスキルのクリティカル率<span style="color: #79ff80;">15</span>%アップ',
+            coolTime: "4",
+          },
+          actionSkill2: {
+            name: "バレットレイン DX",
+            description:
+              '敵全体に<span style="color: #79ff80;">275</span>%ダメージ、状態異常回復阻害(1ターン)・衰弱(2ターン)を付与、スピード<span style="color: #ff6f6f;">8</span>%ダウン(10ターン)',
+            coolTime: "4",
+          },
+          autoSkill1: {
+            name: "スナイパーアイ",
+            description:
+              '自分に必中(2ターン)を付与(最大1回)<br>3ターン毎に、自分に必中(1ターン)を付与<br>自分が敵を1人撃破した時、自分のクリティカル威力<span style="color: #79ff80;">15</span>%アップ(累積)',
+          },
+          autoSkill2: {
+            name: "二色の毛髪",
+            description:
+              '自分が必中の時、自分のクリティカル威力<span style="color: #79ff80;">40</span>%アップ、スピード<span style="color: #79ff80;">40</span>%アップ<br>自分のクリティカル攻撃が2回発生しなかった時、自分のクリティカル率<span style="color: #79ff80;">5</span>%アップ(最大10回)<br>自分のクリティカル攻撃が2回発生しきった時、敵全体のクリティカル抵抗<span style="color: #ff6f6f;">5</span>%ダウン(10ターン)',
+          },
+        },
+        dxleveltwo: {
+          plusUltra: {
+            name: "ラピッドスナイプ",
+            description:
+              '敵単体に<span style="color: #79ff80;">650</span>%ダメージ、スキル威力<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)<br>自分に必中(3ターン)を付与<br>敵がクリティカル抵抗ダウンだったら、このスキルのスキル威力<span style="color: #79ff80;">50</span>%アップ<br>敵がパワーダウンだったら、このスキルのクリティカル率<span style="color: #79ff80;">15</span>%アップ',
+          },
+          actionSkill1: {
+            name: "一発必中 DX",
+            description:
+              '敵単体に<span style="color: #79ff80;">425</span>%ダメージ、パワー<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)※この効果は状態異常無効で防げず、解除もできない<br>敵がクリティカル抵抗ダウンだったら、このスキルのスキル威力<span style="color: #79ff80;">25</span>%アップ<br>敵がパワーダウンだったら、このスキルのクリティカル率<span style="color: #79ff80;">15</span>%アップ',
+            coolTime: "4",
+          },
+          actionSkill2: {
+            name: "バレットレイン DX",
+            description:
+              '敵全体に<span style="color: #79ff80;">300</span>%ダメージ、状態異常回復阻害(1ターン)・衰弱(2ターン)を付与、スピード<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)',
+            coolTime: "4",
+          },
+          autoSkill1: {
+            name: "スナイパーアイ",
+            description:
+              '自分に必中(2ターン)を付与(最大1回)<br>3ターン毎に、自分に必中(1ターン)を付与<br>自分が敵を1人撃破した時、自分のクリティカル威力<span style="color: #79ff80;">15</span>%アップ(累積)',
+          },
+          autoSkill2: {
+            name: "二色の毛髪",
+            description:
+              '自分が必中の時、自分のクリティカル威力<span style="color: #79ff80;">40</span>%アップ、スピード<span style="color: #79ff80;">40</span>%アップ<br>自分のクリティカル攻撃が2回発生しなかった時、自分のクリティカル率<span style="color: #79ff80;">5</span>%アップ(最大10回)<br>自分のクリティカル攻撃が2回発生しきった時、敵全体のクリティカル抵抗<span style="color: #ff6f6f;">5</span>%ダウン(10ターン)',
+          },
+        },
+      },
+    },
   ],
 };
