@@ -1133,11 +1133,11 @@ export const skills: z.infer<typeof SkillsSchema> = {
       description: "一時的な状態異常の回復を受けられなくなる",
       iconUrl: "/assets/buffs_debuffs/battle_status_icon_debuff_033.webp",
     },
-    // {
-    //   name: "衰弱",
-    //   description:
-    //     '現在値：<span style="color:#ff6f6f;">X</span>%(最大50%)\n与えるダメージが減少し、受けるダメージが増加する。この効果は自分の一時的な状態異常の数によって増加',
-    //   iconUrl: "/assets/buffs_debuffs/battle_status_icon_debuff_034.webp",
-    // },
+    {
+      name: "衰弱",
+      description:
+        '現在値：<span style="color:#ff6f6f;">X</span>%(最大50%)\n与えるダメージが減少し、受けるダメージが増加する。この効果は自分の一時的な状態異常の数によって増加',
+      iconUrl: "/assets/buffs_debuffs/battle_status_icon_debuff_034.webp",
+    },
   ],
 };
