@@ -193,6 +193,7 @@ export const CharacterSkills = z.enum([
   "自然体",
   "受け流し",
   "衰弱",
+  "ブロック",
 ] as const);
 
 export const MemorySkills = z.enum([

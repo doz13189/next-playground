@@ -1139,5 +1139,11 @@ export const skills: z.infer<typeof SkillsSchema> = {
         '現在値：<span style="color:#ff6f6f;">X</span>%(最大50%)\n与えるダメージが減少し、受けるダメージが増加する。この効果は自分の一時的な状態異常の数によって増加',
       iconUrl: "/assets/buffs_debuffs/battle_status_icon_debuff_034.webp",
     },
+    {
+      name: "ブロック",
+      description:
+        '現在値：<span style="color:#00f50c;">X</span>\n現在HPの<span style="color:#00f50c;">X</span>%分を追加HPとして自分に付与し、自分以外の味方が受けるダメージの<span style="color:#00f50c;">50</span>%を肩代わりするようになり、そのバトルでスピードが最も遅くなる。これらの効果は追加HPが無くなった際に解除される',
+      iconUrl: "/assets/buffs_debuffs/battle_status_icon_buff_055.webp",
+    },
   ],
 };
