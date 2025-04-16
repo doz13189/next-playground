@@ -257,6 +257,7 @@ export const MemorySkills = z.enum([
   "スキル封印",
   "挑発",
   "混乱",
+  "拘束",
 ] as const);
 
 export const Tags = z.enum([
