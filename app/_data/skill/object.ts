@@ -881,6 +881,12 @@ export const skills: z.infer<typeof SkillsSchema> = {
       iconUrl: "/assets/buffs_debuffs/battle_status_icon_buff_054.webp",
     },
     {
+      name: "破壊",
+      description:
+        'HPにダメージを与えた際、対象に与えたダメージ<span style="color:#ff3232;">X</span>%分のHP破壊を付与する',
+      iconUrl: "/assets/buffs_debuffs/battle_status_icon_buff_056.webp",
+    },
+    {
       name: "パワーダウン",
       description: 'パワーが<span style="color:#ff6f6f;">X</span>%ダウン',
       iconUrl: "/assets/buffs_debuffs/battle_status_icon_debuff_001.webp",
@@ -1144,6 +1150,12 @@ export const skills: z.infer<typeof SkillsSchema> = {
       description:
         '現在値：<span style="color:#00f50c;">X</span>\n現在HPの<span style="color:#00f50c;">X</span>%分を追加HPとして自分に付与し、自分以外の味方が受けるダメージの<span style="color:#00f50c;">50</span>%を肩代わりするようになり、そのバトルでスピードが最も遅くなる。これらの効果は追加HPが無くなった際に解除される',
       iconUrl: "/assets/buffs_debuffs/battle_status_icon_buff_055.webp",
+    },
+    {
+      name: "HP破壊",
+      description:
+        '現在値：<span style="color:#ff3232;">X</span>(最大HPの<span style="color:#ff3232;">X</span>%)\nHP回復・解除することができない特殊ダメージ',
+      iconUrl: "/assets/buffs_debuffs/battle_status_icon_debuff_035.webp",
     },
   ],
 };
