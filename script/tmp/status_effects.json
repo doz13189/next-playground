@@ -839,6 +839,11 @@
     "iconUrl": "/assets/buffs_debuffs/battle_status_icon_buff_055.webp"
   },
   {
+    "name": "破壊",
+    "description": "HPにダメージを与えた際、対象に与えたダメージ<span style=\"color:#ff3232;\">X</span>%分のHP破壊を付与する",
+    "iconUrl": "/assets/buffs_debuffs/battle_status_icon_buff_056.webp"
+  },
+  {
     "name": "パワーダウン",
     "description": "パワーが<span style=\"color:#ff3232;\">X</span>%ダウン",
     "iconUrl": "/assets/buffs_debuffs/battle_status_icon_debuff_001.webp"
@@ -1082,5 +1087,10 @@
     "name": "衰弱",
     "description": "現在値：<span style=\"color:#ff3232;\">X</span>%(最大50%)\n与えるダメージが減少し、受けるダメージが増加する。この効果は自分の一時的な状態異常の数によって増加",
     "iconUrl": "/assets/buffs_debuffs/battle_status_icon_debuff_034.webp"
+  },
+  {
+    "name": "HP破壊",
+    "description": "現在値：<span style=\"color:#ff3232;\">X</span>(最大HPの<span style=\"color:#ff3232;\">X</span>%)\nHP回復・解除することができない特殊ダメージ",
+    "iconUrl": "/assets/buffs_debuffs/battle_status_icon_debuff_035.webp"
   }
 ]
