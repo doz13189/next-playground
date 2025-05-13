@@ -54609,5 +54609,215 @@ export const characters: z.infer<typeof CharactersSchema> = {
         },
       },
     },
+    {
+      id: "1221004",
+      epithet: "喰らいつく猛攻",
+      name: "ミルコ",
+      rarity: "ur",
+      type: "int",
+      sex: "女",
+      skills: [
+        "スキル威力アップ",
+        "パワーダウン",
+        "ディフェンスダウン",
+        "貫通",
+        "パワーアップ",
+        "くいしばり",
+        "与ダメージ回復",
+        "状態異常無効",
+        "挑発",
+        "回復",
+        "状態異常解除",
+        "ディフェンスアップ",
+        "プルスウルトラゲージ増加",
+      ],
+      tags: ["プロヒーロー", "ヒーロー"],
+      stats: [
+        {
+          hp: "5491",
+          power: "855",
+          speed: "126",
+          defense: "100",
+          critical: "15",
+        },
+        {
+          hp: "12996",
+          power: "2514",
+          speed: "205",
+          defense: "100",
+          critical: "15",
+        },
+        {
+          hp: "42946",
+          power: "9344",
+          speed: "675",
+          defense: "100",
+          critical: "15",
+        },
+        {
+          hp: "51946",
+          power: "11144",
+          speed: "855",
+          defense: "100",
+          critical: "15",
+        },
+      ],
+      uniqueSkills: [
+        "自分のHPが5%未満の時、自分のアクションスキルのクールタイムを1短縮する(最大7回)",
+        "自分がくいしばり状態の時、戦闘中に1度だけ自分に逆境(3ターン)を付与する",
+        "自分で敵を倒すたび、自分のスピードを20%アップ(3ターン)",
+        "戦闘開始後、自分のスキル威力を10%ダウン、クリティカル率を30%アップ(3ターン)",
+        "戦闘開始後、味方全体のディフェンスを20%アップ(3ターン)",
+        "2ターン毎に自分のスキル威力が10%アップ(最大3回)",
+        "自分で敵を倒すたび、自分のクリティカル率を15%アップ",
+      ],
+      skill: {
+        levelone: {
+          plusUltra: {
+            name: "満月乱蹴＜ルナラッシュ＞",
+            description:
+              '敵単体に<span style="color: #79ff80;">550</span>%ダメージ、パワー<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)<br>敵単体の一時的なパワーダウンが5個以上のキャラのディフェンス<span style="color: #ff6f6f;">10</span>%ダウン(3ターン)<br>自分がくいしばりの時、このスキルのスキル威力<span style="color: #79ff80;">30</span>%アップ',
+          },
+          actionSkill1: {
+            name: "踵月輪＜ルナリング＞",
+            description:
+              '敵単体に<span style="color: #79ff80;">300</span>%ダメージ、パワー<span style="color: #ff6f6f;">5</span>%ダウン(10ターン)<br>敵単体の一時的なパワーダウンが5個以上のキャラのディフェンス<span style="color: #ff6f6f;">5</span>%ダウン(3ターン)',
+            coolTime: "4",
+          },
+          actionSkill2: {
+            name: "月弾撃＜ルナショット＞",
+            description:
+              '敵単体に<span style="color: #79ff80;">300</span>%ダメージ<br>自分のディフェンス<span style="color: #79ff80;">10</span>%アップ(3ターン)<br>自分のHPが50%未満の時、自分のプルスウルトラゲージ<span style="color: #79ff80;">10</span>%アップ<br>自分がくいしばりの時、このスキルのスキル威力<span style="color: #79ff80;">30</span>%アップ',
+            coolTime: "6",
+          },
+          autoSkill1: {
+            name: "消えぬ闘志",
+            description:
+              '自分がHP回復を2回受けきった時、自分に貫通(2ターン)を付与<br>自分が貫通中に、相手に1回攻撃しきった時、自分のパワー<span style="color: #79ff80;">10</span>%アップ(3ターン)、くいしばり(2回)を付与<br>戦闘開始から6ターン目以降、自分に与ダメージ<span style="color: #79ff80;">10</span>%回復・状態異常無効を付与',
+          },
+          autoSkill2: {
+            name: "胆力",
+            description:
+              '自分がくいしばりの時、自分に挑発を付与<br>自分がくいしばりの時、敵全体のパワー<span style="color: #ff6f6f;">6</span>%ダウン<br>自分がパワーダウンの相手から攻撃を1回受けきった時、自分のHP<span style="color: #79ff80;">3</span>%回復、一時的な状態異常<span style="color: #79ff80;">1</span>個回復<br>自分がくいしばりのまま、3回ターンをまたいだ時、自分のHP<span style="color: #79ff80;">20</span>%回復',
+          },
+        },
+        leveltwo: {
+          plusUltra: {
+            name: "満月乱蹴＜ルナラッシュ＞",
+            description:
+              '敵単体に<span style="color: #79ff80;">600</span>%ダメージ、パワー<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)<br>敵単体の一時的なパワーダウンが5個以上のキャラのディフェンス<span style="color: #ff6f6f;">15</span>%ダウン(3ターン)<br>自分がくいしばりの時、このスキルのスキル威力<span style="color: #79ff80;">35</span>%アップ',
+          },
+          actionSkill1: {
+            name: "踵月輪＜ルナリング＞",
+            description:
+              '敵単体に<span style="color: #79ff80;">325</span>%ダメージ、パワー<span style="color: #ff6f6f;">5</span>%ダウン(10ターン)<br>敵単体の一時的なパワーダウンが5個以上のキャラのディフェンス<span style="color: #ff6f6f;">5</span>%ダウン(3ターン)',
+            coolTime: "4",
+          },
+          actionSkill2: {
+            name: "月弾撃＜ルナショット＞",
+            description:
+              '敵単体に<span style="color: #79ff80;">325</span>%ダメージ<br>自分のディフェンス<span style="color: #79ff80;">15</span>%アップ(3ターン)<br>自分のHPが50%未満の時、自分のプルスウルトラゲージ<span style="color: #79ff80;">15</span>%アップ<br>自分がくいしばりの時、このスキルのスキル威力<span style="color: #79ff80;">35</span>%アップ',
+            coolTime: "5",
+          },
+          autoSkill1: {
+            name: "消えぬ闘志",
+            description:
+              '自分がHP回復を2回受けきった時、自分に貫通(2ターン)を付与<br>自分が貫通中に、相手に1回攻撃しきった時、自分のパワー<span style="color: #79ff80;">15</span>%アップ(3ターン)、くいしばり(2回)を付与<br>戦闘開始から6ターン目以降、自分に与ダメージ<span style="color: #79ff80;">15</span>%回復・状態異常無効を付与',
+          },
+          autoSkill2: {
+            name: "胆力",
+            description:
+              '自分がくいしばりの時、自分に挑発を付与<br>自分がくいしばりの時、敵全体のパワー<span style="color: #ff6f6f;">8</span>%ダウン<br>自分がパワーダウンの相手から攻撃を1回受けきった時、自分のHP<span style="color: #79ff80;">4</span>%回復、一時的な状態異常<span style="color: #79ff80;">1</span>個回復<br>自分がくいしばりのまま、3回ターンをまたいだ時、自分のHP<span style="color: #79ff80;">25</span>%回復',
+          },
+        },
+        levelthree: {
+          plusUltra: {
+            name: "満月乱蹴＜ルナラッシュ＞",
+            description:
+              '敵単体に<span style="color: #79ff80;">650</span>%ダメージ、パワー<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)<br>敵単体の一時的なパワーダウンが5個以上のキャラのディフェンス<span style="color: #ff6f6f;">20</span>%ダウン(3ターン)<br>自分がくいしばりの時、このスキルのスキル威力<span style="color: #79ff80;">40</span>%アップ',
+          },
+          actionSkill1: {
+            name: "踵月輪＜ルナリング＞",
+            description:
+              '敵単体に<span style="color: #79ff80;">350</span>%ダメージ、パワー<span style="color: #ff6f6f;">5</span>%ダウン(10ターン)<br>敵単体の一時的なパワーダウンが5個以上のキャラのディフェンス<span style="color: #ff6f6f;">5</span>%ダウン(3ターン)',
+            coolTime: "4",
+          },
+          actionSkill2: {
+            name: "月弾撃＜ルナショット＞",
+            description:
+              '敵単体に<span style="color: #79ff80;">350</span>%ダメージ<br>自分のディフェンス<span style="color: #79ff80;">20</span>%アップ(3ターン)<br>自分のHPが50%未満の時、自分のプルスウルトラゲージ<span style="color: #79ff80;">20</span>%アップ<br>自分がくいしばりの時、このスキルのスキル威力<span style="color: #79ff80;">40</span>%アップ',
+            coolTime: "4",
+          },
+          autoSkill1: {
+            name: "消えぬ闘志",
+            description:
+              '自分がHP回復を2回受けきった時、自分に貫通(2ターン)を付与<br>自分が貫通中に、相手に1回攻撃しきった時、自分のパワー<span style="color: #79ff80;">20</span>%アップ(3ターン)、くいしばり(2回)を付与<br>戦闘開始から6ターン目以降、自分に与ダメージ<span style="color: #79ff80;">20</span>%回復・状態異常無効を付与',
+          },
+          autoSkill2: {
+            name: "胆力",
+            description:
+              '自分がくいしばりの時、自分に挑発を付与<br>自分がくいしばりの時、敵全体のパワー<span style="color: #ff6f6f;">10</span>%ダウン<br>自分がパワーダウンの相手から攻撃を1回受けきった時、自分のHP<span style="color: #79ff80;">5</span>%回復、一時的な状態異常<span style="color: #79ff80;">1</span>個回復<br>自分がくいしばりのまま、3回ターンをまたいだ時、自分のHP<span style="color: #79ff80;">30</span>%回復',
+          },
+        },
+        dxlevelone: {
+          plusUltra: {
+            name: "満月乱蹴＜ルナラッシュ＞",
+            description:
+              '敵単体に<span style="color: #79ff80;">650</span>%ダメージ、パワー<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)<br>敵単体の一時的なパワーダウンが5個以上のキャラのディフェンス<span style="color: #ff6f6f;">20</span>%ダウン(3ターン)<br>自分がくいしばりの時、このスキルのスキル威力<span style="color: #79ff80;">40</span>%アップ',
+          },
+          actionSkill1: {
+            name: "踵月輪＜ルナリング＞ DX",
+            description:
+              '敵単体に<span style="color: #79ff80;">375</span>%ダメージ、パワー<span style="color: #ff6f6f;">5</span>%ダウン(10ターン)<br>敵単体の一時的なパワーダウンが5個以上のキャラのディフェンス<span style="color: #ff6f6f;">10</span>%ダウン(3ターン)',
+            coolTime: "4",
+          },
+          actionSkill2: {
+            name: "月弾撃＜ルナショット＞ DX",
+            description:
+              '敵単体に<span style="color: #79ff80;">375</span>%ダメージ<br>自分のディフェンス<span style="color: #79ff80;">20</span>%アップ(3ターン)、プルスウルトラゲージ<span style="color: #79ff80;">10</span>%アップ<br>自分のHPが50%未満の時、自分のプルスウルトラゲージ<span style="color: #79ff80;">20</span>%アップ<br>自分がくいしばりの時、このスキルのスキル威力<span style="color: #79ff80;">40</span>%アップ',
+            coolTime: "4",
+          },
+          autoSkill1: {
+            name: "消えぬ闘志",
+            description:
+              '自分がHP回復を2回受けきった時、自分に貫通(2ターン)を付与<br>自分が貫通中に、相手に1回攻撃しきった時、自分のパワー<span style="color: #79ff80;">20</span>%アップ(3ターン)、くいしばり(2回)を付与<br>戦闘開始から6ターン目以降、自分に与ダメージ<span style="color: #79ff80;">20</span>%回復・状態異常無効を付与',
+          },
+          autoSkill2: {
+            name: "胆力",
+            description:
+              '自分がくいしばりの時、自分に挑発を付与<br>自分がくいしばりの時、敵全体のパワー<span style="color: #ff6f6f;">10</span>%ダウン<br>自分がパワーダウンの相手から攻撃を1回受けきった時、自分のHP<span style="color: #79ff80;">5</span>%回復、一時的な状態異常<span style="color: #79ff80;">1</span>個回復<br>自分がくいしばりのまま、3回ターンをまたいだ時、自分のHP<span style="color: #79ff80;">30</span>%回復',
+          },
+        },
+        dxleveltwo: {
+          plusUltra: {
+            name: "満月乱蹴＜ルナラッシュ＞",
+            description:
+              '敵単体に<span style="color: #79ff80;">650</span>%ダメージ、パワー<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)<br>敵単体の一時的なパワーダウンが5個以上のキャラのディフェンス<span style="color: #ff6f6f;">20</span>%ダウン(3ターン)<br>自分がくいしばりの時、このスキルのスキル威力<span style="color: #79ff80;">40</span>%アップ',
+          },
+          actionSkill1: {
+            name: "踵月輪＜ルナリング＞ DX",
+            description:
+              '敵単体に<span style="color: #79ff80;">400</span>%ダメージ、パワー<span style="color: #ff6f6f;">5</span>%ダウン(10ターン)<br>敵単体の一時的なパワーダウンが5個以上のキャラのディフェンス<span style="color: #ff6f6f;">10</span>%ダウン(3ターン)',
+            coolTime: "4",
+          },
+          actionSkill2: {
+            name: "月弾撃＜ルナショット＞ DX",
+            description:
+              '敵単体に<span style="color: #79ff80;">400</span>%ダメージ<br>自分のディフェンス<span style="color: #79ff80;">25</span>%アップ(3ターン)、プルスウルトラゲージ<span style="color: #79ff80;">10</span>%アップ<br>自分のHPが50%未満の時、自分のプルスウルトラゲージ<span style="color: #79ff80;">20</span>%アップ<br>自分がくいしばりの時、このスキルのスキル威力<span style="color: #79ff80;">45</span>%アップ',
+            coolTime: "4",
+          },
+          autoSkill1: {
+            name: "消えぬ闘志",
+            description:
+              '自分がHP回復を2回受けきった時、自分に貫通(2ターン)を付与<br>自分が貫通中に、相手に1回攻撃しきった時、自分のパワー<span style="color: #79ff80;">20</span>%アップ(3ターン)、くいしばり(2回)を付与<br>戦闘開始から6ターン目以降、自分に与ダメージ<span style="color: #79ff80;">20</span>%回復・状態異常無効を付与',
+          },
+          autoSkill2: {
+            name: "胆力",
+            description:
+              '自分がくいしばりの時、自分に挑発を付与<br>自分がくいしばりの時、敵全体のパワー<span style="color: #ff6f6f;">10</span>%ダウン<br>自分がパワーダウンの相手から攻撃を1回受けきった時、自分のHP<span style="color: #79ff80;">5</span>%回復、一時的な状態異常<span style="color: #79ff80;">1</span>個回復<br>自分がくいしばりのまま、3回ターンをまたいだ時、自分のHP<span style="color: #79ff80;">30</span>%回復',
+          },
+        },
+      },
+    },
   ],
 };
