@@ -140,6 +140,18 @@
     "description": "プルスウルトラゲージが減少する確率を上げる"
   },
   {
+    "name": "基礎攻撃力アップ",
+    "description": "基礎攻撃力が上昇する"
+  },
+  {
+    "name": "基礎スピードアップ",
+    "description": "基礎スピードが上昇する"
+  },
+  {
+    "name": "基礎最大HPアップ",
+    "description": "基礎最大HPが上昇する"
+  },
+  {
     "name": "バトルルール",
     "description": "相手に与えるダメージがターン経過ごとに徐々にアップするようになります\n有利なタイプで攻撃した場合のダメージ増加量が、他のバトルより低くなります"
   },
@@ -411,6 +423,11 @@
   {
     "name": "霜完全耐性",
     "description": "霜状態にならなくなる",
+    "iconUrl": "/assets/buffs_debuffs/battle_status_icon_buff_023.webp"
+  },
+  {
+    "name": "熱傷完全耐性",
+    "description": "熱傷状態にならなくなる",
     "iconUrl": "/assets/buffs_debuffs/battle_status_icon_buff_023.webp"
   },
   {
@@ -842,6 +859,11 @@
     "name": "破壊",
     "description": "HPにダメージを与えた際、対象に与えたダメージ<span style=\"color:#ff3232;\">X</span>%分のHP破壊を付与する",
     "iconUrl": "/assets/buffs_debuffs/battle_status_icon_buff_056.webp"
+  },
+  {
+    "name": "エンハンス",
+    "description": "以下の2つの条件を満たした状態でターンを終了した時付与される。プレイキャラのHP・パワー・スピードが上昇し、スキルの効果が変化する。",
+    "iconUrl": "/assets/buffs_debuffs/battle_status_icon_buff_057.webp"
   },
   {
     "name": "パワーダウン",

@@ -196,6 +196,10 @@ export const CharacterSkills = z.enum([
   "ブロック",
   "破壊",
   "HP破壊",
+  "エンハンス",
+  "基礎攻撃力アップ",
+  "基礎スピードアップ",
+  "基礎最大HPアップ",
 ] as const);
 
 export const MemorySkills = z.enum([
@@ -260,6 +264,7 @@ export const MemorySkills = z.enum([
   "挑発",
   "混乱",
   "拘束",
+  "プルスウルトラゲージ上昇量アップ",
 ] as const);
 
 export const Tags = z.enum([
