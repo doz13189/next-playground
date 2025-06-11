@@ -54903,7 +54903,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
             name: "デラウェアスマッシュ",
             description:
               '敵単体に<span style="color: #3C9A66;">300</span>%ダメージ、衰弱(2ターン)を付与<br>自分が貫通の時、自分のスキル威力<span style="color: #3C9A66;">9</span>%アップ(3ターン)<br>自分の一時的なパワーアップが3個以上の時、自分のスキル威力<span style="color: #3C9A66;">9</span>%アップ(3ターン)<color=#f68b1e>▼エンハンス追加効果自分のプルスウルトラゲージ<span style="color: #3C9A66;">15</span>%アップ',
-            coolTime: "5",
+            coolTime: "7",
           },
           autoSkill1: {
             name: "ギアコントロール",
@@ -54932,7 +54932,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
             name: "デラウェアスマッシュ",
             description:
               '敵単体に<span style="color: #3C9A66;">325</span>%ダメージ、衰弱(2ターン)を付与<br>自分が貫通の時、自分のスキル威力<span style="color: #3C9A66;">12</span>%アップ(3ターン)<br>自分の一時的なパワーアップが3個以上の時、自分のスキル威力<span style="color: #3C9A66;">12</span>%アップ(3ターン)<color=#f68b1e>▼エンハンス追加効果自分のプルスウルトラゲージ<span style="color: #3C9A66;">20</span>%アップ',
-            coolTime: "5",
+            coolTime: "6",
           },
           autoSkill1: {
             name: "ギアコントロール",
@@ -55110,13 +55110,13 @@ export const characters: z.infer<typeof CharactersSchema> = {
             name: "氷熱波",
             description:
               '敵単体に<span style="color: #3C9A66;">250</span>%ダメージ、燃焼(3ターン)を付与<br>敵全体の燃焼でないキャラに低確率 (30%)で燃焼(3ターン)を付与<br>敵が熱傷だったら、このスキルのスキル威力<span style="color: #3C9A66;">10</span>%アップ<color=#f68b1e>▼エンハンス追加効果敵が熱傷だったら、このスキルのスキル威力<span style="color: #3C9A66;">20</span>%アップ',
-            coolTime: "4",
+            coolTime: "6",
           },
           actionSkill2: {
             name: "炎舞",
             description:
               '敵全体に<span style="color: #3C9A66;">225</span>%ダメージ<br>自分がエンハンスでない時、敵全体の燃焼を熱傷<span style="color: #ff6f6f;">4</span>%(3ターン)に変換<br>自分に貫通(2ターン)を付与<br>敵に被ダメージ回復のキャラがいたら、自分に貫通(3ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵全体の燃焼を熱傷<span style="color: #ff6f6f;">4</span>%(3ターン)に変換※この効果は状態異常無効で防げず、解除もできない',
-            coolTime: "5",
+            coolTime: "7",
           },
           autoSkill1: {
             name: "温度急変化",
@@ -55139,13 +55139,13 @@ export const characters: z.infer<typeof CharactersSchema> = {
             name: "氷熱波",
             description:
               '敵単体に<span style="color: #3C9A66;">275</span>%ダメージ、燃焼(3ターン)を付与<br>敵全体の燃焼でないキャラに低確率 (30%)で燃焼(3ターン)を付与<br>敵が熱傷だったら、このスキルのスキル威力<span style="color: #3C9A66;">15</span>%アップ<color=#f68b1e>▼エンハンス追加効果敵が熱傷だったら、このスキルのスキル威力<span style="color: #3C9A66;">25</span>%アップ',
-            coolTime: "4",
+            coolTime: "5",
           },
           actionSkill2: {
             name: "炎舞",
             description:
               '敵全体に<span style="color: #3C9A66;">250</span>%ダメージ<br>自分がエンハンスでない時、敵全体の燃焼を熱傷<span style="color: #ff6f6f;">6</span>%(3ターン)に変換<br>自分に貫通(2ターン)を付与<br>敵に被ダメージ回復のキャラがいたら、自分に貫通(3ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵全体の燃焼を熱傷<span style="color: #ff6f6f;">6</span>%(3ターン)に変換※この効果は状態異常無効で防げず、解除もできない',
-            coolTime: "5",
+            coolTime: "6",
           },
           autoSkill1: {
             name: "温度急変化",
@@ -55460,6 +55460,222 @@ export const characters: z.infer<typeof CharactersSchema> = {
             name: "圧倒的破壊力",
             description:
               '自分に破壊<span style="color: #79ff80;">10</span>%を付与(最大1回)<br>自分がくいしばりのまま、2回ターンをまたいだ時、自分に破壊<span style="color: #79ff80;">10</span>%(20ターン)を付与(最大3回)※この効果は強化解除、強化阻害できない、ダメージ<span style="color: #79ff80;">5</span>%カット(最大1回)<br>自分がくいしばりのまま、4回ターンをまたいだ時、自分のダメージ<span style="color: #79ff80;">10</span>%カット(最大1回)、必中を付与(最大1回)<br>自分がくいしばりのまま、6回ターンをまたいだ時、自分のダメージ<span style="color: #79ff80;">15</span>%カット(最大1回)<color=#f68b1e>▼エンハンス追加効果自分に状態異常無効を付与、最大HP<span style="color: #79ff80;">50</span>%アップ</color=#f68b1e>',
+          },
+        },
+      },
+    },
+    {
+      id: "1148004",
+      epithet: "響かせる轟音",
+      name: "プレゼント・マイク",
+      rarity: "ur",
+      type: "dst",
+      sex: "男",
+      skills: [
+        "一時的な強化解除",
+        "スキル威力アップ",
+        "拘束",
+        "混乱",
+        "プルスウルトラゲージ減少",
+        "エンハンス",
+        "基礎攻撃力アップ",
+        "基礎スピードアップ",
+        "基礎最大HPアップ",
+        "必中",
+        "プルスウルトラゲージ増加",
+        "クリティカル率アップ",
+        "プルスウルトラゲージ上昇率ダウン",
+        "最大HPアップ",
+        "パワーアップ",
+        "全体攻撃",
+        "クリティカル抵抗ダウン",
+        "強化阻害",
+        "状態異常回復阻害",
+      ],
+      tags: ["雄英高校教師", "プロヒーロー", "ヒーロー"],
+      stats: [
+        {
+          hp: "5100",
+          power: "876",
+          speed: "110",
+          defense: "100",
+          critical: "10",
+        },
+        {
+          hp: "13000",
+          power: "2456",
+          speed: "189",
+          defense: "100",
+          critical: "10",
+        },
+        {
+          hp: "44200",
+          power: "8736",
+          speed: "759",
+          defense: "100",
+          critical: "10",
+        },
+        {
+          hp: "53200",
+          power: "10536",
+          speed: "939",
+          defense: "100",
+          critical: "10",
+        },
+      ],
+      uniqueSkills: [
+        "WAVE開始後、味方全体のプルスウルトラゲージを25%アップ",
+        "クリティカルが2ヒット発生するたびに、自分のプルスウルトラゲージを15%アップ",
+        "クリティカルが発生するたびに、自分のプルスウルトラ技の威力を5%アップ(3ターン)",
+        "WAVE開始後、味方全体のスピードを15%アップ(2ターン)",
+        "自分のスキル威力がアップしている時、プルスウルトラゲージ上昇量を40%アップ",
+        "自分のスピードがアップしている時、自分のパワーを20%アップ",
+        "WAVE開始後、自分のプルスウルトラ技の威力を25%アップ(4ターン)",
+      ],
+      skill: {
+        levelone: {
+          plusUltra: {
+            name: "捕縛シャウト",
+            description:
+              '敵単体の一時的な強化全て解除、<span style="color: #79ff80;">550</span>%ダメージ<br>敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体に高確率 (65%)で拘束(2ターン)を付与、高確率 (65%)で混乱(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体のプルスウルトラゲージ<span style="color: #ff6f6f;">20</span>%ダウン※アリーナ、サークル祭限定効果<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #79ff80;">30</span>%アップ</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "エコーヴォイス",
+            description:
+              '敵全体の一時的な強化<span style="color: #79ff80;">1</span>個解除、<span style="color: #79ff80;">225</span>%ダメージ、低確率 (30%)で混乱(2ターン)を付与、クリティカル抵抗<span style="color: #ff6f6f;">6</span>%ダウン(10ターン)、プルスウルトラゲージ上昇量<span style="color: #ff6f6f;">6</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<color=#f68b1e>▼エンハンス追加効果敵全体の一時的な強化解除数が<span style="color: #79ff80;">1</span>増加',
+            coolTime: "6",
+          },
+          actionSkill2: {
+            name: "D・Jブロー",
+            description:
+              '敵単体の一時的な強化<span style="color: #79ff80;">2</span>個解除、<span style="color: #79ff80;">300</span>%ダメージ、高確率 (70%)で強化阻害(2ターン)を付与、状態異常回復阻害(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵単体の一時的な強化解除数が全て解除に増加<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #79ff80;">30</span>％アップ',
+            coolTime: "4",
+          },
+          autoSkill1: {
+            name: "ヤバイ高音",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #79ff80;">10</span>％アップ                <br><br><h5 style="font-size: 16px;">Enhance Buffs</h5>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +280<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +12000<br>',
+          },
+          autoSkill2: {
+            name: "ヤバイ低音",
+            description:
+              '敵の一時的な強化が1回解除されきった時、自分のクリティカル率<span style="color: #79ff80;">5</span>%アップ(最大10回)<br>敵の一時的な強化が3回解除されきった時、敵全体のプルスウルトラゲージ上昇量<span style="color: #ff6f6f;">6</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<br>敵の一時的な強化が5回解除されきった時、自分の最大HP<span style="color: #79ff80;">15</span>%アップ(最大2回)、パワー<span style="color: #79ff80;">10</span>%アップ(最大2回)',
+          },
+        },
+        leveltwo: {
+          plusUltra: {
+            name: "捕縛シャウト",
+            description:
+              '敵単体の一時的な強化全て解除、<span style="color: #79ff80;">600</span>%ダメージ<br>敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体に高確率 (65%)で拘束(2ターン)を付与、高確率 (65%)で混乱(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体のプルスウルトラゲージ<span style="color: #ff6f6f;">25</span>%ダウン※アリーナ、サークル祭限定効果<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #79ff80;">40</span>%アップ</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "エコーヴォイス",
+            description:
+              '敵全体の一時的な強化<span style="color: #79ff80;">1</span>個解除、<span style="color: #79ff80;">250</span>%ダメージ、低確率 (30%)で混乱(2ターン)を付与、クリティカル抵抗<span style="color: #ff6f6f;">8</span>%ダウン(10ターン)、プルスウルトラゲージ上昇量<span style="color: #ff6f6f;">8</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<color=#f68b1e>▼エンハンス追加効果敵全体の一時的な強化解除数が<span style="color: #79ff80;">1</span>増加',
+            coolTime: "5",
+          },
+          actionSkill2: {
+            name: "D・Jブロー",
+            description:
+              '敵単体の一時的な強化<span style="color: #79ff80;">2</span>個解除、<span style="color: #79ff80;">325</span>%ダメージ、高確率 (70%)で強化阻害(2ターン)を付与、状態異常回復阻害(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵単体の一時的な強化解除数が全て解除に増加<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #79ff80;">40</span>％アップ',
+            coolTime: "4",
+          },
+          autoSkill1: {
+            name: "ヤバイ高音",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #79ff80;">15</span>％アップ                <br><br><h5 style="font-size: 16px;">Enhance Buffs</h5>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +280<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +12000<br>',
+          },
+          autoSkill2: {
+            name: "ヤバイ低音",
+            description:
+              '敵の一時的な強化が1回解除されきった時、自分のクリティカル率<span style="color: #79ff80;">5</span>%アップ(最大10回)<br>敵の一時的な強化が3回解除されきった時、敵全体のプルスウルトラゲージ上昇量<span style="color: #ff6f6f;">8</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<br>敵の一時的な強化が5回解除されきった時、自分の最大HP<span style="color: #79ff80;">15</span>%アップ(最大2回)、パワー<span style="color: #79ff80;">15</span>%アップ(最大2回)',
+          },
+        },
+        levelthree: {
+          plusUltra: {
+            name: "捕縛シャウト",
+            description:
+              '敵単体の一時的な強化全て解除、<span style="color: #79ff80;">650</span>%ダメージ<br>敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体に高確率 (65%)で拘束(2ターン)を付与、高確率 (65%)で混乱(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体のプルスウルトラゲージ<span style="color: #ff6f6f;">30</span>%ダウン※アリーナ、サークル祭限定効果<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #79ff80;">50</span>%アップ</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "エコーヴォイス",
+            description:
+              '敵全体の一時的な強化<span style="color: #79ff80;">1</span>個解除、<span style="color: #79ff80;">275</span>%ダメージ、低確率 (30%)で混乱(2ターン)を付与、クリティカル抵抗<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)、プルスウルトラゲージ上昇量<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<color=#f68b1e>▼エンハンス追加効果敵全体の一時的な強化解除数が<span style="color: #79ff80;">1</span>増加',
+            coolTime: "4",
+          },
+          actionSkill2: {
+            name: "D・Jブロー",
+            description:
+              '敵単体の一時的な強化<span style="color: #79ff80;">2</span>個解除、<span style="color: #79ff80;">350</span>%ダメージ、高確率 (70%)で強化阻害(2ターン)を付与、状態異常回復阻害(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵単体の一時的な強化解除数が全て解除に増加<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #79ff80;">50</span>％アップ',
+            coolTime: "4",
+          },
+          autoSkill1: {
+            name: "ヤバイ高音",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #79ff80;">20</span>％アップ                <br><br><h5 style="font-size: 16px;">Enhance Buffs</h5>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +280<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +12000<br>',
+          },
+          autoSkill2: {
+            name: "ヤバイ低音",
+            description:
+              '敵の一時的な強化が1回解除されきった時、自分のクリティカル率<span style="color: #79ff80;">5</span>%アップ(最大10回)<br>敵の一時的な強化が3回解除されきった時、敵全体のプルスウルトラゲージ上昇量<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<br>敵の一時的な強化が5回解除されきった時、自分の最大HP<span style="color: #79ff80;">15</span>%アップ(最大2回)、パワー<span style="color: #79ff80;">20</span>%アップ(最大2回)',
+          },
+        },
+        dxlevelone: {
+          plusUltra: {
+            name: "捕縛シャウト",
+            description:
+              '敵単体の一時的な強化全て解除、<span style="color: #79ff80;">650</span>%ダメージ<br>敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体に高確率 (65%)で拘束(2ターン)を付与、高確率 (65%)で混乱(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体のプルスウルトラゲージ<span style="color: #ff6f6f;">30</span>%ダウン※アリーナ、サークル祭限定効果<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #79ff80;">50</span>%アップ</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "エコーヴォイス DX",
+            description:
+              '敵全体の一時的な強化<span style="color: #79ff80;">1</span>個解除、<span style="color: #79ff80;">300</span>%ダメージ、低確率 (30%)で混乱(2ターン)を付与、クリティカル抵抗<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)、プルスウルトラゲージ上昇量<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<color=#f68b1e>▼エンハンス追加効果敵全体の一時的な強化解除数が<span style="color: #79ff80;">1</span>増加',
+            coolTime: "4",
+          },
+          actionSkill2: {
+            name: "D・Jブロー DX",
+            description:
+              '敵単体の一時的な強化<span style="color: #79ff80;">2</span>個解除、<span style="color: #79ff80;">375</span>%ダメージ、高確率 (70%)で強化阻害(2ターン)を付与、状態異常回復阻害(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵単体の一時的な強化解除数が全て解除に増加<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #79ff80;">50</span>％アップ',
+            coolTime: "4",
+          },
+          autoSkill1: {
+            name: "ヤバイ高音",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #79ff80;">20</span>％アップ                <br><br><h5 style="font-size: 16px;">Enhance Buffs</h5>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +280<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +12000<br>',
+          },
+          autoSkill2: {
+            name: "ヤバイ低音",
+            description:
+              '敵の一時的な強化が1回解除されきった時、自分のクリティカル率<span style="color: #79ff80;">5</span>%アップ(最大10回)<br>敵の一時的な強化が3回解除されきった時、敵全体のプルスウルトラゲージ上昇量<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<br>敵の一時的な強化が5回解除されきった時、自分の最大HP<span style="color: #79ff80;">15</span>%アップ(最大2回)、パワー<span style="color: #79ff80;">20</span>%アップ(最大2回)',
+          },
+        },
+        dxleveltwo: {
+          plusUltra: {
+            name: "捕縛シャウト",
+            description:
+              '敵単体の一時的な強化全て解除、<span style="color: #79ff80;">650</span>%ダメージ<br>敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体に高確率 (65%)で拘束(2ターン)を付与、高確率 (65%)で混乱(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体のプルスウルトラゲージ<span style="color: #ff6f6f;">30</span>%ダウン※アリーナ、サークル祭限定効果<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #79ff80;">50</span>%アップ</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "エコーヴォイス DX",
+            description:
+              '敵全体の一時的な強化<span style="color: #79ff80;">1</span>個解除、<span style="color: #79ff80;">325</span>%ダメージ、低確率 (30%)で混乱(2ターン)を付与、クリティカル抵抗<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)、プルスウルトラゲージ上昇量<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<color=#f68b1e>▼エンハンス追加効果敵全体の一時的な強化解除数が<span style="color: #79ff80;">1</span>増加',
+            coolTime: "4",
+          },
+          actionSkill2: {
+            name: "D・Jブロー DX",
+            description:
+              '敵単体の一時的な強化<span style="color: #79ff80;">2</span>個解除、<span style="color: #79ff80;">400</span>%ダメージ、高確率 (70%)で強化阻害(2ターン)を付与、状態異常回復阻害(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵単体の一時的な強化解除数が全て解除に増加<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #79ff80;">60</span>％アップ',
+            coolTime: "4",
+          },
+          autoSkill1: {
+            name: "ヤバイ高音",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #79ff80;">20</span>％アップ                <br><br><h5 style="font-size: 16px;">Enhance Buffs</h5>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +280<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +12000<br>',
+          },
+          autoSkill2: {
+            name: "ヤバイ低音",
+            description:
+              '敵の一時的な強化が1回解除されきった時、自分のクリティカル率<span style="color: #79ff80;">5</span>%アップ(最大10回)<br>敵の一時的な強化が3回解除されきった時、敵全体のプルスウルトラゲージ上昇量<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<br>敵の一時的な強化が5回解除されきった時、自分の最大HP<span style="color: #79ff80;">15</span>%アップ(最大2回)、パワー<span style="color: #79ff80;">20</span>%アップ(最大2回)',
           },
         },
       },
