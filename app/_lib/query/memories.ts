@@ -7,12 +7,14 @@ export const queryMemories = async ({
   rarity,
   skills,
   name,
+  skillDescription,
   offset,
   limit,
 }: {
   rarity: string;
   skills: string;
   name: string;
+  skillDescription: string;
   offset: string;
   limit: string;
 }) => {
@@ -37,10 +39,22 @@ export const queryMemories = async ({
     });
   }
 
+  if (skillDescription) {
+    response = response.filter((memory: z.infer<typeof MemorySchema>) => {
+      return (
+        memory.description.skilllv1.includes(skillDescription) ||
+        memory.description.skilllv1.includes(skillDescription) ||
+        memory.description.skilllv2.includes(skillDescription) ||
+        memory.description.skilllv3.includes(skillDescription) ||
+        memory.description.skilldxlv1.includes(skillDescription)
+      );
+    });
+  }
+
   return {
     memories: response.slice(
       Number.parseInt(offset),
-      Number.parseInt(offset) + Number.parseInt(limit),
+      Number.parseInt(offset) + Number.parseInt(limit)
     ),
     result: {
       offset: Number.parseInt(offset),

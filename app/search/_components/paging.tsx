@@ -12,10 +12,11 @@ export const NextPage: FC<{
   skills: string[];
   type?: string;
   name?: string;
+  skillDescription?: string;
   tags?: string;
   offset?: string;
   limit?: string;
-}> = ({ pathname, total, rarity, skills, type, name, tags, offset, limit }) => {
+}> = ({ pathname, total, rarity, skills, type, name, skillDescription, tags, offset, limit }) => {
   const router = useRouter();
   const nextOffset = Number(offset) + Number(limit);
   const disable = total <= nextOffset;
@@ -27,7 +28,7 @@ export const NextPage: FC<{
       width={"32"}
       onClick={() =>
         router.push(
-          `/search/${pathname}/result?${createQuery({ rarity, skills, type, name, tags, offset: String(nextOffset), limit })}`,
+          `/search/${pathname}/result?${createQuery({ rarity, skills, type, name, skillDescription, tags, offset: String(nextOffset), limit })}`,
         )
       }
       disabled={disable}
@@ -40,12 +41,13 @@ export const BackPage: FC<{
   total: number;
   rarity: string;
   skills: string[];
+  skillDescription?: string;
   type?: string;
   name?: string;
   tags?: string;
   offset?: string;
   limit?: string;
-}> = ({ pathname, rarity, skills, type, name, tags, offset, limit }) => {
+}> = ({ pathname, rarity, skills, type, name, skillDescription, tags, offset, limit }) => {
   const router = useRouter();
   const nextOffset = Number(offset) - Number(limit);
   const disable = nextOffset < 0;
@@ -57,7 +59,7 @@ export const BackPage: FC<{
       width={"32"}
       onClick={() =>
         router.push(
-          `/search/${pathname}/result?${createQuery({ rarity, skills, type, name, tags, offset: String(nextOffset), limit })}`,
+          `/search/${pathname}/result?${createQuery({ rarity, skills, type, name, skillDescription, tags, offset: String(nextOffset), limit })}`,
         )
       }
       disabled={disable}
@@ -72,10 +74,11 @@ export const AllPage: FC<{
   skills: string[];
   type?: string;
   name?: string;
+  skillDescription?: string;
   tags?: string;
   offset?: string;
   limit?: string;
-}> = ({ pathname, total, rarity, skills, type, name, tags, offset, limit }) => {
+}> = ({ pathname, total, rarity, skills, type, name, skillDescription, tags, offset, limit }) => {
   const router = useRouter();
   const disable = Number(limit) >= total;
 
@@ -86,7 +89,7 @@ export const AllPage: FC<{
       width={"32"}
       onClick={() =>
         router.push(
-          `/search/${pathname}/result?${createQuery({ rarity, skills, type, name, tags, offset: String(0), limit: String(total) })}`,
+          `/search/${pathname}/result?${createQuery({ rarity, skills, type, name, skillDescription, tags, offset: String(0), limit: String(total) })}`,
         )
       }
       disabled={disable}
