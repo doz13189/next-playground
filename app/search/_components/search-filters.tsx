@@ -12,8 +12,9 @@ export const SearchFilters: FC<{
   type?: string;
   name?: string;
   tags?: string;
-  skillDescription?: string;
-}> = ({ rarity, type, skills, name, tags, skillDescription }) => {
+  skillDescriptions?: string[];
+}> = ({ rarity, type, skills, name, tags, skillDescriptions }) => {
+  console.log(skillDescriptions)
   return (
     <div className={css({ position: 'relative' })}>
       <div className={flex({
@@ -86,14 +87,14 @@ export const SearchFilters: FC<{
             {`${skill},`}
           </span>
         ))}
-        {skillDescription && (
+        {skillDescriptions?.map((skillDescription) => (
           <span key={skillDescription} className={css({
             display: 'inline-block',
             fontSize: 'xs'
           })}>
             {`${skillDescription},`}
           </span>
-        )}
+        ))}
       </div>
     </div>
   );

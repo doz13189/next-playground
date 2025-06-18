@@ -9,8 +9,8 @@ export const ResetButton: FC<{
   setType?: (value: SetStateAction<string>) => void;
   setName?: (value: SetStateAction<string>) => void;
   setTags?: (value: SetStateAction<string>) => void;
-  setSkillDescription?: (value: SetStateAction<string>) => void;
-}> = ({ setRarity, setSkills, setType, setName, setTags, setSkillDescription }) => {
+  setSkillDescriptions?: (value: SetStateAction<string[]>) => void;
+}> = ({ setRarity, setSkills, setType, setName, setTags, setSkillDescriptions }) => {
   return (
     <Button
       type="submit"
@@ -23,7 +23,7 @@ export const ResetButton: FC<{
         setType?.("")
         setName?.("");
         setTags?.("");
-        setSkillDescription?.("");
+        setSkillDescriptions?.([""]);
       }}
     >
       リセット
