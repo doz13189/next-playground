@@ -4,10 +4,6 @@ import type { SkillsSchema } from "./schema";
 export const skills: z.infer<typeof SkillsSchema> = {
   skills: [
     {
-      name: "回復",
-      description: "HPを回復する",
-    },
-    {
       name: "状態変化解除",
       description:
         '一時的な強化を<span style="color:#00f50c;">X</span>つ解除する',
