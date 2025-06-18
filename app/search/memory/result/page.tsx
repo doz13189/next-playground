@@ -13,7 +13,7 @@ export default function Page(args: {
     rarity: string;
     skills: string;
     name: string;
-    skillDescription: string;
+    skillDescriptions: string;
     offset: string;
     limit: string;
   };
@@ -21,18 +21,18 @@ export default function Page(args: {
   const argRarity = args.searchParams?.rarity;
   const argSkills = args.searchParams?.skills?.split(",");
   const argName = args.searchParams?.name;
-  const argSkillDescription = args.searchParams?.skillDescription;
+  const argSkillDescriptions = args.searchParams?.skillDescriptions?.split(",") || [""];
 
   return (
     <Box>
       <Box>
-        <SearchFilters rarity={argRarity} skills={argSkills} name={argName} skillDescription={argSkillDescription} />
+        <SearchFilters rarity={argRarity} skills={argSkills} name={argName} skillDescriptions={argSkillDescriptions} />
         <Flex
           className={css({
             justifyContent: "end",
           })}
         >
-          <Link href={`/search/memory?${createQuery({ rarity: argRarity, skills: argSkills, name: argName, skillDescription: argSkillDescription })}`} prefetch={false}>{"検索条件変更"}</Link>
+          <Link href={`/search/memory?${createQuery({ rarity: argRarity, skills: argSkills, name: argName, skillDescriptions: argSkillDescriptions })}`} prefetch={false}>{"検索条件変更"}</Link>
         </Flex>
       </Box>
 

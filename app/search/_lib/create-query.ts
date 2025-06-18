@@ -2,7 +2,7 @@ type Prop = {
   rarity?: string;
   skills?: string[];
   name?: string;
-  skillDescription?: string;
+  skillDescriptions?: string[];
   tags?: string;
   type?: string;
   offset?: string;
@@ -12,7 +12,7 @@ export const createQuery = ({
   rarity,
   skills,
   name,
-  skillDescription,
+  skillDescriptions,
   tags,
   type,
   offset,
@@ -21,9 +21,10 @@ export const createQuery = ({
   const rarityQuery = rarity ? `rarity=${rarity}` : null;
   const typeQuery = type ? `type=${type}` : null;
   const nameQuery = name ? `name=${name}` : null;
-  const skillDescriptionQuery = skillDescription
-    ? `skillDescription=${skillDescription}`
-    : null;
+  const skillDescriptionsQuery =
+    skillDescriptions && skillDescriptions?.length > 0
+      ? `skillDescriptions=${skillDescriptions.filter((desc) => desc.trim() !== "").join(",")}`
+      : null;
   const skillsQuery = skills
     ? skills?.length > 0
       ? `skills=${skills.join(",")}`
@@ -37,7 +38,7 @@ export const createQuery = ({
     rarityQuery,
     typeQuery,
     nameQuery,
-    skillDescriptionQuery,
+    skillDescriptionsQuery,
     skillsQuery,
     tagsQuery,
     offsetQuery,

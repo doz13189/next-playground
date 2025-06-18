@@ -7,14 +7,14 @@ export const queryMemories = async ({
   rarity,
   skills,
   name,
-  skillDescription,
+  skillDescriptions,
   offset,
   limit,
 }: {
   rarity: string;
   skills: string;
   name: string;
-  skillDescription: string;
+  skillDescriptions: string;
   offset: string;
   limit: string;
 }) => {
@@ -39,15 +39,17 @@ export const queryMemories = async ({
     });
   }
 
-  if (skillDescription) {
-    response = response.filter((memory: z.infer<typeof MemorySchema>) => {
-      return (
-        memory.description.skilllv1.includes(skillDescription) ||
-        memory.description.skilllv1.includes(skillDescription) ||
-        memory.description.skilllv2.includes(skillDescription) ||
-        memory.description.skilllv3.includes(skillDescription) ||
-        memory.description.skilldxlv1.includes(skillDescription)
-      );
+  if (skillDescriptions) {
+    skillDescriptions?.split(",").map((skillDescription) => {
+      response = response.filter((memory: z.infer<typeof MemorySchema>) => {
+        return (
+          memory.description.skilllv1.includes(skillDescription) ||
+          memory.description.skilllv1.includes(skillDescription) ||
+          memory.description.skilllv2.includes(skillDescription) ||
+          memory.description.skilllv3.includes(skillDescription) ||
+          memory.description.skilldxlv1.includes(skillDescription)
+        );
+      });
     });
   }
 

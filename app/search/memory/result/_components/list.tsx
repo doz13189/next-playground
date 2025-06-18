@@ -13,7 +13,7 @@ export async function Memories({
       rarity: string;
       skills: string;
       name: string;
-      skillDescription: string;
+      skillDescriptions: string;
       offset: string;
       limit: string;
     };
@@ -22,7 +22,7 @@ export async function Memories({
   const argRarity = args.searchParams?.rarity;
   const argSkills = args.searchParams?.skills;
   const argName = args.searchParams?.name;
-  const argSkillDescription = args.searchParams?.skillDescription;
+  const argSkillDescriptions = args.searchParams?.skillDescriptions;
 
   const argOffset = args.searchParams?.offset || "0";
   const argLimit = args.searchParams?.limit || "10";
@@ -31,7 +31,7 @@ export async function Memories({
     rarity: argRarity,
     skills: argSkills,
     name: argName,
-    skillDescription: argSkillDescription,
+    skillDescriptions: argSkillDescriptions,
     offset: argOffset,
     limit: argLimit,
   });
@@ -73,7 +73,7 @@ export async function Memories({
           rarity={argRarity}
           skills={argSkills?.split(",")}
           name={argName}
-          skillDescription={argSkillDescription}
+          skillDescriptions={argSkillDescriptions?.split(",")}
           offset={argOffset}
           limit={argLimit}
         />
@@ -83,7 +83,7 @@ export async function Memories({
           rarity={argRarity}
           skills={argSkills?.split(",")}
           name={argName}
-          skillDescription={argSkillDescription}
+          skillDescriptions={argSkillDescriptions?.split(",")}
           offset={argOffset}
           limit={argLimit}
         />
@@ -93,7 +93,7 @@ export async function Memories({
           rarity={argRarity}
           skills={argSkills?.split(",")}
           name={argName}
-          skillDescription={argSkillDescription}
+          skillDescriptions={argSkillDescriptions?.split(",")}
           offset={argOffset}
           limit={argLimit}
         />
