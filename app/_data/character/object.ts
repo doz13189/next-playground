@@ -54902,7 +54902,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "ギアコントロール",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①衰弱の相手から攻撃を5回受けきる②バトル開始から5ターン経過)<br>1ターン毎に、自分に通常攻撃2回(2ターン)を付与<br>自分が通常攻撃2回中に、相手に3回攻撃しきった時、自分に貫通(2ターン)を付与<br>自分が貫通のまま、1回ターンをまたいだ時、敵全体のパワー<span style="color: #ff6f6f;">3</span>%ダウン(6ターン)、スピード<span style="color: #ff6f6f;">3</span>%ダウン(6ターン)                <br><br>Enhance Buffs<br>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +49<br>                                                    <span style="font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①衰弱の相手から攻撃を5回受けきる②バトル開始から5ターン経過)<br>1ターン毎に、自分に通常攻撃2回(2ターン)を付与<br>自分が通常攻撃2回中に、相手に3回攻撃しきった時、自分に貫通(2ターン)を付与<br>自分が貫通のまま、1回ターンをまたいだ時、敵全体のパワー<span style="color: #ff6f6f;">3</span>%ダウン(6ターン)、スピード<span style="color: #ff6f6f;">3</span>%ダウン(6ターン)                <br><br>Enhance Buffs<br>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +49<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +10000<br>',
           },
           autoSkill2: {
             name: "屈せぬ精神",
@@ -54931,7 +54931,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "ギアコントロール",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①衰弱の相手から攻撃を5回受けきる②バトル開始から5ターン経過)<br>1ターン毎に、自分に通常攻撃2回(2ターン)を付与<br>自分が通常攻撃2回中に、相手に3回攻撃しきった時、自分に貫通(2ターン)を付与<br>自分が貫通のまま、1回ターンをまたいだ時、敵全体のパワー<span style="color: #ff6f6f;">4</span>%ダウン(6ターン)、スピード<span style="color: #ff6f6f;">4</span>%ダウン(6ターン)                <br><br>Enhance Buffs<br>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +49<br>                                                    <span style="font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①衰弱の相手から攻撃を5回受けきる②バトル開始から5ターン経過)<br>1ターン毎に、自分に通常攻撃2回(2ターン)を付与<br>自分が通常攻撃2回中に、相手に3回攻撃しきった時、自分に貫通(2ターン)を付与<br>自分が貫通のまま、1回ターンをまたいだ時、敵全体のパワー<span style="color: #ff6f6f;">4</span>%ダウン(6ターン)、スピード<span style="color: #ff6f6f;">4</span>%ダウン(6ターン)                <br><br>Enhance Buffs<br>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +49<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +10000<br>',
           },
           autoSkill2: {
             name: "屈せぬ精神",
@@ -54960,7 +54960,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "ギアコントロール",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①衰弱の相手から攻撃を5回受けきる②バトル開始から5ターン経過)<br>1ターン毎に、自分に通常攻撃2回(2ターン)を付与<br>自分が通常攻撃2回中に、相手に3回攻撃しきった時、自分に貫通(2ターン)を付与<br>自分が貫通のまま、1回ターンをまたいだ時、敵全体のパワー<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)、スピード<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)                <br><br>Enhance Buffs<br>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +49<br>                                                    <span style="font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①衰弱の相手から攻撃を5回受けきる②バトル開始から5ターン経過)<br>1ターン毎に、自分に通常攻撃2回(2ターン)を付与<br>自分が通常攻撃2回中に、相手に3回攻撃しきった時、自分に貫通(2ターン)を付与<br>自分が貫通のまま、1回ターンをまたいだ時、敵全体のパワー<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)、スピード<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)                <br><br>Enhance Buffs<br>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +49<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +10000<br>',
           },
           autoSkill2: {
             name: "屈せぬ精神",
@@ -54989,7 +54989,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "ギアコントロール",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①衰弱の相手から攻撃を5回受けきる②バトル開始から5ターン経過)<br>1ターン毎に、自分に通常攻撃2回(2ターン)を付与<br>自分が通常攻撃2回中に、相手に3回攻撃しきった時、自分に貫通(2ターン)を付与<br>自分が貫通のまま、1回ターンをまたいだ時、敵全体のパワー<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)、スピード<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)                <br><br>Enhance Buffs<br>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +49<br>                                                    <span style="font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①衰弱の相手から攻撃を5回受けきる②バトル開始から5ターン経過)<br>1ターン毎に、自分に通常攻撃2回(2ターン)を付与<br>自分が通常攻撃2回中に、相手に3回攻撃しきった時、自分に貫通(2ターン)を付与<br>自分が貫通のまま、1回ターンをまたいだ時、敵全体のパワー<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)、スピード<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)                <br><br>Enhance Buffs<br>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +49<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +10000<br>',
           },
           autoSkill2: {
             name: "屈せぬ精神",
@@ -55018,7 +55018,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "ギアコントロール",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①衰弱の相手から攻撃を5回受けきる②バトル開始から5ターン経過)<br>1ターン毎に、自分に通常攻撃2回(2ターン)を付与<br>自分が通常攻撃2回中に、相手に3回攻撃しきった時、自分に貫通(2ターン)を付与<br>自分が貫通のまま、1回ターンをまたいだ時、敵全体のパワー<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)、スピード<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)                <br><br>Enhance Buffs<br>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +49<br>                                                    <span style="font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①衰弱の相手から攻撃を5回受けきる②バトル開始から5ターン経過)<br>1ターン毎に、自分に通常攻撃2回(2ターン)を付与<br>自分が通常攻撃2回中に、相手に3回攻撃しきった時、自分に貫通(2ターン)を付与<br>自分が貫通のまま、1回ターンをまたいだ時、敵全体のパワー<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)、スピード<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)                <br><br>Enhance Buffs<br>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +49<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +10000<br>',
           },
           autoSkill2: {
             name: "屈せぬ精神",
@@ -55115,7 +55115,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "温度急変化",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が貫通中に、相手に7回攻撃しきる②バトル開始から5ターン経過)<br>自分に平静(3ターン)を付与(最大1回)<br>自分が平静のまま、1回ターンをまたいだ時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分が平静のまま、2回ターンをまたいだ時、自分のスピード<span style="color: #3C9A66;">5</span>%アップ(4ターン)<br>自分が被ダメージ回復の相手から攻撃を3回受けきった時、敵全体の燃焼を熱傷<span style="color: #ff6f6f;">6</span>%(5ターン)に変換                <br><br><h5 style="font-size: 16px;">Enhance Buffs</h5>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +460<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style="font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +7000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が貫通中に、相手に7回攻撃しきる②バトル開始から5ターン経過)<br>自分に平静(3ターン)を付与(最大1回)<br>自分が平静のまま、1回ターンをまたいだ時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分が平静のまま、2回ターンをまたいだ時、自分のスピード<span style="color: #3C9A66;">5</span>%アップ(4ターン)<br>自分が被ダメージ回復の相手から攻撃を3回受けきった時、敵全体の燃焼を熱傷<span style="color: #ff6f6f;">6</span>%(5ターン)に変換                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +460<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>',
           },
           autoSkill2: {
             name: "炎熱上昇",
@@ -55144,7 +55144,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "温度急変化",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が貫通中に、相手に7回攻撃しきる②バトル開始から5ターン経過)<br>自分に平静(3ターン)を付与(最大1回)<br>自分が平静のまま、1回ターンをまたいだ時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分が平静のまま、2回ターンをまたいだ時、自分のスピード<span style="color: #3C9A66;">10</span>%アップ(4ターン)<br>自分が被ダメージ回復の相手から攻撃を3回受けきった時、敵全体の燃焼を熱傷<span style="color: #ff6f6f;">8</span>%(5ターン)に変換                <br><br><h5 style="font-size: 16px;">Enhance Buffs</h5>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +460<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style="font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +7000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が貫通中に、相手に7回攻撃しきる②バトル開始から5ターン経過)<br>自分に平静(3ターン)を付与(最大1回)<br>自分が平静のまま、1回ターンをまたいだ時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分が平静のまま、2回ターンをまたいだ時、自分のスピード<span style="color: #3C9A66;">10</span>%アップ(4ターン)<br>自分が被ダメージ回復の相手から攻撃を3回受けきった時、敵全体の燃焼を熱傷<span style="color: #ff6f6f;">8</span>%(5ターン)に変換                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +460<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>',
           },
           autoSkill2: {
             name: "炎熱上昇",
@@ -55173,7 +55173,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "温度急変化",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が貫通中に、相手に7回攻撃しきる②バトル開始から5ターン経過)<br>自分に平静(3ターン)を付与(最大1回)<br>自分が平静のまま、1回ターンをまたいだ時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分が平静のまま、2回ターンをまたいだ時、自分のスピード<span style="color: #3C9A66;">15</span>%アップ(4ターン)<br>自分が被ダメージ回復の相手から攻撃を3回受けきった時、敵全体の燃焼を熱傷<span style="color: #ff6f6f;">10</span>%(5ターン)に変換                <br><br><h5 style="font-size: 16px;">Enhance Buffs</h5>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +460<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style="font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +7000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が貫通中に、相手に7回攻撃しきる②バトル開始から5ターン経過)<br>自分に平静(3ターン)を付与(最大1回)<br>自分が平静のまま、1回ターンをまたいだ時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分が平静のまま、2回ターンをまたいだ時、自分のスピード<span style="color: #3C9A66;">15</span>%アップ(4ターン)<br>自分が被ダメージ回復の相手から攻撃を3回受けきった時、敵全体の燃焼を熱傷<span style="color: #ff6f6f;">10</span>%(5ターン)に変換                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +460<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>',
           },
           autoSkill2: {
             name: "炎熱上昇",
@@ -55202,7 +55202,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "温度急変化",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が貫通中に、相手に7回攻撃しきる②バトル開始から5ターン経過)<br>自分に平静(3ターン)を付与(最大1回)<br>自分が平静のまま、1回ターンをまたいだ時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分が平静のまま、2回ターンをまたいだ時、自分のスピード<span style="color: #3C9A66;">15</span>%アップ(4ターン)<br>自分が被ダメージ回復の相手から攻撃を3回受けきった時、敵全体の燃焼を熱傷<span style="color: #ff6f6f;">10</span>%(5ターン)に変換                <br><br><h5 style="font-size: 16px;">Enhance Buffs</h5>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +460<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style="font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +7000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が貫通中に、相手に7回攻撃しきる②バトル開始から5ターン経過)<br>自分に平静(3ターン)を付与(最大1回)<br>自分が平静のまま、1回ターンをまたいだ時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分が平静のまま、2回ターンをまたいだ時、自分のスピード<span style="color: #3C9A66;">15</span>%アップ(4ターン)<br>自分が被ダメージ回復の相手から攻撃を3回受けきった時、敵全体の燃焼を熱傷<span style="color: #ff6f6f;">10</span>%(5ターン)に変換                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +460<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>',
           },
           autoSkill2: {
             name: "炎熱上昇",
@@ -55231,7 +55231,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "温度急変化",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が貫通中に、相手に7回攻撃しきる②バトル開始から5ターン経過)<br>自分に平静(3ターン)を付与(最大1回)<br>自分が平静のまま、1回ターンをまたいだ時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分が平静のまま、2回ターンをまたいだ時、自分のスピード<span style="color: #3C9A66;">15</span>%アップ(4ターン)<br>自分が被ダメージ回復の相手から攻撃を3回受けきった時、敵全体の燃焼を熱傷<span style="color: #ff6f6f;">10</span>%(5ターン)に変換                <br><br><h5 style="font-size: 16px;">Enhance Buffs</h5>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +460<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style="font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +7000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が貫通中に、相手に7回攻撃しきる②バトル開始から5ターン経過)<br>自分に平静(3ターン)を付与(最大1回)<br>自分が平静のまま、1回ターンをまたいだ時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分が平静のまま、2回ターンをまたいだ時、自分のスピード<span style="color: #3C9A66;">15</span>%アップ(4ターン)<br>自分が被ダメージ回復の相手から攻撃を3回受けきった時、敵全体の燃焼を熱傷<span style="color: #ff6f6f;">10</span>%(5ターン)に変換                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +460<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>',
           },
           autoSkill2: {
             name: "炎熱上昇",
@@ -55315,145 +55315,145 @@ export const characters: z.infer<typeof CharactersSchema> = {
           plusUltra: {
             name: "強襲大破",
             description:
-              '敵全体に<span style="color: #79ff80;">350</span>%ダメージ<br>自分のクールタイム<span style="color: #79ff80;">1</span>短縮<br>自分の一時的な破壊が2個以上の時、このスキルのスキル威力<span style="color: #79ff80;">20</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与<br>このスキルに破壊<span style="color: #79ff80;">10</span>%を付与</color=#f68b1e>',
+              '敵全体に<span style="color: #3C9A66;">350</span>%ダメージ<br>自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分の一時的な破壊が2個以上の時、このスキルのスキル威力<span style="color: #3C9A66;">20</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与<br>このスキルに破壊<span style="color: #3C9A66;">10</span>%を付与</color=#f68b1e>',
           },
           actionSkill1: {
             name: "波及襲撃",
             description:
-              '敵全体に<span style="color: #79ff80;">200</span>%ダメージ、パワー<span style="color: #ff6f6f;">9</span>%ダウン(3ターン)<br>自分の一時的な破壊が3個以上の時、このスキルのスキル威力<span style="color: #79ff80;">15</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与',
+              '敵全体に<span style="color: #3C9A66;">200</span>%ダメージ、パワー<span style="color: #ff6f6f;">9</span>%ダウン(3ターン)<br>自分の一時的な破壊が3個以上の時、このスキルのスキル威力<span style="color: #3C9A66;">15</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与',
             coolTime: "5",
           },
           actionSkill2: {
             name: "撃砕殴打",
             description:
-              '敵単体に<span style="color: #79ff80;">300</span>%ダメージ、ディフェンス<span style="color: #ff6f6f;">9</span>%ダウン(3ターン)<br>自分の一時的な破壊が3個以上の時、このスキルのスキル威力<span style="color: #79ff80;">15</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与',
+              '敵単体に<span style="color: #3C9A66;">300</span>%ダメージ、ディフェンス<span style="color: #ff6f6f;">9</span>%ダウン(3ターン)<br>自分の一時的な破壊が3個以上の時、このスキルのスキル威力<span style="color: #3C9A66;">15</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与',
             coolTime: "5",
           },
           autoSkill1: {
             name: "超回復",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりでない②バトル開始から7ターン経過)<br>自分にくいしばり(6回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでも発動しない<br>1ターン毎に、自分の最大HP<span style="color: #ff6f6f;">10</span>%ダウン(20ターン)(最大5回)※この効果は状態異常無効で防げず、解除もできず、ゲストでは発動しない<br>自分がくいしばりでない時、自分にバリア(3ヒット)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<color=#f68b1e>▼エンハンス追加効果自分の一時的な状態異常<span style="color: #79ff80;">20</span>ターン短縮(最大1回)、HP<span style="color: #79ff80;">60</span>%回復(最大1回)                <br><br><h5 style="font-size: 16px;">Enhance Buffs</h5>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +42<br>                                                    <span style="font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +12000<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりでない②バトル開始から7ターン経過)<br>自分にくいしばり(6回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでも発動しない<br>1ターン毎に、自分の最大HP<span style="color: #ff6f6f;">10</span>%ダウン(20ターン)(最大5回)※この効果は状態異常無効で防げず、解除もできず、ゲストでは発動しない<br>自分がくいしばりでない時、自分にバリア(3ヒット)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<color=#f68b1e>▼エンハンス追加効果自分の一時的な状態異常<span style="color: #3C9A66;">20</span>ターン短縮(最大1回)、HP<span style="color: #3C9A66;">60</span>%回復(最大1回)                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +42<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "圧倒的破壊力",
             description:
-              '自分に破壊<span style="color: #79ff80;">10</span>%を付与(最大1回)<br>自分がくいしばりのまま、2回ターンをまたいだ時、自分に破壊<span style="color: #79ff80;">6</span>%(20ターン)を付与(最大3回)※この効果は強化解除、強化阻害できない、ダメージ<span style="color: #79ff80;">5</span>%カット(最大1回)<br>自分がくいしばりのまま、4回ターンをまたいだ時、自分のダメージ<span style="color: #79ff80;">6</span>%カット(最大1回)、必中を付与(最大1回)<br>自分がくいしばりのまま、6回ターンをまたいだ時、自分のダメージ<span style="color: #79ff80;">9</span>%カット(最大1回)<color=#f68b1e>▼エンハンス追加効果自分に状態異常無効を付与、最大HP<span style="color: #79ff80;">30</span>%アップ</color=#f68b1e>',
+              '自分に破壊<span style="color: #3C9A66;">10</span>%を付与(最大1回)<br>自分がくいしばりのまま、2回ターンをまたいだ時、自分に破壊<span style="color: #3C9A66;">6</span>%(20ターン)を付与(最大3回)※この効果は強化解除、強化阻害できない、ダメージ<span style="color: #3C9A66;">5</span>%カット(最大1回)<br>自分がくいしばりのまま、4回ターンをまたいだ時、自分のダメージ<span style="color: #3C9A66;">6</span>%カット(最大1回)、必中を付与(最大1回)<br>自分がくいしばりのまま、6回ターンをまたいだ時、自分のダメージ<span style="color: #3C9A66;">9</span>%カット(最大1回)<color=#f68b1e>▼エンハンス追加効果自分に状態異常無効を付与、最大HP<span style="color: #3C9A66;">30</span>%アップ</color=#f68b1e>',
           },
         },
         leveltwo: {
           plusUltra: {
             name: "強襲大破",
             description:
-              '敵全体に<span style="color: #79ff80;">400</span>%ダメージ<br>自分のクールタイム<span style="color: #79ff80;">1</span>短縮<br>自分の一時的な破壊が2個以上の時、このスキルのスキル威力<span style="color: #79ff80;">25</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与<br>このスキルに破壊<span style="color: #79ff80;">15</span>%を付与</color=#f68b1e>',
+              '敵全体に<span style="color: #3C9A66;">400</span>%ダメージ<br>自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分の一時的な破壊が2個以上の時、このスキルのスキル威力<span style="color: #3C9A66;">25</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与<br>このスキルに破壊<span style="color: #3C9A66;">15</span>%を付与</color=#f68b1e>',
           },
           actionSkill1: {
             name: "波及襲撃",
             description:
-              '敵全体に<span style="color: #79ff80;">225</span>%ダメージ、パワー<span style="color: #ff6f6f;">12</span>%ダウン(3ターン)<br>自分の一時的な破壊が3個以上の時、このスキルのスキル威力<span style="color: #79ff80;">20</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与',
+              '敵全体に<span style="color: #3C9A66;">225</span>%ダメージ、パワー<span style="color: #ff6f6f;">12</span>%ダウン(3ターン)<br>自分の一時的な破壊が3個以上の時、このスキルのスキル威力<span style="color: #3C9A66;">20</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与',
             coolTime: "5",
           },
           actionSkill2: {
             name: "撃砕殴打",
             description:
-              '敵単体に<span style="color: #79ff80;">325</span>%ダメージ、ディフェンス<span style="color: #ff6f6f;">12</span>%ダウン(3ターン)<br>自分の一時的な破壊が3個以上の時、このスキルのスキル威力<span style="color: #79ff80;">20</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与',
+              '敵単体に<span style="color: #3C9A66;">325</span>%ダメージ、ディフェンス<span style="color: #ff6f6f;">12</span>%ダウン(3ターン)<br>自分の一時的な破壊が3個以上の時、このスキルのスキル威力<span style="color: #3C9A66;">20</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与',
             coolTime: "5",
           },
           autoSkill1: {
             name: "超回復",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりでない②バトル開始から7ターン経過)<br>自分にくいしばり(6回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでも発動しない<br>1ターン毎に、自分の最大HP<span style="color: #ff6f6f;">10</span>%ダウン(20ターン)(最大5回)※この効果は状態異常無効で防げず、解除もできず、ゲストでは発動しない<br>自分がくいしばりでない時、自分にバリア(3ヒット)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<color=#f68b1e>▼エンハンス追加効果自分の一時的な状態異常<span style="color: #79ff80;">20</span>ターン短縮(最大1回)、HP<span style="color: #79ff80;">80</span>%回復(最大1回)                <br><br><h5 style="font-size: 16px;">Enhance Buffs</h5>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +42<br>                                                    <span style="font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +12000<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりでない②バトル開始から7ターン経過)<br>自分にくいしばり(6回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでも発動しない<br>1ターン毎に、自分の最大HP<span style="color: #ff6f6f;">10</span>%ダウン(20ターン)(最大5回)※この効果は状態異常無効で防げず、解除もできず、ゲストでは発動しない<br>自分がくいしばりでない時、自分にバリア(3ヒット)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<color=#f68b1e>▼エンハンス追加効果自分の一時的な状態異常<span style="color: #3C9A66;">20</span>ターン短縮(最大1回)、HP<span style="color: #3C9A66;">80</span>%回復(最大1回)                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +42<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "圧倒的破壊力",
             description:
-              '自分に破壊<span style="color: #79ff80;">10</span>%を付与(最大1回)<br>自分がくいしばりのまま、2回ターンをまたいだ時、自分に破壊<span style="color: #79ff80;">8</span>%(20ターン)を付与(最大3回)※この効果は強化解除、強化阻害できない、ダメージ<span style="color: #79ff80;">5</span>%カット(最大1回)<br>自分がくいしばりのまま、4回ターンをまたいだ時、自分のダメージ<span style="color: #79ff80;">8</span>%カット(最大1回)、必中を付与(最大1回)<br>自分がくいしばりのまま、6回ターンをまたいだ時、自分のダメージ<span style="color: #79ff80;">12</span>%カット(最大1回)<color=#f68b1e>▼エンハンス追加効果自分に状態異常無効を付与、最大HP<span style="color: #79ff80;">40</span>%アップ</color=#f68b1e>',
+              '自分に破壊<span style="color: #3C9A66;">10</span>%を付与(最大1回)<br>自分がくいしばりのまま、2回ターンをまたいだ時、自分に破壊<span style="color: #3C9A66;">8</span>%(20ターン)を付与(最大3回)※この効果は強化解除、強化阻害できない、ダメージ<span style="color: #3C9A66;">5</span>%カット(最大1回)<br>自分がくいしばりのまま、4回ターンをまたいだ時、自分のダメージ<span style="color: #3C9A66;">8</span>%カット(最大1回)、必中を付与(最大1回)<br>自分がくいしばりのまま、6回ターンをまたいだ時、自分のダメージ<span style="color: #3C9A66;">12</span>%カット(最大1回)<color=#f68b1e>▼エンハンス追加効果自分に状態異常無効を付与、最大HP<span style="color: #3C9A66;">40</span>%アップ</color=#f68b1e>',
           },
         },
         levelthree: {
           plusUltra: {
             name: "強襲大破",
             description:
-              '敵全体に<span style="color: #79ff80;">450</span>%ダメージ<br>自分のクールタイム<span style="color: #79ff80;">1</span>短縮<br>自分の一時的な破壊が2個以上の時、このスキルのスキル威力<span style="color: #79ff80;">30</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与<br>このスキルに破壊<span style="color: #79ff80;">20</span>%を付与</color=#f68b1e>',
+              '敵全体に<span style="color: #3C9A66;">450</span>%ダメージ<br>自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分の一時的な破壊が2個以上の時、このスキルのスキル威力<span style="color: #3C9A66;">30</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与<br>このスキルに破壊<span style="color: #3C9A66;">20</span>%を付与</color=#f68b1e>',
           },
           actionSkill1: {
             name: "波及襲撃",
             description:
-              '敵全体に<span style="color: #79ff80;">250</span>%ダメージ、パワー<span style="color: #ff6f6f;">15</span>%ダウン(3ターン)<br>自分の一時的な破壊が3個以上の時、このスキルのスキル威力<span style="color: #79ff80;">25</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与',
+              '敵全体に<span style="color: #3C9A66;">250</span>%ダメージ、パワー<span style="color: #ff6f6f;">15</span>%ダウン(3ターン)<br>自分の一時的な破壊が3個以上の時、このスキルのスキル威力<span style="color: #3C9A66;">25</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与',
             coolTime: "5",
           },
           actionSkill2: {
             name: "撃砕殴打",
             description:
-              '敵単体に<span style="color: #79ff80;">350</span>%ダメージ、ディフェンス<span style="color: #ff6f6f;">15</span>%ダウン(3ターン)<br>自分の一時的な破壊が3個以上の時、このスキルのスキル威力<span style="color: #79ff80;">25</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与',
+              '敵単体に<span style="color: #3C9A66;">350</span>%ダメージ、ディフェンス<span style="color: #ff6f6f;">15</span>%ダウン(3ターン)<br>自分の一時的な破壊が3個以上の時、このスキルのスキル威力<span style="color: #3C9A66;">25</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与',
             coolTime: "5",
           },
           autoSkill1: {
             name: "超回復",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりでない②バトル開始から7ターン経過)<br>自分にくいしばり(6回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでも発動しない<br>1ターン毎に、自分の最大HP<span style="color: #ff6f6f;">10</span>%ダウン(20ターン)(最大5回)※この効果は状態異常無効で防げず、解除もできず、ゲストでは発動しない<br>自分がくいしばりでない時、自分にバリア(3ヒット)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<color=#f68b1e>▼エンハンス追加効果自分の一時的な状態異常<span style="color: #79ff80;">20</span>ターン短縮(最大1回)、HP<span style="color: #79ff80;">100</span>%回復(最大1回)                <br><br><h5 style="font-size: 16px;">Enhance Buffs</h5>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +42<br>                                                    <span style="font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +12000<br>                                            </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりでない②バトル開始から7ターン経過)<br>自分にくいしばり(6回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでも発動しない<br>1ターン毎に、自分の最大HP<span style="color: #ff6f6f;">10</span>%ダウン(20ターン)(最大5回)※この効果は状態異常無効で防げず、解除もできず、ゲストでは発動しない<br>自分がくいしばりでない時、自分にバリア(3ヒット)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<color=#f68b1e>▼エンハンス追加効果自分の一時的な状態異常<span style="color: #3C9A66;">20</span>ターン短縮(最大1回)、HP<span style="color: #3C9A66;">100</span>%回復(最大1回)                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +42<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>                                            </color=#f68b1e>',
           },
           autoSkill2: {
             name: "圧倒的破壊力",
             description:
-              '自分に破壊<span style="color: #79ff80;">10</span>%を付与(最大1回)<br>自分がくいしばりのまま、2回ターンをまたいだ時、自分に破壊<span style="color: #79ff80;">10</span>%(20ターン)を付与(最大3回)※この効果は強化解除、強化阻害できない、ダメージ<span style="color: #79ff80;">5</span>%カット(最大1回)<br>自分がくいしばりのまま、4回ターンをまたいだ時、自分のダメージ<span style="color: #79ff80;">10</span>%カット(最大1回)、必中を付与(最大1回)<br>自分がくいしばりのまま、6回ターンをまたいだ時、自分のダメージ<span style="color: #79ff80;">15</span>%カット(最大1回)<color=#f68b1e>▼エンハンス追加効果自分に状態異常無効を付与、最大HP<span style="color: #79ff80;">50</span>%アップ</color=#f68b1e>',
+              '自分に破壊<span style="color: #3C9A66;">10</span>%を付与(最大1回)<br>自分がくいしばりのまま、2回ターンをまたいだ時、自分に破壊<span style="color: #3C9A66;">10</span>%(20ターン)を付与(最大3回)※この効果は強化解除、強化阻害できない、ダメージ<span style="color: #3C9A66;">5</span>%カット(最大1回)<br>自分がくいしばりのまま、4回ターンをまたいだ時、自分のダメージ<span style="color: #3C9A66;">10</span>%カット(最大1回)、必中を付与(最大1回)<br>自分がくいしばりのまま、6回ターンをまたいだ時、自分のダメージ<span style="color: #3C9A66;">15</span>%カット(最大1回)<color=#f68b1e>▼エンハンス追加効果自分に状態異常無効を付与、最大HP<span style="color: #3C9A66;">50</span>%アップ</color=#f68b1e>',
           },
         },
         dxlevelone: {
           plusUltra: {
             name: "強襲大破",
             description:
-              '敵全体に<span style="color: #79ff80;">450</span>%ダメージ<br>自分のクールタイム<span style="color: #79ff80;">1</span>短縮<br>自分の一時的な破壊が2個以上の時、このスキルのスキル威力<span style="color: #79ff80;">30</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与<br>このスキルに破壊<span style="color: #79ff80;">20</span>%を付与</color=#f68b1e>',
+              '敵全体に<span style="color: #3C9A66;">450</span>%ダメージ<br>自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分の一時的な破壊が2個以上の時、このスキルのスキル威力<span style="color: #3C9A66;">30</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与<br>このスキルに破壊<span style="color: #3C9A66;">20</span>%を付与</color=#f68b1e>',
           },
           actionSkill1: {
             name: "波及襲撃 DX",
             description:
-              '敵全体に<span style="color: #79ff80;">275</span>%ダメージ、パワー<span style="color: #ff6f6f;">20</span>%ダウン(3ターン)<br>自分の一時的な破壊が3個以上の時、このスキルのスキル威力<span style="color: #79ff80;">30</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与',
+              '敵全体に<span style="color: #3C9A66;">275</span>%ダメージ、パワー<span style="color: #ff6f6f;">20</span>%ダウン(3ターン)<br>自分の一時的な破壊が3個以上の時、このスキルのスキル威力<span style="color: #3C9A66;">30</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与',
             coolTime: "5",
           },
           actionSkill2: {
             name: "撃砕殴打 DX",
             description:
-              '敵単体に<span style="color: #79ff80;">375</span>%ダメージ、ディフェンス<span style="color: #ff6f6f;">20</span>%ダウン(3ターン)<br>自分の一時的な破壊が3個以上の時、このスキルのスキル威力<span style="color: #79ff80;">30</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与',
+              '敵単体に<span style="color: #3C9A66;">375</span>%ダメージ、ディフェンス<span style="color: #ff6f6f;">20</span>%ダウン(3ターン)<br>自分の一時的な破壊が3個以上の時、このスキルのスキル威力<span style="color: #3C9A66;">30</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与',
             coolTime: "5",
           },
           autoSkill1: {
             name: "超回復",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりでない②バトル開始から7ターン経過)<br>自分にくいしばり(6回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでも発動しない<br>1ターン毎に、自分の最大HP<span style="color: #ff6f6f;">10</span>%ダウン(20ターン)(最大5回)※この効果は状態異常無効で防げず、解除もできず、ゲストでは発動しない<br>自分がくいしばりでない時、自分にバリア(3ヒット)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<color=#f68b1e>▼エンハンス追加効果自分の一時的な状態異常<span style="color: #79ff80;">20</span>ターン短縮(最大1回)、HP<span style="color: #79ff80;">100</span>%回復(最大1回)                <br><br><h5 style="font-size: 16px;">Enhance Buffs</h5>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +42<br>                                                    <span style="font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +12000<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりでない②バトル開始から7ターン経過)<br>自分にくいしばり(6回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでも発動しない<br>1ターン毎に、自分の最大HP<span style="color: #ff6f6f;">10</span>%ダウン(20ターン)(最大5回)※この効果は状態異常無効で防げず、解除もできず、ゲストでは発動しない<br>自分がくいしばりでない時、自分にバリア(3ヒット)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<color=#f68b1e>▼エンハンス追加効果自分の一時的な状態異常<span style="color: #3C9A66;">20</span>ターン短縮(最大1回)、HP<span style="color: #3C9A66;">100</span>%回復(最大1回)                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +42<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "圧倒的破壊力",
             description:
-              '自分に破壊<span style="color: #79ff80;">10</span>%を付与(最大1回)<br>自分がくいしばりのまま、2回ターンをまたいだ時、自分に破壊<span style="color: #79ff80;">10</span>%(20ターン)を付与(最大3回)※この効果は強化解除、強化阻害できない、ダメージ<span style="color: #79ff80;">5</span>%カット(最大1回)<br>自分がくいしばりのまま、4回ターンをまたいだ時、自分のダメージ<span style="color: #79ff80;">10</span>%カット(最大1回)、必中を付与(最大1回)<br>自分がくいしばりのまま、6回ターンをまたいだ時、自分のダメージ<span style="color: #79ff80;">15</span>%カット(最大1回)<color=#f68b1e>▼エンハンス追加効果自分に状態異常無効を付与、最大HP<span style="color: #79ff80;">50</span>%アップ</color=#f68b1e>',
+              '自分に破壊<span style="color: #3C9A66;">10</span>%を付与(最大1回)<br>自分がくいしばりのまま、2回ターンをまたいだ時、自分に破壊<span style="color: #3C9A66;">10</span>%(20ターン)を付与(最大3回)※この効果は強化解除、強化阻害できない、ダメージ<span style="color: #3C9A66;">5</span>%カット(最大1回)<br>自分がくいしばりのまま、4回ターンをまたいだ時、自分のダメージ<span style="color: #3C9A66;">10</span>%カット(最大1回)、必中を付与(最大1回)<br>自分がくいしばりのまま、6回ターンをまたいだ時、自分のダメージ<span style="color: #3C9A66;">15</span>%カット(最大1回)<color=#f68b1e>▼エンハンス追加効果自分に状態異常無効を付与、最大HP<span style="color: #3C9A66;">50</span>%アップ</color=#f68b1e>',
           },
         },
         dxleveltwo: {
           plusUltra: {
             name: "強襲大破",
             description:
-              '敵全体に<span style="color: #79ff80;">450</span>%ダメージ<br>自分のクールタイム<span style="color: #79ff80;">1</span>短縮<br>自分の一時的な破壊が2個以上の時、このスキルのスキル威力<span style="color: #79ff80;">30</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与<br>このスキルに破壊<span style="color: #79ff80;">20</span>%を付与</color=#f68b1e>',
+              '敵全体に<span style="color: #3C9A66;">450</span>%ダメージ<br>自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分の一時的な破壊が2個以上の時、このスキルのスキル威力<span style="color: #3C9A66;">30</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与<br>このスキルに破壊<span style="color: #3C9A66;">20</span>%を付与</color=#f68b1e>',
           },
           actionSkill1: {
             name: "波及襲撃 DX",
             description:
-              '敵全体に<span style="color: #79ff80;">300</span>%ダメージ、パワー<span style="color: #ff6f6f;">20</span>%ダウン(3ターン)<br>自分の一時的な破壊が3個以上の時、このスキルのスキル威力<span style="color: #79ff80;">30</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与',
+              '敵全体に<span style="color: #3C9A66;">300</span>%ダメージ、パワー<span style="color: #ff6f6f;">20</span>%ダウン(3ターン)<br>自分の一時的な破壊が3個以上の時、このスキルのスキル威力<span style="color: #3C9A66;">30</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与',
             coolTime: "5",
           },
           actionSkill2: {
             name: "撃砕殴打 DX",
             description:
-              '敵単体に<span style="color: #79ff80;">400</span>%ダメージ、ディフェンス<span style="color: #ff6f6f;">20</span>%ダウン(3ターン)<br>自分の一時的な破壊が3個以上の時、このスキルのスキル威力<span style="color: #79ff80;">30</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与',
+              '敵単体に<span style="color: #3C9A66;">400</span>%ダメージ、ディフェンス<span style="color: #ff6f6f;">20</span>%ダウン(3ターン)<br>自分の一時的な破壊が3個以上の時、このスキルのスキル威力<span style="color: #3C9A66;">30</span>%アップ<color=#f68b1e>▼エンハンス追加効果自分の一時的な破壊が3個以上の時、このスキルに貫通を付与',
             coolTime: "5",
           },
           autoSkill1: {
             name: "超回復",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりでない②バトル開始から7ターン経過)<br>自分にくいしばり(6回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでも発動しない<br>1ターン毎に、自分の最大HP<span style="color: #ff6f6f;">10</span>%ダウン(20ターン)(最大5回)※この効果は状態異常無効で防げず、解除もできず、ゲストでは発動しない<br>自分がくいしばりでない時、自分にバリア(3ヒット)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<color=#f68b1e>▼エンハンス追加効果自分の一時的な状態異常<span style="color: #79ff80;">20</span>ターン短縮(最大1回)、HP<span style="color: #79ff80;">100</span>%回復(最大1回)                <br><br><h5 style="font-size: 16px;">Enhance Buffs</h5>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +42<br>                                                    <span style="font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +12000<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりでない②バトル開始から7ターン経過)<br>自分にくいしばり(6回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでも発動しない<br>1ターン毎に、自分の最大HP<span style="color: #ff6f6f;">10</span>%ダウン(20ターン)(最大5回)※この効果は状態異常無効で防げず、解除もできず、ゲストでは発動しない<br>自分がくいしばりでない時、自分にバリア(3ヒット)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<color=#f68b1e>▼エンハンス追加効果自分の一時的な状態異常<span style="color: #3C9A66;">20</span>ターン短縮(最大1回)、HP<span style="color: #3C9A66;">100</span>%回復(最大1回)                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +42<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "圧倒的破壊力",
             description:
-              '自分に破壊<span style="color: #79ff80;">10</span>%を付与(最大1回)<br>自分がくいしばりのまま、2回ターンをまたいだ時、自分に破壊<span style="color: #79ff80;">10</span>%(20ターン)を付与(最大3回)※この効果は強化解除、強化阻害できない、ダメージ<span style="color: #79ff80;">5</span>%カット(最大1回)<br>自分がくいしばりのまま、4回ターンをまたいだ時、自分のダメージ<span style="color: #79ff80;">10</span>%カット(最大1回)、必中を付与(最大1回)<br>自分がくいしばりのまま、6回ターンをまたいだ時、自分のダメージ<span style="color: #79ff80;">15</span>%カット(最大1回)<color=#f68b1e>▼エンハンス追加効果自分に状態異常無効を付与、最大HP<span style="color: #79ff80;">50</span>%アップ</color=#f68b1e>',
+              '自分に破壊<span style="color: #3C9A66;">10</span>%を付与(最大1回)<br>自分がくいしばりのまま、2回ターンをまたいだ時、自分に破壊<span style="color: #3C9A66;">10</span>%(20ターン)を付与(最大3回)※この効果は強化解除、強化阻害できない、ダメージ<span style="color: #3C9A66;">5</span>%カット(最大1回)<br>自分がくいしばりのまま、4回ターンをまたいだ時、自分のダメージ<span style="color: #3C9A66;">10</span>%カット(最大1回)、必中を付与(最大1回)<br>自分がくいしばりのまま、6回ターンをまたいだ時、自分のダメージ<span style="color: #3C9A66;">15</span>%カット(最大1回)<color=#f68b1e>▼エンハンス追加効果自分に状態異常無効を付与、最大HP<span style="color: #3C9A66;">50</span>%アップ</color=#f68b1e>',
           },
         },
       },
@@ -55531,145 +55531,364 @@ export const characters: z.infer<typeof CharactersSchema> = {
           plusUltra: {
             name: "捕縛シャウト",
             description:
-              '敵単体の一時的な強化全て解除、<span style="color: #79ff80;">550</span>%ダメージ<br>敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体に高確率 (65%)で拘束(2ターン)を付与、高確率 (65%)で混乱(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体のプルスウルトラゲージ<span style="color: #ff6f6f;">20</span>%ダウン※アリーナ、サークル祭限定効果<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #79ff80;">30</span>%アップ</color=#f68b1e>',
+              '敵単体の一時的な強化全て解除、<span style="color: #3C9A66;">550</span>%ダメージ<br>敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体に高確率 (65%)で拘束(2ターン)を付与、高確率 (65%)で混乱(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体のプルスウルトラゲージ<span style="color: #ff6f6f;">20</span>%ダウン※アリーナ、サークル祭限定効果<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #3C9A66;">30</span>%アップ</color=#f68b1e>',
           },
           actionSkill1: {
             name: "エコーヴォイス",
             description:
-              '敵全体の一時的な強化<span style="color: #79ff80;">1</span>個解除、<span style="color: #79ff80;">225</span>%ダメージ、低確率 (30%)で混乱(2ターン)を付与、クリティカル抵抗<span style="color: #ff6f6f;">6</span>%ダウン(10ターン)、プルスウルトラゲージ上昇量<span style="color: #ff6f6f;">6</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<color=#f68b1e>▼エンハンス追加効果敵全体の一時的な強化解除数が<span style="color: #79ff80;">1</span>増加',
+              '敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除、<span style="color: #3C9A66;">225</span>%ダメージ、低確率 (30%)で混乱(2ターン)を付与、クリティカル抵抗<span style="color: #ff6f6f;">6</span>%ダウン(10ターン)、プルスウルトラゲージ上昇量<span style="color: #ff6f6f;">6</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<color=#f68b1e>▼エンハンス追加効果敵全体の一時的な強化解除数が<span style="color: #3C9A66;">1</span>増加',
             coolTime: "6",
           },
           actionSkill2: {
             name: "D・Jブロー",
             description:
-              '敵単体の一時的な強化<span style="color: #79ff80;">2</span>個解除、<span style="color: #79ff80;">300</span>%ダメージ、高確率 (70%)で強化阻害(2ターン)を付与、状態異常回復阻害(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵単体の一時的な強化解除数が全て解除に増加<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #79ff80;">30</span>％アップ',
+              '敵単体の一時的な強化<span style="color: #3C9A66;">2</span>個解除、<span style="color: #3C9A66;">300</span>%ダメージ、高確率 (70%)で強化阻害(2ターン)を付与、状態異常回復阻害(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵単体の一時的な強化解除数が全て解除に増加<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #3C9A66;">30</span>％アップ',
             coolTime: "4",
           },
           autoSkill1: {
             name: "ヤバイ高音",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #79ff80;">10</span>％アップ                <br><br><h5 style="font-size: 16px;">Enhance Buffs</h5>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +280<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +12000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">10</span>％アップ                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +280<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>',
           },
           autoSkill2: {
             name: "ヤバイ低音",
             description:
-              '敵の一時的な強化が1回解除されきった時、自分のクリティカル率<span style="color: #79ff80;">5</span>%アップ(最大10回)<br>敵の一時的な強化が3回解除されきった時、敵全体のプルスウルトラゲージ上昇量<span style="color: #ff6f6f;">6</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<br>敵の一時的な強化が5回解除されきった時、自分の最大HP<span style="color: #79ff80;">15</span>%アップ(最大2回)、パワー<span style="color: #79ff80;">10</span>%アップ(最大2回)',
+              '敵の一時的な強化が1回解除されきった時、自分のクリティカル率<span style="color: #3C9A66;">5</span>%アップ(最大10回)<br>敵の一時的な強化が3回解除されきった時、敵全体のプルスウルトラゲージ上昇量<span style="color: #ff6f6f;">6</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<br>敵の一時的な強化が5回解除されきった時、自分の最大HP<span style="color: #3C9A66;">15</span>%アップ(最大2回)、パワー<span style="color: #3C9A66;">10</span>%アップ(最大2回)',
           },
         },
         leveltwo: {
           plusUltra: {
             name: "捕縛シャウト",
             description:
-              '敵単体の一時的な強化全て解除、<span style="color: #79ff80;">600</span>%ダメージ<br>敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体に高確率 (65%)で拘束(2ターン)を付与、高確率 (65%)で混乱(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体のプルスウルトラゲージ<span style="color: #ff6f6f;">25</span>%ダウン※アリーナ、サークル祭限定効果<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #79ff80;">40</span>%アップ</color=#f68b1e>',
+              '敵単体の一時的な強化全て解除、<span style="color: #3C9A66;">600</span>%ダメージ<br>敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体に高確率 (65%)で拘束(2ターン)を付与、高確率 (65%)で混乱(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体のプルスウルトラゲージ<span style="color: #ff6f6f;">25</span>%ダウン※アリーナ、サークル祭限定効果<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #3C9A66;">40</span>%アップ</color=#f68b1e>',
           },
           actionSkill1: {
             name: "エコーヴォイス",
             description:
-              '敵全体の一時的な強化<span style="color: #79ff80;">1</span>個解除、<span style="color: #79ff80;">250</span>%ダメージ、低確率 (30%)で混乱(2ターン)を付与、クリティカル抵抗<span style="color: #ff6f6f;">8</span>%ダウン(10ターン)、プルスウルトラゲージ上昇量<span style="color: #ff6f6f;">8</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<color=#f68b1e>▼エンハンス追加効果敵全体の一時的な強化解除数が<span style="color: #79ff80;">1</span>増加',
+              '敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除、<span style="color: #3C9A66;">250</span>%ダメージ、低確率 (30%)で混乱(2ターン)を付与、クリティカル抵抗<span style="color: #ff6f6f;">8</span>%ダウン(10ターン)、プルスウルトラゲージ上昇量<span style="color: #ff6f6f;">8</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<color=#f68b1e>▼エンハンス追加効果敵全体の一時的な強化解除数が<span style="color: #3C9A66;">1</span>増加',
             coolTime: "5",
           },
           actionSkill2: {
             name: "D・Jブロー",
             description:
-              '敵単体の一時的な強化<span style="color: #79ff80;">2</span>個解除、<span style="color: #79ff80;">325</span>%ダメージ、高確率 (70%)で強化阻害(2ターン)を付与、状態異常回復阻害(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵単体の一時的な強化解除数が全て解除に増加<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #79ff80;">40</span>％アップ',
+              '敵単体の一時的な強化<span style="color: #3C9A66;">2</span>個解除、<span style="color: #3C9A66;">325</span>%ダメージ、高確率 (70%)で強化阻害(2ターン)を付与、状態異常回復阻害(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵単体の一時的な強化解除数が全て解除に増加<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #3C9A66;">40</span>％アップ',
             coolTime: "4",
           },
           autoSkill1: {
             name: "ヤバイ高音",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #79ff80;">15</span>％アップ                <br><br><h5 style="font-size: 16px;">Enhance Buffs</h5>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +280<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +12000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">15</span>％アップ                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +280<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>',
           },
           autoSkill2: {
             name: "ヤバイ低音",
             description:
-              '敵の一時的な強化が1回解除されきった時、自分のクリティカル率<span style="color: #79ff80;">5</span>%アップ(最大10回)<br>敵の一時的な強化が3回解除されきった時、敵全体のプルスウルトラゲージ上昇量<span style="color: #ff6f6f;">8</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<br>敵の一時的な強化が5回解除されきった時、自分の最大HP<span style="color: #79ff80;">15</span>%アップ(最大2回)、パワー<span style="color: #79ff80;">15</span>%アップ(最大2回)',
+              '敵の一時的な強化が1回解除されきった時、自分のクリティカル率<span style="color: #3C9A66;">5</span>%アップ(最大10回)<br>敵の一時的な強化が3回解除されきった時、敵全体のプルスウルトラゲージ上昇量<span style="color: #ff6f6f;">8</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<br>敵の一時的な強化が5回解除されきった時、自分の最大HP<span style="color: #3C9A66;">15</span>%アップ(最大2回)、パワー<span style="color: #3C9A66;">15</span>%アップ(最大2回)',
           },
         },
         levelthree: {
           plusUltra: {
             name: "捕縛シャウト",
             description:
-              '敵単体の一時的な強化全て解除、<span style="color: #79ff80;">650</span>%ダメージ<br>敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体に高確率 (65%)で拘束(2ターン)を付与、高確率 (65%)で混乱(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体のプルスウルトラゲージ<span style="color: #ff6f6f;">30</span>%ダウン※アリーナ、サークル祭限定効果<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #79ff80;">50</span>%アップ</color=#f68b1e>',
+              '敵単体の一時的な強化全て解除、<span style="color: #3C9A66;">650</span>%ダメージ<br>敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体に高確率 (65%)で拘束(2ターン)を付与、高確率 (65%)で混乱(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体のプルスウルトラゲージ<span style="color: #ff6f6f;">30</span>%ダウン※アリーナ、サークル祭限定効果<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #3C9A66;">50</span>%アップ</color=#f68b1e>',
           },
           actionSkill1: {
             name: "エコーヴォイス",
             description:
-              '敵全体の一時的な強化<span style="color: #79ff80;">1</span>個解除、<span style="color: #79ff80;">275</span>%ダメージ、低確率 (30%)で混乱(2ターン)を付与、クリティカル抵抗<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)、プルスウルトラゲージ上昇量<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<color=#f68b1e>▼エンハンス追加効果敵全体の一時的な強化解除数が<span style="color: #79ff80;">1</span>増加',
+              '敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除、<span style="color: #3C9A66;">275</span>%ダメージ、低確率 (30%)で混乱(2ターン)を付与、クリティカル抵抗<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)、プルスウルトラゲージ上昇量<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<color=#f68b1e>▼エンハンス追加効果敵全体の一時的な強化解除数が<span style="color: #3C9A66;">1</span>増加',
             coolTime: "4",
           },
           actionSkill2: {
             name: "D・Jブロー",
             description:
-              '敵単体の一時的な強化<span style="color: #79ff80;">2</span>個解除、<span style="color: #79ff80;">350</span>%ダメージ、高確率 (70%)で強化阻害(2ターン)を付与、状態異常回復阻害(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵単体の一時的な強化解除数が全て解除に増加<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #79ff80;">50</span>％アップ',
+              '敵単体の一時的な強化<span style="color: #3C9A66;">2</span>個解除、<span style="color: #3C9A66;">350</span>%ダメージ、高確率 (70%)で強化阻害(2ターン)を付与、状態異常回復阻害(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵単体の一時的な強化解除数が全て解除に増加<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #3C9A66;">50</span>％アップ',
             coolTime: "4",
           },
           autoSkill1: {
             name: "ヤバイ高音",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #79ff80;">20</span>％アップ                <br><br><h5 style="font-size: 16px;">Enhance Buffs</h5>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +280<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +12000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">20</span>％アップ                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +280<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>',
           },
           autoSkill2: {
             name: "ヤバイ低音",
             description:
-              '敵の一時的な強化が1回解除されきった時、自分のクリティカル率<span style="color: #79ff80;">5</span>%アップ(最大10回)<br>敵の一時的な強化が3回解除されきった時、敵全体のプルスウルトラゲージ上昇量<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<br>敵の一時的な強化が5回解除されきった時、自分の最大HP<span style="color: #79ff80;">15</span>%アップ(最大2回)、パワー<span style="color: #79ff80;">20</span>%アップ(最大2回)',
+              '敵の一時的な強化が1回解除されきった時、自分のクリティカル率<span style="color: #3C9A66;">5</span>%アップ(最大10回)<br>敵の一時的な強化が3回解除されきった時、敵全体のプルスウルトラゲージ上昇量<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<br>敵の一時的な強化が5回解除されきった時、自分の最大HP<span style="color: #3C9A66;">15</span>%アップ(最大2回)、パワー<span style="color: #3C9A66;">20</span>%アップ(最大2回)',
           },
         },
         dxlevelone: {
           plusUltra: {
             name: "捕縛シャウト",
             description:
-              '敵単体の一時的な強化全て解除、<span style="color: #79ff80;">650</span>%ダメージ<br>敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体に高確率 (65%)で拘束(2ターン)を付与、高確率 (65%)で混乱(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体のプルスウルトラゲージ<span style="color: #ff6f6f;">30</span>%ダウン※アリーナ、サークル祭限定効果<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #79ff80;">50</span>%アップ</color=#f68b1e>',
+              '敵単体の一時的な強化全て解除、<span style="color: #3C9A66;">650</span>%ダメージ<br>敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体に高確率 (65%)で拘束(2ターン)を付与、高確率 (65%)で混乱(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体のプルスウルトラゲージ<span style="color: #ff6f6f;">30</span>%ダウン※アリーナ、サークル祭限定効果<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #3C9A66;">50</span>%アップ</color=#f68b1e>',
           },
           actionSkill1: {
             name: "エコーヴォイス DX",
             description:
-              '敵全体の一時的な強化<span style="color: #79ff80;">1</span>個解除、<span style="color: #79ff80;">300</span>%ダメージ、低確率 (30%)で混乱(2ターン)を付与、クリティカル抵抗<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)、プルスウルトラゲージ上昇量<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<color=#f68b1e>▼エンハンス追加効果敵全体の一時的な強化解除数が<span style="color: #79ff80;">1</span>増加',
+              '敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除、<span style="color: #3C9A66;">300</span>%ダメージ、低確率 (30%)で混乱(2ターン)を付与、クリティカル抵抗<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)、プルスウルトラゲージ上昇量<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<color=#f68b1e>▼エンハンス追加効果敵全体の一時的な強化解除数が<span style="color: #3C9A66;">1</span>増加',
             coolTime: "4",
           },
           actionSkill2: {
             name: "D・Jブロー DX",
             description:
-              '敵単体の一時的な強化<span style="color: #79ff80;">2</span>個解除、<span style="color: #79ff80;">375</span>%ダメージ、高確率 (70%)で強化阻害(2ターン)を付与、状態異常回復阻害(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵単体の一時的な強化解除数が全て解除に増加<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #79ff80;">50</span>％アップ',
+              '敵単体の一時的な強化<span style="color: #3C9A66;">2</span>個解除、<span style="color: #3C9A66;">375</span>%ダメージ、高確率 (70%)で強化阻害(2ターン)を付与、状態異常回復阻害(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵単体の一時的な強化解除数が全て解除に増加<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #3C9A66;">50</span>％アップ',
             coolTime: "4",
           },
           autoSkill1: {
             name: "ヤバイ高音",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #79ff80;">20</span>％アップ                <br><br><h5 style="font-size: 16px;">Enhance Buffs</h5>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +280<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +12000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">20</span>％アップ                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +280<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>',
           },
           autoSkill2: {
             name: "ヤバイ低音",
             description:
-              '敵の一時的な強化が1回解除されきった時、自分のクリティカル率<span style="color: #79ff80;">5</span>%アップ(最大10回)<br>敵の一時的な強化が3回解除されきった時、敵全体のプルスウルトラゲージ上昇量<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<br>敵の一時的な強化が5回解除されきった時、自分の最大HP<span style="color: #79ff80;">15</span>%アップ(最大2回)、パワー<span style="color: #79ff80;">20</span>%アップ(最大2回)',
+              '敵の一時的な強化が1回解除されきった時、自分のクリティカル率<span style="color: #3C9A66;">5</span>%アップ(最大10回)<br>敵の一時的な強化が3回解除されきった時、敵全体のプルスウルトラゲージ上昇量<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<br>敵の一時的な強化が5回解除されきった時、自分の最大HP<span style="color: #3C9A66;">15</span>%アップ(最大2回)、パワー<span style="color: #3C9A66;">20</span>%アップ(最大2回)',
           },
         },
         dxleveltwo: {
           plusUltra: {
             name: "捕縛シャウト",
             description:
-              '敵単体の一時的な強化全て解除、<span style="color: #79ff80;">650</span>%ダメージ<br>敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体に高確率 (65%)で拘束(2ターン)を付与、高確率 (65%)で混乱(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体のプルスウルトラゲージ<span style="color: #ff6f6f;">30</span>%ダウン※アリーナ、サークル祭限定効果<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #79ff80;">50</span>%アップ</color=#f68b1e>',
+              '敵単体の一時的な強化全て解除、<span style="color: #3C9A66;">650</span>%ダメージ<br>敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体に高確率 (65%)で拘束(2ターン)を付与、高確率 (65%)で混乱(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵の一時的なプルスウルトラゲージ上昇量ダウンが5個以上の時、敵単体のプルスウルトラゲージ<span style="color: #ff6f6f;">30</span>%ダウン※アリーナ、サークル祭限定効果<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #3C9A66;">50</span>%アップ</color=#f68b1e>',
           },
           actionSkill1: {
             name: "エコーヴォイス DX",
             description:
-              '敵全体の一時的な強化<span style="color: #79ff80;">1</span>個解除、<span style="color: #79ff80;">325</span>%ダメージ、低確率 (30%)で混乱(2ターン)を付与、クリティカル抵抗<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)、プルスウルトラゲージ上昇量<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<color=#f68b1e>▼エンハンス追加効果敵全体の一時的な強化解除数が<span style="color: #79ff80;">1</span>増加',
+              '敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除、<span style="color: #3C9A66;">325</span>%ダメージ、低確率 (30%)で混乱(2ターン)を付与、クリティカル抵抗<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)、プルスウルトラゲージ上昇量<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<color=#f68b1e>▼エンハンス追加効果敵全体の一時的な強化解除数が<span style="color: #3C9A66;">1</span>増加',
             coolTime: "4",
           },
           actionSkill2: {
             name: "D・Jブロー DX",
             description:
-              '敵単体の一時的な強化<span style="color: #79ff80;">2</span>個解除、<span style="color: #79ff80;">400</span>%ダメージ、高確率 (70%)で強化阻害(2ターン)を付与、状態異常回復阻害(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵単体の一時的な強化解除数が全て解除に増加<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #79ff80;">60</span>％アップ',
+              '敵単体の一時的な強化<span style="color: #3C9A66;">2</span>個解除、<span style="color: #3C9A66;">400</span>%ダメージ、高確率 (70%)で強化阻害(2ターン)を付与、状態異常回復阻害(2ターン)を付与<color=#f68b1e>▼エンハンス追加効果敵単体の一時的な強化解除数が全て解除に増加<br>敵が受け流しでない時、このスキルのスキル威力<span style="color: #3C9A66;">60</span>％アップ',
             coolTime: "4",
           },
           autoSkill1: {
             name: "ヤバイ高音",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #79ff80;">20</span>％アップ                <br><br><h5 style="font-size: 16px;">Enhance Buffs</h5>                            <span style="font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +280<br>                                                    <span style="font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +12000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">20</span>％アップ                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +280<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>',
           },
           autoSkill2: {
             name: "ヤバイ低音",
             description:
-              '敵の一時的な強化が1回解除されきった時、自分のクリティカル率<span style="color: #79ff80;">5</span>%アップ(最大10回)<br>敵の一時的な強化が3回解除されきった時、敵全体のプルスウルトラゲージ上昇量<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<br>敵の一時的な強化が5回解除されきった時、自分の最大HP<span style="color: #79ff80;">15</span>%アップ(最大2回)、パワー<span style="color: #79ff80;">20</span>%アップ(最大2回)',
+              '敵の一時的な強化が1回解除されきった時、自分のクリティカル率<span style="color: #3C9A66;">5</span>%アップ(最大10回)<br>敵の一時的な強化が3回解除されきった時、敵全体のプルスウルトラゲージ上昇量<span style="color: #ff6f6f;">10</span>%ダウン(10ターン)※アリーナ、サークル祭限定効果<br>敵の一時的な強化が5回解除されきった時、自分の最大HP<span style="color: #3C9A66;">15</span>%アップ(最大2回)、パワー<span style="color: #3C9A66;">20</span>%アップ(最大2回)',
+          },
+        },
+      },
+    },
+    {
+      id: "1103015",
+      epithet: "最果ての覇者",
+      name: "麗日お茶子",
+      rarity: "ur",
+      type: "abl",
+      sex: "女",
+      skills: [
+        "貫通",
+        "全体攻撃",
+        "スタン",
+        "命中率アップ",
+        "状態変化解除",
+        "エンハンス",
+        "基礎攻撃力アップ",
+        "基礎スピードアップ",
+        "基礎最大HPアップ",
+        "ダメージカット",
+        "スキル威力アップ",
+        "パワーアップ",
+        "HP回復",
+        "平静",
+        "クリティカル率アップ",
+        "圧倒",
+        "索敵",
+        "必中",
+        "プルスウルトラ効率アップ",
+        "状態異常効果ターン短縮",
+        "鋭利",
+        "強化阻害",
+      ],
+      tags: ["雄英高校1年A組", "雄英高校生徒", "ヒーロー"],
+      stats: [
+        {
+          hp: "4040",
+          power: "915",
+          speed: "120",
+          defense: "100",
+          critical: "10",
+        },
+        {
+          hp: "11940",
+          power: "3601",
+          speed: "199",
+          defense: "100",
+          critical: "10",
+        },
+        {
+          hp: "40240",
+          power: "11281",
+          speed: "679",
+          defense: "100",
+          critical: "10",
+        },
+        {
+          hp: "49240",
+          power: "13081",
+          speed: "859",
+          defense: "100",
+          critical: "10",
+        },
+      ],
+      uniqueSkills: [
+        "自分のHPが40%未満の時、戦闘中に1度だけ自分のアクションスキルのクールタイムを3短縮する",
+        "自分が戦闘不能になった時、味方全体に回避(1ターン)を付与",
+        "WAVE開始後、味方全体のディフェンスを15%アップ(3ターン)",
+        "戦闘開始後、自分にクリティカルダメージを30%カット(4ターン)を付与",
+        "自分が戦闘不能になった時、味方全体にHP15%自動回復(3ターン)を付与",
+        "クリティカルが3回発生するたびに、自分に回避(1回)を付与(最大3回)",
+        "自分よりパワーが高い相手から攻撃を2回受けきった後に、自分が受けるダメージを15%カット(2ターン)",
+      ],
+      skill: {
+        levelone: {
+          plusUltra: {
+            name: "ストーンシャワー",
+            description:
+              '敵全体に<span style="color: #3C9A66;">400</span>%ダメージ、低確率 (20%)でスタン(2ターン)を付与<br>自分が平静でない時、自分の状態異常命中率アップ(3ターン)<color=#f68b1e>▼エンハンス追加効果敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除<br>このスキルに貫通を付与</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "彗星ホームラン",
+            description:
+              '敵単体に<span style="color: #3C9A66;">225</span>%ダメージ、低確率 (20%)で強化阻害(2ターン)を付与<br>敵が隠れるだったら、このスキルに鋭利を付与<color=#f68b1e>▼エンハンス追加効果自分のスキル威力<span style="color: #3C9A66;">9</span>%アップ(5ターン)<br>このスキルに貫通を付与',
+            coolTime: "▼エンハンス追加効果",
+          },
+          actionSkill2: {
+            name: "グラビティブロー",
+            description:
+              '敵単体に<span style="color: #3C9A66;">225</span>%ダメージ、低確率 (20%)でスタン(1ターン)を付与<br>敵が隠れるだったら、このスキルに鋭利を付与<color=#f68b1e>▼エンハンス追加効果自分のスキル威力<span style="color: #3C9A66;">9</span>%アップ(5ターン)<br>このスキルに貫通を付与',
+            coolTime: "▼エンハンス追加効果",
+          },
+          autoSkill1: {
+            name: "限界重量拡大",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分のクリティカル攻撃が12回発生する②バトル開始から5ターン経過)<br>自分以外の味方がクールタイム短縮を1回受けた時、自分のダメージ<span style="color: #3C9A66;">5</span>%カット(5ターン)<br>自分のクリティカル攻撃が1回発生しきった時、自分のスキル威力<span style="color: #3C9A66;">3</span>%アップ(最大5回)<br>自分のクリティカル攻撃が3回発生した時、味方全体のパワー<span style="color: #3C9A66;">3</span>%アップ(7ターン)※この効果は強化解除、強化阻害できない、HP<span style="color: #3C9A66;">10</span>%回復<color=#f68b1e>▼エンハンス追加効果自分に平静を付与                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +580<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +60<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>                                        </color=#f68b1e>',
+          },
+          autoSkill2: {
+            name: "並外れた底力",
+            description:
+              '自分のクリティカル率<span style="color: #3C9A66;">30</span>%アップ<br>自分が平静の時、自分に圧倒を付与<br>自分が平静でない時、自分に索敵を付与<br>自分のクリティカル攻撃が2回発生しなかった時、自分に必中(2ターン)を付与※この効果は強化解除、強化阻害できない、プルスウルトラ効率<span style="color: #3C9A66;">3</span>%アップ(5ターン)<color=#f68b1e>▼エンハンス追加効果自分のクリティカル攻撃が1回発生しなかった時、味方全体の一時的な状態異常<span style="color: #3C9A66;">2</span>ターン短縮</color=#f68b1e>',
+          },
+        },
+        leveltwo: {
+          plusUltra: {
+            name: "ストーンシャワー",
+            description:
+              '敵全体に<span style="color: #3C9A66;">450</span>%ダメージ、低確率 (20%)でスタン(2ターン)を付与<br>自分が平静でない時、自分の状態異常命中率アップ(3ターン)<color=#f68b1e>▼エンハンス追加効果敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除<br>このスキルに貫通を付与</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "彗星ホームラン",
+            description:
+              '敵単体に<span style="color: #3C9A66;">250</span>%ダメージ、低確率 (25%)で強化阻害(2ターン)を付与<br>敵が隠れるだったら、このスキルに鋭利を付与<color=#f68b1e>▼エンハンス追加効果自分のスキル威力<span style="color: #3C9A66;">12</span>%アップ(5ターン)<br>このスキルに貫通を付与',
+            coolTime: "▼エンハンス追加効果",
+          },
+          actionSkill2: {
+            name: "グラビティブロー",
+            description:
+              '敵単体に<span style="color: #3C9A66;">250</span>%ダメージ、低確率 (20%)でスタン(1ターン)を付与<br>敵が隠れるだったら、このスキルに鋭利を付与<color=#f68b1e>▼エンハンス追加効果自分のスキル威力<span style="color: #3C9A66;">12</span>%アップ(5ターン)<br>このスキルに貫通を付与',
+            coolTime: "▼エンハンス追加効果",
+          },
+          autoSkill1: {
+            name: "限界重量拡大",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分のクリティカル攻撃が12回発生する②バトル開始から5ターン経過)<br>自分以外の味方がクールタイム短縮を1回受けた時、自分のダメージ<span style="color: #3C9A66;">5</span>%カット(5ターン)<br>自分のクリティカル攻撃が1回発生しきった時、自分のスキル威力<span style="color: #3C9A66;">4</span>%アップ(最大5回)<br>自分のクリティカル攻撃が3回発生した時、味方全体のパワー<span style="color: #3C9A66;">4</span>%アップ(7ターン)※この効果は強化解除、強化阻害できない、HP<span style="color: #3C9A66;">10</span>%回復<color=#f68b1e>▼エンハンス追加効果自分に平静を付与                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +580<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +60<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>                                        </color=#f68b1e>',
+          },
+          autoSkill2: {
+            name: "並外れた底力",
+            description:
+              '自分のクリティカル率<span style="color: #3C9A66;">35</span>%アップ<br>自分が平静の時、自分に圧倒を付与<br>自分が平静でない時、自分に索敵を付与<br>自分のクリティカル攻撃が2回発生しなかった時、自分に必中(2ターン)を付与※この効果は強化解除、強化阻害できない、プルスウルトラ効率<span style="color: #3C9A66;">4</span>%アップ(5ターン)<color=#f68b1e>▼エンハンス追加効果自分のクリティカル攻撃が1回発生しなかった時、味方全体の一時的な状態異常<span style="color: #3C9A66;">2</span>ターン短縮</color=#f68b1e>',
+          },
+        },
+        levelthree: {
+          plusUltra: {
+            name: "ストーンシャワー",
+            description:
+              '敵全体に<span style="color: #3C9A66;">500</span>%ダメージ、低確率 (20%)でスタン(2ターン)を付与<br>自分が平静でない時、自分の状態異常命中率アップ(3ターン)<color=#f68b1e>▼エンハンス追加効果敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除<br>このスキルに貫通を付与</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "彗星ホームラン",
+            description:
+              '敵単体に<span style="color: #3C9A66;">275</span>%ダメージ、低確率 (30%)で強化阻害(2ターン)を付与<br>敵が隠れるだったら、このスキルに鋭利を付与<color=#f68b1e>▼エンハンス追加効果自分のスキル威力<span style="color: #3C9A66;">15</span>%アップ(5ターン)<br>このスキルに貫通を付与',
+            coolTime: "▼エンハンス追加効果",
+          },
+          actionSkill2: {
+            name: "グラビティブロー",
+            description:
+              '敵単体に<span style="color: #3C9A66;">275</span>%ダメージ、低確率 (20%)でスタン(1ターン)を付与<br>敵が隠れるだったら、このスキルに鋭利を付与<color=#f68b1e>▼エンハンス追加効果自分のスキル威力<span style="color: #3C9A66;">15</span>%アップ(5ターン)<br>このスキルに貫通を付与',
+            coolTime: "▼エンハンス追加効果",
+          },
+          autoSkill1: {
+            name: "限界重量拡大",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分のクリティカル攻撃が12回発生する②バトル開始から5ターン経過)<br>自分以外の味方がクールタイム短縮を1回受けた時、自分のダメージ<span style="color: #3C9A66;">5</span>%カット(5ターン)<br>自分のクリティカル攻撃が1回発生しきった時、自分のスキル威力<span style="color: #3C9A66;">5</span>%アップ(最大5回)<br>自分のクリティカル攻撃が3回発生した時、味方全体のパワー<span style="color: #3C9A66;">5</span>%アップ(7ターン)※この効果は強化解除、強化阻害できない、HP<span style="color: #3C9A66;">10</span>%回復<color=#f68b1e>▼エンハンス追加効果自分に平静を付与                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +580<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +60<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>                                            </color=#f68b1e>',
+          },
+          autoSkill2: {
+            name: "並外れた底力",
+            description:
+              '自分のクリティカル率<span style="color: #3C9A66;">40</span>%アップ<br>自分が平静の時、自分に圧倒を付与<br>自分が平静でない時、自分に索敵を付与<br>自分のクリティカル攻撃が2回発生しなかった時、自分に必中(2ターン)を付与※この効果は強化解除、強化阻害できない、プルスウルトラ効率<span style="color: #3C9A66;">5</span>%アップ(5ターン)<color=#f68b1e>▼エンハンス追加効果自分のクリティカル攻撃が1回発生しなかった時、味方全体の一時的な状態異常<span style="color: #3C9A66;">2</span>ターン短縮</color=#f68b1e>',
+          },
+        },
+        dxlevelone: {
+          plusUltra: {
+            name: "ストーンシャワー",
+            description:
+              '敵全体に<span style="color: #3C9A66;">500</span>%ダメージ、低確率 (20%)でスタン(2ターン)を付与<br>自分が平静でない時、自分の状態異常命中率アップ(3ターン)<color=#f68b1e>▼エンハンス追加効果敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除<br>このスキルに貫通を付与</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "彗星ホームラン DX",
+            description:
+              '敵単体に<span style="color: #3C9A66;">300</span>%ダメージ、低確率 (20%)で強化阻害(2ターン)を付与<br>敵が隠れるだったら、このスキルに鋭利を付与<color=#f68b1e>▼エンハンス追加効果自分のスキル威力<span style="color: #3C9A66;">20</span>%アップ(5ターン)<br>このスキルに貫通を付与',
+            coolTime: "▼エンハンス追加効果",
+          },
+          actionSkill2: {
+            name: "グラビティブロー DX",
+            description:
+              '敵単体に<span style="color: #3C9A66;">300</span>%ダメージ、低確率 (20%)でスタン(1ターン)を付与<br>敵が隠れるだったら、このスキルに鋭利を付与<color=#f68b1e>▼エンハンス追加効果自分のスキル威力<span style="color: #3C9A66;">20</span>%アップ(5ターン)<br>このスキルに貫通を付与',
+            coolTime: "▼エンハンス追加効果",
+          },
+          autoSkill1: {
+            name: "限界重量拡大",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分のクリティカル攻撃が12回発生する②バトル開始から5ターン経過)<br>自分以外の味方がクールタイム短縮を1回受けた時、自分のダメージ<span style="color: #3C9A66;">5</span>%カット(5ターン)<br>自分のクリティカル攻撃が1回発生しきった時、自分のスキル威力<span style="color: #3C9A66;">5</span>%アップ(最大5回)<br>自分のクリティカル攻撃が3回発生した時、味方全体のパワー<span style="color: #3C9A66;">5</span>%アップ(7ターン)※この効果は強化解除、強化阻害できない、HP<span style="color: #3C9A66;">10</span>%回復<color=#f68b1e>▼エンハンス追加効果自分に平静を付与                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +580<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +60<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>                                        </color=#f68b1e>',
+          },
+          autoSkill2: {
+            name: "並外れた底力",
+            description:
+              '自分のクリティカル率<span style="color: #3C9A66;">40</span>%アップ<br>自分が平静の時、自分に圧倒を付与<br>自分が平静でない時、自分に索敵を付与<br>自分のクリティカル攻撃が2回発生しなかった時、自分に必中(2ターン)を付与※この効果は強化解除、強化阻害できない、プルスウルトラ効率<span style="color: #3C9A66;">5</span>%アップ(5ターン)<color=#f68b1e>▼エンハンス追加効果自分のクリティカル攻撃が1回発生しなかった時、味方全体の一時的な状態異常<span style="color: #3C9A66;">2</span>ターン短縮</color=#f68b1e>',
+          },
+        },
+        dxleveltwo: {
+          plusUltra: {
+            name: "ストーンシャワー",
+            description:
+              '敵全体に<span style="color: #3C9A66;">500</span>%ダメージ、低確率 (20%)でスタン(2ターン)を付与<br>自分が平静でない時、自分の状態異常命中率アップ(3ターン)<color=#f68b1e>▼エンハンス追加効果敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除<br>このスキルに貫通を付与</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "彗星ホームラン DX",
+            description:
+              '敵単体に<span style="color: #3C9A66;">325</span>%ダメージ、低確率 (25%)で強化阻害(2ターン)を付与<br>敵が隠れるだったら、このスキルに鋭利を付与<color=#f68b1e>▼エンハンス追加効果自分のスキル威力<span style="color: #3C9A66;">25</span>%アップ(5ターン)<br>このスキルに貫通を付与',
+            coolTime: "▼エンハンス追加効果",
+          },
+          actionSkill2: {
+            name: "グラビティブロー DX",
+            description:
+              '敵単体に<span style="color: #3C9A66;">325</span>%ダメージ、低確率 (20%)でスタン(1ターン)を付与<br>敵が隠れるだったら、このスキルに鋭利を付与<color=#f68b1e>▼エンハンス追加効果自分のスキル威力<span style="color: #3C9A66;">25</span>%アップ(5ターン)<br>このスキルに貫通を付与',
+            coolTime: "▼エンハンス追加効果",
+          },
+          autoSkill1: {
+            name: "限界重量拡大",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分のクリティカル攻撃が12回発生する②バトル開始から5ターン経過)<br>自分以外の味方がクールタイム短縮を1回受けた時、自分のダメージ<span style="color: #3C9A66;">5</span>%カット(5ターン)<br>自分のクリティカル攻撃が1回発生しきった時、自分のスキル威力<span style="color: #3C9A66;">5</span>%アップ(最大5回)<br>自分のクリティカル攻撃が3回発生した時、味方全体のパワー<span style="color: #3C9A66;">5</span>%アップ(7ターン)※この効果は強化解除、強化阻害できない、HP<span style="color: #3C9A66;">10</span>%回復<color=#f68b1e>▼エンハンス追加効果自分に平静を付与                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +580<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +60<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>                                        </color=#f68b1e>',
+          },
+          autoSkill2: {
+            name: "並外れた底力",
+            description:
+              '自分のクリティカル率<span style="color: #3C9A66;">40</span>%アップ<br>自分が平静の時、自分に圧倒を付与<br>自分が平静でない時、自分に索敵を付与<br>自分のクリティカル攻撃が2回発生しなかった時、自分に必中(2ターン)を付与※この効果は強化解除、強化阻害できない、プルスウルトラ効率<span style="color: #3C9A66;">5</span>%アップ(5ターン)<color=#f68b1e>▼エンハンス追加効果自分のクリティカル攻撃が1回発生しなかった時、味方全体の一時的な状態異常<span style="color: #3C9A66;">2</span>ターン短縮</color=#f68b1e>',
           },
         },
       },
