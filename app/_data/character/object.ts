@@ -55756,13 +55756,13 @@ export const characters: z.infer<typeof CharactersSchema> = {
             name: "彗星ホームラン",
             description:
               '敵単体に<span style="color: #3C9A66;">225</span>%ダメージ、低確率 (20%)で強化阻害(2ターン)を付与<br>敵が隠れるだったら、このスキルに鋭利を付与<color=#f68b1e>▼エンハンス追加効果自分のスキル威力<span style="color: #3C9A66;">9</span>%アップ(5ターン)<br>このスキルに貫通を付与',
-            coolTime: "▼エンハンス追加効果",
+            coolTime: "4",
           },
           actionSkill2: {
             name: "グラビティブロー",
             description:
               '敵単体に<span style="color: #3C9A66;">225</span>%ダメージ、低確率 (20%)でスタン(1ターン)を付与<br>敵が隠れるだったら、このスキルに鋭利を付与<color=#f68b1e>▼エンハンス追加効果自分のスキル威力<span style="color: #3C9A66;">9</span>%アップ(5ターン)<br>このスキルに貫通を付与',
-            coolTime: "▼エンハンス追加効果",
+            coolTime: "6",
           },
           autoSkill1: {
             name: "限界重量拡大",
@@ -55785,13 +55785,13 @@ export const characters: z.infer<typeof CharactersSchema> = {
             name: "彗星ホームラン",
             description:
               '敵単体に<span style="color: #3C9A66;">250</span>%ダメージ、低確率 (25%)で強化阻害(2ターン)を付与<br>敵が隠れるだったら、このスキルに鋭利を付与<color=#f68b1e>▼エンハンス追加効果自分のスキル威力<span style="color: #3C9A66;">12</span>%アップ(5ターン)<br>このスキルに貫通を付与',
-            coolTime: "▼エンハンス追加効果",
+            coolTime: "4",
           },
           actionSkill2: {
             name: "グラビティブロー",
             description:
               '敵単体に<span style="color: #3C9A66;">250</span>%ダメージ、低確率 (20%)でスタン(1ターン)を付与<br>敵が隠れるだったら、このスキルに鋭利を付与<color=#f68b1e>▼エンハンス追加効果自分のスキル威力<span style="color: #3C9A66;">12</span>%アップ(5ターン)<br>このスキルに貫通を付与',
-            coolTime: "▼エンハンス追加効果",
+            coolTime: "5",
           },
           autoSkill1: {
             name: "限界重量拡大",
@@ -55814,13 +55814,13 @@ export const characters: z.infer<typeof CharactersSchema> = {
             name: "彗星ホームラン",
             description:
               '敵単体に<span style="color: #3C9A66;">275</span>%ダメージ、低確率 (30%)で強化阻害(2ターン)を付与<br>敵が隠れるだったら、このスキルに鋭利を付与<color=#f68b1e>▼エンハンス追加効果自分のスキル威力<span style="color: #3C9A66;">15</span>%アップ(5ターン)<br>このスキルに貫通を付与',
-            coolTime: "▼エンハンス追加効果",
+            coolTime: "4",
           },
           actionSkill2: {
             name: "グラビティブロー",
             description:
               '敵単体に<span style="color: #3C9A66;">275</span>%ダメージ、低確率 (20%)でスタン(1ターン)を付与<br>敵が隠れるだったら、このスキルに鋭利を付与<color=#f68b1e>▼エンハンス追加効果自分のスキル威力<span style="color: #3C9A66;">15</span>%アップ(5ターン)<br>このスキルに貫通を付与',
-            coolTime: "▼エンハンス追加効果",
+            coolTime: "4",
           },
           autoSkill1: {
             name: "限界重量拡大",
@@ -55843,13 +55843,13 @@ export const characters: z.infer<typeof CharactersSchema> = {
             name: "彗星ホームラン DX",
             description:
               '敵単体に<span style="color: #3C9A66;">300</span>%ダメージ、低確率 (20%)で強化阻害(2ターン)を付与<br>敵が隠れるだったら、このスキルに鋭利を付与<color=#f68b1e>▼エンハンス追加効果自分のスキル威力<span style="color: #3C9A66;">20</span>%アップ(5ターン)<br>このスキルに貫通を付与',
-            coolTime: "▼エンハンス追加効果",
+            coolTime: "4",
           },
           actionSkill2: {
             name: "グラビティブロー DX",
             description:
               '敵単体に<span style="color: #3C9A66;">300</span>%ダメージ、低確率 (20%)でスタン(1ターン)を付与<br>敵が隠れるだったら、このスキルに鋭利を付与<color=#f68b1e>▼エンハンス追加効果自分のスキル威力<span style="color: #3C9A66;">20</span>%アップ(5ターン)<br>このスキルに貫通を付与',
-            coolTime: "▼エンハンス追加効果",
+            coolTime: "4",
           },
           autoSkill1: {
             name: "限界重量拡大",
@@ -55872,13 +55872,13 @@ export const characters: z.infer<typeof CharactersSchema> = {
             name: "彗星ホームラン DX",
             description:
               '敵単体に<span style="color: #3C9A66;">325</span>%ダメージ、低確率 (25%)で強化阻害(2ターン)を付与<br>敵が隠れるだったら、このスキルに鋭利を付与<color=#f68b1e>▼エンハンス追加効果自分のスキル威力<span style="color: #3C9A66;">25</span>%アップ(5ターン)<br>このスキルに貫通を付与',
-            coolTime: "▼エンハンス追加効果",
+            coolTime: "4",
           },
           actionSkill2: {
             name: "グラビティブロー DX",
             description:
               '敵単体に<span style="color: #3C9A66;">325</span>%ダメージ、低確率 (20%)でスタン(1ターン)を付与<br>敵が隠れるだったら、このスキルに鋭利を付与<color=#f68b1e>▼エンハンス追加効果自分のスキル威力<span style="color: #3C9A66;">25</span>%アップ(5ターン)<br>このスキルに貫通を付与',
-            coolTime: "▼エンハンス追加効果",
+            coolTime: "4",
           },
           autoSkill1: {
             name: "限界重量拡大",
