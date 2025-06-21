@@ -1011,7 +1011,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2400118",
       name: "譲れぬ一枚",
       rarity: "ur",
-      skills: ["ディフェンスアップ", "最大HPアップ", "HP自動回復"],
+      skills: ["ディフェンスアップ", "最大HPアップ", "HP自動回復", "状態異常回復"],
       stats: [
         {
           hp: "7429",
@@ -1453,7 +1453,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2400106",
       name: "寮内謹慎",
       rarity: "ur",
-      skills: ["スピードアップ", "クリティカル率アップ", "状態異常回復"],
+      skills: ["スピードアップ", "クリティカル率アップ", "一時的な強化解除"],
       stats: [
         {
           hp: "6476",
@@ -4619,7 +4619,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2400033",
       name: "友を助けたい気持ち",
       rarity: "ur",
-      skills: ["最大HPアップ", "状態異常無効"],
+      skills: ["最大HPアップ", "状態異常無効", "状態異常回復"],
       stats: [
         {
           hp: "7429",

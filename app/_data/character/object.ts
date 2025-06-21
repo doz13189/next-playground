@@ -19690,6 +19690,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
         "プルスウルトラ技威力アップ",
         "全体攻撃",
         "スピードダウン",
+        "状態異常回復",
       ],
       tags: ["雄英高校1年A組", "雄英高校生徒", "ヒーロー"],
       stats: [
@@ -30772,6 +30773,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
         "パワーアップ",
         "全体攻撃",
         "パワーダウン",
+        "状態異常回復",
       ],
       tags: ["雄英高校生徒", "ビッグ3", "ヒーロー"],
       stats: [
