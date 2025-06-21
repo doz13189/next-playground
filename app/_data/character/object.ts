@@ -55716,6 +55716,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
         "状態異常効果ターン短縮",
         "鋭利",
         "強化阻害",
+        "一時的な強化解除",
       ],
       tags: ["雄英高校1年A組", "雄英高校生徒", "ヒーロー"],
       stats: [
