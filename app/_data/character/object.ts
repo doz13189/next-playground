@@ -33249,6 +33249,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
         "被ダメージ回復",
         "パワーアップ",
         "プルスウルトラゲージ増加",
+        "状態異常回復"
       ],
       tags: ["雄英高校教師", "プロヒーロー", "ヒーロー"],
       stats: [
