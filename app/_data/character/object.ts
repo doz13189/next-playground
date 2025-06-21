@@ -7609,7 +7609,11 @@ export const characters: z.infer<typeof CharactersSchema> = {
       rarity: "sr",
       type: "int",
       sex: "女",
-      skills: ["クリティカル率アップ", "プルスウルトラゲージ増加"],
+      skills: [
+        "クリティカル率アップ",
+        "プルスウルトラゲージ増加",
+        "状態異常回復",
+      ],
       tags: ["雄英高校1年A組", "雄英高校生徒", "ヒーロー"],
       stats: [
         {
@@ -14993,6 +14997,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
         "スキル威力ダウン",
         "隠れる",
         "クリティカル率ダウン",
+        "状態異常回復",
       ],
       tags: ["雄英高校1年A組", "雄英高校生徒", "ヒーロー"],
       stats: [
@@ -18255,6 +18260,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
         "スピードアップ",
         "かばう",
         "パワーアップ",
+        "状態異常回復",
       ],
       tags: ["雄英高校1年A組", "雄英高校生徒", "ヒーロー"],
       stats: [
@@ -34063,6 +34069,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
         "スキル威力ダウン",
         "状態異常無効",
         "プルスウルトラゲージ増加",
+        "状態異常回復",
       ],
       tags: ["雄英高校教師", "プロヒーロー", "ヒーロー"],
       stats: [
@@ -42103,6 +42110,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
         "パワーアップ",
         "プルスウルトラゲージ増加",
         "プルスウルトラ技威力アップ",
+        "状態異常回復",
       ],
       tags: ["敵＜ヴィラン＞連合", "敵＜ヴィラン＞"],
       stats: [
@@ -47463,6 +47471,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
         "スピードダウン",
         "クリティカル率ダウン",
         "ディフェンスアップ",
+        "状態異常回復",
       ],
       tags: ["敵＜ヴィラン＞"],
       stats: [
