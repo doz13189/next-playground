@@ -4,16 +4,12 @@ import type { SkillsSchema } from "./schema";
 export const skills: z.infer<typeof SkillsSchema> = {
   skills: [
     {
-      name: "回復",
-      description: "HPを回復する",
-    },
-    {
       name: "状態変化解除",
       description:
         '一時的な強化を<span style="color:#00f50c;">X</span>つ解除する',
     },
     {
-      name: "状態異常解除",
+      name: "状態異常回復",
       description: '一時的な<span style="color:#00f50c;">X</span>を解除する',
     },
     {
@@ -39,7 +35,7 @@ export const skills: z.infer<typeof SkillsSchema> = {
         "燃焼を残りターン分のダメージに変換する　この効果にはクリティカルが発生することがある",
     },
     {
-      name: "状態異常解除",
+      name: "状態異常回復",
       description: "状態異常を解除する",
     },
     {

@@ -55,7 +55,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2400139",
       name: "蒸気機関車に乗って",
       rarity: "ur",
-      skills: ["パワーアップ", "スキル威力アップ", "状態変化解除"],
+      skills: ["パワーアップ", "スキル威力アップ", "状態異常回復"],
       stats: [
         {
           hp: "6992",
@@ -199,7 +199,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2400136",
       name: "崩壊を前に",
       rarity: "ur",
-      skills: ["プルスウルトラゲージ増加", "くいしばり", "状態変化解除"],
+      skills: ["プルスウルトラゲージ増加", "くいしばり", "一時的な強化解除"],
       stats: [
         {
           hp: "6476",
@@ -709,7 +709,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2400124",
       name: "お風呂で解決",
       rarity: "ur",
-      skills: ["最大HPアップ", "プルスウルトラゲージ増加", "状態変化解除"],
+      skills: ["最大HPアップ", "プルスウルトラゲージ増加", "状態異常回復"],
       stats: [
         {
           hp: "7429",
@@ -963,7 +963,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2400119",
       name: "かわいい一着",
       rarity: "ur",
-      skills: ["クリティカル率アップ", "プルスウルトラゲージ増加", "回復"],
+      skills: ["クリティカル率アップ", "プルスウルトラゲージ増加", "HP回復"],
       stats: [
         {
           hp: "7687",
@@ -1453,7 +1453,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2400106",
       name: "寮内謹慎",
       rarity: "ur",
-      skills: ["スピードアップ", "クリティカル率アップ", "状態異常解除"],
+      skills: ["スピードアップ", "クリティカル率アップ", "状態異常回復"],
       stats: [
         {
           hp: "6476",
@@ -1552,7 +1552,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       skills: [
         "ディフェンスアップ",
         "アクションスキル威力アップ",
-        "状態異常解除",
+        "状態異常回復",
       ],
       stats: [
         {
@@ -2186,7 +2186,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2400089",
       name: "Global 1st Anniv.!",
       rarity: "ur",
-      skills: ["パワーアップ", "HP自動回復", "回復"],
+      skills: ["パワーアップ", "HP自動回復", "HP回復"],
       stats: [
         {
           hp: "6992",
@@ -2541,7 +2541,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2400081",
       name: "幻想と草原",
       rarity: "ur",
-      skills: ["最大HPアップ", "余裕", "回復"],
+      skills: ["最大HPアップ", "余裕", "HP回復"],
       stats: [
         {
           hp: "7687",
@@ -3342,7 +3342,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       skills: [
         "プルスウルトラ技威力アップ",
         "プルスウルトラゲージ増加",
-        "状態変化解除",
+        "状態異常回復",
       ],
       stats: [
         {
@@ -4078,6 +4078,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
         "最大HPアップ",
         "クリティカル率アップ",
         "スキル威力アップ",
+        "プルスウルトラゲージ増加",
       ],
       stats: [
         {
@@ -5293,7 +5294,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       skills: [
         "プルスウルトラ技威力アップ",
         "プルスウルトラゲージ増加",
-        "回復",
+        "HP回復",
       ],
       stats: [
         {
@@ -7566,7 +7567,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2300158",
       name: "優しい励まし",
       rarity: "sr",
-      skills: ["最大HPアップ", "回復", "状態異常解除"],
+      skills: ["最大HPアップ", "HP回復", "状態異常回復"],
       stats: [
         {
           hp: "5919",
@@ -8006,7 +8007,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2300149",
       name: "乱戦を制し者",
       rarity: "sr",
-      skills: ["スキル威力アップ", "状態変化解除", "スピードダウン"],
+      skills: ["スキル威力アップ", "一時的な強化解除", "スピードダウン"],
       stats: [
         {
           hp: "5919",
@@ -9112,7 +9113,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2300125",
       name: "謝らないで",
       rarity: "sr",
-      skills: ["ディフェンスアップ", "ダメージカット", "回復"],
+      skills: ["ディフェンスアップ", "ダメージカット", "HP回復"],
       stats: [
         {
           hp: "5681",
@@ -9160,7 +9161,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2300124",
       name: "駆けつけた友",
       rarity: "sr",
-      skills: ["クリティカル率アップ", "回復"],
+      skills: ["クリティカル率アップ", "HP回復"],
       stats: [
         {
           hp: "5274",
@@ -9644,7 +9645,12 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2300112",
       name: "最短距離で",
       rarity: "sr",
-      skills: ["スキル威力アップ", "プルスウルトラゲージ増加"],
+      skills: [
+        "スキル威力アップ",
+        "プルスウルトラゲージ増加",
+        "氷結耐性アップ",
+        "凍傷耐性アップ",
+      ],
       stats: [
         {
           hp: "5274",
@@ -9740,7 +9746,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2300110",
       name: "死んでたまるか",
       rarity: "sr",
-      skills: ["プルスウルトラゲージ増加", "くいしばり", "状態変化解除"],
+      skills: ["プルスウルトラゲージ増加", "くいしばり", "一時的な強化解除"],
       stats: [
         {
           hp: "5919",
@@ -10897,7 +10903,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2300086",
       name: "雨の日の楽しみ方",
       rarity: "sr",
-      skills: ["回復", "状態異常解除"],
+      skills: ["HP回復", "状態異常回復"],
       stats: [
         {
           hp: "5274",
@@ -11665,7 +11671,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2300069",
       name: "待望ランチタイム！",
       rarity: "sr",
-      skills: ["HP自動回復", "状態変化解除"],
+      skills: ["HP自動回復", "状態異常回復"],
       stats: [
         {
           hp: "5681",
@@ -18822,7 +18828,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2300206",
       name: "触れる逆鱗",
       rarity: "sr",
-      skills: ["パワーアップ", "ディフェンスアップ", "状態異常解除"],
+      skills: ["パワーアップ", "ディフェンスアップ", "状態異常回復"],
       stats: [
         {
           hp: "5681",
@@ -19465,7 +19471,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2300215",
       name: "並んでお参り",
       rarity: "sr",
-      skills: ["パワーアップ", "ディフェンスアップ", "回復"],
+      skills: ["パワーアップ", "ディフェンスアップ", "HP回復"],
       stats: [
         {
           hp: "5274",
@@ -19757,7 +19763,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
         "クリティカル率アップ",
         "クリティカル威力アップ",
         "アクションスキル威力アップ",
-        "状態変化解除",
+        "状態異常回復",
       ],
       stats: [
         {
@@ -19806,7 +19812,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2300219",
       name: "響く駆動音",
       rarity: "sr",
-      skills: ["クリティカル率アップ", "状態変化解除"],
+      skills: ["クリティカル率アップ", "状態異常回復"],
       stats: [
         {
           hp: "5512",
@@ -20108,7 +20114,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2300225",
       name: "まったりカフェタイム",
       rarity: "sr",
-      skills: ["ディフェンスアップ", "HP自動回復", "回復"],
+      skills: ["ディフェンスアップ", "HP自動回復", "HP回復"],
       stats: [
         {
           hp: "5681",
@@ -20895,7 +20901,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2300233",
       name: "管制島の襲撃",
       rarity: "sr",
-      skills: ["パワーアップ", "くいしばり", "回復"],
+      skills: ["パワーアップ", "くいしばり", "HP回復"],
       stats: [
         {
           hp: "5681",
@@ -21238,7 +21244,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2300235",
       name: "内通者確保",
       rarity: "sr",
-      skills: ["パワーアップ", "ディフェンスアップ", "状態変化解除"],
+      skills: ["パワーアップ", "ディフェンスアップ", "一時的な強化解除"],
       stats: [
         {
           hp: "5681",
