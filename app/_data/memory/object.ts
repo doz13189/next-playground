@@ -18972,7 +18972,7 @@ export const memories: z.infer<typeof MemoriesSchema> = {
       id: "2300208",
       name: "追い詰める抹消",
       rarity: "sr",
-      skills: ["パワーダウン", "スキル威力ダウン"],
+      skills: ["パワーダウン", "スキル威力ダウン", "一時的な強化解除"],
       stats: [
         { hp: "5681", power: "1573", speed: "115" },
         { hp: "5926", power: "1658", speed: "120" },
