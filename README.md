@@ -27,3 +27,14 @@ curl -X GET "https://search-the-hero.vercel.app/api/characters" \
 ```
 
 JWT トークンの有効期限は 30 日間です。
+
+
+### 更新用Tips
+
+```
+font-family: F0T;
+style=" font-size: 16px;"
+#79ff80 → #3C9A66
+#ff5757 → #ff6f6f
+#57ff68 → #3C9A66
+```
