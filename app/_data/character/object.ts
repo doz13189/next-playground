@@ -55976,145 +55976,362 @@ export const characters: z.infer<typeof CharactersSchema> = {
           plusUltra: {
             name: "ハートビートブラスト",
             description:
-              '敵全体に<span style="color: #79ff80;">400</span>%ダメージ<br>味方全体の一時的な状態異常<span style="color: #79ff80;">3</span>ターン短縮、HP<span style="color: #79ff80;">20</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体の一時的な状態異常短縮ターン数が<span style="color: #79ff80;">2</span>増加、スキル威力<span style="color: #79ff80;">15</span>%アップ(3ターン)</color=#f68b1e>',
+              '敵全体に<span style="color: #3C9A66;">400</span>%ダメージ<br>味方全体の一時的な状態異常<span style="color: #3C9A66;">3</span>ターン短縮、HP<span style="color: #3C9A66;">20</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体の一時的な状態異常短縮ターン数が<span style="color: #3C9A66;">2</span>増加、スキル威力<span style="color: #3C9A66;">15</span>%アップ(3ターン)</color=#f68b1e>',
           },
           actionSkill1: {
             name: "音質強化",
             description:
-              '味方単体にくいしばり(2回)を付与、スキル威力<span style="color: #79ff80;">9</span>%アップ(3ターン)、ディフェンス<span style="color: #79ff80;">9</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方単体のスキル威力<span style="color: #79ff80;">20</span>%アップ(3ターン)',
+              '味方単体にくいしばり(2回)を付与、スキル威力<span style="color: #3C9A66;">9</span>%アップ(3ターン)、ディフェンス<span style="color: #3C9A66;">9</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方単体のスキル威力<span style="color: #3C9A66;">20</span>%アップ(3ターン)',
             coolTime: "5",
           },
           actionSkill2: {
             name: "エッジサウンド",
             description:
-              '敵単体に<span style="color: #79ff80;">250</span>%ダメージ<br>味方全体の一時的な状態異常<span style="color: #79ff80;">2</span>ターン短縮、HP<span style="color: #79ff80;">10</span>%自動回復(2ターン)を付与、パワー<span style="color: #79ff80;">9</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体の一時的な状態異常短縮ターン数が<span style="color: #79ff80;">1</span>増加',
+              '敵単体に<span style="color: #3C9A66;">250</span>%ダメージ<br>味方全体の一時的な状態異常<span style="color: #3C9A66;">2</span>ターン短縮、HP<span style="color: #3C9A66;">10</span>%自動回復(2ターン)を付与、パワー<span style="color: #3C9A66;">9</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体の一時的な状態異常短縮ターン数が<span style="color: #3C9A66;">1</span>増加',
             coolTime: "6",
           },
           autoSkill1: {
             name: "音量調節",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が隠れるのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>味方全体のディフェンス<span style="color: #79ff80;">10</span>%アップ、プルスウルトラゲージ上昇量<span style="color: #79ff80;">10</span>%アップ<br>自分が攻撃を2回受けきった時、自分に隠れる(2ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、自分の一時的な状態異常<span style="color: #79ff80;">1</span>ターン短縮                <br><br><h5 style=" ">Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が隠れるのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>味方全体のディフェンス<span style="color: #3C9A66;">10</span>%アップ、プルスウルトラゲージ上昇量<span style="color: #3C9A66;">10</span>%アップ<br>自分が攻撃を2回受けきった時、自分に隠れる(2ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、自分の一時的な状態異常<span style="color: #3C9A66;">1</span>ターン短縮                <br><br><h5 style=" ">Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "熱いハート",
             description:
-              '3ターン毎に、自分に状態異常無効(1ターン)を付与<br>チームに"力タイプ"が2体以上いる時、味方全体に状態異常無効(1ターン)を付与(最大1回)<br>自分が隠れるの時、味方全体のディフェンス<span style="color: #79ff80;">10</span>%アップ<br>自分のスキルでCHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #79ff80;">10</span>%アップ、スキル威力<span style="color: #79ff80;">10</span>%アップ(最大3回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が隠れるの時、味方全体のスキル威力<span style="color: #79ff80;">15</span>%アップ</color=#f68b1e>',
+              '3ターン毎に、自分に状態異常無効(1ターン)を付与<br>チームに"力タイプ"が2体以上いる時、味方全体に状態異常無効(1ターン)を付与(最大1回)<br>自分が隠れるの時、味方全体のディフェンス<span style="color: #3C9A66;">10</span>%アップ<br>自分のスキルでCHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">10</span>%アップ、スキル威力<span style="color: #3C9A66;">10</span>%アップ(最大3回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が隠れるの時、味方全体のスキル威力<span style="color: #3C9A66;">15</span>%アップ</color=#f68b1e>',
           },
         },
         leveltwo: {
           plusUltra: {
             name: "ハートビートブラスト",
             description:
-              '敵全体に<span style="color: #79ff80;">450</span>%ダメージ<br>味方全体の一時的な状態異常<span style="color: #79ff80;">3</span>ターン短縮、HP<span style="color: #79ff80;">20</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体の一時的な状態異常短縮ターン数が<span style="color: #79ff80;">2</span>増加、スキル威力<span style="color: #79ff80;">20</span>%アップ(3ターン)</color=#f68b1e>',
+              '敵全体に<span style="color: #3C9A66;">450</span>%ダメージ<br>味方全体の一時的な状態異常<span style="color: #3C9A66;">3</span>ターン短縮、HP<span style="color: #3C9A66;">20</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体の一時的な状態異常短縮ターン数が<span style="color: #3C9A66;">2</span>増加、スキル威力<span style="color: #3C9A66;">20</span>%アップ(3ターン)</color=#f68b1e>',
           },
           actionSkill1: {
             name: "音質強化",
             description:
-              '味方単体にくいしばり(2回)を付与、スキル威力<span style="color: #79ff80;">12</span>%アップ(3ターン)、ディフェンス<span style="color: #79ff80;">12</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方単体のスキル威力<span style="color: #79ff80;">20</span>%アップ(3ターン)',
+              '味方単体にくいしばり(2回)を付与、スキル威力<span style="color: #3C9A66;">12</span>%アップ(3ターン)、ディフェンス<span style="color: #3C9A66;">12</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方単体のスキル威力<span style="color: #3C9A66;">20</span>%アップ(3ターン)',
             coolTime: "5",
           },
           actionSkill2: {
             name: "エッジサウンド",
             description:
-              '敵単体に<span style="color: #79ff80;">275</span>%ダメージ<br>味方全体の一時的な状態異常<span style="color: #79ff80;">2</span>ターン短縮、HP<span style="color: #79ff80;">15</span>%自動回復(2ターン)を付与、パワー<span style="color: #79ff80;">12</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体の一時的な状態異常短縮ターン数が<span style="color: #79ff80;">1</span>増加',
+              '敵単体に<span style="color: #3C9A66;">275</span>%ダメージ<br>味方全体の一時的な状態異常<span style="color: #3C9A66;">2</span>ターン短縮、HP<span style="color: #3C9A66;">15</span>%自動回復(2ターン)を付与、パワー<span style="color: #3C9A66;">12</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体の一時的な状態異常短縮ターン数が<span style="color: #3C9A66;">1</span>増加',
             coolTime: "5",
           },
           autoSkill1: {
             name: "音量調節",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が隠れるのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>味方全体のディフェンス<span style="color: #79ff80;">15</span>%アップ、プルスウルトラゲージ上昇量<span style="color: #79ff80;">10</span>%アップ<br>自分が攻撃を2回受けきった時、自分に隠れる(2ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、自分の一時的な状態異常<span style="color: #79ff80;">1</span>ターン短縮                <br><br><h5 style=" ">Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が隠れるのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>味方全体のディフェンス<span style="color: #3C9A66;">15</span>%アップ、プルスウルトラゲージ上昇量<span style="color: #3C9A66;">10</span>%アップ<br>自分が攻撃を2回受けきった時、自分に隠れる(2ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、自分の一時的な状態異常<span style="color: #3C9A66;">1</span>ターン短縮                <br><br><h5 style=" ">Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "熱いハート",
             description:
-              '3ターン毎に、自分に状態異常無効(1ターン)を付与<br>チームに"力タイプ"が2体以上いる時、味方全体に状態異常無効(1ターン)を付与(最大1回)<br>自分が隠れるの時、味方全体のディフェンス<span style="color: #79ff80;">15</span>%アップ<br>自分のスキルでCHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #79ff80;">10</span>%アップ、スキル威力<span style="color: #79ff80;">10</span>%アップ(最大3回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が隠れるの時、味方全体のスキル威力<span style="color: #79ff80;">20</span>%アップ</color=#f68b1e>',
+              '3ターン毎に、自分に状態異常無効(1ターン)を付与<br>チームに"力タイプ"が2体以上いる時、味方全体に状態異常無効(1ターン)を付与(最大1回)<br>自分が隠れるの時、味方全体のディフェンス<span style="color: #3C9A66;">15</span>%アップ<br>自分のスキルでCHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">10</span>%アップ、スキル威力<span style="color: #3C9A66;">10</span>%アップ(最大3回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が隠れるの時、味方全体のスキル威力<span style="color: #3C9A66;">20</span>%アップ</color=#f68b1e>',
           },
         },
         levelthree: {
           plusUltra: {
             name: "ハートビートブラスト",
             description:
-              '敵全体に<span style="color: #79ff80;">500</span>%ダメージ<br>味方全体の一時的な状態異常<span style="color: #79ff80;">3</span>ターン短縮、HP<span style="color: #79ff80;">20</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体の一時的な状態異常短縮ターン数が<span style="color: #79ff80;">2</span>増加、スキル威力<span style="color: #79ff80;">25</span>%アップ(3ターン)</color=#f68b1e>',
+              '敵全体に<span style="color: #3C9A66;">500</span>%ダメージ<br>味方全体の一時的な状態異常<span style="color: #3C9A66;">3</span>ターン短縮、HP<span style="color: #3C9A66;">20</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体の一時的な状態異常短縮ターン数が<span style="color: #3C9A66;">2</span>増加、スキル威力<span style="color: #3C9A66;">25</span>%アップ(3ターン)</color=#f68b1e>',
           },
           actionSkill1: {
             name: "音質強化",
             description:
-              '味方単体にくいしばり(2回)を付与、スキル威力<span style="color: #79ff80;">15</span>%アップ(3ターン)、ディフェンス<span style="color: #79ff80;">15</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方単体のスキル威力<span style="color: #79ff80;">20</span>%アップ(3ターン)',
+              '味方単体にくいしばり(2回)を付与、スキル威力<span style="color: #3C9A66;">15</span>%アップ(3ターン)、ディフェンス<span style="color: #3C9A66;">15</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方単体のスキル威力<span style="color: #3C9A66;">20</span>%アップ(3ターン)',
             coolTime: "5",
           },
           actionSkill2: {
             name: "エッジサウンド",
             description:
-              '敵単体に<span style="color: #79ff80;">300</span>%ダメージ<br>味方全体の一時的な状態異常<span style="color: #79ff80;">2</span>ターン短縮、HP<span style="color: #79ff80;">20</span>%自動回復(2ターン)を付与、パワー<span style="color: #79ff80;">15</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体の一時的な状態異常短縮ターン数が<span style="color: #79ff80;">1</span>増加',
+              '敵単体に<span style="color: #3C9A66;">300</span>%ダメージ<br>味方全体の一時的な状態異常<span style="color: #3C9A66;">2</span>ターン短縮、HP<span style="color: #3C9A66;">20</span>%自動回復(2ターン)を付与、パワー<span style="color: #3C9A66;">15</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体の一時的な状態異常短縮ターン数が<span style="color: #3C9A66;">1</span>増加',
             coolTime: "4",
           },
           autoSkill1: {
             name: "音量調節",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が隠れるのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>味方全体のディフェンス<span style="color: #79ff80;">20</span>%アップ、プルスウルトラゲージ上昇量<span style="color: #79ff80;">10</span>%アップ<br>自分が攻撃を2回受けきった時、自分に隠れる(2ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、自分の一時的な状態異常<span style="color: #79ff80;">1</span>ターン短縮                <br><br><h5 style=" ">Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +10350<br>                                            </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が隠れるのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>味方全体のディフェンス<span style="color: #3C9A66;">20</span>%アップ、プルスウルトラゲージ上昇量<span style="color: #3C9A66;">10</span>%アップ<br>自分が攻撃を2回受けきった時、自分に隠れる(2ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、自分の一時的な状態異常<span style="color: #3C9A66;">1</span>ターン短縮                <br><br><h5 style=" ">Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                            </color=#f68b1e>',
           },
           autoSkill2: {
             name: "熱いハート",
             description:
-              '3ターン毎に、自分に状態異常無効(1ターン)を付与<br>チームに"力タイプ"が2体以上いる時、味方全体に状態異常無効(1ターン)を付与(最大1回)<br>自分が隠れるの時、味方全体のディフェンス<span style="color: #79ff80;">20</span>%アップ<br>自分のスキルでCHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #79ff80;">10</span>%アップ、スキル威力<span style="color: #79ff80;">10</span>%アップ(最大3回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が隠れるの時、味方全体のスキル威力<span style="color: #79ff80;">25</span>%アップ</color=#f68b1e>',
+              '3ターン毎に、自分に状態異常無効(1ターン)を付与<br>チームに"力タイプ"が2体以上いる時、味方全体に状態異常無効(1ターン)を付与(最大1回)<br>自分が隠れるの時、味方全体のディフェンス<span style="color: #3C9A66;">20</span>%アップ<br>自分のスキルでCHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">10</span>%アップ、スキル威力<span style="color: #3C9A66;">10</span>%アップ(最大3回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が隠れるの時、味方全体のスキル威力<span style="color: #3C9A66;">25</span>%アップ</color=#f68b1e>',
           },
         },
         dxlevelone: {
           plusUltra: {
             name: "ハートビートブラスト",
             description:
-              '敵全体に<span style="color: #79ff80;">500</span>%ダメージ<br>味方全体の一時的な状態異常<span style="color: #79ff80;">3</span>ターン短縮、HP<span style="color: #79ff80;">20</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体の一時的な状態異常短縮ターン数が<span style="color: #79ff80;">2</span>増加、スキル威力<span style="color: #79ff80;">25</span>%アップ(3ターン)</color=#f68b1e>',
+              '敵全体に<span style="color: #3C9A66;">500</span>%ダメージ<br>味方全体の一時的な状態異常<span style="color: #3C9A66;">3</span>ターン短縮、HP<span style="color: #3C9A66;">20</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体の一時的な状態異常短縮ターン数が<span style="color: #3C9A66;">2</span>増加、スキル威力<span style="color: #3C9A66;">25</span>%アップ(3ターン)</color=#f68b1e>',
           },
           actionSkill1: {
             name: "音質強化 DX",
             description:
-              '味方単体にくいしばり(2回)を付与、スキル威力<span style="color: #79ff80;">20</span>%アップ(3ターン)、ディフェンス<span style="color: #79ff80;">20</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方単体のスキル威力<span style="color: #79ff80;">20</span>%アップ(3ターン)',
+              '味方単体にくいしばり(2回)を付与、スキル威力<span style="color: #3C9A66;">20</span>%アップ(3ターン)、ディフェンス<span style="color: #3C9A66;">20</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方単体のスキル威力<span style="color: #3C9A66;">20</span>%アップ(3ターン)',
             coolTime: "5",
           },
           actionSkill2: {
             name: "エッジサウンド DX",
             description:
-              '敵単体に<span style="color: #79ff80;">325</span>%ダメージ<br>味方全体の一時的な状態異常<span style="color: #79ff80;">2</span>ターン短縮、HP<span style="color: #79ff80;">25</span>%自動回復(2ターン)を付与、パワー<span style="color: #79ff80;">20</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体の一時的な状態異常短縮ターン数が<span style="color: #79ff80;">1</span>増加',
+              '敵単体に<span style="color: #3C9A66;">325</span>%ダメージ<br>味方全体の一時的な状態異常<span style="color: #3C9A66;">2</span>ターン短縮、HP<span style="color: #3C9A66;">25</span>%自動回復(2ターン)を付与、パワー<span style="color: #3C9A66;">20</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体の一時的な状態異常短縮ターン数が<span style="color: #3C9A66;">1</span>増加',
             coolTime: "4",
           },
           autoSkill1: {
             name: "音量調節",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が隠れるのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>味方全体のディフェンス<span style="color: #79ff80;">20</span>%アップ、プルスウルトラゲージ上昇量<span style="color: #79ff80;">10</span>%アップ<br>自分が攻撃を2回受けきった時、自分に隠れる(2ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、自分の一時的な状態異常<span style="color: #79ff80;">1</span>ターン短縮                <br><br><h5 style=" ">Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が隠れるのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>味方全体のディフェンス<span style="color: #3C9A66;">20</span>%アップ、プルスウルトラゲージ上昇量<span style="color: #3C9A66;">10</span>%アップ<br>自分が攻撃を2回受けきった時、自分に隠れる(2ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、自分の一時的な状態異常<span style="color: #3C9A66;">1</span>ターン短縮                <br><br><h5 style=" ">Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "熱いハート",
             description:
-              '3ターン毎に、自分に状態異常無効(1ターン)を付与<br>チームに"力タイプ"が2体以上いる時、味方全体に状態異常無効(1ターン)を付与(最大1回)<br>自分が隠れるの時、味方全体のディフェンス<span style="color: #79ff80;">20</span>%アップ<br>自分のスキルでCHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #79ff80;">10</span>%アップ、スキル威力<span style="color: #79ff80;">10</span>%アップ(最大3回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が隠れるの時、味方全体のスキル威力<span style="color: #79ff80;">25</span>%アップ</color=#f68b1e>',
+              '3ターン毎に、自分に状態異常無効(1ターン)を付与<br>チームに"力タイプ"が2体以上いる時、味方全体に状態異常無効(1ターン)を付与(最大1回)<br>自分が隠れるの時、味方全体のディフェンス<span style="color: #3C9A66;">20</span>%アップ<br>自分のスキルでCHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">10</span>%アップ、スキル威力<span style="color: #3C9A66;">10</span>%アップ(最大3回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が隠れるの時、味方全体のスキル威力<span style="color: #3C9A66;">25</span>%アップ</color=#f68b1e>',
           },
         },
         dxleveltwo: {
           plusUltra: {
             name: "ハートビートブラスト",
             description:
-              '敵全体に<span style="color: #79ff80;">500</span>%ダメージ<br>味方全体の一時的な状態異常<span style="color: #79ff80;">3</span>ターン短縮、HP<span style="color: #79ff80;">20</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体の一時的な状態異常短縮ターン数が<span style="color: #79ff80;">2</span>増加、スキル威力<span style="color: #79ff80;">25</span>%アップ(3ターン)</color=#f68b1e>',
+              '敵全体に<span style="color: #3C9A66;">500</span>%ダメージ<br>味方全体の一時的な状態異常<span style="color: #3C9A66;">3</span>ターン短縮、HP<span style="color: #3C9A66;">20</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体の一時的な状態異常短縮ターン数が<span style="color: #3C9A66;">2</span>増加、スキル威力<span style="color: #3C9A66;">25</span>%アップ(3ターン)</color=#f68b1e>',
           },
           actionSkill1: {
             name: "音質強化 DX",
             description:
-              '味方単体にくいしばり(2回)を付与、スキル威力<span style="color: #79ff80;">25</span>%アップ(3ターン)、ディフェンス<span style="color: #79ff80;">20</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方単体のスキル威力<span style="color: #79ff80;">25</span>%アップ(3ターン)',
+              '味方単体にくいしばり(2回)を付与、スキル威力<span style="color: #3C9A66;">25</span>%アップ(3ターン)、ディフェンス<span style="color: #3C9A66;">20</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方単体のスキル威力<span style="color: #3C9A66;">25</span>%アップ(3ターン)',
             coolTime: "5",
           },
           actionSkill2: {
             name: "エッジサウンド DX",
             description:
-              '敵単体に<span style="color: #79ff80;">350</span>%ダメージ<br>味方全体の一時的な状態異常<span style="color: #79ff80;">2</span>ターン短縮、HP<span style="color: #79ff80;">30</span>%自動回復(2ターン)を付与、パワー<span style="color: #79ff80;">25</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体の一時的な状態異常短縮ターン数が<span style="color: #79ff80;">1</span>増加',
+              '敵単体に<span style="color: #3C9A66;">350</span>%ダメージ<br>味方全体の一時的な状態異常<span style="color: #3C9A66;">2</span>ターン短縮、HP<span style="color: #3C9A66;">30</span>%自動回復(2ターン)を付与、パワー<span style="color: #3C9A66;">25</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体の一時的な状態異常短縮ターン数が<span style="color: #3C9A66;">1</span>増加',
             coolTime: "4",
           },
           autoSkill1: {
             name: "音量調節",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が隠れるのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>味方全体のディフェンス<span style="color: #79ff80;">20</span>%アップ、プルスウルトラゲージ上昇量<span style="color: #79ff80;">10</span>%アップ<br>自分が攻撃を2回受けきった時、自分に隠れる(2ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、自分の一時的な状態異常<span style="color: #79ff80;">1</span>ターン短縮                <br><br><h5 style=" ">Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が隠れるのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>味方全体のディフェンス<span style="color: #3C9A66;">20</span>%アップ、プルスウルトラゲージ上昇量<span style="color: #3C9A66;">10</span>%アップ<br>自分が攻撃を2回受けきった時、自分に隠れる(2ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、自分の一時的な状態異常<span style="color: #3C9A66;">1</span>ターン短縮                <br><br><h5 style=" ">Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "熱いハート",
             description:
-              '3ターン毎に、自分に状態異常無効(1ターン)を付与<br>チームに"力タイプ"が2体以上いる時、味方全体に状態異常無効(1ターン)を付与(最大1回)<br>自分が隠れるの時、味方全体のディフェンス<span style="color: #79ff80;">20</span>%アップ<br>自分のスキルでCHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #79ff80;">10</span>%アップ、スキル威力<span style="color: #79ff80;">10</span>%アップ(最大3回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が隠れるの時、味方全体のスキル威力<span style="color: #79ff80;">25</span>%アップ</color=#f68b1e>',
+              '3ターン毎に、自分に状態異常無効(1ターン)を付与<br>チームに"力タイプ"が2体以上いる時、味方全体に状態異常無効(1ターン)を付与(最大1回)<br>自分が隠れるの時、味方全体のディフェンス<span style="color: #3C9A66;">20</span>%アップ<br>自分のスキルでCHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">10</span>%アップ、スキル威力<span style="color: #3C9A66;">10</span>%アップ(最大3回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が隠れるの時、味方全体のスキル威力<span style="color: #3C9A66;">25</span>%アップ</color=#f68b1e>',
+          },
+        },
+      },
+    },
+    {
+      id: "1145004",
+      epithet: "躍進する心機",
+      name: "心操人使",
+      rarity: "ur",
+      type: "dst",
+      sex: "男",
+      skills: [
+        "スキル威力アップ",
+        "混乱",
+        "クールタイム短縮",
+        "状態変化解除",
+        "強化阻害",
+        "エンハンス",
+        "基礎攻撃力アップ",
+        "基礎スピードアップ",
+        "基礎最大HPアップ",
+        "バリア",
+        "衰弱",
+        "ディフェンスアップ",
+        "くいしばり",
+        "パワーアップ",
+        "パワーダウン",
+        "一時的な強化解除",
+        "挑発",
+        "ディフェンスダウン",
+        "命中率アップ",
+        "回復阻害",
+      ],
+      tags: ["雄英高校生徒", "ヒーロー"],
+      stats: [
+        {
+          hp: "4222",
+          power: "741",
+          speed: "100",
+          defense: "100",
+          critical: "10",
+        },
+        {
+          hp: "11332",
+          power: "2479",
+          speed: "179",
+          defense: "100",
+          critical: "10",
+        },
+        {
+          hp: "43732",
+          power: "8759",
+          speed: "719",
+          defense: "100",
+          critical: "10",
+        },
+        {
+          hp: "52732",
+          power: "10559",
+          speed: "899",
+          defense: "100",
+          critical: "10",
+        },
+      ],
+      uniqueSkills: [
+        "自分よりパワーが高い相手から攻撃を2回受けきった後に、敵全体のディフェンスを10%ダウン(2ターン)",
+        "WAVE開始後、敵全体のスピードを15%ダウン(3ターン)",
+        "自分が回復を受けるたび、自分の状態異常を防ぐ(1回)",
+        "戦闘開始後、自分のスキル威力を10%ダウン、クリティカル率を30%アップ(3ターン)",
+        "自分のHPが50%未満の時、自分のパワーを25%アップ",
+        "クリティカル攻撃を受けきった後に、自分のスキル威力を10%アップ(2ターン)",
+        "WAVE開始後、自分のスピードを35%アップ(1ターン)",
+      ],
+      skill: {
+        levelone: {
+          plusUltra: {
+            name: "マインドアタック",
+            description:
+              '敵が混乱だったら、このスキルのスキル威力<span style="color: #3C9A66;">30</span>%アップ<br>敵単体に<span style="color: #3C9A66;">500</span>%ダメージ<br>自分がバリアの時、敵単体に中確率 (50%)で混乱(2ターン)を付与<br>味方全体のクールタイム<span style="color: #3C9A66;">1</span>短縮<color=#f68b1e><br>▼エンハンス追加効果<br>敵単体のかばう・挑発のキャラの一時的な強化<span style="color: #3C9A66;">3</span>個解除、高確率 (70%)で強化阻害(2ターン)を付与<br>このスキルのスキル威力<span style="color: #3C9A66;">30</span>%アップ</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "洗脳",
+            description:
+              '敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除、強化阻害(1ターン)を付与<br>もっとも現在HP割合の低い敵単体に挑発(2ターン)を付与※この効果は強化解除、強化阻害できない<color=#f68b1e><br>▼エンハンス追加効果<br>もっとも現在HP割合の低い敵単体のディフェンス<span style="color: #ff6f6f;">9</span>%ダウン(3ターン)',
+            coolTime: "5",
+          },
+          actionSkill2: {
+            name: "操縛落とし",
+            description:
+              '敵単体の一時的な強化<span style="color: #3C9A66;">2</span>個解除、<span style="color: #3C9A66;">225</span>%ダメージ、低確率 (20%)で回復阻害(2ターン)を付与<br>自分がバリアの時、このスキルの状態異常命中率アップ<color=#f68b1e><br>▼エンハンス追加効果<br>敵単体のディフェンス<span style="color: #ff6f6f;">9</span>%ダウン(3ターン)',
+            coolTime: "7",
+          },
+          autoSkill1: {
+            name: "心理操作",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がかばう・挑発の相手に6回攻撃しきる②バトル開始から5ターン経過)<br>自分がかばう・挑発の相手に2回攻撃しきった時、自分にバリア(2ヒット)を付与<br>自分がバリアの時、敵全体に衰弱を付与※この効果はゲストでは発動しない<br>自分がバリアでないまま、1回ターンをまたいだ時、味方全体のディフェンス<span style="color: #3C9A66;">6</span>%アップ(3ターン)、くいしばり(1回)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分がバリアのまま、1回ターンをまたいだ時、敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
+          },
+          autoSkill2: {
+            name: "競い合うスタンス",
+            description:
+              '敵の一時的な強化が1回解除されきった時、味方全体のパワー<span style="color: #3C9A66;">3</span>%アップ(3ターン)<br>敵の一時的な強化が3回解除されきった時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>敵の一時的な強化が5回解除されきった時、敵全体のパワー<span style="color: #ff6f6f;">9</span>%ダウン(3ターン)<br>敵の一時的な強化が5回解除されきった時、ターゲットを無視してランダムな味方単体にバリア(2ヒット)を付与',
+          },
+        },
+        leveltwo: {
+          plusUltra: {
+            name: "マインドアタック",
+            description:
+              '敵が混乱だったら、このスキルのスキル威力<span style="color: #3C9A66;">40</span>%アップ<br>敵単体に<span style="color: #3C9A66;">550</span>%ダメージ<br>自分がバリアの時、敵単体に中確率 (50%)で混乱(2ターン)を付与<br>味方全体のクールタイム<span style="color: #3C9A66;">1</span>短縮<color=#f68b1e><br>▼エンハンス追加効果<br>敵単体のかばう・挑発のキャラの一時的な強化<span style="color: #3C9A66;">3</span>個解除、高確率 (70%)で強化阻害(2ターン)を付与<br>このスキルのスキル威力<span style="color: #3C9A66;">40</span>%アップ</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "洗脳",
+            description:
+              '敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除、強化阻害(1ターン)を付与<br>もっとも現在HP割合の低い敵単体に挑発(2ターン)を付与※この効果は強化解除、強化阻害できない<color=#f68b1e><br>▼エンハンス追加効果<br>もっとも現在HP割合の低い敵単体のディフェンス<span style="color: #ff6f6f;">12</span>%ダウン(3ターン)',
+            coolTime: "5",
+          },
+          actionSkill2: {
+            name: "操縛落とし",
+            description:
+              '敵単体の一時的な強化<span style="color: #3C9A66;">2</span>個解除、<span style="color: #3C9A66;">250</span>%ダメージ、低確率 (20%)で回復阻害(2ターン)を付与<br>自分がバリアの時、このスキルの状態異常命中率アップ<color=#f68b1e><br>▼エンハンス追加効果<br>敵単体のディフェンス<span style="color: #ff6f6f;">12</span>%ダウン(3ターン)',
+            coolTime: "6",
+          },
+          autoSkill1: {
+            name: "心理操作",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がかばう・挑発の相手に6回攻撃しきる②バトル開始から5ターン経過)<br>自分がかばう・挑発の相手に2回攻撃しきった時、自分にバリア(2ヒット)を付与<br>自分がバリアの時、敵全体に衰弱を付与※この効果はゲストでは発動しない<br>自分がバリアでないまま、1回ターンをまたいだ時、味方全体のディフェンス<span style="color: #3C9A66;">8</span>%アップ(3ターン)、くいしばり(1回)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分がバリアのまま、1回ターンをまたいだ時、敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
+          },
+          autoSkill2: {
+            name: "競い合うスタンス",
+            description:
+              '敵の一時的な強化が1回解除されきった時、味方全体のパワー<span style="color: #3C9A66;">4</span>%アップ(3ターン)<br>敵の一時的な強化が3回解除されきった時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>敵の一時的な強化が5回解除されきった時、敵全体のパワー<span style="color: #ff6f6f;">12</span>%ダウン(3ターン)<br>敵の一時的な強化が5回解除されきった時、ターゲットを無視してランダムな味方単体にバリア(2ヒット)を付与',
+          },
+        },
+        levelthree: {
+          plusUltra: {
+            name: "マインドアタック",
+            description:
+              '敵が混乱だったら、このスキルのスキル威力<span style="color: #3C9A66;">50</span>%アップ<br>敵単体に<span style="color: #3C9A66;">600</span>%ダメージ<br>自分がバリアの時、敵単体に中確率 (50%)で混乱(2ターン)を付与<br>味方全体のクールタイム<span style="color: #3C9A66;">1</span>短縮<color=#f68b1e><br>▼エンハンス追加効果<br>敵単体のかばう・挑発のキャラの一時的な強化<span style="color: #3C9A66;">3</span>個解除、高確率 (70%)で強化阻害(2ターン)を付与<br>このスキルのスキル威力<span style="color: #3C9A66;">50</span>%アップ</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "洗脳",
+            description:
+              '敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除、強化阻害(1ターン)を付与<br>もっとも現在HP割合の低い敵単体に挑発(2ターン)を付与※この効果は強化解除、強化阻害できない<color=#f68b1e><br>▼エンハンス追加効果<br>もっとも現在HP割合の低い敵単体のディフェンス<span style="color: #ff6f6f;">15</span>%ダウン(3ターン)',
+            coolTime: "5",
+          },
+          actionSkill2: {
+            name: "操縛落とし",
+            description:
+              '敵単体の一時的な強化<span style="color: #3C9A66;">2</span>個解除、<span style="color: #3C9A66;">275</span>%ダメージ、低確率 (20%)で回復阻害(2ターン)を付与<br>自分がバリアの時、このスキルの状態異常命中率アップ<color=#f68b1e><br>▼エンハンス追加効果<br>敵単体のディフェンス<span style="color: #ff6f6f;">15</span>%ダウン(3ターン)',
+            coolTime: "5",
+          },
+          autoSkill1: {
+            name: "心理操作",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がかばう・挑発の相手に6回攻撃しきる②バトル開始から5ターン経過)<br>自分がかばう・挑発の相手に2回攻撃しきった時、自分にバリア(2ヒット)を付与<br>自分がバリアの時、敵全体に衰弱を付与※この効果はゲストでは発動しない<br>自分がバリアでないまま、1回ターンをまたいだ時、味方全体のディフェンス<span style="color: #3C9A66;">10</span>%アップ(3ターン)、くいしばり(1回)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分がバリアのまま、1回ターンをまたいだ時、敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                            </color=#f68b1e>',
+          },
+          autoSkill2: {
+            name: "競い合うスタンス",
+            description:
+              '敵の一時的な強化が1回解除されきった時、味方全体のパワー<span style="color: #3C9A66;">5</span>%アップ(3ターン)<br>敵の一時的な強化が3回解除されきった時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>敵の一時的な強化が5回解除されきった時、敵全体のパワー<span style="color: #ff6f6f;">15</span>%ダウン(3ターン)<br>敵の一時的な強化が5回解除されきった時、ターゲットを無視してランダムな味方単体にバリア(2ヒット)を付与',
+          },
+        },
+        dxlevelone: {
+          plusUltra: {
+            name: "マインドアタック",
+            description:
+              '敵が混乱だったら、このスキルのスキル威力<span style="color: #3C9A66;">50</span>%アップ<br>敵単体に<span style="color: #3C9A66;">600</span>%ダメージ<br>自分がバリアの時、敵単体に中確率 (50%)で混乱(2ターン)を付与<br>味方全体のクールタイム<span style="color: #3C9A66;">1</span>短縮<color=#f68b1e><br>▼エンハンス追加効果<br>敵単体のかばう・挑発のキャラの一時的な強化<span style="color: #3C9A66;">3</span>個解除、高確率 (70%)で強化阻害(2ターン)を付与<br>このスキルのスキル威力<span style="color: #3C9A66;">50</span>%アップ</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "洗脳 DX",
+            description:
+              '敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除、強化阻害(1ターン)を付与<br>もっとも現在HP割合の低い敵単体に挑発(3ターン)を付与※この効果は強化解除、強化阻害できない<color=#f68b1e><br>▼エンハンス追加効果<br>もっとも現在HP割合の低い敵単体のディフェンス<span style="color: #ff6f6f;">15</span>%ダウン(3ターン)',
+            coolTime: "5",
+          },
+          actionSkill2: {
+            name: "操縛落とし DX",
+            description:
+              '敵単体の一時的な強化<span style="color: #3C9A66;">2</span>個解除、<span style="color: #3C9A66;">300</span>%ダメージ、低確率 (20%)で回復阻害(2ターン)を付与<br>自分がバリアの時、このスキルの状態異常命中率アップ<color=#f68b1e><br>▼エンハンス追加効果<br>敵単体のディフェンス<span style="color: #ff6f6f;">15</span>%ダウン(3ターン)',
+            coolTime: "5",
+          },
+          autoSkill1: {
+            name: "心理操作",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がかばう・挑発の相手に6回攻撃しきる②バトル開始から5ターン経過)<br>自分がかばう・挑発の相手に2回攻撃しきった時、自分にバリア(2ヒット)を付与<br>自分がバリアの時、敵全体に衰弱を付与※この効果はゲストでは発動しない<br>自分がバリアでないまま、1回ターンをまたいだ時、味方全体のディフェンス<span style="color: #3C9A66;">10</span>%アップ(3ターン)、くいしばり(1回)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分がバリアのまま、1回ターンをまたいだ時、敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
+          },
+          autoSkill2: {
+            name: "競い合うスタンス",
+            description:
+              '敵の一時的な強化が1回解除されきった時、味方全体のパワー<span style="color: #3C9A66;">5</span>%アップ(3ターン)<br>敵の一時的な強化が3回解除されきった時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>敵の一時的な強化が5回解除されきった時、敵全体のパワー<span style="color: #ff6f6f;">15</span>%ダウン(3ターン)<br>敵の一時的な強化が5回解除されきった時、ターゲットを無視してランダムな味方単体にバリア(2ヒット)を付与',
+          },
+        },
+        dxleveltwo: {
+          plusUltra: {
+            name: "マインドアタック",
+            description:
+              '敵が混乱だったら、このスキルのスキル威力<span style="color: #3C9A66;">50</span>%アップ<br>敵単体に<span style="color: #3C9A66;">600</span>%ダメージ<br>自分がバリアの時、敵単体に中確率 (50%)で混乱(2ターン)を付与<br>味方全体のクールタイム<span style="color: #3C9A66;">1</span>短縮<color=#f68b1e><br>▼エンハンス追加効果<br>敵単体のかばう・挑発のキャラの一時的な強化<span style="color: #3C9A66;">3</span>個解除、高確率 (70%)で強化阻害(2ターン)を付与<br>このスキルのスキル威力<span style="color: #3C9A66;">50</span>%アップ</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "洗脳 DX",
+            description:
+              '敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除、強化阻害(1ターン)を付与<br>もっとも現在HP割合の低い敵単体に挑発(3ターン)を付与※この効果は強化解除、強化阻害できない<color=#f68b1e><br>▼エンハンス追加効果<br>もっとも現在HP割合の低い敵単体のディフェンス<span style="color: #ff6f6f;">20</span>%ダウン(3ターン)',
+            coolTime: "5",
+          },
+          actionSkill2: {
+            name: "操縛落とし DX",
+            description:
+              '敵単体の一時的な強化<span style="color: #3C9A66;">2</span>個解除、<span style="color: #3C9A66;">325</span>%ダメージ、低確率 (20%)で回復阻害(2ターン)を付与<br>自分がバリアの時、このスキルの状態異常命中率アップ<color=#f68b1e><br>▼エンハンス追加効果<br>敵単体のディフェンス<span style="color: #ff6f6f;">20</span>%ダウン(3ターン)',
+            coolTime: "5",
+          },
+          autoSkill1: {
+            name: "心理操作",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がかばう・挑発の相手に6回攻撃しきる②バトル開始から5ターン経過)<br>自分がかばう・挑発の相手に2回攻撃しきった時、自分にバリア(2ヒット)を付与<br>自分がバリアの時、敵全体に衰弱を付与※この効果はゲストでは発動しない<br>自分がバリアでないまま、1回ターンをまたいだ時、味方全体のディフェンス<span style="color: #3C9A66;">10</span>%アップ(3ターン)、くいしばり(1回)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分がバリアのまま、1回ターンをまたいだ時、敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
+          },
+          autoSkill2: {
+            name: "競い合うスタンス",
+            description:
+              '敵の一時的な強化が1回解除されきった時、味方全体のパワー<span style="color: #3C9A66;">5</span>%アップ(3ターン)<br>敵の一時的な強化が3回解除されきった時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>敵の一時的な強化が5回解除されきった時、敵全体のパワー<span style="color: #ff6f6f;">15</span>%ダウン(3ターン)<br>敵の一時的な強化が5回解除されきった時、ターゲットを無視してランダムな味方単体にバリア(2ヒット)を付与',
           },
         },
       },

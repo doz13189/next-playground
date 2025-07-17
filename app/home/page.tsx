@@ -16,7 +16,7 @@ export default function Page() {
           <Heading>お知らせ</Heading>
         </Box>
         <Typography>以下のデータ追加に伴うアップデートを実施しました。</Typography>
-        {["1113012"].map((id) => (
+        {["1145004"].map((id) => (
           <Box key={id} marginY={"2"}>
             <Suspense fallback={
               <Skeleton>
@@ -27,7 +27,7 @@ export default function Page() {
             </Suspense>
           </Box>
         ))}
-        {["2400182", "2400196", "2300242", "2300243"].map((id) => (
+        {["2400181", "2300240", "2300241"].map((id) => (
           <Box key={id} marginY={"2"}>
             <Suspense fallback={
               <Skeleton>
