@@ -54914,7 +54914,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "ギアコントロール",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①衰弱の相手から攻撃を5回受けきる②バトル開始から5ターン経過)<br>1ターン毎に、自分に通常攻撃2回(2ターン)を付与<br>自分が通常攻撃2回中に、相手に3回攻撃しきった時、自分に貫通(2ターン)を付与<br>自分が貫通のまま、1回ターンをまたいだ時、敵全体のパワー<span style="color: #ff6f6f;">3</span>%ダウン(6ターン)、スピード<span style="color: #ff6f6f;">3</span>%ダウン(6ターン)                <br><br>Enhance Buffs<br>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +49<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +10000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①衰弱の相手から攻撃を5回受けきる②バトル開始から5ターン経過)<br>1ターン毎に、自分に通常攻撃2回(2ターン)を付与<br>自分が通常攻撃2回中に、相手に3回攻撃しきった時、自分に貫通(2ターン)を付与<br>自分が貫通のまま、1回ターンをまたいだ時、敵全体のパワー<span style="color: #ff6f6f;">3</span>%ダウン(6ターン)、スピード<span style="color: #ff6f6f;">3</span>%ダウン(6ターン)                <br><br>Enhance Buffs<br>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +49<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +10000<br>',
           },
           autoSkill2: {
             name: "屈せぬ精神",
@@ -54943,7 +54943,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "ギアコントロール",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①衰弱の相手から攻撃を5回受けきる②バトル開始から5ターン経過)<br>1ターン毎に、自分に通常攻撃2回(2ターン)を付与<br>自分が通常攻撃2回中に、相手に3回攻撃しきった時、自分に貫通(2ターン)を付与<br>自分が貫通のまま、1回ターンをまたいだ時、敵全体のパワー<span style="color: #ff6f6f;">4</span>%ダウン(6ターン)、スピード<span style="color: #ff6f6f;">4</span>%ダウン(6ターン)                <br><br>Enhance Buffs<br>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +49<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +10000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①衰弱の相手から攻撃を5回受けきる②バトル開始から5ターン経過)<br>1ターン毎に、自分に通常攻撃2回(2ターン)を付与<br>自分が通常攻撃2回中に、相手に3回攻撃しきった時、自分に貫通(2ターン)を付与<br>自分が貫通のまま、1回ターンをまたいだ時、敵全体のパワー<span style="color: #ff6f6f;">4</span>%ダウン(6ターン)、スピード<span style="color: #ff6f6f;">4</span>%ダウン(6ターン)                <br><br>Enhance Buffs<br>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +49<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +10000<br>',
           },
           autoSkill2: {
             name: "屈せぬ精神",
@@ -54972,7 +54972,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "ギアコントロール",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①衰弱の相手から攻撃を5回受けきる②バトル開始から5ターン経過)<br>1ターン毎に、自分に通常攻撃2回(2ターン)を付与<br>自分が通常攻撃2回中に、相手に3回攻撃しきった時、自分に貫通(2ターン)を付与<br>自分が貫通のまま、1回ターンをまたいだ時、敵全体のパワー<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)、スピード<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)                <br><br>Enhance Buffs<br>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +49<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +10000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①衰弱の相手から攻撃を5回受けきる②バトル開始から5ターン経過)<br>1ターン毎に、自分に通常攻撃2回(2ターン)を付与<br>自分が通常攻撃2回中に、相手に3回攻撃しきった時、自分に貫通(2ターン)を付与<br>自分が貫通のまま、1回ターンをまたいだ時、敵全体のパワー<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)、スピード<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)                <br><br>Enhance Buffs<br>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +49<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +10000<br>',
           },
           autoSkill2: {
             name: "屈せぬ精神",
@@ -55001,7 +55001,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "ギアコントロール",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①衰弱の相手から攻撃を5回受けきる②バトル開始から5ターン経過)<br>1ターン毎に、自分に通常攻撃2回(2ターン)を付与<br>自分が通常攻撃2回中に、相手に3回攻撃しきった時、自分に貫通(2ターン)を付与<br>自分が貫通のまま、1回ターンをまたいだ時、敵全体のパワー<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)、スピード<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)                <br><br>Enhance Buffs<br>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +49<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +10000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①衰弱の相手から攻撃を5回受けきる②バトル開始から5ターン経過)<br>1ターン毎に、自分に通常攻撃2回(2ターン)を付与<br>自分が通常攻撃2回中に、相手に3回攻撃しきった時、自分に貫通(2ターン)を付与<br>自分が貫通のまま、1回ターンをまたいだ時、敵全体のパワー<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)、スピード<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)                <br><br>Enhance Buffs<br>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +49<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +10000<br>',
           },
           autoSkill2: {
             name: "屈せぬ精神",
@@ -55030,7 +55030,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "ギアコントロール",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①衰弱の相手から攻撃を5回受けきる②バトル開始から5ターン経過)<br>1ターン毎に、自分に通常攻撃2回(2ターン)を付与<br>自分が通常攻撃2回中に、相手に3回攻撃しきった時、自分に貫通(2ターン)を付与<br>自分が貫通のまま、1回ターンをまたいだ時、敵全体のパワー<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)、スピード<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)                <br><br>Enhance Buffs<br>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +49<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +10000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①衰弱の相手から攻撃を5回受けきる②バトル開始から5ターン経過)<br>1ターン毎に、自分に通常攻撃2回(2ターン)を付与<br>自分が通常攻撃2回中に、相手に3回攻撃しきった時、自分に貫通(2ターン)を付与<br>自分が貫通のまま、1回ターンをまたいだ時、敵全体のパワー<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)、スピード<span style="color: #ff6f6f;">5</span>%ダウン(6ターン)                <br><br>Enhance Buffs<br>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +49<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +10000<br>',
           },
           autoSkill2: {
             name: "屈せぬ精神",
@@ -55127,7 +55127,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "温度急変化",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が貫通中に、相手に7回攻撃しきる②バトル開始から5ターン経過)<br>自分に平静(3ターン)を付与(最大1回)<br>自分が平静のまま、1回ターンをまたいだ時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分が平静のまま、2回ターンをまたいだ時、自分のスピード<span style="color: #3C9A66;">5</span>%アップ(4ターン)<br>自分が被ダメージ回復の相手から攻撃を3回受けきった時、敵全体の燃焼を熱傷<span style="color: #ff6f6f;">6</span>%(5ターン)に変換                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +460<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が貫通中に、相手に7回攻撃しきる②バトル開始から5ターン経過)<br>自分に平静(3ターン)を付与(最大1回)<br>自分が平静のまま、1回ターンをまたいだ時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分が平静のまま、2回ターンをまたいだ時、自分のスピード<span style="color: #3C9A66;">5</span>%アップ(4ターン)<br>自分が被ダメージ回復の相手から攻撃を3回受けきった時、敵全体の燃焼を熱傷<span style="color: #ff6f6f;">6</span>%(5ターン)に変換                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +460<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>',
           },
           autoSkill2: {
             name: "炎熱上昇",
@@ -55156,7 +55156,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "温度急変化",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が貫通中に、相手に7回攻撃しきる②バトル開始から5ターン経過)<br>自分に平静(3ターン)を付与(最大1回)<br>自分が平静のまま、1回ターンをまたいだ時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分が平静のまま、2回ターンをまたいだ時、自分のスピード<span style="color: #3C9A66;">10</span>%アップ(4ターン)<br>自分が被ダメージ回復の相手から攻撃を3回受けきった時、敵全体の燃焼を熱傷<span style="color: #ff6f6f;">8</span>%(5ターン)に変換                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +460<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が貫通中に、相手に7回攻撃しきる②バトル開始から5ターン経過)<br>自分に平静(3ターン)を付与(最大1回)<br>自分が平静のまま、1回ターンをまたいだ時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分が平静のまま、2回ターンをまたいだ時、自分のスピード<span style="color: #3C9A66;">10</span>%アップ(4ターン)<br>自分が被ダメージ回復の相手から攻撃を3回受けきった時、敵全体の燃焼を熱傷<span style="color: #ff6f6f;">8</span>%(5ターン)に変換                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +460<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>',
           },
           autoSkill2: {
             name: "炎熱上昇",
@@ -55185,7 +55185,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "温度急変化",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が貫通中に、相手に7回攻撃しきる②バトル開始から5ターン経過)<br>自分に平静(3ターン)を付与(最大1回)<br>自分が平静のまま、1回ターンをまたいだ時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分が平静のまま、2回ターンをまたいだ時、自分のスピード<span style="color: #3C9A66;">15</span>%アップ(4ターン)<br>自分が被ダメージ回復の相手から攻撃を3回受けきった時、敵全体の燃焼を熱傷<span style="color: #ff6f6f;">10</span>%(5ターン)に変換                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +460<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が貫通中に、相手に7回攻撃しきる②バトル開始から5ターン経過)<br>自分に平静(3ターン)を付与(最大1回)<br>自分が平静のまま、1回ターンをまたいだ時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分が平静のまま、2回ターンをまたいだ時、自分のスピード<span style="color: #3C9A66;">15</span>%アップ(4ターン)<br>自分が被ダメージ回復の相手から攻撃を3回受けきった時、敵全体の燃焼を熱傷<span style="color: #ff6f6f;">10</span>%(5ターン)に変換                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +460<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>',
           },
           autoSkill2: {
             name: "炎熱上昇",
@@ -55214,7 +55214,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "温度急変化",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が貫通中に、相手に7回攻撃しきる②バトル開始から5ターン経過)<br>自分に平静(3ターン)を付与(最大1回)<br>自分が平静のまま、1回ターンをまたいだ時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分が平静のまま、2回ターンをまたいだ時、自分のスピード<span style="color: #3C9A66;">15</span>%アップ(4ターン)<br>自分が被ダメージ回復の相手から攻撃を3回受けきった時、敵全体の燃焼を熱傷<span style="color: #ff6f6f;">10</span>%(5ターン)に変換                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +460<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が貫通中に、相手に7回攻撃しきる②バトル開始から5ターン経過)<br>自分に平静(3ターン)を付与(最大1回)<br>自分が平静のまま、1回ターンをまたいだ時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分が平静のまま、2回ターンをまたいだ時、自分のスピード<span style="color: #3C9A66;">15</span>%アップ(4ターン)<br>自分が被ダメージ回復の相手から攻撃を3回受けきった時、敵全体の燃焼を熱傷<span style="color: #ff6f6f;">10</span>%(5ターン)に変換                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +460<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>',
           },
           autoSkill2: {
             name: "炎熱上昇",
@@ -55243,7 +55243,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "温度急変化",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が貫通中に、相手に7回攻撃しきる②バトル開始から5ターン経過)<br>自分に平静(3ターン)を付与(最大1回)<br>自分が平静のまま、1回ターンをまたいだ時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分が平静のまま、2回ターンをまたいだ時、自分のスピード<span style="color: #3C9A66;">15</span>%アップ(4ターン)<br>自分が被ダメージ回復の相手から攻撃を3回受けきった時、敵全体の燃焼を熱傷<span style="color: #ff6f6f;">10</span>%(5ターン)に変換                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +460<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が貫通中に、相手に7回攻撃しきる②バトル開始から5ターン経過)<br>自分に平静(3ターン)を付与(最大1回)<br>自分が平静のまま、1回ターンをまたいだ時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分が平静のまま、2回ターンをまたいだ時、自分のスピード<span style="color: #3C9A66;">15</span>%アップ(4ターン)<br>自分が被ダメージ回復の相手から攻撃を3回受けきった時、敵全体の燃焼を熱傷<span style="color: #ff6f6f;">10</span>%(5ターン)に変換                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +460<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>',
           },
           autoSkill2: {
             name: "炎熱上昇",
@@ -55344,7 +55344,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "超回復",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりでない②バトル開始から7ターン経過)<br>自分にくいしばり(6回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでも発動しない<br>1ターン毎に、自分の最大HP<span style="color: #ff6f6f;">10</span>%ダウン(20ターン)(最大5回)※この効果は状態異常無効で防げず、解除もできず、ゲストでは発動しない<br>自分がくいしばりでない時、自分にバリア(3ヒット)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<color=#f68b1e><br>▼エンハンス追加効果<br>自分の一時的な状態異常<span style="color: #3C9A66;">20</span>ターン短縮(最大1回)、HP<span style="color: #3C9A66;">60</span>%回復(最大1回)                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +42<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりでない②バトル開始から7ターン経過)<br>自分にくいしばり(6回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでも発動しない<br>1ターン毎に、自分の最大HP<span style="color: #ff6f6f;">10</span>%ダウン(20ターン)(最大5回)※この効果は状態異常無効で防げず、解除もできず、ゲストでは発動しない<br>自分がくいしばりでない時、自分にバリア(3ヒット)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<color=#f68b1e><br>▼エンハンス追加効果<br>自分の一時的な状態異常<span style="color: #3C9A66;">20</span>ターン短縮(最大1回)、HP<span style="color: #3C9A66;">60</span>%回復(最大1回)                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +42<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "圧倒的破壊力",
@@ -55373,7 +55373,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "超回復",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりでない②バトル開始から7ターン経過)<br>自分にくいしばり(6回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでも発動しない<br>1ターン毎に、自分の最大HP<span style="color: #ff6f6f;">10</span>%ダウン(20ターン)(最大5回)※この効果は状態異常無効で防げず、解除もできず、ゲストでは発動しない<br>自分がくいしばりでない時、自分にバリア(3ヒット)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<color=#f68b1e><br>▼エンハンス追加効果<br>自分の一時的な状態異常<span style="color: #3C9A66;">20</span>ターン短縮(最大1回)、HP<span style="color: #3C9A66;">80</span>%回復(最大1回)                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +42<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりでない②バトル開始から7ターン経過)<br>自分にくいしばり(6回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでも発動しない<br>1ターン毎に、自分の最大HP<span style="color: #ff6f6f;">10</span>%ダウン(20ターン)(最大5回)※この効果は状態異常無効で防げず、解除もできず、ゲストでは発動しない<br>自分がくいしばりでない時、自分にバリア(3ヒット)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<color=#f68b1e><br>▼エンハンス追加効果<br>自分の一時的な状態異常<span style="color: #3C9A66;">20</span>ターン短縮(最大1回)、HP<span style="color: #3C9A66;">80</span>%回復(最大1回)                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +42<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "圧倒的破壊力",
@@ -55402,7 +55402,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "超回復",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりでない②バトル開始から7ターン経過)<br>自分にくいしばり(6回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでも発動しない<br>1ターン毎に、自分の最大HP<span style="color: #ff6f6f;">10</span>%ダウン(20ターン)(最大5回)※この効果は状態異常無効で防げず、解除もできず、ゲストでは発動しない<br>自分がくいしばりでない時、自分にバリア(3ヒット)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<color=#f68b1e><br>▼エンハンス追加効果<br>自分の一時的な状態異常<span style="color: #3C9A66;">20</span>ターン短縮(最大1回)、HP<span style="color: #3C9A66;">100</span>%回復(最大1回)                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +42<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>                                            </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりでない②バトル開始から7ターン経過)<br>自分にくいしばり(6回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでも発動しない<br>1ターン毎に、自分の最大HP<span style="color: #ff6f6f;">10</span>%ダウン(20ターン)(最大5回)※この効果は状態異常無効で防げず、解除もできず、ゲストでは発動しない<br>自分がくいしばりでない時、自分にバリア(3ヒット)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<color=#f68b1e><br>▼エンハンス追加効果<br>自分の一時的な状態異常<span style="color: #3C9A66;">20</span>ターン短縮(最大1回)、HP<span style="color: #3C9A66;">100</span>%回復(最大1回)                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +42<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>                                            </color=#f68b1e>',
           },
           autoSkill2: {
             name: "圧倒的破壊力",
@@ -55431,7 +55431,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "超回復",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりでない②バトル開始から7ターン経過)<br>自分にくいしばり(6回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでも発動しない<br>1ターン毎に、自分の最大HP<span style="color: #ff6f6f;">10</span>%ダウン(20ターン)(最大5回)※この効果は状態異常無効で防げず、解除もできず、ゲストでは発動しない<br>自分がくいしばりでない時、自分にバリア(3ヒット)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<color=#f68b1e><br>▼エンハンス追加効果<br>自分の一時的な状態異常<span style="color: #3C9A66;">20</span>ターン短縮(最大1回)、HP<span style="color: #3C9A66;">100</span>%回復(最大1回)                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +42<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりでない②バトル開始から7ターン経過)<br>自分にくいしばり(6回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでも発動しない<br>1ターン毎に、自分の最大HP<span style="color: #ff6f6f;">10</span>%ダウン(20ターン)(最大5回)※この効果は状態異常無効で防げず、解除もできず、ゲストでは発動しない<br>自分がくいしばりでない時、自分にバリア(3ヒット)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<color=#f68b1e><br>▼エンハンス追加効果<br>自分の一時的な状態異常<span style="color: #3C9A66;">20</span>ターン短縮(最大1回)、HP<span style="color: #3C9A66;">100</span>%回復(最大1回)                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +42<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "圧倒的破壊力",
@@ -55460,7 +55460,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "超回復",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりでない②バトル開始から7ターン経過)<br>自分にくいしばり(6回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでも発動しない<br>1ターン毎に、自分の最大HP<span style="color: #ff6f6f;">10</span>%ダウン(20ターン)(最大5回)※この効果は状態異常無効で防げず、解除もできず、ゲストでは発動しない<br>自分がくいしばりでない時、自分にバリア(3ヒット)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<color=#f68b1e><br>▼エンハンス追加効果<br>自分の一時的な状態異常<span style="color: #3C9A66;">20</span>ターン短縮(最大1回)、HP<span style="color: #3C9A66;">100</span>%回復(最大1回)                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +42<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりでない②バトル開始から7ターン経過)<br>自分にくいしばり(6回)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでも発動しない<br>1ターン毎に、自分の最大HP<span style="color: #ff6f6f;">10</span>%ダウン(20ターン)(最大5回)※この効果は状態異常無効で防げず、解除もできず、ゲストでは発動しない<br>自分がくいしばりでない時、自分にバリア(3ヒット)を付与(最大1回)※この効果は強化解除、強化阻害できず、ゲストでは発動しない<color=#f68b1e><br>▼エンハンス追加効果<br>自分の一時的な状態異常<span style="color: #3C9A66;">20</span>ターン短縮(最大1回)、HP<span style="color: #3C9A66;">100</span>%回復(最大1回)                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +520<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +42<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "圧倒的破壊力",
@@ -55560,7 +55560,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "ヤバイ高音",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">10</span>％アップ                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +280<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">10</span>％アップ                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +280<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>',
           },
           autoSkill2: {
             name: "ヤバイ低音",
@@ -55589,7 +55589,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "ヤバイ高音",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">15</span>％アップ                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +280<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">15</span>％アップ                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +280<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>',
           },
           autoSkill2: {
             name: "ヤバイ低音",
@@ -55618,7 +55618,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "ヤバイ高音",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">20</span>％アップ                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +280<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">20</span>％アップ                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +280<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>',
           },
           autoSkill2: {
             name: "ヤバイ低音",
@@ -55647,7 +55647,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "ヤバイ高音",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">20</span>％アップ                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +280<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">20</span>％アップ                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +280<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>',
           },
           autoSkill2: {
             name: "ヤバイ低音",
@@ -55676,7 +55676,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "ヤバイ高音",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">20</span>％アップ                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +280<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①敵の一時的な強化が10回解除されきる②バトル開始から7ターン経過)<br>自分に必中を付与<br>自分のスキルで3CHAIN成功時、味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">20</span>％アップ                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +280<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +78<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +12000<br>',
           },
           autoSkill2: {
             name: "ヤバイ低音",
@@ -55780,7 +55780,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "限界重量拡大",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分のクリティカル攻撃が12回発生する②バトル開始から5ターン経過)<br>自分以外の味方がクールタイム短縮を1回受けた時、自分のダメージ<span style="color: #3C9A66;">5</span>%カット(5ターン)<br>自分のクリティカル攻撃が1回発生しきった時、自分のスキル威力<span style="color: #3C9A66;">3</span>%アップ(最大5回)<br>自分のクリティカル攻撃が3回発生した時、味方全体のパワー<span style="color: #3C9A66;">3</span>%アップ(7ターン)※この効果は強化解除、強化阻害できない、HP<span style="color: #3C9A66;">10</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>自分に平静を付与                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +580<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +60<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分のクリティカル攻撃が12回発生する②バトル開始から5ターン経過)<br>自分以外の味方がクールタイム短縮を1回受けた時、自分のダメージ<span style="color: #3C9A66;">5</span>%カット(5ターン)<br>自分のクリティカル攻撃が1回発生しきった時、自分のスキル威力<span style="color: #3C9A66;">3</span>%アップ(最大5回)<br>自分のクリティカル攻撃が3回発生した時、味方全体のパワー<span style="color: #3C9A66;">3</span>%アップ(7ターン)※この効果は強化解除、強化阻害できない、HP<span style="color: #3C9A66;">10</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>自分に平静を付与                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +580<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +60<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "並外れた底力",
@@ -55809,7 +55809,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "限界重量拡大",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分のクリティカル攻撃が12回発生する②バトル開始から5ターン経過)<br>自分以外の味方がクールタイム短縮を1回受けた時、自分のダメージ<span style="color: #3C9A66;">5</span>%カット(5ターン)<br>自分のクリティカル攻撃が1回発生しきった時、自分のスキル威力<span style="color: #3C9A66;">4</span>%アップ(最大5回)<br>自分のクリティカル攻撃が3回発生した時、味方全体のパワー<span style="color: #3C9A66;">4</span>%アップ(7ターン)※この効果は強化解除、強化阻害できない、HP<span style="color: #3C9A66;">10</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>自分に平静を付与                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +580<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +60<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分のクリティカル攻撃が12回発生する②バトル開始から5ターン経過)<br>自分以外の味方がクールタイム短縮を1回受けた時、自分のダメージ<span style="color: #3C9A66;">5</span>%カット(5ターン)<br>自分のクリティカル攻撃が1回発生しきった時、自分のスキル威力<span style="color: #3C9A66;">4</span>%アップ(最大5回)<br>自分のクリティカル攻撃が3回発生した時、味方全体のパワー<span style="color: #3C9A66;">4</span>%アップ(7ターン)※この効果は強化解除、強化阻害できない、HP<span style="color: #3C9A66;">10</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>自分に平静を付与                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +580<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +60<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "並外れた底力",
@@ -55838,7 +55838,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "限界重量拡大",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分のクリティカル攻撃が12回発生する②バトル開始から5ターン経過)<br>自分以外の味方がクールタイム短縮を1回受けた時、自分のダメージ<span style="color: #3C9A66;">5</span>%カット(5ターン)<br>自分のクリティカル攻撃が1回発生しきった時、自分のスキル威力<span style="color: #3C9A66;">5</span>%アップ(最大5回)<br>自分のクリティカル攻撃が3回発生した時、味方全体のパワー<span style="color: #3C9A66;">5</span>%アップ(7ターン)※この効果は強化解除、強化阻害できない、HP<span style="color: #3C9A66;">10</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>自分に平静を付与                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +580<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +60<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>                                            </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分のクリティカル攻撃が12回発生する②バトル開始から5ターン経過)<br>自分以外の味方がクールタイム短縮を1回受けた時、自分のダメージ<span style="color: #3C9A66;">5</span>%カット(5ターン)<br>自分のクリティカル攻撃が1回発生しきった時、自分のスキル威力<span style="color: #3C9A66;">5</span>%アップ(最大5回)<br>自分のクリティカル攻撃が3回発生した時、味方全体のパワー<span style="color: #3C9A66;">5</span>%アップ(7ターン)※この効果は強化解除、強化阻害できない、HP<span style="color: #3C9A66;">10</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>自分に平静を付与                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +580<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +60<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>                                            </color=#f68b1e>',
           },
           autoSkill2: {
             name: "並外れた底力",
@@ -55867,7 +55867,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "限界重量拡大",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分のクリティカル攻撃が12回発生する②バトル開始から5ターン経過)<br>自分以外の味方がクールタイム短縮を1回受けた時、自分のダメージ<span style="color: #3C9A66;">5</span>%カット(5ターン)<br>自分のクリティカル攻撃が1回発生しきった時、自分のスキル威力<span style="color: #3C9A66;">5</span>%アップ(最大5回)<br>自分のクリティカル攻撃が3回発生した時、味方全体のパワー<span style="color: #3C9A66;">5</span>%アップ(7ターン)※この効果は強化解除、強化阻害できない、HP<span style="color: #3C9A66;">10</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>自分に平静を付与                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +580<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +60<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分のクリティカル攻撃が12回発生する②バトル開始から5ターン経過)<br>自分以外の味方がクールタイム短縮を1回受けた時、自分のダメージ<span style="color: #3C9A66;">5</span>%カット(5ターン)<br>自分のクリティカル攻撃が1回発生しきった時、自分のスキル威力<span style="color: #3C9A66;">5</span>%アップ(最大5回)<br>自分のクリティカル攻撃が3回発生した時、味方全体のパワー<span style="color: #3C9A66;">5</span>%アップ(7ターン)※この効果は強化解除、強化阻害できない、HP<span style="color: #3C9A66;">10</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>自分に平静を付与                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +580<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +60<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "並外れた底力",
@@ -55896,7 +55896,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "限界重量拡大",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分のクリティカル攻撃が12回発生する②バトル開始から5ターン経過)<br>自分以外の味方がクールタイム短縮を1回受けた時、自分のダメージ<span style="color: #3C9A66;">5</span>%カット(5ターン)<br>自分のクリティカル攻撃が1回発生しきった時、自分のスキル威力<span style="color: #3C9A66;">5</span>%アップ(最大5回)<br>自分のクリティカル攻撃が3回発生した時、味方全体のパワー<span style="color: #3C9A66;">5</span>%アップ(7ターン)※この効果は強化解除、強化阻害できない、HP<span style="color: #3C9A66;">10</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>自分に平静を付与                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff5757">基礎攻撃力アップ</span>: +580<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +60<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分のクリティカル攻撃が12回発生する②バトル開始から5ターン経過)<br>自分以外の味方がクールタイム短縮を1回受けた時、自分のダメージ<span style="color: #3C9A66;">5</span>%カット(5ターン)<br>自分のクリティカル攻撃が1回発生しきった時、自分のスキル威力<span style="color: #3C9A66;">5</span>%アップ(最大5回)<br>自分のクリティカル攻撃が3回発生した時、味方全体のパワー<span style="color: #3C9A66;">5</span>%アップ(7ターン)※この効果は強化解除、強化阻害できない、HP<span style="color: #3C9A66;">10</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>自分に平静を付与                <br><br><h5 >Enhance Buffs</h5>                            <span style="color: #ff6f6f">基礎攻撃力アップ</span>: +580<br>                                                    <span style="color: #57aeff">基礎スピードアップ</span>: +60<br>                                                    <span style="color: #3C9A66">基礎最大HPアップ</span>: +7000<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "並外れた底力",
@@ -55993,7 +55993,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "音量調節",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が隠れるのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>味方全体のディフェンス<span style="color: #3C9A66;">10</span>%アップ、プルスウルトラゲージ上昇量<span style="color: #3C9A66;">10</span>%アップ<br>自分が攻撃を2回受けきった時、自分に隠れる(2ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、自分の一時的な状態異常<span style="color: #3C9A66;">1</span>ターン短縮                <br><br><h5 style=" ">Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が隠れるのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>味方全体のディフェンス<span style="color: #3C9A66;">10</span>%アップ、プルスウルトラゲージ上昇量<span style="color: #3C9A66;">10</span>%アップ<br>自分が攻撃を2回受けきった時、自分に隠れる(2ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、自分の一時的な状態異常<span style="color: #3C9A66;">1</span>ターン短縮                <br><br><h5 style=" ">Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "熱いハート",
@@ -56022,7 +56022,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "音量調節",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が隠れるのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>味方全体のディフェンス<span style="color: #3C9A66;">15</span>%アップ、プルスウルトラゲージ上昇量<span style="color: #3C9A66;">10</span>%アップ<br>自分が攻撃を2回受けきった時、自分に隠れる(2ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、自分の一時的な状態異常<span style="color: #3C9A66;">1</span>ターン短縮                <br><br><h5 style=" ">Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が隠れるのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>味方全体のディフェンス<span style="color: #3C9A66;">15</span>%アップ、プルスウルトラゲージ上昇量<span style="color: #3C9A66;">10</span>%アップ<br>自分が攻撃を2回受けきった時、自分に隠れる(2ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、自分の一時的な状態異常<span style="color: #3C9A66;">1</span>ターン短縮                <br><br><h5 style=" ">Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "熱いハート",
@@ -56051,7 +56051,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "音量調節",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が隠れるのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>味方全体のディフェンス<span style="color: #3C9A66;">20</span>%アップ、プルスウルトラゲージ上昇量<span style="color: #3C9A66;">10</span>%アップ<br>自分が攻撃を2回受けきった時、自分に隠れる(2ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、自分の一時的な状態異常<span style="color: #3C9A66;">1</span>ターン短縮                <br><br><h5 style=" ">Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                            </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が隠れるのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>味方全体のディフェンス<span style="color: #3C9A66;">20</span>%アップ、プルスウルトラゲージ上昇量<span style="color: #3C9A66;">10</span>%アップ<br>自分が攻撃を2回受けきった時、自分に隠れる(2ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、自分の一時的な状態異常<span style="color: #3C9A66;">1</span>ターン短縮                <br><br><h5 style=" ">Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                            </color=#f68b1e>',
           },
           autoSkill2: {
             name: "熱いハート",
@@ -56080,7 +56080,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "音量調節",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が隠れるのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>味方全体のディフェンス<span style="color: #3C9A66;">20</span>%アップ、プルスウルトラゲージ上昇量<span style="color: #3C9A66;">10</span>%アップ<br>自分が攻撃を2回受けきった時、自分に隠れる(2ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、自分の一時的な状態異常<span style="color: #3C9A66;">1</span>ターン短縮                <br><br><h5 style=" ">Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が隠れるのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>味方全体のディフェンス<span style="color: #3C9A66;">20</span>%アップ、プルスウルトラゲージ上昇量<span style="color: #3C9A66;">10</span>%アップ<br>自分が攻撃を2回受けきった時、自分に隠れる(2ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、自分の一時的な状態異常<span style="color: #3C9A66;">1</span>ターン短縮                <br><br><h5 style=" ">Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "熱いハート",
@@ -56109,7 +56109,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "音量調節",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が隠れるのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>味方全体のディフェンス<span style="color: #3C9A66;">20</span>%アップ、プルスウルトラゲージ上昇量<span style="color: #3C9A66;">10</span>%アップ<br>自分が攻撃を2回受けきった時、自分に隠れる(2ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、自分の一時的な状態異常<span style="color: #3C9A66;">1</span>ターン短縮                <br><br><h5 style=" ">Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が隠れるのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>味方全体のディフェンス<span style="color: #3C9A66;">20</span>%アップ、プルスウルトラゲージ上昇量<span style="color: #3C9A66;">10</span>%アップ<br>自分が攻撃を2回受けきった時、自分に隠れる(2ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、自分の一時的な状態異常<span style="color: #3C9A66;">1</span>ターン短縮                <br><br><h5 style=" ">Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "熱いハート",
@@ -56210,7 +56210,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "心理操作",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がかばう・挑発の相手に6回攻撃しきる②バトル開始から5ターン経過)<br>自分がかばう・挑発の相手に2回攻撃しきった時、自分にバリア(2ヒット)を付与<br>自分がバリアの時、敵全体に衰弱を付与※この効果はゲストでは発動しない<br>自分がバリアでないまま、1回ターンをまたいだ時、味方全体のディフェンス<span style="color: #3C9A66;">6</span>%アップ(3ターン)、くいしばり(1回)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分がバリアのまま、1回ターンをまたいだ時、敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がかばう・挑発の相手に6回攻撃しきる②バトル開始から5ターン経過)<br>自分がかばう・挑発の相手に2回攻撃しきった時、自分にバリア(2ヒット)を付与<br>自分がバリアの時、敵全体に衰弱を付与※この効果はゲストでは発動しない<br>自分がバリアでないまま、1回ターンをまたいだ時、味方全体のディフェンス<span style="color: #3C9A66;">6</span>%アップ(3ターン)、くいしばり(1回)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分がバリアのまま、1回ターンをまたいだ時、敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "競い合うスタンス",
@@ -56239,7 +56239,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "心理操作",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がかばう・挑発の相手に6回攻撃しきる②バトル開始から5ターン経過)<br>自分がかばう・挑発の相手に2回攻撃しきった時、自分にバリア(2ヒット)を付与<br>自分がバリアの時、敵全体に衰弱を付与※この効果はゲストでは発動しない<br>自分がバリアでないまま、1回ターンをまたいだ時、味方全体のディフェンス<span style="color: #3C9A66;">8</span>%アップ(3ターン)、くいしばり(1回)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分がバリアのまま、1回ターンをまたいだ時、敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がかばう・挑発の相手に6回攻撃しきる②バトル開始から5ターン経過)<br>自分がかばう・挑発の相手に2回攻撃しきった時、自分にバリア(2ヒット)を付与<br>自分がバリアの時、敵全体に衰弱を付与※この効果はゲストでは発動しない<br>自分がバリアでないまま、1回ターンをまたいだ時、味方全体のディフェンス<span style="color: #3C9A66;">8</span>%アップ(3ターン)、くいしばり(1回)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分がバリアのまま、1回ターンをまたいだ時、敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "競い合うスタンス",
@@ -56268,7 +56268,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "心理操作",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がかばう・挑発の相手に6回攻撃しきる②バトル開始から5ターン経過)<br>自分がかばう・挑発の相手に2回攻撃しきった時、自分にバリア(2ヒット)を付与<br>自分がバリアの時、敵全体に衰弱を付与※この効果はゲストでは発動しない<br>自分がバリアでないまま、1回ターンをまたいだ時、味方全体のディフェンス<span style="color: #3C9A66;">10</span>%アップ(3ターン)、くいしばり(1回)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分がバリアのまま、1回ターンをまたいだ時、敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                            </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がかばう・挑発の相手に6回攻撃しきる②バトル開始から5ターン経過)<br>自分がかばう・挑発の相手に2回攻撃しきった時、自分にバリア(2ヒット)を付与<br>自分がバリアの時、敵全体に衰弱を付与※この効果はゲストでは発動しない<br>自分がバリアでないまま、1回ターンをまたいだ時、味方全体のディフェンス<span style="color: #3C9A66;">10</span>%アップ(3ターン)、くいしばり(1回)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分がバリアのまま、1回ターンをまたいだ時、敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                            </color=#f68b1e>',
           },
           autoSkill2: {
             name: "競い合うスタンス",
@@ -56297,7 +56297,7 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "心理操作",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がかばう・挑発の相手に6回攻撃しきる②バトル開始から5ターン経過)<br>自分がかばう・挑発の相手に2回攻撃しきった時、自分にバリア(2ヒット)を付与<br>自分がバリアの時、敵全体に衰弱を付与※この効果はゲストでは発動しない<br>自分がバリアでないまま、1回ターンをまたいだ時、味方全体のディフェンス<span style="color: #3C9A66;">10</span>%アップ(3ターン)、くいしばり(1回)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分がバリアのまま、1回ターンをまたいだ時、敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がかばう・挑発の相手に6回攻撃しきる②バトル開始から5ターン経過)<br>自分がかばう・挑発の相手に2回攻撃しきった時、自分にバリア(2ヒット)を付与<br>自分がバリアの時、敵全体に衰弱を付与※この効果はゲストでは発動しない<br>自分がバリアでないまま、1回ターンをまたいだ時、味方全体のディフェンス<span style="color: #3C9A66;">10</span>%アップ(3ターン)、くいしばり(1回)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分がバリアのまま、1回ターンをまたいだ時、敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "競い合うスタンス",
@@ -56326,12 +56326,231 @@ export const characters: z.infer<typeof CharactersSchema> = {
           autoSkill1: {
             name: "心理操作",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がかばう・挑発の相手に6回攻撃しきる②バトル開始から5ターン経過)<br>自分がかばう・挑発の相手に2回攻撃しきった時、自分にバリア(2ヒット)を付与<br>自分がバリアの時、敵全体に衰弱を付与※この効果はゲストでは発動しない<br>自分がバリアでないまま、1回ターンをまたいだ時、味方全体のディフェンス<span style="color: #3C9A66;">10</span>%アップ(3ターン)、くいしばり(1回)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分がバリアのまま、1回ターンをまたいだ時、敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がかばう・挑発の相手に6回攻撃しきる②バトル開始から5ターン経過)<br>自分がかばう・挑発の相手に2回攻撃しきった時、自分にバリア(2ヒット)を付与<br>自分がバリアの時、敵全体に衰弱を付与※この効果はゲストでは発動しない<br>自分がバリアでないまま、1回ターンをまたいだ時、味方全体のディフェンス<span style="color: #3C9A66;">10</span>%アップ(3ターン)、くいしばり(1回)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分がバリアのまま、1回ターンをまたいだ時、敵全体の一時的な強化<span style="color: #3C9A66;">1</span>個解除                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
           },
           autoSkill2: {
             name: "競い合うスタンス",
             description:
               '敵の一時的な強化が1回解除されきった時、味方全体のパワー<span style="color: #3C9A66;">5</span>%アップ(3ターン)<br>敵の一時的な強化が3回解除されきった時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>敵の一時的な強化が5回解除されきった時、敵全体のパワー<span style="color: #ff6f6f;">15</span>%ダウン(3ターン)<br>敵の一時的な強化が5回解除されきった時、ターゲットを無視してランダムな味方単体にバリア(2ヒット)を付与',
+          },
+        },
+      },
+    },
+    {
+      id: "1161009",
+      epithet: "最果ての覇者",
+      name: "エンデヴァー",
+      rarity: "ur",
+      type: "mnd",
+      sex: "男",
+      skills: [
+        "貫通",
+        "クリティカル率アップ",
+        "全体攻撃",
+        "クールタイム短縮",
+        "HP回復",
+        "くいしばり",
+        "エンハンス",
+        "基礎攻撃力アップ",
+        "基礎スピードアップ",
+        "基礎最大HPアップ",
+        "必中",
+        "索敵",
+        "回避",
+        "スピードアップ",
+        "氷結完全耐性",
+        "凍傷完全耐性",
+        "霜完全耐性",
+        "クリティカル威力アップ",
+        "プルスウルトラゲージ増加",
+        "状態変化解除",
+        "強化阻害",
+        "ディフェンスダウン",
+      ],
+      tags: ["プロヒーロー", "ヒーロー"],
+      stats: [
+        {
+          hp: "4120",
+          power: "1122",
+          speed: "150",
+          defense: "100",
+          critical: "10",
+        },
+        {
+          hp: "10045",
+          power: "3176",
+          speed: "229",
+          defense: "100",
+          critical: "10",
+        },
+        {
+          hp: "37995",
+          power: "10156",
+          speed: "819",
+          defense: "100",
+          critical: "10",
+        },
+        {
+          hp: "46995",
+          power: "11956",
+          speed: "999",
+          defense: "100",
+          critical: "10",
+        },
+      ],
+      uniqueSkills: [
+        "自分の燃焼、業火状態にする確率を上げる/戦闘開始後、自分にパワーダウン完全耐性(2ターン)を付与",
+        "自分のHPが70%以上の時、自分のアクションスキル威力を25%アップ",
+        "自分で敵を倒すたび、自分のスキル威力を20%アップ",
+        "WAVE開始後、自分のパワーを20%アップ(4ターン)",
+        "自分で敵を倒すたび、自分のクリティカル率を15%アップ",
+        "自分のスピードがアップしている時、自分のパワーを20%アップ",
+        "クリティカルが2ヒット発生するたびに、自分のプルスウルトラ技の威力を15%アップ(3ターン)",
+      ],
+      skill: {
+        levelone: {
+          plusUltra: {
+            name: "プロミネンスアロー",
+            description:
+              '敵全体に<span style="color: #3C9A66;">400</span>%ダメージ<br>自分のクールタイム<span style="color: #3C9A66;">2</span>短縮、HP<span style="color: #3C9A66;">30</span>%回復<br>敵に隠れるのキャラがいたら、このスキルに貫通を付与、クリティカル率<span style="color: #3C9A66;">30</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分にくいしばり(2ターン)を付与</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "赫灼熱拳ヘルスパイダー",
+            description:
+              '敵全体に<span style="color: #3C9A66;">200</span>%ダメージ<br>敵全体の隠れるのキャラの一時的な状態異常無効全て解除、強化阻害(3ターン)を付与<br>敵に隠れるのキャラがいたら、このスキルに貫通を付与、クリティカル率<span style="color: #3C9A66;">30</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルのクリティカル率<span style="color: #3C9A66;">30</span>%アップ',
+            coolTime: "7",
+          },
+          actionSkill2: {
+            name: "プロミネンスバーン",
+            description:
+              '敵全体の隠れるのキャラの一時的なくいしばり全て解除<br>敵全体に<span style="color: #3C9A66;">225</span>%ダメージ、ディフェンス<span style="color: #ff6f6f;">10</span>%ダウン(3ターン)<br>敵に隠れるのキャラがいたら、このスキルに貫通を付与、クリティカル率<span style="color: #3C9A66;">30</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルのクリティカル率<span style="color: #3C9A66;">30</span>%アップ',
+            coolTime: "7",
+          },
+          autoSkill1: {
+            name: "鋭い眼光",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に1回攻撃しきる②バトル開始から3ターン経過)<br>自分に必中・索敵を付与<br>自分が隠れるの相手に1回攻撃しきった時、自分に回避(1回)を付与<br>自分が隠れるの相手に1回攻撃しきった時、味方全体のスピード<span style="color: #3C9A66;">30</span>%アップ(2ターン)                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +345<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +4900<br>',
+          },
+          autoSkill2: {
+            name: "炎熱耐性",
+            description:
+              '自分に氷結・凍傷・霜の完全耐性を付与<br>味方全体の"プロヒーロー"のスピード<span style="color: #3C9A66;">30</span>%アップ(1ターン)(最大1回)<br>自分が隠れるの相手に1回攻撃しきった時、自分のクリティカル率<span style="color: #3C9A66;">20</span>%アップ(3ターン)、クリティカル威力<span style="color: #3C9A66;">20</span>%アップ(3ターン)、プルスウルトラゲージ<span style="color: #3C9A66;">20</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分がアクションスキルで相手に1回攻撃しきった時、自分のクリティカル率<span style="color: #3C9A66;">20</span>%アップ(3ターン)、クリティカル威力<span style="color: #3C9A66;">20</span>%アップ(3ターン)</color=#f68b1e>',
+          },
+        },
+        leveltwo: {
+          plusUltra: {
+            name: "プロミネンスアロー",
+            description:
+              '敵全体に<span style="color: #3C9A66;">450</span>%ダメージ<br>自分のクールタイム<span style="color: #3C9A66;">2</span>短縮、HP<span style="color: #3C9A66;">30</span>%回復<br>敵に隠れるのキャラがいたら、このスキルに貫通を付与、クリティカル率<span style="color: #3C9A66;">40</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分にくいしばり(2ターン)を付与</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "赫灼熱拳ヘルスパイダー",
+            description:
+              '敵全体に<span style="color: #3C9A66;">225</span>%ダメージ<br>敵全体の隠れるのキャラの一時的な状態異常無効全て解除、強化阻害(3ターン)を付与<br>敵に隠れるのキャラがいたら、このスキルに貫通を付与、クリティカル率<span style="color: #3C9A66;">40</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルのクリティカル率<span style="color: #3C9A66;">40</span>%アップ',
+            coolTime: "6",
+          },
+          actionSkill2: {
+            name: "プロミネンスバーン",
+            description:
+              '敵全体の隠れるのキャラの一時的なくいしばり全て解除<br>敵全体に<span style="color: #3C9A66;">250</span>%ダメージ、ディフェンス<span style="color: #ff6f6f;">15</span>%ダウン(3ターン)<br>敵に隠れるのキャラがいたら、このスキルに貫通を付与、クリティカル率<span style="color: #3C9A66;">40</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルのクリティカル率<span style="color: #3C9A66;">40</span>%アップ',
+            coolTime: "6",
+          },
+          autoSkill1: {
+            name: "鋭い眼光",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に1回攻撃しきる②バトル開始から3ターン経過)<br>自分に必中・索敵を付与<br>自分が隠れるの相手に1回攻撃しきった時、自分に回避(1回)を付与<br>自分が隠れるの相手に1回攻撃しきった時、味方全体のスピード<span style="color: #3C9A66;">30</span>%アップ(2ターン)                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +345<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +4900<br>',
+          },
+          autoSkill2: {
+            name: "炎熱耐性",
+            description:
+              '自分に氷結・凍傷・霜の完全耐性を付与<br>味方全体の"プロヒーロー"のスピード<span style="color: #3C9A66;">40</span>%アップ(1ターン)(最大1回)<br>自分が隠れるの相手に1回攻撃しきった時、自分のクリティカル率<span style="color: #3C9A66;">25</span>%アップ(3ターン)、クリティカル威力<span style="color: #3C9A66;">30</span>%アップ(3ターン)、プルスウルトラゲージ<span style="color: #3C9A66;">20</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分がアクションスキルで相手に1回攻撃しきった時、自分のクリティカル率<span style="color: #3C9A66;">25</span>%アップ(3ターン)、クリティカル威力<span style="color: #3C9A66;">30</span>%アップ(3ターン)</color=#f68b1e>',
+          },
+        },
+        levelthree: {
+          plusUltra: {
+            name: "プロミネンスアロー",
+            description:
+              '敵全体に<span style="color: #3C9A66;">500</span>%ダメージ<br>自分のクールタイム<span style="color: #3C9A66;">2</span>短縮、HP<span style="color: #3C9A66;">30</span>%回復<br>敵に隠れるのキャラがいたら、このスキルに貫通を付与、クリティカル率<span style="color: #3C9A66;">50</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分にくいしばり(2ターン)を付与</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "赫灼熱拳ヘルスパイダー",
+            description:
+              '敵全体に<span style="color: #3C9A66;">250</span>%ダメージ<br>敵全体の隠れるのキャラの一時的な状態異常無効全て解除、強化阻害(3ターン)を付与<br>敵に隠れるのキャラがいたら、このスキルに貫通を付与、クリティカル率<span style="color: #3C9A66;">50</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルのクリティカル率<span style="color: #3C9A66;">50</span>%アップ',
+            coolTime: "5",
+          },
+          actionSkill2: {
+            name: "プロミネンスバーン",
+            description:
+              '敵全体の隠れるのキャラの一時的なくいしばり全て解除<br>敵全体に<span style="color: #3C9A66;">275</span>%ダメージ、ディフェンス<span style="color: #ff6f6f;">20</span>%ダウン(3ターン)<br>敵に隠れるのキャラがいたら、このスキルに貫通を付与、クリティカル率<span style="color: #3C9A66;">50</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルのクリティカル率<span style="color: #3C9A66;">50</span>%アップ',
+            coolTime: "5",
+          },
+          autoSkill1: {
+            name: "鋭い眼光",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に1回攻撃しきる②バトル開始から3ターン経過)<br>自分に必中・索敵を付与<br>自分が隠れるの相手に1回攻撃しきった時、自分に回避(1回)を付与<br>自分が隠れるの相手に1回攻撃しきった時、味方全体のスピード<span style="color: #3C9A66;">30</span>%アップ(2ターン)                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +345<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +4900<br>',
+          },
+          autoSkill2: {
+            name: "炎熱耐性",
+            description:
+              '自分に氷結・凍傷・霜の完全耐性を付与<br>味方全体の"プロヒーロー"のスピード<span style="color: #3C9A66;">50</span>%アップ(1ターン)(最大1回)<br>自分が隠れるの相手に1回攻撃しきった時、自分のクリティカル率<span style="color: #3C9A66;">30</span>%アップ(3ターン)、クリティカル威力<span style="color: #3C9A66;">40</span>%アップ(3ターン)、プルスウルトラゲージ<span style="color: #3C9A66;">20</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分がアクションスキルで相手に1回攻撃しきった時、自分のクリティカル率<span style="color: #3C9A66;">30</span>%アップ(3ターン)、クリティカル威力<span style="color: #3C9A66;">40</span>%アップ(3ターン)</color=#f68b1e>',
+          },
+        },
+        dxlevelone: {
+          plusUltra: {
+            name: "プロミネンスアロー",
+            description:
+              '敵全体に<span style="color: #3C9A66;">500</span>%ダメージ<br>自分のクールタイム<span style="color: #3C9A66;">2</span>短縮、HP<span style="color: #3C9A66;">30</span>%回復<br>敵に隠れるのキャラがいたら、このスキルに貫通を付与、クリティカル率<span style="color: #3C9A66;">50</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分にくいしばり(2ターン)を付与</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "赫灼熱拳ヘルスパイダー DX",
+            description:
+              '敵全体に<span style="color: #3C9A66;">275</span>%ダメージ<br>敵全体の隠れるのキャラの一時的な状態異常無効全て解除、強化阻害(3ターン)を付与<br>敵に隠れるのキャラがいたら、このスキルに貫通を付与、クリティカル率<span style="color: #3C9A66;">50</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルのクリティカル率<span style="color: #3C9A66;">50</span>%アップ',
+            coolTime: "5",
+          },
+          actionSkill2: {
+            name: "プロミネンスバーン DX",
+            description:
+              '敵全体の隠れるのキャラの一時的なくいしばり全て解除<br>敵全体に<span style="color: #3C9A66;">300</span>%ダメージ、ディフェンス<span style="color: #ff6f6f;">20</span>%ダウン(3ターン)<br>敵に隠れるのキャラがいたら、このスキルに貫通を付与、クリティカル率<span style="color: #3C9A66;">50</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルのクリティカル率<span style="color: #3C9A66;">50</span>%アップ',
+            coolTime: "5",
+          },
+          autoSkill1: {
+            name: "鋭い眼光",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に1回攻撃しきる②バトル開始から3ターン経過)<br>自分に必中・索敵を付与<br>自分が隠れるの相手に1回攻撃しきった時、自分に回避(1回)を付与<br>自分が隠れるの相手に1回攻撃しきった時、味方全体のスピード<span style="color: #3C9A66;">30</span>%アップ(2ターン)                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +345<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +4900<br>',
+          },
+          autoSkill2: {
+            name: "炎熱耐性",
+            description:
+              '自分に氷結・凍傷・霜の完全耐性を付与<br>味方全体の"プロヒーロー"のスピード<span style="color: #3C9A66;">50</span>%アップ(1ターン)(最大1回)<br>自分が隠れるの相手に1回攻撃しきった時、自分のクリティカル率<span style="color: #3C9A66;">30</span>%アップ(3ターン)、クリティカル威力<span style="color: #3C9A66;">40</span>%アップ(3ターン)、プルスウルトラゲージ<span style="color: #3C9A66;">20</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分がアクションスキルで相手に1回攻撃しきった時、自分のクリティカル率<span style="color: #3C9A66;">30</span>%アップ(3ターン)、クリティカル威力<span style="color: #3C9A66;">40</span>%アップ(3ターン)</color=#f68b1e>',
+          },
+        },
+        dxleveltwo: {
+          plusUltra: {
+            name: "プロミネンスアロー",
+            description:
+              '敵全体に<span style="color: #3C9A66;">500</span>%ダメージ<br>自分のクールタイム<span style="color: #3C9A66;">2</span>短縮、HP<span style="color: #3C9A66;">30</span>%回復<br>敵に隠れるのキャラがいたら、このスキルに貫通を付与、クリティカル率<span style="color: #3C9A66;">50</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分にくいしばり(2ターン)を付与</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "赫灼熱拳ヘルスパイダー DX",
+            description:
+              '敵全体に<span style="color: #3C9A66;">300</span>%ダメージ<br>敵全体の隠れるのキャラの一時的な状態異常無効全て解除、強化阻害(3ターン)を付与<br>敵に隠れるのキャラがいたら、このスキルに貫通を付与、クリティカル率<span style="color: #3C9A66;">50</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルのクリティカル率<span style="color: #3C9A66;">50</span>%アップ',
+            coolTime: "5",
+          },
+          actionSkill2: {
+            name: "プロミネンスバーン DX",
+            description:
+              '敵全体の隠れるのキャラの一時的なくいしばり全て解除<br>敵全体に<span style="color: #3C9A66;">325</span>%ダメージ、ディフェンス<span style="color: #ff6f6f;">20</span>%ダウン(3ターン)<br>敵に隠れるのキャラがいたら、このスキルに貫通を付与、クリティカル率<span style="color: #3C9A66;">50</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルのクリティカル率<span style="color: #3C9A66;">50</span>%アップ',
+            coolTime: "5",
+          },
+          autoSkill1: {
+            name: "鋭い眼光",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に1回攻撃しきる②バトル開始から3ターン経過)<br>自分に必中・索敵を付与<br>自分が隠れるの相手に1回攻撃しきった時、自分に回避(1回)を付与<br>自分が隠れるの相手に1回攻撃しきった時、味方全体のスピード<span style="color: #3C9A66;">30</span>%アップ(2ターン)                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +345<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +81<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +4900<br>',
+          },
+          autoSkill2: {
+            name: "炎熱耐性",
+            description:
+              '自分に氷結・凍傷・霜の完全耐性を付与<br>味方全体の"プロヒーロー"のスピード<span style="color: #3C9A66;">50</span>%アップ(1ターン)(最大1回)<br>自分が隠れるの相手に1回攻撃しきった時、自分のクリティカル率<span style="color: #3C9A66;">30</span>%アップ(3ターン)、クリティカル威力<span style="color: #3C9A66;">40</span>%アップ(3ターン)、プルスウルトラゲージ<span style="color: #3C9A66;">20</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分がアクションスキルで相手に1回攻撃しきった時、自分のクリティカル率<span style="color: #3C9A66;">30</span>%アップ(3ターン)、クリティカル威力<span style="color: #3C9A66;">40</span>%アップ(3ターン)</color=#f68b1e>',
           },
         },
       },
