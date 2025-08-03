@@ -202,6 +202,7 @@ export const CharacterSkills = z.enum([
   "プルスウルトラゲージ上昇量アップ",
   "氷結完全耐性",
   "凍傷完全耐性",
+  "凶刃",
 ] as const);
 
 export const MemorySkills = z.enum([
