@@ -916,6 +916,12 @@ export const skills: z.infer<typeof SkillsSchema> = {
       iconUrl: "/assets/buffs_debuffs/battle_status_icon_buff_057.webp",
     },
     {
+      name: "凶刃",
+      description:
+        "相手にダメージを与えた時、追加で出血ダメージを与える。相手が出血状態の場合は、与える出血ダメージが大きくなる",
+      iconUrl: "/assets/buffs_debuffs/battle_status_icon_buff_059.webp",
+    },
+    {
       name: "パワーダウン",
       description: 'パワーが<span style="color:#ff3232;">X</span>%ダウン',
       iconUrl: "/assets/buffs_debuffs/battle_status_icon_debuff_001.webp",
