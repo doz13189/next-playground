@@ -1,0 +1,193 @@
+{
+    "id": "1114008",
+    "epithet": "水と遊ぼう",
+    "name": "芦戸三奈",
+    "rarity": "ur",
+    "type": "abl",
+    "sex": "女",
+    "skills": [
+        "スキル威力アップ",
+        "必中",
+        "クールタイム短縮",
+        "回復",
+        "エンハンス",
+        "基礎攻撃力アップ",
+        "基礎スピードアップ",
+        "基礎最大HPアップ",
+        "状態異常制限",
+        "強化制限",
+        "最大HPアップ",
+        "パワーアップ",
+        "クリティカル率アップ",
+        "プルスウルトラゲージ増加",
+        "ダメージカット",
+        "くいしばり",
+        "クリティカル威力アップ"
+    ],
+    "tags": [
+        "雄英高校1年A組",
+        "雄英高校生徒",
+        "ヒーロー"
+    ],
+    "stats": [
+        {
+            "hp": "4646",
+            "power": "832",
+            "speed": "100",
+            "defense": "100",
+            "critical": "10"
+        },
+        {
+            "hp": "11756",
+            "power": "2570",
+            "speed": "179",
+            "defense": "100",
+            "critical": "10"
+        },
+        {
+            "hp": "44156",
+            "power": "8850",
+            "speed": "719",
+            "defense": "100",
+            "critical": "10"
+        },
+        {
+            "hp": "53156",
+            "power": "10650",
+            "speed": "899",
+            "defense": "100",
+            "critical": "10"
+        }
+    ],
+    "uniqueSkills": [
+        "自分の燃焼状態になる確率を下げる、ディフェンスダウン完全耐性(2ターン)を付与/自分の燃焼のダメージを20%軽減",
+        "自分のHPが50%未満の時、自分のディフェンスを35%アップ",
+        "自分よりパワーが高い相手から攻撃を2回受けきった後に、敵全体のディフェンスを10%ダウン(2ターン)",
+        "戦闘開始後、自分にクリティカルダメージを30%カット(4ターン)を付与",
+        "クリティカル攻撃を2回受けきった後に、自分のディフェンスを20%アップ(3ターン)",
+        "自分のパワーがアップしている時、自分のディフェンスを20%アップ",
+        "毎ターン、自分のディフェンスが5%アップ(最大6回)"
+    ],
+    "skill": {
+        "levelone": {
+            "plusUltra": {
+                "name": "アシッドスパイク",
+                "description": "敵単体に<span style=\"color: #79ff80;\">450</span>%ダメージ<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮、HP<span style=\"color: #79ff80;\">20</span>%回復<br>自分が状態異常制限の時、このスキルのスキル威力<span style=\"color: #79ff80;\">30</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルに必中を付与</color=#f68b1e>"
+            },
+            "actionSkill1": {
+                "name": "潤滑油",
+                "description": "味方全体の最大HP<span style=\"color: #79ff80;\">9</span>%アップ(3ターン)、HP<span style=\"color: #79ff80;\">15</span>%回復<br>自分が状態異常制限の時、味方全体のダメージ<span style=\"color: #79ff80;\">9</span>%カット(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のくいしばりでないキャラにくいしばり(1回)を付与",
+                "coolTime": "▼エンハンス追加効果"
+            },
+            "actionSkill2": {
+                "name": "アシッドボール",
+                "description": "味方単体にくいしばり(2ターン)を付与、HP<span style=\"color: #79ff80;\">20</span>%回復、クリティカル威力<span style=\"color: #79ff80;\">12</span>%アップ(3ターン)、クリティカル率<span style=\"color: #79ff80;\">6</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が状態異常制限の時、味方単体のクリティカル威力<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)",
+                "coolTime": "▼エンハンス追加効果"
+            },
+            "autoSkill1": {
+                "name": "皮膚耐久度強化",
+                "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が状態異常制限のまま2回ターンをまたぐ②バトル開始から3ターン経過)<br>自分のHPが30%以上の時、味方全体に状態異常制限<span style=\"color: #79ff80;\">5</span>個を付与※この効果はゲストでは発動しない<br>自分のHPが70%以上の時、敵全体に強化制限<span style=\"color: #ff6f6f;\">10</span>個を付与(最大1回)※この効果はゲストでは発動しない<br>味方全体の最大HP<span style=\"color: #79ff80;\">10</span>%アップ                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +140<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +58<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +6900<br>"
+            },
+            "autoSkill2": {
+                "name": "エネルギッシュ",
+                "description": "自分がHP回復を3回受けきった時、味方全体のパワー<span style=\"color: #79ff80;\">9</span>%アップ(最大3回)、クリティカル率<span style=\"color: #79ff80;\">6</span>%アップ(最大3回)<br>1ターン毎に、もっとも現在HP割合の低い味方単体のHP<span style=\"color: #79ff80;\">6</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、敵味方全体のパワー<span style=\"color: #79ff80;\">5</span>%アップ(3ターン)<br>1ターン毎に、もっとも現在HP割合の低い味方単体のプルスウルトラゲージ<span style=\"color: #79ff80;\">20</span>%アップ</color=#f68b1e>"
+            }
+        },
+        "leveltwo": {
+            "plusUltra": {
+                "name": "アシッドスパイク",
+                "description": "敵単体に<span style=\"color: #79ff80;\">500</span>%ダメージ<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮、HP<span style=\"color: #79ff80;\">25</span>%回復<br>自分が状態異常制限の時、このスキルのスキル威力<span style=\"color: #79ff80;\">40</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルに必中を付与</color=#f68b1e>"
+            },
+            "actionSkill1": {
+                "name": "潤滑油",
+                "description": "味方全体の最大HP<span style=\"color: #79ff80;\">12</span>%アップ(3ターン)、HP<span style=\"color: #79ff80;\">15</span>%回復<br>自分が状態異常制限の時、味方全体のダメージ<span style=\"color: #79ff80;\">12</span>%カット(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のくいしばりでないキャラにくいしばり(1回)を付与",
+                "coolTime": "▼エンハンス追加効果"
+            },
+            "actionSkill2": {
+                "name": "アシッドボール",
+                "description": "味方単体にくいしばり(2ターン)を付与、HP<span style=\"color: #79ff80;\">20</span>%回復、クリティカル威力<span style=\"color: #79ff80;\">16</span>%アップ(3ターン)、クリティカル率<span style=\"color: #79ff80;\">9</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が状態異常制限の時、味方単体のクリティカル威力<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)",
+                "coolTime": "▼エンハンス追加効果"
+            },
+            "autoSkill1": {
+                "name": "皮膚耐久度強化",
+                "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が状態異常制限のまま2回ターンをまたぐ②バトル開始から3ターン経過)<br>自分のHPが30%以上の時、味方全体に状態異常制限<span style=\"color: #79ff80;\">5</span>個を付与※この効果はゲストでは発動しない<br>自分のHPが70%以上の時、敵全体に強化制限<span style=\"color: #ff6f6f;\">10</span>個を付与(最大1回)※この効果はゲストでは発動しない<br>味方全体の最大HP<span style=\"color: #79ff80;\">15</span>%アップ                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +140<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +58<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +6900<br>"
+            },
+            "autoSkill2": {
+                "name": "エネルギッシュ",
+                "description": "自分がHP回復を3回受けきった時、味方全体のパワー<span style=\"color: #79ff80;\">12</span>%アップ(最大3回)、クリティカル率<span style=\"color: #79ff80;\">8</span>%アップ(最大3回)<br>1ターン毎に、もっとも現在HP割合の低い味方単体のHP<span style=\"color: #79ff80;\">8</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、敵味方全体のパワー<span style=\"color: #79ff80;\">5</span>%アップ(3ターン)<br>1ターン毎に、もっとも現在HP割合の低い味方単体のプルスウルトラゲージ<span style=\"color: #79ff80;\">20</span>%アップ</color=#f68b1e>"
+            }
+        },
+        "levelthree": {
+            "plusUltra": {
+                "name": "アシッドスパイク",
+                "description": "敵単体に<span style=\"color: #79ff80;\">550</span>%ダメージ<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮、HP<span style=\"color: #79ff80;\">30</span>%回復<br>自分が状態異常制限の時、このスキルのスキル威力<span style=\"color: #79ff80;\">50</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルに必中を付与</color=#f68b1e>"
+            },
+            "actionSkill1": {
+                "name": "潤滑油",
+                "description": "味方全体の最大HP<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)、HP<span style=\"color: #79ff80;\">15</span>%回復<br>自分が状態異常制限の時、味方全体のダメージ<span style=\"color: #79ff80;\">15</span>%カット(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のくいしばりでないキャラにくいしばり(1回)を付与",
+                "coolTime": "▼エンハンス追加効果"
+            },
+            "actionSkill2": {
+                "name": "アシッドボール",
+                "description": "味方単体にくいしばり(2ターン)を付与、HP<span style=\"color: #79ff80;\">20</span>%回復、クリティカル威力<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)、クリティカル率<span style=\"color: #79ff80;\">12</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が状態異常制限の時、味方単体のクリティカル威力<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)",
+                "coolTime": "▼エンハンス追加効果"
+            },
+            "autoSkill1": {
+                "name": "皮膚耐久度強化",
+                "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が状態異常制限のまま2回ターンをまたぐ②バトル開始から3ターン経過)<br>自分のHPが30%以上の時、味方全体に状態異常制限<span style=\"color: #79ff80;\">5</span>個を付与※この効果はゲストでは発動しない<br>自分のHPが70%以上の時、敵全体に強化制限<span style=\"color: #ff6f6f;\">10</span>個を付与(最大1回)※この効果はゲストでは発動しない<br>味方全体の最大HP<span style=\"color: #79ff80;\">20</span>%アップ                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +140<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +58<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +6900<br>"
+            },
+            "autoSkill2": {
+                "name": "エネルギッシュ",
+                "description": "自分がHP回復を3回受けきった時、味方全体のパワー<span style=\"color: #79ff80;\">15</span>%アップ(最大3回)、クリティカル率<span style=\"color: #79ff80;\">10</span>%アップ(最大3回)<br>1ターン毎に、もっとも現在HP割合の低い味方単体のHP<span style=\"color: #79ff80;\">10</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、敵味方全体のパワー<span style=\"color: #79ff80;\">5</span>%アップ(3ターン)<br>1ターン毎に、もっとも現在HP割合の低い味方単体のプルスウルトラゲージ<span style=\"color: #79ff80;\">20</span>%アップ</color=#f68b1e>"
+            }
+        },
+        "dxlevelone": {
+            "plusUltra": {
+                "name": "アシッドスパイク",
+                "description": "敵単体に<span style=\"color: #79ff80;\">550</span>%ダメージ<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮、HP<span style=\"color: #79ff80;\">30</span>%回復<br>自分が状態異常制限の時、このスキルのスキル威力<span style=\"color: #79ff80;\">50</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルに必中を付与</color=#f68b1e>"
+            },
+            "actionSkill1": {
+                "name": "潤滑油 DX",
+                "description": "味方全体の最大HP<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)、HP<span style=\"color: #79ff80;\">20</span>%回復<br>自分が状態異常制限の時、味方全体のダメージ<span style=\"color: #79ff80;\">20</span>%カット(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のくいしばりでないキャラにくいしばり(1回)を付与",
+                "coolTime": "▼エンハンス追加効果"
+            },
+            "actionSkill2": {
+                "name": "アシッドボール DX",
+                "description": "味方単体にくいしばり(2ターン)を付与、HP<span style=\"color: #79ff80;\">25</span>%回復、クリティカル威力<span style=\"color: #79ff80;\">25</span>%アップ(3ターン)、クリティカル率<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が状態異常制限の時、味方単体のクリティカル威力<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)",
+                "coolTime": "▼エンハンス追加効果"
+            },
+            "autoSkill1": {
+                "name": "皮膚耐久度強化",
+                "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が状態異常制限のまま2回ターンをまたぐ②バトル開始から3ターン経過)<br>自分のHPが30%以上の時、味方全体に状態異常制限<span style=\"color: #79ff80;\">5</span>個を付与※この効果はゲストでは発動しない<br>自分のHPが70%以上の時、敵全体に強化制限<span style=\"color: #ff6f6f;\">10</span>個を付与(最大1回)※この効果はゲストでは発動しない<br>味方全体の最大HP<span style=\"color: #79ff80;\">20</span>%アップ                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +140<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +58<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +6900<br>"
+            },
+            "autoSkill2": {
+                "name": "エネルギッシュ",
+                "description": "自分がHP回復を3回受けきった時、味方全体のパワー<span style=\"color: #79ff80;\">15</span>%アップ(最大3回)、クリティカル率<span style=\"color: #79ff80;\">10</span>%アップ(最大3回)<br>1ターン毎に、もっとも現在HP割合の低い味方単体のHP<span style=\"color: #79ff80;\">10</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、敵味方全体のパワー<span style=\"color: #79ff80;\">5</span>%アップ(3ターン)<br>1ターン毎に、もっとも現在HP割合の低い味方単体のプルスウルトラゲージ<span style=\"color: #79ff80;\">20</span>%アップ</color=#f68b1e>"
+            }
+        },
+        "dxleveltwo": {
+            "plusUltra": {
+                "name": "アシッドスパイク",
+                "description": "敵単体に<span style=\"color: #79ff80;\">550</span>%ダメージ<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮、HP<span style=\"color: #79ff80;\">30</span>%回復<br>自分が状態異常制限の時、このスキルのスキル威力<span style=\"color: #79ff80;\">50</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルに必中を付与</color=#f68b1e>"
+            },
+            "actionSkill1": {
+                "name": "潤滑油 DX",
+                "description": "味方全体の最大HP<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)、HP<span style=\"color: #79ff80;\">25</span>%回復<br>自分が状態異常制限の時、味方全体のダメージ<span style=\"color: #79ff80;\">20</span>%カット(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のくいしばりでないキャラにくいしばり(1回)を付与",
+                "coolTime": "▼エンハンス追加効果"
+            },
+            "actionSkill2": {
+                "name": "アシッドボール DX",
+                "description": "味方単体にくいしばり(2ターン)を付与、HP<span style=\"color: #79ff80;\">30</span>%回復、クリティカル威力<span style=\"color: #79ff80;\">30</span>%アップ(3ターン)、クリティカル率<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が状態異常制限の時、味方単体のクリティカル威力<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)",
+                "coolTime": "▼エンハンス追加効果"
+            },
+            "autoSkill1": {
+                "name": "皮膚耐久度強化",
+                "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分が状態異常制限のまま2回ターンをまたぐ②バトル開始から3ターン経過)<br>自分のHPが30%以上の時、味方全体に状態異常制限<span style=\"color: #79ff80;\">5</span>個を付与※この効果はゲストでは発動しない<br>自分のHPが70%以上の時、敵全体に強化制限<span style=\"color: #ff6f6f;\">10</span>個を付与(最大1回)※この効果はゲストでは発動しない<br>味方全体の最大HP<span style=\"color: #79ff80;\">20</span>%アップ                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +140<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +58<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +6900<br>"
+            },
+            "autoSkill2": {
+                "name": "エネルギッシュ",
+                "description": "自分がHP回復を3回受けきった時、味方全体のパワー<span style=\"color: #79ff80;\">15</span>%アップ(最大3回)、クリティカル率<span style=\"color: #79ff80;\">10</span>%アップ(最大3回)<br>1ターン毎に、もっとも現在HP割合の低い味方単体のHP<span style=\"color: #79ff80;\">10</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>1ターン毎に、敵味方全体のパワー<span style=\"color: #79ff80;\">5</span>%アップ(3ターン)<br>1ターン毎に、もっとも現在HP割合の低い味方単体のプルスウルトラゲージ<span style=\"color: #79ff80;\">20</span>%アップ</color=#f68b1e>"
+            }
+        }
+    }
+}
