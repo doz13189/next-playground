@@ -922,6 +922,12 @@ export const skills: z.infer<typeof SkillsSchema> = {
       iconUrl: "/assets/buffs_debuffs/battle_status_icon_buff_059.webp",
     },
     {
+      name: "状態異常制限",
+      description:
+        '自分に付与される一時的な状態異常の個数を<span style="color:#00f50c;">X</span>個までに制限する\n個数が上限に達している状態では、新たに一時的な状態異常を付与・更新することができなくなる\n※既に付与されている一時的な状態異常については解除されない',
+      iconUrl: "/assets/buffs_debuffs/battle_status_icon_buff_060.webp",
+    },
+    {
       name: "パワーダウン",
       description: 'パワーが<span style="color:#ff3232;">X</span>%ダウン',
       iconUrl: "/assets/buffs_debuffs/battle_status_icon_debuff_001.webp",
@@ -1185,6 +1191,12 @@ export const skills: z.infer<typeof SkillsSchema> = {
       description:
         '現在値：<span style="color:#ff3232;">X</span>(最大HPの<span style="color:#ff3232;">X</span>%)\nHP回復・解除することができない特殊ダメージ',
       iconUrl: "/assets/buffs_debuffs/battle_status_icon_debuff_035.webp",
+    },
+    {
+      name: "強化制限",
+      description:
+        '自分に付与される一時的な強化の個数を<span style="color:#ff3232;">X</span>個までに制限する\n個数が上限に達している状態では、新たに一時的な強化を付与・更新することができなくなる\n※既に付与されている一時的な強化については解除されない',
+      iconUrl: "/assets/buffs_debuffs/battle_status_icon_debuff_036.webp",
     },
   ],
 };
