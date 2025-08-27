@@ -64,6 +64,7 @@ export const Name = z.enum([
   "レディ・ナガン",
   "フレクト・ターン",
   "スターアンドストライプ",
+  "ジュリオ・ガンディーニ",
 ]);
 
 export const CharacterSkills = z.enum([
@@ -285,4 +286,5 @@ export const Tags = z.enum([
   "敵＜ヴィラン＞",
   "死穢八斎會",
   "士傑高校",
+  "その他",
 ]);
