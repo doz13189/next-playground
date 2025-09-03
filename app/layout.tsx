@@ -56,6 +56,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
+      <meta name="google-site-verification" content="VdYU0fQr29JXIwhKBJ0zryRb2JuUZgGgQNM6XQPuRGk" />
       <body
         className={`${font.className} ${css({ backgroundColor: "grey.100" })}`}
       >
