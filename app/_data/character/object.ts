@@ -57201,5 +57201,222 @@ export const characters: z.infer<typeof CharactersSchema> = {
         },
       },
     },
+    {
+      id: "1102018",
+      epithet: "昇華せし力",
+      name: "爆豪勝己",
+      rarity: "ur",
+      type: "int",
+      sex: "男",
+      skills: [
+        "必中",
+        "拘束",
+        "くいしばり",
+        "エンハンス",
+        "基礎攻撃力アップ",
+        "基礎スピードアップ",
+        "基礎最大HPアップ",
+        "かばう",
+        "見切り",
+        "状態異常カウンター",
+        "受け流し",
+        "最大HPアップ",
+        "スキル威力アップ",
+        "全体攻撃",
+        "燃焼耐性ダウン",
+        "プルスウルトラゲージ増加",
+        "HP回復",
+        "被ダメージ回復",
+        "パワーアップ",
+        "燃焼",
+      ],
+      tags: ["雄英高校1年A組", "雄英高校生徒", "ヒーロー"],
+      stats: [
+        {
+          hp: "5023",
+          power: "888",
+          speed: "105",
+          defense: "100",
+          critical: "10",
+        },
+        {
+          hp: "12133",
+          power: "2626",
+          speed: "184",
+          defense: "100",
+          critical: "10",
+        },
+        {
+          hp: "44033",
+          power: "9046",
+          speed: "704",
+          defense: "100",
+          critical: "10",
+        },
+        {
+          hp: "53033",
+          power: "10846",
+          speed: "884",
+          defense: "100",
+          critical: "10",
+        },
+      ],
+      uniqueSkills: [
+        "クリティカルが発生するたびに、自分のプルスウルトラゲージを5%アップ",
+        "自分の暗闇、燃焼状態にする確率を上げる、自分の暗闇状態になる確率を下げる",
+        "クリティカルが3回発生するたびに、自分のスキル威力が20%アップ(3ターン)",
+        "毎ターン、自分のプルスウルトラゲージを5%アップする(最大8回)",
+        "2ターン毎に自分のスキル威力が10%アップ(最大3回)",
+        "自分で敵を倒すたび、自分のプルスウルトラゲージを25%アップ",
+        "WAVE開始後、自分のプルスウルトラ技の威力を25%アップ(4ターン)",
+      ],
+      skill: {
+        levelone: {
+          plusUltra: {
+            name: "ファイバーインパクト",
+            description:
+              '敵単体に<span style="color: #3C9A66;">450</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与<br>自分にくいしばり(2回)を付与<br>敵が燃焼だったら、このスキルに必中を付与',
+          },
+          actionSkill1: {
+            name: "クラッシュバースト",
+            description:
+              '敵全体に<span style="color: #3C9A66;">175</span>%ダメージ、燃焼耐性ダウン(3ターン)<br>味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">10</span>%アップ',
+            coolTime: "4",
+          },
+          actionSkill2: {
+            name: "絶対の自信",
+            description:
+              '自分のHP<span style="color: #3C9A66;">10</span>%回復、被ダメージ<span style="color: #3C9A66;">10</span>%回復(3ターン)を付与、パワー<span style="color: #3C9A66;">5</span>%アップ(累積)<color=#f68b1e><br>▼エンハンス追加効果<br>自分がくいしばりでない時、自分にくいしばり(2回)を付与',
+            coolTime: "6",
+          },
+          autoSkill1: {
+            name: "爆裂豪快",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりのまま攻撃を6回受けきる②バトル開始から5ターン経過)<br>自分がくいしばりの時、自分にかばうを付与<br>自分に見切り<span style="color: #3C9A66;">35</span>%、中確率の燃焼(3ターン)カウンターを付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分の見切りが<span style="color: #3C9A66;">65</span>%に増加                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +255<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +50<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
+          },
+          autoSkill2: {
+            name: "不屈の闘志",
+            description:
+              '自分にくいしばり(3ターン)を付与(最大1回)、受け流し<span style="color: #3C9A66;">80</span>%を付与<br>自分がプルスウルトラ技を1回受けきった時、自分の最大HP<span style="color: #3C9A66;">6</span>%アップ(最大5回)<br>自分がくいしばりのまま、攻撃を1回受けた時、自分のスキル威力<span style="color: #3C9A66;">6</span>%アップ(1ターン)※この効果は強化解除・強化阻害・強化制限できない<br>自分が燃焼の相手から攻撃を1回受けきった時、自分のスキル威力<span style="color: #3C9A66;">9</span>%アップ(1ターン)※この効果は強化解除・強化阻害・強化制限できない<color=#f68b1e><br>▼エンハンス追加効果<br>自分の受け流しが<span style="color: #3C9A66;">120</span>%に増加</color=#f68b1e>',
+          },
+        },
+        leveltwo: {
+          plusUltra: {
+            name: "ファイバーインパクト",
+            description:
+              '敵単体に<span style="color: #3C9A66;">500</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与<br>自分にくいしばり(2回)を付与<br>敵が燃焼だったら、このスキルに必中を付与',
+          },
+          actionSkill1: {
+            name: "クラッシュバースト",
+            description:
+              '敵全体に<span style="color: #3C9A66;">200</span>%ダメージ、燃焼耐性ダウン(3ターン)<br>味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">10</span>%アップ',
+            coolTime: "4",
+          },
+          actionSkill2: {
+            name: "絶対の自信",
+            description:
+              '自分のHP<span style="color: #3C9A66;">10</span>%回復、被ダメージ<span style="color: #3C9A66;">15</span>%回復(3ターン)を付与、パワー<span style="color: #3C9A66;">5</span>%アップ(累積)<color=#f68b1e><br>▼エンハンス追加効果<br>自分がくいしばりでない時、自分にくいしばり(2回)を付与',
+            coolTime: "5",
+          },
+          autoSkill1: {
+            name: "爆裂豪快",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりのまま攻撃を6回受けきる②バトル開始から5ターン経過)<br>自分がくいしばりの時、自分にかばうを付与<br>自分に見切り<span style="color: #3C9A66;">45</span>%、中確率の燃焼(3ターン)カウンターを付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分の見切りが<span style="color: #3C9A66;">75</span>%に増加                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +255<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +50<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
+          },
+          autoSkill2: {
+            name: "不屈の闘志",
+            description:
+              '自分にくいしばり(3ターン)を付与(最大1回)、受け流し<span style="color: #3C9A66;">90</span>%を付与<br>自分がプルスウルトラ技を1回受けきった時、自分の最大HP<span style="color: #3C9A66;">8</span>%アップ(最大5回)<br>自分がくいしばりのまま、攻撃を1回受けた時、自分のスキル威力<span style="color: #3C9A66;">8</span>%アップ(1ターン)※この効果は強化解除・強化阻害・強化制限できない<br>自分が燃焼の相手から攻撃を1回受けきった時、自分のスキル威力<span style="color: #3C9A66;">12</span>%アップ(1ターン)※この効果は強化解除・強化阻害・強化制限できない<color=#f68b1e><br>▼エンハンス追加効果<br>自分の受け流しが<span style="color: #3C9A66;">135</span>%に増加</color=#f68b1e>',
+          },
+        },
+        levelthree: {
+          plusUltra: {
+            name: "ファイバーインパクト",
+            description:
+              '敵単体に<span style="color: #3C9A66;">550</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与<br>自分にくいしばり(2回)を付与<br>敵が燃焼だったら、このスキルに必中を付与',
+          },
+          actionSkill1: {
+            name: "クラッシュバースト",
+            description:
+              '敵全体に<span style="color: #3C9A66;">225</span>%ダメージ、燃焼耐性ダウン(3ターン)<br>味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">10</span>%アップ',
+            coolTime: "4",
+          },
+          actionSkill2: {
+            name: "絶対の自信",
+            description:
+              '自分のHP<span style="color: #3C9A66;">10</span>%回復、被ダメージ<span style="color: #3C9A66;">20</span>%回復(3ターン)を付与、パワー<span style="color: #3C9A66;">5</span>%アップ(累積)<color=#f68b1e><br>▼エンハンス追加効果<br>自分がくいしばりでない時、自分にくいしばり(2回)を付与',
+            coolTime: "4",
+          },
+          autoSkill1: {
+            name: "爆裂豪快",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりのまま攻撃を6回受けきる②バトル開始から5ターン経過)<br>自分がくいしばりの時、自分にかばうを付与<br>自分に見切り<span style="color: #3C9A66;">55</span>%、中確率の燃焼(3ターン)カウンターを付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分の見切りが<span style="color: #3C9A66;">85</span>%に増加                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +255<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +50<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                            </color=#f68b1e>',
+          },
+          autoSkill2: {
+            name: "不屈の闘志",
+            description:
+              '自分にくいしばり(3ターン)を付与(最大1回)、受け流し<span style="color: #3C9A66;">100</span>%を付与<br>自分がプルスウルトラ技を1回受けきった時、自分の最大HP<span style="color: #3C9A66;">10</span>%アップ(最大5回)<br>自分がくいしばりのまま、攻撃を1回受けた時、自分のスキル威力<span style="color: #3C9A66;">10</span>%アップ(1ターン)※この効果は強化解除・強化阻害・強化制限できない<br>自分が燃焼の相手から攻撃を1回受けきった時、自分のスキル威力<span style="color: #3C9A66;">15</span>%アップ(1ターン)※この効果は強化解除・強化阻害・強化制限できない<color=#f68b1e><br>▼エンハンス追加効果<br>自分の受け流しが<span style="color: #3C9A66;">150</span>%に増加</color=#f68b1e>',
+          },
+        },
+        dxlevelone: {
+          plusUltra: {
+            name: "ファイバーインパクト",
+            description:
+              '敵単体に<span style="color: #3C9A66;">550</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与<br>自分にくいしばり(2回)を付与<br>敵が燃焼だったら、このスキルに必中を付与',
+          },
+          actionSkill1: {
+            name: "クラッシュバースト DX",
+            description:
+              '敵全体に<span style="color: #3C9A66;">250</span>%ダメージ、燃焼耐性ダウン(3ターン)<br>味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">15</span>%アップ',
+            coolTime: "4",
+          },
+          actionSkill2: {
+            name: "絶対の自信 DX",
+            description:
+              '自分のHP<span style="color: #3C9A66;">15</span>%回復、被ダメージ<span style="color: #3C9A66;">25</span>%回復(3ターン)を付与、パワー<span style="color: #3C9A66;">10</span>%アップ(累積)<color=#f68b1e><br>▼エンハンス追加効果<br>自分がくいしばりでない時、自分にくいしばり(2回)を付与',
+            coolTime: "4",
+          },
+          autoSkill1: {
+            name: "爆裂豪快",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりのまま攻撃を6回受けきる②バトル開始から5ターン経過)<br>自分がくいしばりの時、自分にかばうを付与<br>自分に見切り<span style="color: #3C9A66;">55</span>%、中確率の燃焼(3ターン)カウンターを付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分の見切りが<span style="color: #3C9A66;">85</span>%に増加                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +255<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +50<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
+          },
+          autoSkill2: {
+            name: "不屈の闘志",
+            description:
+              '自分にくいしばり(3ターン)を付与(最大1回)、受け流し<span style="color: #3C9A66;">100</span>%を付与<br>自分がプルスウルトラ技を1回受けきった時、自分の最大HP<span style="color: #3C9A66;">10</span>%アップ(最大5回)<br>自分がくいしばりのまま、攻撃を1回受けた時、自分のスキル威力<span style="color: #3C9A66;">10</span>%アップ(1ターン)※この効果は強化解除・強化阻害・強化制限できない<br>自分が燃焼の相手から攻撃を1回受けきった時、自分のスキル威力<span style="color: #3C9A66;">15</span>%アップ(1ターン)※この効果は強化解除・強化阻害・強化制限できない<color=#f68b1e><br>▼エンハンス追加効果<br>自分の受け流しが<span style="color: #3C9A66;">150</span>%に増加</color=#f68b1e>',
+          },
+        },
+        dxleveltwo: {
+          plusUltra: {
+            name: "ファイバーインパクト",
+            description:
+              '敵単体に<span style="color: #3C9A66;">550</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与<br>自分にくいしばり(2回)を付与<br>敵が燃焼だったら、このスキルに必中を付与',
+          },
+          actionSkill1: {
+            name: "クラッシュバースト DX",
+            description:
+              '敵全体に<span style="color: #3C9A66;">275</span>%ダメージ、燃焼耐性ダウン(3ターン)<br>味方全体のプルスウルトラゲージ<span style="color: #3C9A66;">20</span>%アップ',
+            coolTime: "4",
+          },
+          actionSkill2: {
+            name: "絶対の自信 DX",
+            description:
+              '自分のHP<span style="color: #3C9A66;">20</span>%回復、被ダメージ<span style="color: #3C9A66;">30</span>%回復(3ターン)を付与、パワー<span style="color: #3C9A66;">10</span>%アップ(累積)<color=#f68b1e><br>▼エンハンス追加効果<br>自分がくいしばりでない時、自分にくいしばり(2回)を付与',
+            coolTime: "4",
+          },
+          autoSkill1: {
+            name: "爆裂豪快",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりのまま攻撃を6回受けきる②バトル開始から5ターン経過)<br>自分がくいしばりの時、自分にかばうを付与<br>自分に見切り<span style="color: #3C9A66;">55</span>%、中確率の燃焼(3ターン)カウンターを付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分の見切りが<span style="color: #3C9A66;">85</span>%に増加                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +255<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +50<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>                                        </color=#f68b1e>',
+          },
+          autoSkill2: {
+            name: "不屈の闘志",
+            description:
+              '自分にくいしばり(3ターン)を付与(最大1回)、受け流し<span style="color: #3C9A66;">100</span>%を付与<br>自分がプルスウルトラ技を1回受けきった時、自分の最大HP<span style="color: #3C9A66;">10</span>%アップ(最大5回)<br>自分がくいしばりのまま、攻撃を1回受けた時、自分のスキル威力<span style="color: #3C9A66;">10</span>%アップ(1ターン)※この効果は強化解除・強化阻害・強化制限できない<br>自分が燃焼の相手から攻撃を1回受けきった時、自分のスキル威力<span style="color: #3C9A66;">15</span>%アップ(1ターン)※この効果は強化解除・強化阻害・強化制限できない<color=#f68b1e><br>▼エンハンス追加効果<br>自分の受け流しが<span style="color: #3C9A66;">150</span>%に増加</color=#f68b1e>',
+          },
+        },
+      },
+    },
   ],
 };
