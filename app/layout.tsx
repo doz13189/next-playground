@@ -1,15 +1,10 @@
 import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
-import localFont from 'next/font/local'
 import "./globals.css";
 import { MainLayout } from "@/app/_components/main-layout";
 import { Menu } from "@/app/_components/menu";
 import { css } from "@/styled-system/css";
 import { Container } from "@/styled-system/jsx";
-
-const font = localFont({
-  src: "./_fonts/RocknRollOne-Regular.ttf",
-})
 
 const serviceTitle = "Search the hero";
 const serviceDescription =
@@ -58,7 +53,11 @@ export default function RootLayout({
     <html lang="ja">
       <meta name="google-site-verification" content="VdYU0fQr29JXIwhKBJ0zryRb2JuUZgGgQNM6XQPuRGk" />
       <body
-        className={`${font.className} ${css({ backgroundColor: "grey.100" })}`}
+        className={`${css({
+          backgroundColor: "grey.100",
+          fontFamily:
+            '"Yu Gothic", "YuGothic", Meiryo, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "BIZ UDPGothic", sans-serif;',
+        })}`}
       >
         <Menu />
         <Container>
