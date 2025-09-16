@@ -1,0 +1,192 @@
+{
+    "id": "1101017",
+    "epithet": "無限の力",
+    "name": "緑谷出久",
+    "rarity": "ur",
+    "type": "abl",
+    "sex": "男",
+    "skills": [
+        "貫通",
+        "必中",
+        "状態変化解除",
+        "スタン",
+        "拘束",
+        "スキル威力アップ",
+        "エンハンス",
+        "基礎攻撃力アップ",
+        "基礎スピードアップ",
+        "基礎最大HPアップ",
+        "クールタイム短縮",
+        "プルスウルトラゲージ増加",
+        "くいしばり",
+        "プルスウルトラ技威力アップ",
+        "プルスウルトラ効率アップ",
+        "スキル威力ダウン"
+    ],
+    "tags": [
+        "雄英高校1年A組",
+        "雄英高校生徒",
+        "ヒーロー"
+    ],
+    "stats": [
+        {
+            "hp": "4444",
+            "power": "1023",
+            "speed": "90",
+            "defense": "100",
+            "critical": "10"
+        },
+        {
+            "hp": "11159",
+            "power": "2919",
+            "speed": "169",
+            "defense": "100",
+            "critical": "10"
+        },
+        {
+            "hp": "40609",
+            "power": "9899",
+            "speed": "639",
+            "defense": "100",
+            "critical": "10"
+        },
+        {
+            "hp": "49609",
+            "power": "11699",
+            "speed": "819",
+            "defense": "100",
+            "critical": "10"
+        }
+    ],
+    "uniqueSkills": [
+        "自分のHPが25%未満の時、自分に貫通を付与し、自分のスキル威力を15%アップ(2ターン)",
+        "自分のHPが5%未満の時、自分に逆境を付与し、戦闘中に1度だけ自分にくいしばり(3回)を付与",
+        "自分がくいしばり状態の時、自分のパワーを20%アップ(3ターン)",
+        "WAVE開始後、自分のパワーを20%アップ(4ターン)",
+        "3ターン毎に自分のプルスウルトラ技の威力を15%アップ(最大3回)",
+        "自分のHPが50%未満の時、自分のパワーを25%アップ",
+        "クリティカルが3回発生するたびに、自分に回避(1回)を付与(最大3回)"
+    ],
+    "skill": {
+        "levelone": {
+            "plusUltra": {
+                "name": "オセオンスマッシュ",
+                "description": "敵単体に<span style=\"color: #79ff80;\">550</span>%ダメージ、一時的なかばう・挑発全て解除、中確率 (40%)でスタン(2ターン)を付与、中確率 (40%)で拘束(2ターン)を付与<br>味方全体のスキル威力<span style=\"color: #79ff80;\">25</span>%アップ(3ターン)<br>このスキルに貫通を付与<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルに必中を付与</color=#f68b1e>"
+            },
+            "actionSkill1": {
+                "name": "デトロイトスマッシュ",
+                "description": "敵単体に<span style=\"color: #79ff80;\">300</span>%ダメージ、中確率 (40%)でスタン(2ターン)を付与<br>敵がかばう、挑発だったらこのスキルに貫通を付与、スキル威力を<span style=\"color: #79ff80;\">20</span>%アップ",
+                "coolTime": "4"
+            },
+            "actionSkill2": {
+                "name": "黒鞭",
+                "description": "敵単体に<span style=\"color: #79ff80;\">275</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与、スキル威力を<span style=\"color: #ff6f6f;\">20</span>%ダウン(3ターン)",
+                "coolTime": "6"
+            },
+            "autoSkill1": {
+                "name": "柔軟な思考",
+                "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に2回攻撃しきる②バトル開始から5ターン経過)<br>自分のHPが50%未満の時、自分のクールタイム<span style=\"color: #79ff80;\">3</span>短縮(最大1回)、プルスウルトラゲージ<span style=\"color: #79ff80;\">30</span>%アップ(最大1回)、くいしばり(2ターン)を付与(最大1回)                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +520<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +49<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +10000<br>"
+            },
+            "autoSkill2": {
+                "name": "謹厳実直",
+                "description": "2ターン毎に、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">20</span>%アップ、プルスウルトラ技威力<span style=\"color: #79ff80;\">10</span>%アップ(累積)<br>自分のプルスウルトラ効率<span style=\"color: #79ff80;\">40</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分がプルスウルトラ技で相手に2回攻撃しきった時、味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮(最大1回)、スキル威力<span style=\"color: #79ff80;\">10</span>%アップ(最大5回)</color=#f68b1e>"
+            }
+        },
+        "leveltwo": {
+            "plusUltra": {
+                "name": "オセオンスマッシュ",
+                "description": "敵単体に<span style=\"color: #79ff80;\">600</span>%ダメージ、一時的なかばう・挑発全て解除、中確率 (40%)でスタン(2ターン)を付与、中確率 (40%)で拘束(2ターン)を付与<br>味方全体のスキル威力<span style=\"color: #79ff80;\">30</span>%アップ(3ターン)<br>このスキルに貫通を付与<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルに必中を付与</color=#f68b1e>"
+            },
+            "actionSkill1": {
+                "name": "デトロイトスマッシュ",
+                "description": "敵単体に<span style=\"color: #79ff80;\">325</span>%ダメージ、中確率 (40%)でスタン(2ターン)を付与<br>敵がかばう、挑発だったらこのスキルに貫通を付与、スキル威力を<span style=\"color: #79ff80;\">25</span>%アップ",
+                "coolTime": "4"
+            },
+            "actionSkill2": {
+                "name": "黒鞭",
+                "description": "敵単体に<span style=\"color: #79ff80;\">300</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与、スキル威力を<span style=\"color: #ff6f6f;\">25</span>%ダウン(3ターン)",
+                "coolTime": "5"
+            },
+            "autoSkill1": {
+                "name": "柔軟な思考",
+                "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に2回攻撃しきる②バトル開始から5ターン経過)<br>自分のHPが50%未満の時、自分のクールタイム<span style=\"color: #79ff80;\">3</span>短縮(最大1回)、プルスウルトラゲージ<span style=\"color: #79ff80;\">35</span>%アップ(最大1回)、くいしばり(2ターン)を付与(最大1回)                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +520<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +49<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +10000<br>"
+            },
+            "autoSkill2": {
+                "name": "謹厳実直",
+                "description": "2ターン毎に、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">25</span>%アップ、プルスウルトラ技威力<span style=\"color: #79ff80;\">15</span>%アップ(累積)<br>自分のプルスウルトラ効率<span style=\"color: #79ff80;\">50</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分がプルスウルトラ技で相手に2回攻撃しきった時、味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮(最大1回)、スキル威力<span style=\"color: #79ff80;\">10</span>%アップ(最大5回)</color=#f68b1e>"
+            }
+        },
+        "levelthree": {
+            "plusUltra": {
+                "name": "オセオンスマッシュ",
+                "description": "敵単体に<span style=\"color: #79ff80;\">650</span>%ダメージ、一時的なかばう・挑発全て解除、中確率 (40%)でスタン(2ターン)を付与、中確率 (40%)で拘束(2ターン)を付与<br>味方全体のスキル威力<span style=\"color: #79ff80;\">35</span>%アップ(3ターン)<br>このスキルに貫通を付与<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルに必中を付与</color=#f68b1e>"
+            },
+            "actionSkill1": {
+                "name": "デトロイトスマッシュ",
+                "description": "敵単体に<span style=\"color: #79ff80;\">350</span>%ダメージ、中確率 (40%)でスタン(2ターン)を付与<br>敵がかばう、挑発だったらこのスキルに貫通を付与、スキル威力を<span style=\"color: #79ff80;\">30</span>%アップ",
+                "coolTime": "4"
+            },
+            "actionSkill2": {
+                "name": "黒鞭",
+                "description": "敵単体に<span style=\"color: #79ff80;\">325</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与、スキル威力を<span style=\"color: #ff6f6f;\">30</span>%ダウン(3ターン)",
+                "coolTime": "4"
+            },
+            "autoSkill1": {
+                "name": "柔軟な思考",
+                "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に2回攻撃しきる②バトル開始から5ターン経過)<br>自分のHPが50%未満の時、自分のクールタイム<span style=\"color: #79ff80;\">3</span>短縮(最大1回)、プルスウルトラゲージ<span style=\"color: #79ff80;\">40</span>%アップ(最大1回)、くいしばり(2ターン)を付与(最大1回)                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +520<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +49<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +10000<br>"
+            },
+            "autoSkill2": {
+                "name": "謹厳実直",
+                "description": "2ターン毎に、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">30</span>%アップ、プルスウルトラ技威力<span style=\"color: #79ff80;\">20</span>%アップ(累積)<br>自分のプルスウルトラ効率<span style=\"color: #79ff80;\">60</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分がプルスウルトラ技で相手に2回攻撃しきった時、味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮(最大1回)、スキル威力<span style=\"color: #79ff80;\">10</span>%アップ(最大5回)</color=#f68b1e>"
+            }
+        },
+        "dxlevelone": {
+            "plusUltra": {
+                "name": "オセオンスマッシュ",
+                "description": "敵単体に<span style=\"color: #79ff80;\">650</span>%ダメージ、一時的なかばう・挑発全て解除、中確率 (40%)でスタン(2ターン)を付与、中確率 (40%)で拘束(2ターン)を付与<br>味方全体のスキル威力<span style=\"color: #79ff80;\">35</span>%アップ(3ターン)<br>このスキルに貫通を付与<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルに必中を付与</color=#f68b1e>"
+            },
+            "actionSkill1": {
+                "name": "デトロイトスマッシュ DX",
+                "description": "敵単体に<span style=\"color: #79ff80;\">375</span>%ダメージ、中確率 (40%)でスタン(2ターン)を付与<br>敵がかばう、挑発だったらこのスキルに貫通を付与、スキル威力を<span style=\"color: #79ff80;\">30</span>%アップ",
+                "coolTime": "4"
+            },
+            "actionSkill2": {
+                "name": "黒鞭 DX",
+                "description": "敵単体に<span style=\"color: #79ff80;\">350</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与、スキル威力を<span style=\"color: #ff6f6f;\">30</span>%ダウン(3ターン)",
+                "coolTime": "4"
+            },
+            "autoSkill1": {
+                "name": "柔軟な思考",
+                "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に2回攻撃しきる②バトル開始から5ターン経過)<br>自分のHPが50%未満の時、自分のクールタイム<span style=\"color: #79ff80;\">3</span>短縮(最大1回)、プルスウルトラゲージ<span style=\"color: #79ff80;\">40</span>%アップ(最大1回)、くいしばり(2ターン)を付与(最大1回)                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +520<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +49<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +10000<br>"
+            },
+            "autoSkill2": {
+                "name": "謹厳実直",
+                "description": "2ターン毎に、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">30</span>%アップ、プルスウルトラ技威力<span style=\"color: #79ff80;\">20</span>%アップ(累積)<br>自分のプルスウルトラ効率<span style=\"color: #79ff80;\">60</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分がプルスウルトラ技で相手に2回攻撃しきった時、味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮(最大1回)、スキル威力<span style=\"color: #79ff80;\">10</span>%アップ(最大5回)</color=#f68b1e>"
+            }
+        },
+        "dxleveltwo": {
+            "plusUltra": {
+                "name": "オセオンスマッシュ",
+                "description": "敵単体に<span style=\"color: #79ff80;\">650</span>%ダメージ、一時的なかばう・挑発全て解除、中確率 (40%)でスタン(2ターン)を付与、中確率 (40%)で拘束(2ターン)を付与<br>味方全体のスキル威力<span style=\"color: #79ff80;\">35</span>%アップ(3ターン)<br>このスキルに貫通を付与<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルに必中を付与</color=#f68b1e>"
+            },
+            "actionSkill1": {
+                "name": "デトロイトスマッシュ DX",
+                "description": "敵単体に<span style=\"color: #79ff80;\">400</span>%ダメージ、中確率 (40%)でスタン(2ターン)を付与<br>敵がかばう、挑発だったらこのスキルに貫通を付与、スキル威力を<span style=\"color: #79ff80;\">30</span>%アップ",
+                "coolTime": "4"
+            },
+            "actionSkill2": {
+                "name": "黒鞭 DX",
+                "description": "敵単体に<span style=\"color: #79ff80;\">375</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与、スキル威力を<span style=\"color: #ff6f6f;\">30</span>%ダウン(3ターン)",
+                "coolTime": "4"
+            },
+            "autoSkill1": {
+                "name": "柔軟な思考",
+                "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に2回攻撃しきる②バトル開始から5ターン経過)<br>自分のHPが50%未満の時、自分のクールタイム<span style=\"color: #79ff80;\">3</span>短縮(最大1回)、プルスウルトラゲージ<span style=\"color: #79ff80;\">40</span>%アップ(最大1回)、くいしばり(2ターン)を付与(最大1回)                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +520<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +49<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +10000<br>"
+            },
+            "autoSkill2": {
+                "name": "謹厳実直",
+                "description": "2ターン毎に、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">30</span>%アップ、プルスウルトラ技威力<span style=\"color: #79ff80;\">20</span>%アップ(累積)<br>自分のプルスウルトラ効率<span style=\"color: #79ff80;\">60</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分がプルスウルトラ技で相手に2回攻撃しきった時、味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮(最大1回)、スキル威力<span style=\"color: #79ff80;\">10</span>%アップ(最大5回)</color=#f68b1e>"
+            }
+        }
+    }
+}

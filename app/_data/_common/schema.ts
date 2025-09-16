@@ -206,6 +206,7 @@ export const CharacterSkills = z.enum([
   "凶刃",
   "状態異常制限",
   "強化制限",
+  "消えない怨嗟"
 ] as const);
 
 export const MemorySkills = z.enum([
@@ -272,6 +273,8 @@ export const MemorySkills = z.enum([
   "混乱",
   "拘束",
   "プルスウルトラゲージ上昇量アップ",
+  "業火命中率アップ",
+  "プルスウルトラ効率アップ"
 ] as const);
 
 export const Tags = z.enum([
