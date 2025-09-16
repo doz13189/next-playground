@@ -1198,5 +1198,10 @@ export const skills: z.infer<typeof SkillsSchema> = {
         '自分に付与される一時的な強化の個数を<span style="color:#ff3232;">X</span>個までに制限する\n個数が上限に達している状態では、新たに一時的な強化を付与・更新することができなくなる\n※既に付与されている一時的な強化については解除されない',
       iconUrl: "/assets/buffs_debuffs/battle_status_icon_debuff_036.webp",
     },
+    {
+      "name": "消えない怨嗟",
+      "description": "業火・熱傷を受けた時、燃焼が変換されずに残るようになる",
+      "iconUrl": "/assets/buffs_debuffs/battle_status_icon_debuff_037.webp"
+    }
   ],
 };
