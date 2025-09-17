@@ -3346,121 +3346,121 @@ export const characters: z.infer<typeof CharactersSchema> = {
             "levelone": {
                 "plusUltra": {
                     "name": "オセオンスマッシュ",
-                    "description": "敵単体に<span style=\"color: #79ff80;\">550</span>%ダメージ、一時的なかばう・挑発全て解除、中確率 (40%)でスタン(2ターン)を付与、中確率 (40%)で拘束(2ターン)を付与<br>味方全体のスキル威力<span style=\"color: #79ff80;\">25</span>%アップ(3ターン)<br>このスキルに貫通を付与<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルに必中を付与</color=#f68b1e>"
+                    "description": "敵単体に<span style=\"color: #3C9A66;\">550</span>%ダメージ、一時的なかばう・挑発全て解除、中確率 (40%)でスタン(2ターン)を付与、中確率 (40%)で拘束(2ターン)を付与<br>味方全体のスキル威力<span style=\"color: #3C9A66;\">25</span>%アップ(3ターン)<br>このスキルに貫通を付与<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルに必中を付与</color=#f68b1e>"
                 },
                 "actionSkill1": {
                     "name": "デトロイトスマッシュ",
-                    "description": "敵単体に<span style=\"color: #79ff80;\">300</span>%ダメージ、中確率 (40%)でスタン(2ターン)を付与<br>敵がかばう、挑発だったらこのスキルに貫通を付与、スキル威力を<span style=\"color: #79ff80;\">20</span>%アップ",
+                    "description": "敵単体に<span style=\"color: #3C9A66;\">300</span>%ダメージ、中確率 (40%)でスタン(2ターン)を付与<br>敵がかばう、挑発だったらこのスキルに貫通を付与、スキル威力を<span style=\"color: #3C9A66;\">20</span>%アップ",
                     "coolTime": "4"
                 },
                 "actionSkill2": {
                     "name": "黒鞭",
-                    "description": "敵単体に<span style=\"color: #79ff80;\">275</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与、スキル威力を<span style=\"color: #ff6f6f;\">20</span>%ダウン(3ターン)",
+                    "description": "敵単体に<span style=\"color: #3C9A66;\">275</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与、スキル威力を<span style=\"color: #ff6f6f;\">20</span>%ダウン(3ターン)",
                     "coolTime": "6"
                 },
                 "autoSkill1": {
                     "name": "柔軟な思考",
-                    "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に2回攻撃しきる②バトル開始から5ターン経過)<br>自分のHPが50%未満の時、自分のクールタイム<span style=\"color: #79ff80;\">3</span>短縮(最大1回)、プルスウルトラゲージ<span style=\"color: #79ff80;\">30</span>%アップ(最大1回)、くいしばり(2ターン)を付与(最大1回)                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +520<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +49<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +10000<br>"
+                    "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に2回攻撃しきる②バトル開始から5ターン経過)<br>自分のHPが50%未満の時、自分のクールタイム<span style=\"color: #3C9A66;\">3</span>短縮(最大1回)、プルスウルトラゲージ<span style=\"color: #3C9A66;\">30</span>%アップ(最大1回)、くいしばり(2ターン)を付与(最大1回)                <br><br><h5 style=\" font-size: 16px;\">Enhance Buffs</h5>                            <span style=\" font-size: 12px; color: #ff6f6f\">基礎攻撃力アップ</span>: +520<br>                                                    <span style=\" font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +49<br>                                                    <span style=\" font-size: 12px; color: #3C9A66\">基礎最大HPアップ</span>: +10000<br>"
                 },
                 "autoSkill2": {
                     "name": "謹厳実直",
-                    "description": "2ターン毎に、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">20</span>%アップ、プルスウルトラ技威力<span style=\"color: #79ff80;\">10</span>%アップ(累積)<br>自分のプルスウルトラ効率<span style=\"color: #79ff80;\">40</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分がプルスウルトラ技で相手に2回攻撃しきった時、味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮(最大1回)、スキル威力<span style=\"color: #79ff80;\">10</span>%アップ(最大5回)</color=#f68b1e>"
+                    "description": "2ターン毎に、自分のプルスウルトラゲージ<span style=\"color: #3C9A66;\">20</span>%アップ、プルスウルトラ技威力<span style=\"color: #3C9A66;\">10</span>%アップ(累積)<br>自分のプルスウルトラ効率<span style=\"color: #3C9A66;\">40</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分がプルスウルトラ技で相手に2回攻撃しきった時、味方全体のクールタイム<span style=\"color: #3C9A66;\">1</span>短縮(最大1回)、スキル威力<span style=\"color: #3C9A66;\">10</span>%アップ(最大5回)</color=#f68b1e>"
                 }
             },
             "leveltwo": {
                 "plusUltra": {
                     "name": "オセオンスマッシュ",
-                    "description": "敵単体に<span style=\"color: #79ff80;\">600</span>%ダメージ、一時的なかばう・挑発全て解除、中確率 (40%)でスタン(2ターン)を付与、中確率 (40%)で拘束(2ターン)を付与<br>味方全体のスキル威力<span style=\"color: #79ff80;\">30</span>%アップ(3ターン)<br>このスキルに貫通を付与<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルに必中を付与</color=#f68b1e>"
+                    "description": "敵単体に<span style=\"color: #3C9A66;\">600</span>%ダメージ、一時的なかばう・挑発全て解除、中確率 (40%)でスタン(2ターン)を付与、中確率 (40%)で拘束(2ターン)を付与<br>味方全体のスキル威力<span style=\"color: #3C9A66;\">30</span>%アップ(3ターン)<br>このスキルに貫通を付与<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルに必中を付与</color=#f68b1e>"
                 },
                 "actionSkill1": {
                     "name": "デトロイトスマッシュ",
-                    "description": "敵単体に<span style=\"color: #79ff80;\">325</span>%ダメージ、中確率 (40%)でスタン(2ターン)を付与<br>敵がかばう、挑発だったらこのスキルに貫通を付与、スキル威力を<span style=\"color: #79ff80;\">25</span>%アップ",
+                    "description": "敵単体に<span style=\"color: #3C9A66;\">325</span>%ダメージ、中確率 (40%)でスタン(2ターン)を付与<br>敵がかばう、挑発だったらこのスキルに貫通を付与、スキル威力を<span style=\"color: #3C9A66;\">25</span>%アップ",
                     "coolTime": "4"
                 },
                 "actionSkill2": {
                     "name": "黒鞭",
-                    "description": "敵単体に<span style=\"color: #79ff80;\">300</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与、スキル威力を<span style=\"color: #ff6f6f;\">25</span>%ダウン(3ターン)",
+                    "description": "敵単体に<span style=\"color: #3C9A66;\">300</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与、スキル威力を<span style=\"color: #ff6f6f;\">25</span>%ダウン(3ターン)",
                     "coolTime": "5"
                 },
                 "autoSkill1": {
                     "name": "柔軟な思考",
-                    "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に2回攻撃しきる②バトル開始から5ターン経過)<br>自分のHPが50%未満の時、自分のクールタイム<span style=\"color: #79ff80;\">3</span>短縮(最大1回)、プルスウルトラゲージ<span style=\"color: #79ff80;\">35</span>%アップ(最大1回)、くいしばり(2ターン)を付与(最大1回)                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +520<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +49<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +10000<br>"
+                    "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に2回攻撃しきる②バトル開始から5ターン経過)<br>自分のHPが50%未満の時、自分のクールタイム<span style=\"color: #3C9A66;\">3</span>短縮(最大1回)、プルスウルトラゲージ<span style=\"color: #3C9A66;\">35</span>%アップ(最大1回)、くいしばり(2ターン)を付与(最大1回)                <br><br><h5 style=\" font-size: 16px;\">Enhance Buffs</h5>                            <span style=\" font-size: 12px; color: #ff6f6f\">基礎攻撃力アップ</span>: +520<br>                                                    <span style=\" font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +49<br>                                                    <span style=\" font-size: 12px; color: #3C9A66\">基礎最大HPアップ</span>: +10000<br>"
                 },
                 "autoSkill2": {
                     "name": "謹厳実直",
-                    "description": "2ターン毎に、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">25</span>%アップ、プルスウルトラ技威力<span style=\"color: #79ff80;\">15</span>%アップ(累積)<br>自分のプルスウルトラ効率<span style=\"color: #79ff80;\">50</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分がプルスウルトラ技で相手に2回攻撃しきった時、味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮(最大1回)、スキル威力<span style=\"color: #79ff80;\">10</span>%アップ(最大5回)</color=#f68b1e>"
+                    "description": "2ターン毎に、自分のプルスウルトラゲージ<span style=\"color: #3C9A66;\">25</span>%アップ、プルスウルトラ技威力<span style=\"color: #3C9A66;\">15</span>%アップ(累積)<br>自分のプルスウルトラ効率<span style=\"color: #3C9A66;\">50</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分がプルスウルトラ技で相手に2回攻撃しきった時、味方全体のクールタイム<span style=\"color: #3C9A66;\">1</span>短縮(最大1回)、スキル威力<span style=\"color: #3C9A66;\">10</span>%アップ(最大5回)</color=#f68b1e>"
                 }
             },
             "levelthree": {
                 "plusUltra": {
                     "name": "オセオンスマッシュ",
-                    "description": "敵単体に<span style=\"color: #79ff80;\">650</span>%ダメージ、一時的なかばう・挑発全て解除、中確率 (40%)でスタン(2ターン)を付与、中確率 (40%)で拘束(2ターン)を付与<br>味方全体のスキル威力<span style=\"color: #79ff80;\">35</span>%アップ(3ターン)<br>このスキルに貫通を付与<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルに必中を付与</color=#f68b1e>"
+                    "description": "敵単体に<span style=\"color: #3C9A66;\">650</span>%ダメージ、一時的なかばう・挑発全て解除、中確率 (40%)でスタン(2ターン)を付与、中確率 (40%)で拘束(2ターン)を付与<br>味方全体のスキル威力<span style=\"color: #3C9A66;\">35</span>%アップ(3ターン)<br>このスキルに貫通を付与<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルに必中を付与</color=#f68b1e>"
                 },
                 "actionSkill1": {
                     "name": "デトロイトスマッシュ",
-                    "description": "敵単体に<span style=\"color: #79ff80;\">350</span>%ダメージ、中確率 (40%)でスタン(2ターン)を付与<br>敵がかばう、挑発だったらこのスキルに貫通を付与、スキル威力を<span style=\"color: #79ff80;\">30</span>%アップ",
+                    "description": "敵単体に<span style=\"color: #3C9A66;\">350</span>%ダメージ、中確率 (40%)でスタン(2ターン)を付与<br>敵がかばう、挑発だったらこのスキルに貫通を付与、スキル威力を<span style=\"color: #3C9A66;\">30</span>%アップ",
                     "coolTime": "4"
                 },
                 "actionSkill2": {
                     "name": "黒鞭",
-                    "description": "敵単体に<span style=\"color: #79ff80;\">325</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与、スキル威力を<span style=\"color: #ff6f6f;\">30</span>%ダウン(3ターン)",
+                    "description": "敵単体に<span style=\"color: #3C9A66;\">325</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与、スキル威力を<span style=\"color: #ff6f6f;\">30</span>%ダウン(3ターン)",
                     "coolTime": "4"
                 },
                 "autoSkill1": {
                     "name": "柔軟な思考",
-                    "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に2回攻撃しきる②バトル開始から5ターン経過)<br>自分のHPが50%未満の時、自分のクールタイム<span style=\"color: #79ff80;\">3</span>短縮(最大1回)、プルスウルトラゲージ<span style=\"color: #79ff80;\">40</span>%アップ(最大1回)、くいしばり(2ターン)を付与(最大1回)                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +520<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +49<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +10000<br>"
+                    "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に2回攻撃しきる②バトル開始から5ターン経過)<br>自分のHPが50%未満の時、自分のクールタイム<span style=\"color: #3C9A66;\">3</span>短縮(最大1回)、プルスウルトラゲージ<span style=\"color: #3C9A66;\">40</span>%アップ(最大1回)、くいしばり(2ターン)を付与(最大1回)                <br><br><h5 style=\" font-size: 16px;\">Enhance Buffs</h5>                            <span style=\" font-size: 12px; color: #ff6f6f\">基礎攻撃力アップ</span>: +520<br>                                                    <span style=\" font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +49<br>                                                    <span style=\" font-size: 12px; color: #3C9A66\">基礎最大HPアップ</span>: +10000<br>"
                 },
                 "autoSkill2": {
                     "name": "謹厳実直",
-                    "description": "2ターン毎に、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">30</span>%アップ、プルスウルトラ技威力<span style=\"color: #79ff80;\">20</span>%アップ(累積)<br>自分のプルスウルトラ効率<span style=\"color: #79ff80;\">60</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分がプルスウルトラ技で相手に2回攻撃しきった時、味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮(最大1回)、スキル威力<span style=\"color: #79ff80;\">10</span>%アップ(最大5回)</color=#f68b1e>"
+                    "description": "2ターン毎に、自分のプルスウルトラゲージ<span style=\"color: #3C9A66;\">30</span>%アップ、プルスウルトラ技威力<span style=\"color: #3C9A66;\">20</span>%アップ(累積)<br>自分のプルスウルトラ効率<span style=\"color: #3C9A66;\">60</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分がプルスウルトラ技で相手に2回攻撃しきった時、味方全体のクールタイム<span style=\"color: #3C9A66;\">1</span>短縮(最大1回)、スキル威力<span style=\"color: #3C9A66;\">10</span>%アップ(最大5回)</color=#f68b1e>"
                 }
             },
             "dxlevelone": {
                 "plusUltra": {
                     "name": "オセオンスマッシュ",
-                    "description": "敵単体に<span style=\"color: #79ff80;\">650</span>%ダメージ、一時的なかばう・挑発全て解除、中確率 (40%)でスタン(2ターン)を付与、中確率 (40%)で拘束(2ターン)を付与<br>味方全体のスキル威力<span style=\"color: #79ff80;\">35</span>%アップ(3ターン)<br>このスキルに貫通を付与<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルに必中を付与</color=#f68b1e>"
+                    "description": "敵単体に<span style=\"color: #3C9A66;\">650</span>%ダメージ、一時的なかばう・挑発全て解除、中確率 (40%)でスタン(2ターン)を付与、中確率 (40%)で拘束(2ターン)を付与<br>味方全体のスキル威力<span style=\"color: #3C9A66;\">35</span>%アップ(3ターン)<br>このスキルに貫通を付与<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルに必中を付与</color=#f68b1e>"
                 },
                 "actionSkill1": {
                     "name": "デトロイトスマッシュ DX",
-                    "description": "敵単体に<span style=\"color: #79ff80;\">375</span>%ダメージ、中確率 (40%)でスタン(2ターン)を付与<br>敵がかばう、挑発だったらこのスキルに貫通を付与、スキル威力を<span style=\"color: #79ff80;\">30</span>%アップ",
+                    "description": "敵単体に<span style=\"color: #3C9A66;\">375</span>%ダメージ、中確率 (40%)でスタン(2ターン)を付与<br>敵がかばう、挑発だったらこのスキルに貫通を付与、スキル威力を<span style=\"color: #3C9A66;\">30</span>%アップ",
                     "coolTime": "4"
                 },
                 "actionSkill2": {
                     "name": "黒鞭 DX",
-                    "description": "敵単体に<span style=\"color: #79ff80;\">350</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与、スキル威力を<span style=\"color: #ff6f6f;\">30</span>%ダウン(3ターン)",
+                    "description": "敵単体に<span style=\"color: #3C9A66;\">350</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与、スキル威力を<span style=\"color: #ff6f6f;\">30</span>%ダウン(3ターン)",
                     "coolTime": "4"
                 },
                 "autoSkill1": {
                     "name": "柔軟な思考",
-                    "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に2回攻撃しきる②バトル開始から5ターン経過)<br>自分のHPが50%未満の時、自分のクールタイム<span style=\"color: #79ff80;\">3</span>短縮(最大1回)、プルスウルトラゲージ<span style=\"color: #79ff80;\">40</span>%アップ(最大1回)、くいしばり(2ターン)を付与(最大1回)                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +520<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +49<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +10000<br>"
+                    "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に2回攻撃しきる②バトル開始から5ターン経過)<br>自分のHPが50%未満の時、自分のクールタイム<span style=\"color: #3C9A66;\">3</span>短縮(最大1回)、プルスウルトラゲージ<span style=\"color: #3C9A66;\">40</span>%アップ(最大1回)、くいしばり(2ターン)を付与(最大1回)                <br><br><h5 style=\" font-size: 16px;\">Enhance Buffs</h5>                            <span style=\" font-size: 12px; color: #ff6f6f\">基礎攻撃力アップ</span>: +520<br>                                                    <span style=\" font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +49<br>                                                    <span style=\" font-size: 12px; color: #3C9A66\">基礎最大HPアップ</span>: +10000<br>"
                 },
                 "autoSkill2": {
                     "name": "謹厳実直",
-                    "description": "2ターン毎に、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">30</span>%アップ、プルスウルトラ技威力<span style=\"color: #79ff80;\">20</span>%アップ(累積)<br>自分のプルスウルトラ効率<span style=\"color: #79ff80;\">60</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分がプルスウルトラ技で相手に2回攻撃しきった時、味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮(最大1回)、スキル威力<span style=\"color: #79ff80;\">10</span>%アップ(最大5回)</color=#f68b1e>"
+                    "description": "2ターン毎に、自分のプルスウルトラゲージ<span style=\"color: #3C9A66;\">30</span>%アップ、プルスウルトラ技威力<span style=\"color: #3C9A66;\">20</span>%アップ(累積)<br>自分のプルスウルトラ効率<span style=\"color: #3C9A66;\">60</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分がプルスウルトラ技で相手に2回攻撃しきった時、味方全体のクールタイム<span style=\"color: #3C9A66;\">1</span>短縮(最大1回)、スキル威力<span style=\"color: #3C9A66;\">10</span>%アップ(最大5回)</color=#f68b1e>"
                 }
             },
             "dxleveltwo": {
                 "plusUltra": {
                     "name": "オセオンスマッシュ",
-                    "description": "敵単体に<span style=\"color: #79ff80;\">650</span>%ダメージ、一時的なかばう・挑発全て解除、中確率 (40%)でスタン(2ターン)を付与、中確率 (40%)で拘束(2ターン)を付与<br>味方全体のスキル威力<span style=\"color: #79ff80;\">35</span>%アップ(3ターン)<br>このスキルに貫通を付与<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルに必中を付与</color=#f68b1e>"
+                    "description": "敵単体に<span style=\"color: #3C9A66;\">650</span>%ダメージ、一時的なかばう・挑発全て解除、中確率 (40%)でスタン(2ターン)を付与、中確率 (40%)で拘束(2ターン)を付与<br>味方全体のスキル威力<span style=\"color: #3C9A66;\">35</span>%アップ(3ターン)<br>このスキルに貫通を付与<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルに必中を付与</color=#f68b1e>"
                 },
                 "actionSkill1": {
                     "name": "デトロイトスマッシュ DX",
-                    "description": "敵単体に<span style=\"color: #79ff80;\">400</span>%ダメージ、中確率 (40%)でスタン(2ターン)を付与<br>敵がかばう、挑発だったらこのスキルに貫通を付与、スキル威力を<span style=\"color: #79ff80;\">30</span>%アップ",
+                    "description": "敵単体に<span style=\"color: #3C9A66;\">400</span>%ダメージ、中確率 (40%)でスタン(2ターン)を付与<br>敵がかばう、挑発だったらこのスキルに貫通を付与、スキル威力を<span style=\"color: #3C9A66;\">30</span>%アップ",
                     "coolTime": "4"
                 },
                 "actionSkill2": {
                     "name": "黒鞭 DX",
-                    "description": "敵単体に<span style=\"color: #79ff80;\">375</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与、スキル威力を<span style=\"color: #ff6f6f;\">30</span>%ダウン(3ターン)",
+                    "description": "敵単体に<span style=\"color: #3C9A66;\">375</span>%ダメージ、中確率 (40%)で拘束(2ターン)を付与、スキル威力を<span style=\"color: #ff6f6f;\">30</span>%ダウン(3ターン)",
                     "coolTime": "4"
                 },
                 "autoSkill1": {
                     "name": "柔軟な思考",
-                    "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に2回攻撃しきる②バトル開始から5ターン経過)<br>自分のHPが50%未満の時、自分のクールタイム<span style=\"color: #79ff80;\">3</span>短縮(最大1回)、プルスウルトラゲージ<span style=\"color: #79ff80;\">40</span>%アップ(最大1回)、くいしばり(2ターン)を付与(最大1回)                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +520<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +49<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +10000<br>"
+                    "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に2回攻撃しきる②バトル開始から5ターン経過)<br>自分のHPが50%未満の時、自分のクールタイム<span style=\"color: #3C9A66;\">3</span>短縮(最大1回)、プルスウルトラゲージ<span style=\"color: #3C9A66;\">40</span>%アップ(最大1回)、くいしばり(2ターン)を付与(最大1回)                <br><br><h5 style=\" font-size: 16px;\">Enhance Buffs</h5>                            <span style=\" font-size: 12px; color: #ff6f6f\">基礎攻撃力アップ</span>: +520<br>                                                    <span style=\" font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +49<br>                                                    <span style=\" font-size: 12px; color: #3C9A66\">基礎最大HPアップ</span>: +10000<br>"
                 },
                 "autoSkill2": {
                     "name": "謹厳実直",
-                    "description": "2ターン毎に、自分のプルスウルトラゲージ<span style=\"color: #79ff80;\">30</span>%アップ、プルスウルトラ技威力<span style=\"color: #79ff80;\">20</span>%アップ(累積)<br>自分のプルスウルトラ効率<span style=\"color: #79ff80;\">60</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分がプルスウルトラ技で相手に2回攻撃しきった時、味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮(最大1回)、スキル威力<span style=\"color: #79ff80;\">10</span>%アップ(最大5回)</color=#f68b1e>"
+                    "description": "2ターン毎に、自分のプルスウルトラゲージ<span style=\"color: #3C9A66;\">30</span>%アップ、プルスウルトラ技威力<span style=\"color: #3C9A66;\">20</span>%アップ(累積)<br>自分のプルスウルトラ効率<span style=\"color: #3C9A66;\">60</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分がプルスウルトラ技で相手に2回攻撃しきった時、味方全体のクールタイム<span style=\"color: #3C9A66;\">1</span>短縮(最大1回)、スキル威力<span style=\"color: #3C9A66;\">10</span>%アップ(最大5回)</color=#f68b1e>"
                 }
             }
         }
@@ -57477,121 +57477,121 @@ export const characters: z.infer<typeof CharactersSchema> = {
             "levelone": {
                 "plusUltra": {
                     "name": "蒼炎ノ極熱",
-                    "description": "敵単体に<span style=\"color: #79ff80;\">300</span>%ダメージ<br>敵全体に<span style=\"color: #79ff80;\">100</span>%ダメージ<br>敵単体に業火を付与<br>自分が凍傷でない時、敵全体に高確率 (70%)で業火を付与<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<br>このスキルに必中を付与"
+                    "description": "敵単体に<span style=\"color: #3C9A66;\">300</span>%ダメージ<br>敵全体に<span style=\"color: #3C9A66;\">100</span>%ダメージ<br>敵単体に業火を付与<br>自分が凍傷でない時、敵全体に高確率 (70%)で業火を付与<br>味方全体のクールタイム<span style=\"color: #3C9A66;\">1</span>短縮<br>このスキルに必中を付与"
                 },
                 "actionSkill1": {
                     "name": "焔螺",
-                    "description": "敵全体に<span style=\"color: #79ff80;\">150</span>%ダメージ、燃焼を熱傷<span style=\"color: #ff6f6f;\">9</span>%(3ターン)に変換<br>自分が凍傷でない時、敵全体にクールタイム<span style=\"color: #ff6f6f;\">1</span>増加(2ターン)を付与※アリーナ、サークル祭限定効果、中確率 (40%)で業火を付与<br>このスキルに必中を付与",
+                    "description": "敵全体に<span style=\"color: #3C9A66;\">150</span>%ダメージ、燃焼を熱傷<span style=\"color: #ff6f6f;\">9</span>%(3ターン)に変換<br>自分が凍傷でない時、敵全体にクールタイム<span style=\"color: #ff6f6f;\">1</span>増加(2ターン)を付与※アリーナ、サークル祭限定効果、中確率 (40%)で業火を付与<br>このスキルに必中を付与",
                     "coolTime": "5"
                 },
                 "actionSkill2": {
                     "name": "断罪ノ蒼",
-                    "description": "敵全体に<span style=\"color: #79ff80;\">200</span>%ダメージ、高確率 (70%)で業火を付与<br>敵全体の熱傷のキャラのクリティカル抵抗<span style=\"color: #ff6f6f;\">15</span>%ダウン(3ターン)<br>自分のクリティカル威力<span style=\"color: #79ff80;\">12</span>%アップ(3ターン)<br>このスキルに必中を付与<color=#f68b1e><br>▼エンハンス追加効果<br>敵全体の熱傷のキャラに中確率 (40%)で状態異常回復阻害(2ターン)を付与<br>自分が凍傷でない時、敵全体の燃焼を中確率 (40%)で熱傷<span style=\"color: #ff6f6f;\">15</span>%(3ターン)に変換",
+                    "description": "敵全体に<span style=\"color: #3C9A66;\">200</span>%ダメージ、高確率 (70%)で業火を付与<br>敵全体の熱傷のキャラのクリティカル抵抗<span style=\"color: #ff6f6f;\">15</span>%ダウン(3ターン)<br>自分のクリティカル威力<span style=\"color: #3C9A66;\">12</span>%アップ(3ターン)<br>このスキルに必中を付与<color=#f68b1e><br>▼エンハンス追加効果<br>敵全体の熱傷のキャラに中確率 (40%)で状態異常回復阻害(2ターン)を付与<br>自分が凍傷でない時、敵全体の燃焼を中確率 (40%)で熱傷<span style=\"color: #ff6f6f;\">15</span>%(3ターン)に変換",
                     "coolTime": "5"
                 },
                 "autoSkill1": {
                     "name": "募る恨み",
-                    "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がクリティカル率アップのまま2回ターンをまたぐ②バトル開始から3ターン経過)<br>自分のクリティカル率<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)(最大1回)※この効果は強化解除・強化阻害・強化制限できない<br>自分がクリティカル率アップのまま、1回ターンをまたいだ時、自分のクールタイム<span style=\"color: #79ff80;\">1</span>短縮(最大3回)<br>自分がクールタイム短縮を1回受けた時、自分のクリティカル威力<span style=\"color: #79ff80;\">10</span>%アップ(3ターン)                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +290<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +43<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +4200<br>"
+                    "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がクリティカル率アップのまま2回ターンをまたぐ②バトル開始から3ターン経過)<br>自分のクリティカル率<span style=\"color: #3C9A66;\">10</span>%アップ(3ターン)(最大1回)※この効果は強化解除・強化阻害・強化制限できない<br>自分がクリティカル率アップのまま、1回ターンをまたいだ時、自分のクールタイム<span style=\"color: #3C9A66;\">1</span>短縮(最大3回)<br>自分がクールタイム短縮を1回受けた時、自分のクリティカル威力<span style=\"color: #3C9A66;\">10</span>%アップ(3ターン)                <br><br><h5 style=\" font-size: 16px;\">Enhance Buffs</h5>                            <span style=\" font-size: 12px; color: #ff6f6f\">基礎攻撃力アップ</span>: +290<br>                                                    <span style=\" font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +43<br>                                                    <span style=\" font-size: 12px; color: #3C9A66\">基礎最大HPアップ</span>: +4200<br>"
                 },
                 "autoSkill2": {
                     "name": "留め続ける熱",
-                    "description": "敵全体に燃焼(4ターン)を付与(最大1回)<br>自分のHPが30%以上の時、敵全体に消えない怨嗟を付与※この効果はゲストでは発動しない<br>自分が凍傷の時、自分に平静を付与<br>自分が凍傷でない時、敵全体のスピード<span style=\"color: #ff6f6f;\">10</span>%ダウン<br>自分が凍傷でないまま、1回ターンをまたいだ時、自分のクリティカル威力<span style=\"color: #79ff80;\">15</span>%アップ(最大2回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が凍傷でない時、敵全体の燃焼耐性ダウン</color=#f68b1e>"
+                    "description": "敵全体に燃焼(4ターン)を付与(最大1回)<br>自分のHPが30%以上の時、敵全体に消えない怨嗟を付与※この効果はゲストでは発動しない<br>自分が凍傷の時、自分に平静を付与<br>自分が凍傷でない時、敵全体のスピード<span style=\"color: #ff6f6f;\">10</span>%ダウン<br>自分が凍傷でないまま、1回ターンをまたいだ時、自分のクリティカル威力<span style=\"color: #3C9A66;\">15</span>%アップ(最大2回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が凍傷でない時、敵全体の燃焼耐性ダウン</color=#f68b1e>"
                 }
             },
             "leveltwo": {
                 "plusUltra": {
                     "name": "蒼炎ノ極熱",
-                    "description": "敵単体に<span style=\"color: #79ff80;\">350</span>%ダメージ<br>敵全体に<span style=\"color: #79ff80;\">150</span>%ダメージ<br>敵単体に業火を付与<br>自分が凍傷でない時、敵全体に高確率 (70%)で業火を付与<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<br>このスキルに必中を付与"
+                    "description": "敵単体に<span style=\"color: #3C9A66;\">350</span>%ダメージ<br>敵全体に<span style=\"color: #3C9A66;\">150</span>%ダメージ<br>敵単体に業火を付与<br>自分が凍傷でない時、敵全体に高確率 (70%)で業火を付与<br>味方全体のクールタイム<span style=\"color: #3C9A66;\">1</span>短縮<br>このスキルに必中を付与"
                 },
                 "actionSkill1": {
                     "name": "焔螺",
-                    "description": "敵全体に<span style=\"color: #79ff80;\">175</span>%ダメージ、燃焼を熱傷<span style=\"color: #ff6f6f;\">12</span>%(3ターン)に変換<br>自分が凍傷でない時、敵全体にクールタイム<span style=\"color: #ff6f6f;\">1</span>増加(2ターン)を付与※アリーナ、サークル祭限定効果、中確率 (40%)で業火を付与<br>このスキルに必中を付与",
+                    "description": "敵全体に<span style=\"color: #3C9A66;\">175</span>%ダメージ、燃焼を熱傷<span style=\"color: #ff6f6f;\">12</span>%(3ターン)に変換<br>自分が凍傷でない時、敵全体にクールタイム<span style=\"color: #ff6f6f;\">1</span>増加(2ターン)を付与※アリーナ、サークル祭限定効果、中確率 (40%)で業火を付与<br>このスキルに必中を付与",
                     "coolTime": "5"
                 },
                 "actionSkill2": {
                     "name": "断罪ノ蒼",
-                    "description": "敵全体に<span style=\"color: #79ff80;\">225</span>%ダメージ、高確率 (70%)で業火を付与<br>敵全体の熱傷のキャラのクリティカル抵抗<span style=\"color: #ff6f6f;\">20</span>%ダウン(3ターン)<br>自分のクリティカル威力<span style=\"color: #79ff80;\">16</span>%アップ(3ターン)<br>このスキルに必中を付与<color=#f68b1e><br>▼エンハンス追加効果<br>敵全体の熱傷のキャラに中確率 (40%)で状態異常回復阻害(2ターン)を付与<br>自分が凍傷でない時、敵全体の燃焼を中確率 (40%)で熱傷<span style=\"color: #ff6f6f;\">20</span>%(3ターン)に変換",
+                    "description": "敵全体に<span style=\"color: #3C9A66;\">225</span>%ダメージ、高確率 (70%)で業火を付与<br>敵全体の熱傷のキャラのクリティカル抵抗<span style=\"color: #ff6f6f;\">20</span>%ダウン(3ターン)<br>自分のクリティカル威力<span style=\"color: #3C9A66;\">16</span>%アップ(3ターン)<br>このスキルに必中を付与<color=#f68b1e><br>▼エンハンス追加効果<br>敵全体の熱傷のキャラに中確率 (40%)で状態異常回復阻害(2ターン)を付与<br>自分が凍傷でない時、敵全体の燃焼を中確率 (40%)で熱傷<span style=\"color: #ff6f6f;\">20</span>%(3ターン)に変換",
                     "coolTime": "5"
                 },
                 "autoSkill1": {
                     "name": "募る恨み",
-                    "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がクリティカル率アップのまま2回ターンをまたぐ②バトル開始から3ターン経過)<br>自分のクリティカル率<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)(最大1回)※この効果は強化解除・強化阻害・強化制限できない<br>自分がクリティカル率アップのまま、1回ターンをまたいだ時、自分のクールタイム<span style=\"color: #79ff80;\">1</span>短縮(最大3回)<br>自分がクールタイム短縮を1回受けた時、自分のクリティカル威力<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +290<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +43<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +4200<br>"
+                    "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がクリティカル率アップのまま2回ターンをまたぐ②バトル開始から3ターン経過)<br>自分のクリティカル率<span style=\"color: #3C9A66;\">15</span>%アップ(3ターン)(最大1回)※この効果は強化解除・強化阻害・強化制限できない<br>自分がクリティカル率アップのまま、1回ターンをまたいだ時、自分のクールタイム<span style=\"color: #3C9A66;\">1</span>短縮(最大3回)<br>自分がクールタイム短縮を1回受けた時、自分のクリティカル威力<span style=\"color: #3C9A66;\">15</span>%アップ(3ターン)                <br><br><h5 style=\" font-size: 16px;\">Enhance Buffs</h5>                            <span style=\" font-size: 12px; color: #ff6f6f\">基礎攻撃力アップ</span>: +290<br>                                                    <span style=\" font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +43<br>                                                    <span style=\" font-size: 12px; color: #3C9A66\">基礎最大HPアップ</span>: +4200<br>"
                 },
                 "autoSkill2": {
                     "name": "留め続ける熱",
-                    "description": "敵全体に燃焼(4ターン)を付与(最大1回)<br>自分のHPが30%以上の時、敵全体に消えない怨嗟を付与※この効果はゲストでは発動しない<br>自分が凍傷の時、自分に平静を付与<br>自分が凍傷でない時、敵全体のスピード<span style=\"color: #ff6f6f;\">15</span>%ダウン<br>自分が凍傷でないまま、1回ターンをまたいだ時、自分のクリティカル威力<span style=\"color: #79ff80;\">20</span>%アップ(最大2回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が凍傷でない時、敵全体の燃焼耐性ダウン</color=#f68b1e>"
+                    "description": "敵全体に燃焼(4ターン)を付与(最大1回)<br>自分のHPが30%以上の時、敵全体に消えない怨嗟を付与※この効果はゲストでは発動しない<br>自分が凍傷の時、自分に平静を付与<br>自分が凍傷でない時、敵全体のスピード<span style=\"color: #ff6f6f;\">15</span>%ダウン<br>自分が凍傷でないまま、1回ターンをまたいだ時、自分のクリティカル威力<span style=\"color: #3C9A66;\">20</span>%アップ(最大2回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が凍傷でない時、敵全体の燃焼耐性ダウン</color=#f68b1e>"
                 }
             },
             "levelthree": {
                 "plusUltra": {
                     "name": "蒼炎ノ極熱",
-                    "description": "敵単体に<span style=\"color: #79ff80;\">400</span>%ダメージ<br>敵全体に<span style=\"color: #79ff80;\">200</span>%ダメージ<br>敵単体に業火を付与<br>自分が凍傷でない時、敵全体に高確率 (70%)で業火を付与<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<br>このスキルに必中を付与"
+                    "description": "敵単体に<span style=\"color: #3C9A66;\">400</span>%ダメージ<br>敵全体に<span style=\"color: #3C9A66;\">200</span>%ダメージ<br>敵単体に業火を付与<br>自分が凍傷でない時、敵全体に高確率 (70%)で業火を付与<br>味方全体のクールタイム<span style=\"color: #3C9A66;\">1</span>短縮<br>このスキルに必中を付与"
                 },
                 "actionSkill1": {
                     "name": "焔螺",
-                    "description": "敵全体に<span style=\"color: #79ff80;\">200</span>%ダメージ、燃焼を熱傷<span style=\"color: #ff6f6f;\">15</span>%(3ターン)に変換<br>自分が凍傷でない時、敵全体にクールタイム<span style=\"color: #ff6f6f;\">1</span>増加(2ターン)を付与※アリーナ、サークル祭限定効果、中確率 (40%)で業火を付与<br>このスキルに必中を付与",
+                    "description": "敵全体に<span style=\"color: #3C9A66;\">200</span>%ダメージ、燃焼を熱傷<span style=\"color: #ff6f6f;\">15</span>%(3ターン)に変換<br>自分が凍傷でない時、敵全体にクールタイム<span style=\"color: #ff6f6f;\">1</span>増加(2ターン)を付与※アリーナ、サークル祭限定効果、中確率 (40%)で業火を付与<br>このスキルに必中を付与",
                     "coolTime": "5"
                 },
                 "actionSkill2": {
                     "name": "断罪ノ蒼",
-                    "description": "敵全体に<span style=\"color: #79ff80;\">250</span>%ダメージ、高確率 (70%)で業火を付与<br>敵全体の熱傷のキャラのクリティカル抵抗<span style=\"color: #ff6f6f;\">25</span>%ダウン(3ターン)<br>自分のクリティカル威力<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>このスキルに必中を付与<color=#f68b1e><br>▼エンハンス追加効果<br>敵全体の熱傷のキャラに中確率 (40%)で状態異常回復阻害(2ターン)を付与<br>自分が凍傷でない時、敵全体の燃焼を中確率 (40%)で熱傷<span style=\"color: #ff6f6f;\">25</span>%(3ターン)に変換",
+                    "description": "敵全体に<span style=\"color: #3C9A66;\">250</span>%ダメージ、高確率 (70%)で業火を付与<br>敵全体の熱傷のキャラのクリティカル抵抗<span style=\"color: #ff6f6f;\">25</span>%ダウン(3ターン)<br>自分のクリティカル威力<span style=\"color: #3C9A66;\">20</span>%アップ(3ターン)<br>このスキルに必中を付与<color=#f68b1e><br>▼エンハンス追加効果<br>敵全体の熱傷のキャラに中確率 (40%)で状態異常回復阻害(2ターン)を付与<br>自分が凍傷でない時、敵全体の燃焼を中確率 (40%)で熱傷<span style=\"color: #ff6f6f;\">25</span>%(3ターン)に変換",
                     "coolTime": "5"
                 },
                 "autoSkill1": {
                     "name": "募る恨み",
-                    "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がクリティカル率アップのまま2回ターンをまたぐ②バトル開始から3ターン経過)<br>自分のクリティカル率<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)(最大1回)※この効果は強化解除・強化阻害・強化制限できない<br>自分がクリティカル率アップのまま、1回ターンをまたいだ時、自分のクールタイム<span style=\"color: #79ff80;\">1</span>短縮(最大3回)<br>自分がクールタイム短縮を1回受けた時、自分のクリティカル威力<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +290<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +43<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +4200<br>"
+                    "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がクリティカル率アップのまま2回ターンをまたぐ②バトル開始から3ターン経過)<br>自分のクリティカル率<span style=\"color: #3C9A66;\">20</span>%アップ(3ターン)(最大1回)※この効果は強化解除・強化阻害・強化制限できない<br>自分がクリティカル率アップのまま、1回ターンをまたいだ時、自分のクールタイム<span style=\"color: #3C9A66;\">1</span>短縮(最大3回)<br>自分がクールタイム短縮を1回受けた時、自分のクリティカル威力<span style=\"color: #3C9A66;\">20</span>%アップ(3ターン)                <br><br><h5 style=\" font-size: 16px;\">Enhance Buffs</h5>                            <span style=\" font-size: 12px; color: #ff6f6f\">基礎攻撃力アップ</span>: +290<br>                                                    <span style=\" font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +43<br>                                                    <span style=\" font-size: 12px; color: #3C9A66\">基礎最大HPアップ</span>: +4200<br>"
                 },
                 "autoSkill2": {
                     "name": "留め続ける熱",
-                    "description": "敵全体に燃焼(4ターン)を付与(最大1回)<br>自分のHPが30%以上の時、敵全体に消えない怨嗟を付与※この効果はゲストでは発動しない<br>自分が凍傷の時、自分に平静を付与<br>自分が凍傷でない時、敵全体のスピード<span style=\"color: #ff6f6f;\">20</span>%ダウン<br>自分が凍傷でないまま、1回ターンをまたいだ時、自分のクリティカル威力<span style=\"color: #79ff80;\">25</span>%アップ(最大2回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が凍傷でない時、敵全体の燃焼耐性ダウン</color=#f68b1e>"
+                    "description": "敵全体に燃焼(4ターン)を付与(最大1回)<br>自分のHPが30%以上の時、敵全体に消えない怨嗟を付与※この効果はゲストでは発動しない<br>自分が凍傷の時、自分に平静を付与<br>自分が凍傷でない時、敵全体のスピード<span style=\"color: #ff6f6f;\">20</span>%ダウン<br>自分が凍傷でないまま、1回ターンをまたいだ時、自分のクリティカル威力<span style=\"color: #3C9A66;\">25</span>%アップ(最大2回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が凍傷でない時、敵全体の燃焼耐性ダウン</color=#f68b1e>"
                 }
             },
             "dxlevelone": {
                 "plusUltra": {
                     "name": "蒼炎ノ極熱",
-                    "description": "敵単体に<span style=\"color: #79ff80;\">400</span>%ダメージ<br>敵全体に<span style=\"color: #79ff80;\">200</span>%ダメージ<br>敵単体に業火を付与<br>自分が凍傷でない時、敵全体に高確率 (70%)で業火を付与<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<br>このスキルに必中を付与"
+                    "description": "敵単体に<span style=\"color: #3C9A66;\">400</span>%ダメージ<br>敵全体に<span style=\"color: #3C9A66;\">200</span>%ダメージ<br>敵単体に業火を付与<br>自分が凍傷でない時、敵全体に高確率 (70%)で業火を付与<br>味方全体のクールタイム<span style=\"color: #3C9A66;\">1</span>短縮<br>このスキルに必中を付与"
                 },
                 "actionSkill1": {
                     "name": "焔螺 DX",
-                    "description": "敵全体に<span style=\"color: #79ff80;\">225</span>%ダメージ、燃焼を熱傷<span style=\"color: #ff6f6f;\">15</span>%(3ターン)に変換<br>自分が凍傷でない時、敵全体にクールタイム<span style=\"color: #ff6f6f;\">1</span>増加(2ターン)を付与※アリーナ、サークル祭限定効果、中確率 (40%)で業火を付与<br>このスキルに必中を付与",
+                    "description": "敵全体に<span style=\"color: #3C9A66;\">225</span>%ダメージ、燃焼を熱傷<span style=\"color: #ff6f6f;\">15</span>%(3ターン)に変換<br>自分が凍傷でない時、敵全体にクールタイム<span style=\"color: #ff6f6f;\">1</span>増加(2ターン)を付与※アリーナ、サークル祭限定効果、中確率 (40%)で業火を付与<br>このスキルに必中を付与",
                     "coolTime": "5"
                 },
                 "actionSkill2": {
                     "name": "断罪ノ蒼 DX",
-                    "description": "敵全体に<span style=\"color: #79ff80;\">275</span>%ダメージ、高確率 (70%)で業火を付与<br>敵全体の熱傷のキャラのクリティカル抵抗<span style=\"color: #ff6f6f;\">30</span>%ダウン(3ターン)<br>自分のクリティカル威力<span style=\"color: #79ff80;\">25</span>%アップ(3ターン)<br>このスキルに必中を付与<color=#f68b1e><br>▼エンハンス追加効果<br>敵全体の熱傷のキャラに中確率 (40%)で状態異常回復阻害(2ターン)を付与<br>自分が凍傷でない時、敵全体の燃焼を中確率 (40%)で熱傷<span style=\"color: #ff6f6f;\">25</span>%(3ターン)に変換",
+                    "description": "敵全体に<span style=\"color: #3C9A66;\">275</span>%ダメージ、高確率 (70%)で業火を付与<br>敵全体の熱傷のキャラのクリティカル抵抗<span style=\"color: #ff6f6f;\">30</span>%ダウン(3ターン)<br>自分のクリティカル威力<span style=\"color: #3C9A66;\">25</span>%アップ(3ターン)<br>このスキルに必中を付与<color=#f68b1e><br>▼エンハンス追加効果<br>敵全体の熱傷のキャラに中確率 (40%)で状態異常回復阻害(2ターン)を付与<br>自分が凍傷でない時、敵全体の燃焼を中確率 (40%)で熱傷<span style=\"color: #ff6f6f;\">25</span>%(3ターン)に変換",
                     "coolTime": "5"
                 },
                 "autoSkill1": {
                     "name": "募る恨み",
-                    "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がクリティカル率アップのまま2回ターンをまたぐ②バトル開始から3ターン経過)<br>自分のクリティカル率<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)(最大1回)※この効果は強化解除・強化阻害・強化制限できない<br>自分がクリティカル率アップのまま、1回ターンをまたいだ時、自分のクールタイム<span style=\"color: #79ff80;\">1</span>短縮(最大3回)<br>自分がクールタイム短縮を1回受けた時、自分のクリティカル威力<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +290<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +43<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +4200<br>"
+                    "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がクリティカル率アップのまま2回ターンをまたぐ②バトル開始から3ターン経過)<br>自分のクリティカル率<span style=\"color: #3C9A66;\">20</span>%アップ(3ターン)(最大1回)※この効果は強化解除・強化阻害・強化制限できない<br>自分がクリティカル率アップのまま、1回ターンをまたいだ時、自分のクールタイム<span style=\"color: #3C9A66;\">1</span>短縮(最大3回)<br>自分がクールタイム短縮を1回受けた時、自分のクリティカル威力<span style=\"color: #3C9A66;\">20</span>%アップ(3ターン)                <br><br><h5 style=\" font-size: 16px;\">Enhance Buffs</h5>                            <span style=\" font-size: 12px; color: #ff6f6f\">基礎攻撃力アップ</span>: +290<br>                                                    <span style=\" font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +43<br>                                                    <span style=\" font-size: 12px; color: #3C9A66\">基礎最大HPアップ</span>: +4200<br>"
                 },
                 "autoSkill2": {
                     "name": "留め続ける熱",
-                    "description": "敵全体に燃焼(4ターン)を付与(最大1回)<br>自分のHPが30%以上の時、敵全体に消えない怨嗟を付与※この効果はゲストでは発動しない<br>自分が凍傷の時、自分に平静を付与<br>自分が凍傷でない時、敵全体のスピード<span style=\"color: #ff6f6f;\">20</span>%ダウン<br>自分が凍傷でないまま、1回ターンをまたいだ時、自分のクリティカル威力<span style=\"color: #79ff80;\">25</span>%アップ(最大2回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が凍傷でない時、敵全体の燃焼耐性ダウン</color=#f68b1e>"
+                    "description": "敵全体に燃焼(4ターン)を付与(最大1回)<br>自分のHPが30%以上の時、敵全体に消えない怨嗟を付与※この効果はゲストでは発動しない<br>自分が凍傷の時、自分に平静を付与<br>自分が凍傷でない時、敵全体のスピード<span style=\"color: #ff6f6f;\">20</span>%ダウン<br>自分が凍傷でないまま、1回ターンをまたいだ時、自分のクリティカル威力<span style=\"color: #3C9A66;\">25</span>%アップ(最大2回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が凍傷でない時、敵全体の燃焼耐性ダウン</color=#f68b1e>"
                 }
             },
             "dxleveltwo": {
                 "plusUltra": {
                     "name": "蒼炎ノ極熱",
-                    "description": "敵単体に<span style=\"color: #79ff80;\">400</span>%ダメージ<br>敵全体に<span style=\"color: #79ff80;\">200</span>%ダメージ<br>敵単体に業火を付与<br>自分が凍傷でない時、敵全体に高確率 (70%)で業火を付与<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<br>このスキルに必中を付与"
+                    "description": "敵単体に<span style=\"color: #3C9A66;\">400</span>%ダメージ<br>敵全体に<span style=\"color: #3C9A66;\">200</span>%ダメージ<br>敵単体に業火を付与<br>自分が凍傷でない時、敵全体に高確率 (70%)で業火を付与<br>味方全体のクールタイム<span style=\"color: #3C9A66;\">1</span>短縮<br>このスキルに必中を付与"
                 },
                 "actionSkill1": {
                     "name": "焔螺 DX",
-                    "description": "敵全体に<span style=\"color: #79ff80;\">250</span>%ダメージ、燃焼を熱傷<span style=\"color: #ff6f6f;\">20</span>%(3ターン)に変換<br>自分が凍傷でない時、敵全体にクールタイム<span style=\"color: #ff6f6f;\">1</span>増加(2ターン)を付与※アリーナ、サークル祭限定効果、中確率 (40%)で業火を付与<br>このスキルに必中を付与",
+                    "description": "敵全体に<span style=\"color: #3C9A66;\">250</span>%ダメージ、燃焼を熱傷<span style=\"color: #ff6f6f;\">20</span>%(3ターン)に変換<br>自分が凍傷でない時、敵全体にクールタイム<span style=\"color: #ff6f6f;\">1</span>増加(2ターン)を付与※アリーナ、サークル祭限定効果、中確率 (40%)で業火を付与<br>このスキルに必中を付与",
                     "coolTime": "5"
                 },
                 "actionSkill2": {
                     "name": "断罪ノ蒼 DX",
-                    "description": "敵全体に<span style=\"color: #79ff80;\">300</span>%ダメージ、高確率 (70%)で業火を付与<br>敵全体の熱傷のキャラのクリティカル抵抗<span style=\"color: #ff6f6f;\">40</span>%ダウン(3ターン)<br>自分のクリティカル威力<span style=\"color: #79ff80;\">30</span>%アップ(3ターン)<br>このスキルに必中を付与<color=#f68b1e><br>▼エンハンス追加効果<br>敵全体の熱傷のキャラに中確率 (40%)で状態異常回復阻害(2ターン)を付与<br>自分が凍傷でない時、敵全体の燃焼を中確率 (40%)で熱傷<span style=\"color: #ff6f6f;\">30</span>%(3ターン)に変換",
+                    "description": "敵全体に<span style=\"color: #3C9A66;\">300</span>%ダメージ、高確率 (70%)で業火を付与<br>敵全体の熱傷のキャラのクリティカル抵抗<span style=\"color: #ff6f6f;\">40</span>%ダウン(3ターン)<br>自分のクリティカル威力<span style=\"color: #3C9A66;\">30</span>%アップ(3ターン)<br>このスキルに必中を付与<color=#f68b1e><br>▼エンハンス追加効果<br>敵全体の熱傷のキャラに中確率 (40%)で状態異常回復阻害(2ターン)を付与<br>自分が凍傷でない時、敵全体の燃焼を中確率 (40%)で熱傷<span style=\"color: #ff6f6f;\">30</span>%(3ターン)に変換",
                     "coolTime": "5"
                 },
                 "autoSkill1": {
                     "name": "募る恨み",
-                    "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がクリティカル率アップのまま2回ターンをまたぐ②バトル開始から3ターン経過)<br>自分のクリティカル率<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)(最大1回)※この効果は強化解除・強化阻害・強化制限できない<br>自分がクリティカル率アップのまま、1回ターンをまたいだ時、自分のクールタイム<span style=\"color: #79ff80;\">1</span>短縮(最大3回)<br>自分がクールタイム短縮を1回受けた時、自分のクリティカル威力<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +290<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +43<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +4200<br>"
+                    "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がクリティカル率アップのまま2回ターンをまたぐ②バトル開始から3ターン経過)<br>自分のクリティカル率<span style=\"color: #3C9A66;\">20</span>%アップ(3ターン)(最大1回)※この効果は強化解除・強化阻害・強化制限できない<br>自分がクリティカル率アップのまま、1回ターンをまたいだ時、自分のクールタイム<span style=\"color: #3C9A66;\">1</span>短縮(最大3回)<br>自分がクールタイム短縮を1回受けた時、自分のクリティカル威力<span style=\"color: #3C9A66;\">20</span>%アップ(3ターン)                <br><br><h5 style=\" font-size: 16px;\">Enhance Buffs</h5>                            <span style=\" font-size: 12px; color: #ff6f6f\">基礎攻撃力アップ</span>: +290<br>                                                    <span style=\" font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +43<br>                                                    <span style=\" font-size: 12px; color: #3C9A66\">基礎最大HPアップ</span>: +4200<br>"
                 },
                 "autoSkill2": {
                     "name": "留め続ける熱",
-                    "description": "敵全体に燃焼(4ターン)を付与(最大1回)<br>自分のHPが30%以上の時、敵全体に消えない怨嗟を付与※この効果はゲストでは発動しない<br>自分が凍傷の時、自分に平静を付与<br>自分が凍傷でない時、敵全体のスピード<span style=\"color: #ff6f6f;\">20</span>%ダウン<br>自分が凍傷でないまま、1回ターンをまたいだ時、自分のクリティカル威力<span style=\"color: #79ff80;\">25</span>%アップ(最大2回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が凍傷でない時、敵全体の燃焼耐性ダウン</color=#f68b1e>"
+                    "description": "敵全体に燃焼(4ターン)を付与(最大1回)<br>自分のHPが30%以上の時、敵全体に消えない怨嗟を付与※この効果はゲストでは発動しない<br>自分が凍傷の時、自分に平静を付与<br>自分が凍傷でない時、敵全体のスピード<span style=\"color: #ff6f6f;\">20</span>%ダウン<br>自分が凍傷でないまま、1回ターンをまたいだ時、自分のクリティカル威力<span style=\"color: #3C9A66;\">25</span>%アップ(最大2回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分が凍傷でない時、敵全体の燃焼耐性ダウン</color=#f68b1e>"
                 }
             }
         }
