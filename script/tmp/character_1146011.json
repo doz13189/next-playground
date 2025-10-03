@@ -1,0 +1,195 @@
+{
+    "id": "1146011",
+    "epithet": "友人との縁",
+    "name": "オールマイト",
+    "rarity": "ur",
+    "type": "dst",
+    "sex": "男",
+    "skills": [
+        "命中率アップ",
+        "貫通",
+        "麻痺",
+        "くいしばり",
+        "ブロック",
+        "エンハンス",
+        "基礎攻撃力アップ",
+        "基礎スピードアップ",
+        "基礎最大HPアップ",
+        "必中",
+        "リベンジ",
+        "スタン完全耐性",
+        "余裕",
+        "出血ダメージ軽減",
+        "出血耐性アップ",
+        "スタン耐性アップ",
+        "スキル威力アップ",
+        "ダメージカット",
+        "回復阻害"
+    ],
+    "tags": [
+        "雄英高校教師",
+        "プロヒーロー",
+        "ヒーロー"
+    ],
+    "stats": [
+        {
+            "hp": "5630",
+            "power": "1071",
+            "speed": "135",
+            "defense": "100",
+            "critical": "10"
+        },
+        {
+            "hp": "14478",
+            "power": "2809",
+            "speed": "214",
+            "defense": "100",
+            "critical": "10"
+        },
+        {
+            "hp": "47478",
+            "power": "9229",
+            "speed": "734",
+            "defense": "100",
+            "critical": "10"
+        },
+        {
+            "hp": "56478",
+            "power": "11029",
+            "speed": "914",
+            "defense": "100",
+            "critical": "10"
+        }
+    ],
+    "uniqueSkills": [
+        "自分のスキルでCHAIN成功時、自分のパワーを5%アップ、ディフェンスを5%アップ(最大6回)",
+        "自分のHPが80%以上の時、自分に貫通を付与",
+        "自分が高揚状態の時、味方全体のアクションスキル威力を10%アップ",
+        "戦闘開始後、味方全体のディフェンスを20%アップ(3ターン)",
+        "3ターン毎に自分のプルスウルトラ技の威力を15%アップ(最大3回)",
+        "クリティカルが3回発生するたびに、自分のパワーを25%アップ(2ターン)",
+        "クリティカルが発生するたびに、自分のディフェンスを5%アップ(最大8回)"
+    ],
+    "skill": {
+        "levelone": {
+            "plusUltra": {
+                "name": "“シュートスタイル”スマッシュ",
+                "description": "敵単体に<span style=\"color: #79ff80;\">600</span>%ダメージ、中確率 (40%)で麻痺(2ターン)を付与<br>自分にくいしばり(1回)を付与<br>自分がブロックでない時、自分にブロック<span style=\"color: #79ff80;\">40</span>%(3ターン)を付与※この効果はゲストでは発動しない<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルの状態異常命中率アップ、貫通を付与</color=#f68b1e>"
+            },
+            "actionSkill1": {
+                "name": "“シュガーマン”",
+                "description": "敵単体に<span style=\"color: #79ff80;\">250</span>%ダメージ<br>自分のダメージ<span style=\"color: #79ff80;\">10</span>%カット(3ターン)<br>自分がエンハンスでない時、自分にブロック<span style=\"color: #79ff80;\">20</span>%(3ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分がブロックでない時、自分にブロック<span style=\"color: #79ff80;\">30</span>%(3ターン)を付与",
+                "coolTime": "▼エンハンス追加効果"
+            },
+            "actionSkill2": {
+                "name": "“ブラックウィップ”“チャージズマ”",
+                "description": "敵単体に<span style=\"color: #79ff80;\">300</span>%ダメージ、中確率 (20%)で麻痺(2ターン)を付与、低確率 (40%)で回復阻害(2ターン)を付与",
+                "coolTime": "4"
+            },
+            "autoSkill1": {
+                "name": "“無個性”の戦い方",
+                "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がブロックでないまま相手に5回攻撃しきる②バトル開始から5ターン経過)<br>自分にブロック<span style=\"color: #79ff80;\">30</span>%(3ターン)を付与(最大1回)※この効果はゲストでは発動しない、必中・リベンジ<span style=\"color: #79ff80;\">60</span>%を付与                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +255<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +50<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +10350<br>"
+            },
+            "autoSkill2": {
+                "name": "勝利への意志",
+                "description": "自分にスタン完全耐性・余裕を付与、出血ダメージ<span style=\"color: #79ff80;\">30</span>%カット<br>味方全体の出血・スタン耐性アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分のスキル威力<span style=\"color: #79ff80;\">30</span>%アップ<br>自分のHPが20%未満の時、自分にブロック<span style=\"color: #79ff80;\">500</span>%(5ターン)を付与(最大1回)</color=#f68b1e>"
+            }
+        },
+        "leveltwo": {
+            "plusUltra": {
+                "name": "“シュートスタイル”スマッシュ",
+                "description": "敵単体に<span style=\"color: #79ff80;\">650</span>%ダメージ、中確率 (40%)で麻痺(2ターン)を付与<br>自分にくいしばり(1回)を付与<br>自分がブロックでない時、自分にブロック<span style=\"color: #79ff80;\">45</span>%(3ターン)を付与※この効果はゲストでは発動しない<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルの状態異常命中率アップ、貫通を付与</color=#f68b1e>"
+            },
+            "actionSkill1": {
+                "name": "“シュガーマン”",
+                "description": "敵単体に<span style=\"color: #79ff80;\">275</span>%ダメージ<br>自分のダメージ<span style=\"color: #79ff80;\">15</span>%カット(3ターン)<br>自分がエンハンスでない時、自分にブロック<span style=\"color: #79ff80;\">25</span>%(3ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分がブロックでない時、自分にブロック<span style=\"color: #79ff80;\">35</span>%(3ターン)を付与",
+                "coolTime": "▼エンハンス追加効果"
+            },
+            "actionSkill2": {
+                "name": "“ブラックウィップ”“チャージズマ”",
+                "description": "敵単体に<span style=\"color: #79ff80;\">325</span>%ダメージ、中確率 (20%)で麻痺(2ターン)を付与、低確率 (40%)で回復阻害(2ターン)を付与",
+                "coolTime": "4"
+            },
+            "autoSkill1": {
+                "name": "“無個性”の戦い方",
+                "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がブロックでないまま相手に5回攻撃しきる②バトル開始から5ターン経過)<br>自分にブロック<span style=\"color: #79ff80;\">40</span>%(3ターン)を付与(最大1回)※この効果はゲストでは発動しない、必中・リベンジ<span style=\"color: #79ff80;\">80</span>%を付与                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +255<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +50<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +10350<br>"
+            },
+            "autoSkill2": {
+                "name": "勝利への意志",
+                "description": "自分にスタン完全耐性・余裕を付与、出血ダメージ<span style=\"color: #79ff80;\">30</span>%カット<br>味方全体の出血・スタン耐性アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分のスキル威力<span style=\"color: #79ff80;\">40</span>%アップ<br>自分のHPが20%未満の時、自分にブロック<span style=\"color: #79ff80;\">600</span>%(5ターン)を付与(最大1回)</color=#f68b1e>"
+            }
+        },
+        "levelthree": {
+            "plusUltra": {
+                "name": "“シュートスタイル”スマッシュ",
+                "description": "敵単体に<span style=\"color: #79ff80;\">700</span>%ダメージ、中確率 (40%)で麻痺(2ターン)を付与<br>自分にくいしばり(1回)を付与<br>自分がブロックでない時、自分にブロック<span style=\"color: #79ff80;\">50</span>%(3ターン)を付与※この効果はゲストでは発動しない<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルの状態異常命中率アップ、貫通を付与</color=#f68b1e>"
+            },
+            "actionSkill1": {
+                "name": "“シュガーマン”",
+                "description": "敵単体に<span style=\"color: #79ff80;\">300</span>%ダメージ<br>自分のダメージ<span style=\"color: #79ff80;\">20</span>%カット(3ターン)<br>自分がエンハンスでない時、自分にブロック<span style=\"color: #79ff80;\">30</span>%(3ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分がブロックでない時、自分にブロック<span style=\"color: #79ff80;\">40</span>%(3ターン)を付与",
+                "coolTime": "▼エンハンス追加効果"
+            },
+            "actionSkill2": {
+                "name": "“ブラックウィップ”“チャージズマ”",
+                "description": "敵単体に<span style=\"color: #79ff80;\">350</span>%ダメージ、中確率 (20%)で麻痺(2ターン)を付与、低確率 (40%)で回復阻害(2ターン)を付与",
+                "coolTime": "4"
+            },
+            "autoSkill1": {
+                "name": "“無個性”の戦い方",
+                "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がブロックでないまま相手に5回攻撃しきる②バトル開始から5ターン経過)<br>自分にブロック<span style=\"color: #79ff80;\">50</span>%(3ターン)を付与(最大1回)※この効果はゲストでは発動しない、必中・リベンジ<span style=\"color: #79ff80;\">100</span>%を付与                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +255<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +50<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +10350<br>"
+            },
+            "autoSkill2": {
+                "name": "勝利への意志",
+                "description": "自分にスタン完全耐性・余裕を付与、出血ダメージ<span style=\"color: #79ff80;\">30</span>%カット<br>味方全体の出血・スタン耐性アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分のスキル威力<span style=\"color: #79ff80;\">50</span>%アップ<br>自分のHPが20%未満の時、自分にブロック<span style=\"color: #79ff80;\">700</span>%(5ターン)を付与(最大1回)</color=#f68b1e>"
+            }
+        },
+        "dxlevelone": {
+            "plusUltra": {
+                "name": "“シュートスタイル”スマッシュ",
+                "description": "敵単体に<span style=\"color: #79ff80;\">700</span>%ダメージ、中確率 (40%)で麻痺(2ターン)を付与<br>自分にくいしばり(1回)を付与<br>自分がブロックでない時、自分にブロック<span style=\"color: #79ff80;\">50</span>%(3ターン)を付与※この効果はゲストでは発動しない<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルの状態異常命中率アップ、貫通を付与</color=#f68b1e>"
+            },
+            "actionSkill1": {
+                "name": "“シュガーマン” DX",
+                "description": "敵単体に<span style=\"color: #79ff80;\">325</span>%ダメージ<br>自分のダメージ<span style=\"color: #79ff80;\">25</span>%カット(3ターン)<br>自分がエンハンスでない時、自分にブロック<span style=\"color: #79ff80;\">35</span>%(3ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分がブロックでない時、自分にブロック<span style=\"color: #79ff80;\">45</span>%(3ターン)を付与",
+                "coolTime": "▼エンハンス追加効果"
+            },
+            "actionSkill2": {
+                "name": "“ブラックウィップ”“チャージズマ” DX",
+                "description": "敵単体に<span style=\"color: #79ff80;\">375</span>%ダメージ、中確率 (40%)で麻痺(2ターン)を付与、低確率 (20%)で回復阻害(2ターン)を付与",
+                "coolTime": "4"
+            },
+            "autoSkill1": {
+                "name": "“無個性”の戦い方",
+                "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がブロックでないまま相手に5回攻撃しきる②バトル開始から5ターン経過)<br>自分にブロック<span style=\"color: #79ff80;\">50</span>%(3ターン)を付与(最大1回)※この効果はゲストでは発動しない、必中・リベンジ<span style=\"color: #79ff80;\">100</span>%を付与                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +255<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +50<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +10350<br>"
+            },
+            "autoSkill2": {
+                "name": "勝利への意志",
+                "description": "自分にスタン完全耐性・余裕を付与、出血ダメージ<span style=\"color: #79ff80;\">30</span>%カット<br>味方全体の出血・スタン耐性アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分のスキル威力<span style=\"color: #79ff80;\">50</span>%アップ<br>自分のHPが20%未満の時、自分にブロック<span style=\"color: #79ff80;\">700</span>%(5ターン)を付与(最大1回)</color=#f68b1e>"
+            }
+        },
+        "dxleveltwo": {
+            "plusUltra": {
+                "name": "“シュートスタイル”スマッシュ",
+                "description": "敵単体に<span style=\"color: #79ff80;\">700</span>%ダメージ、中確率 (40%)で麻痺(2ターン)を付与<br>自分にくいしばり(1回)を付与<br>自分がブロックでない時、自分にブロック<span style=\"color: #79ff80;\">50</span>%(3ターン)を付与※この効果はゲストでは発動しない<color=#f68b1e><br>▼エンハンス追加効果<br>このスキルの状態異常命中率アップ、貫通を付与</color=#f68b1e>"
+            },
+            "actionSkill1": {
+                "name": "“シュガーマン” DX",
+                "description": "敵単体に<span style=\"color: #79ff80;\">350</span>%ダメージ<br>自分のダメージ<span style=\"color: #79ff80;\">30</span>%カット(3ターン)<br>自分がエンハンスでない時、自分にブロック<span style=\"color: #79ff80;\">35</span>%(3ターン)を付与<color=#f68b1e><br>▼エンハンス追加効果<br>自分がブロックでない時、自分にブロック<span style=\"color: #79ff80;\">50</span>%(3ターン)を付与",
+                "coolTime": "▼エンハンス追加効果"
+            },
+            "actionSkill2": {
+                "name": "“ブラックウィップ”“チャージズマ” DX",
+                "description": "敵単体に<span style=\"color: #79ff80;\">400</span>%ダメージ、中確率 (40%)で麻痺(2ターン)を付与、低確率 (20%)で回復阻害(2ターン)を付与",
+                "coolTime": "4"
+            },
+            "autoSkill1": {
+                "name": "“無個性”の戦い方",
+                "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がブロックでないまま相手に5回攻撃しきる②バトル開始から5ターン経過)<br>自分にブロック<span style=\"color: #79ff80;\">50</span>%(3ターン)を付与(最大1回)※この効果はゲストでは発動しない、必中・リベンジ<span style=\"color: #79ff80;\">100</span>%を付与                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +255<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +50<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +10350<br>"
+            },
+            "autoSkill2": {
+                "name": "勝利への意志",
+                "description": "自分にスタン完全耐性・余裕を付与、出血ダメージ<span style=\"color: #79ff80;\">30</span>%カット<br>味方全体の出血・スタン耐性アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分のスキル威力<span style=\"color: #79ff80;\">50</span>%アップ<br>自分のHPが20%未満の時、自分にブロック<span style=\"color: #79ff80;\">700</span>%(5ターン)を付与(最大1回)</color=#f68b1e>"
+            }
+        }
+    }
+}

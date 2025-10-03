@@ -1199,9 +1199,15 @@ export const skills: z.infer<typeof SkillsSchema> = {
       iconUrl: "/assets/buffs_debuffs/battle_status_icon_debuff_036.webp",
     },
     {
-      "name": "消えない怨嗟",
-      "description": "業火・熱傷を受けた時、燃焼が変換されずに残るようになる",
-      "iconUrl": "/assets/buffs_debuffs/battle_status_icon_debuff_037.webp"
-    }
+      name: "消えない怨嗟",
+      description: "業火・熱傷を受けた時、燃焼が変換されずに残るようになる",
+      iconUrl: "/assets/buffs_debuffs/battle_status_icon_debuff_037.webp",
+    },
+    {
+      name: "リベンジ",
+      description:
+        "相手にダメージを与えた時、追加でそのターン中に減少した自身のブロック値X%分のダメージを相手に与える。付与されているブロックが解除された時、そのターン中この効果で与えるダメージが2倍になる。※これらの効果は、HP破壊を最大HP20%以上付与された時に効果を発揮しなくなる",
+      iconUrl: "",
+    },
   ],
 };
