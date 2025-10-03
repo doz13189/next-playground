@@ -353,7 +353,7 @@ const getCharacterDetailInfo = async (character) => {
 };
 
 (async () => {
-  const characterId = "1185008";
+  const characterId = "1146011";
   await getCharacterIcon(characterId);
   const characterBaseInfo = await getCharacterBaseInfo(characterId);
   const characterDetailInfo = await getCharacterDetailInfo(characterBaseInfo);
