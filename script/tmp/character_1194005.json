@@ -1,0 +1,194 @@
+{
+    "id": "1194005",
+    "epithet": "強襲する魔王",
+    "name": "オール・フォー・ワン",
+    "rarity": "ur",
+    "type": "abl",
+    "sex": "男",
+    "skills": [
+        "強奪",
+        "圧倒",
+        "Attack All Opponents",
+        "クールタイム短縮",
+        "エンハンス",
+        "基礎攻撃力アップ",
+        "基礎スピードアップ",
+        "基礎最大HPアップ",
+        "回復",
+        "状態異常効果ターン短縮",
+        "プルスウルトラ効率アップ",
+        "プルスウルトラ技威力アップ",
+        "挑発",
+        "最大HPアップ",
+        "強化阻害完全耐性",
+        "ディフェンスアップ",
+        "必中",
+        "不屈",
+        "スキル威力ダウン"
+    ],
+    "tags": [
+        "敵＜ヴィラン＞連合",
+        "敵＜ヴィラン＞"
+    ],
+    "stats": [
+        {
+            "hp": "3716",
+            "power": "1081",
+            "speed": "90",
+            "defense": "100",
+            "critical": "10"
+        },
+        {
+            "hp": "10826",
+            "power": "2819",
+            "speed": "169",
+            "defense": "100",
+            "critical": "10"
+        },
+        {
+            "hp": "43226",
+            "power": "9099",
+            "speed": "709",
+            "defense": "100",
+            "critical": "10"
+        },
+        {
+            "hp": "52226",
+            "power": "10899",
+            "speed": "889",
+            "defense": "100",
+            "critical": "10"
+        }
+    ],
+    "uniqueSkills": [
+        "自分のスキルでCHAIN成功時、自分のパワーを5%アップ、ディフェンスを5%アップ(最大6回)",
+        "自分のスキル封印、麻痺、混乱、恐怖状態になる確率を下げる",
+        "戦闘開始後、自分の状態異常を防ぐ(2回)、自分のディフェンスを10%アップ",
+        "WAVE開始後、自分のパワーを20%アップ(4ターン)",
+        "WAVE開始後、味方全体のスピードを15%アップ(2ターン)",
+        "自分のHPが50%未満の時、戦闘中に1度だけ自分にHP20%自動回復(2ターン)を付与",
+        "毎ターン、自分のディフェンスが5%アップ(最大6回)"
+    ],
+    "skill": {
+        "levelone": {
+            "plusUltra": {
+                "name": "厄災の光塵",
+                "description": "自分以外の敵味方全体の一時的な強化<span style=\"color: #79ff80;\">1</span>個強奪<br>敵全体に<span style=\"color: #79ff80;\">350</span>%ダメージ<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<br>自分の一時的な強化が6個以上の時、自分のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<color=#f68b1e><br>▼エンハンス追加効果<br>自分以外の敵味方全体の一時的な強化全て強奪<br>このスキルに圧倒を付与</color=#f68b1e>"
+            },
+            "actionSkill1": {
+                "name": "空気砲",
+                "description": "敵単体の一時的な強化<span style=\"color: #79ff80;\">3</span>個強奪、<span style=\"color: #79ff80;\">300</span>%ダメージ、スキル威力<span style=\"color: #ff6f6f;\">20</span>%ダウン(3ターン)",
+                "coolTime": "7"
+            },
+            "actionSkill2": {
+                "name": "黒爪無窮",
+                "description": "自分以外の敵味方全体の一時的な強化<span style=\"color: #79ff80;\">1</span>個強奪<br>敵全体に<span style=\"color: #79ff80;\">200</span>%ダメージ<br>味方全体のディフェンス<span style=\"color: #79ff80;\">9</span>%アップ(3ターン)<br>自分の一時的な強化が6個以上の時、自分のHP<span style=\"color: #79ff80;\">4</span>%回復<br>自分の一時的な強化が8個以上の時、自分のHP<span style=\"color: #79ff80;\">5</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>自分の一時的な強化が10個以上の時、自分のディフェンス<span style=\"color: #79ff80;\">12</span>%アップ(3ターン)",
+                "coolTime": "▼エンハンス追加効果"
+            },
+            "autoSkill1": {
+                "name": "蔑む瞳",
+                "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に3回攻撃しきる②バトル開始から5ターン経過)<br>自分が攻撃を3回受けきった時、ターゲットを無視してランダムな敵単体の一時的な強化<span style=\"color: #79ff80;\">2</span>個強奪<br>敵の一時的な強化が1回解除されきった時、自分のHP<span style=\"color: #79ff80;\">6</span>%回復<br>敵の一時的な強化が2回解除されきった時、自分の一時的な状態異常<span style=\"color: #79ff80;\">1</span>ターン短縮<br>自分の一時的な強化が1回解除されきった時、自分のプルスウルトラ効率<span style=\"color: #79ff80;\">6</span>%アップ(累積)、プルスウルトラ技威力<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +255<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +50<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +10350<br>"
+            },
+            "autoSkill2": {
+                "name": "魔王の圧",
+                "description": "自分のHPが30%以上の時、自分に挑発を付与<br>自分の最大HP<span style=\"color: #79ff80;\">12</span>%アップ<br>チームに\"技タイプ\"が2体以上いる時、自分の最大HP<span style=\"color: #79ff80;\">18</span>%アップ、強化阻害完全耐性を付与<br>チームに\"技タイプ\"が3体以上いる時、味方全体のディフェンス<span style=\"color: #79ff80;\">15</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分に必中を付与<br>自分がエンハンスのまま、3回ターンをまたいだ時、自分に不屈(3ターン)を付与※この効果は強化解除・強化阻害・強化制限できない</color=#f68b1e>"
+            }
+        },
+        "leveltwo": {
+            "plusUltra": {
+                "name": "厄災の光塵",
+                "description": "自分以外の敵味方全体の一時的な強化<span style=\"color: #79ff80;\">1</span>個強奪<br>敵全体に<span style=\"color: #79ff80;\">400</span>%ダメージ<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<br>自分の一時的な強化が6個以上の時、自分のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<color=#f68b1e><br>▼エンハンス追加効果<br>自分以外の敵味方全体の一時的な強化全て強奪<br>このスキルに圧倒を付与</color=#f68b1e>"
+            },
+            "actionSkill1": {
+                "name": "空気砲",
+                "description": "敵単体の一時的な強化<span style=\"color: #79ff80;\">3</span>個強奪、<span style=\"color: #79ff80;\">325</span>%ダメージ、スキル威力<span style=\"color: #ff6f6f;\">25</span>%ダウン(3ターン)",
+                "coolTime": "6"
+            },
+            "actionSkill2": {
+                "name": "黒爪無窮",
+                "description": "自分以外の敵味方全体の一時的な強化<span style=\"color: #79ff80;\">1</span>個強奪<br>敵全体に<span style=\"color: #79ff80;\">225</span>%ダメージ<br>味方全体のディフェンス<span style=\"color: #79ff80;\">12</span>%アップ(3ターン)<br>自分の一時的な強化が6個以上の時、自分のHP<span style=\"color: #79ff80;\">6</span>%回復<br>自分の一時的な強化が8個以上の時、自分のHP<span style=\"color: #79ff80;\">5</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>自分の一時的な強化が10個以上の時、自分のディフェンス<span style=\"color: #79ff80;\">16</span>%アップ(3ターン)",
+                "coolTime": "▼エンハンス追加効果"
+            },
+            "autoSkill1": {
+                "name": "蔑む瞳",
+                "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に3回攻撃しきる②バトル開始から5ターン経過)<br>自分が攻撃を3回受けきった時、ターゲットを無視してランダムな敵単体の一時的な強化<span style=\"color: #79ff80;\">2</span>個強奪<br>敵の一時的な強化が1回解除されきった時、自分のHP<span style=\"color: #79ff80;\">8</span>%回復<br>敵の一時的な強化が2回解除されきった時、自分の一時的な状態異常<span style=\"color: #79ff80;\">1</span>ターン短縮<br>自分の一時的な強化が1回解除されきった時、自分のプルスウルトラ効率<span style=\"color: #79ff80;\">8</span>%アップ(累積)、プルスウルトラ技威力<span style=\"color: #79ff80;\">25</span>%アップ(3ターン)                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +255<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +50<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +10350<br>"
+            },
+            "autoSkill2": {
+                "name": "魔王の圧",
+                "description": "自分のHPが30%以上の時、自分に挑発を付与<br>自分の最大HP<span style=\"color: #79ff80;\">16</span>%アップ<br>チームに\"技タイプ\"が2体以上いる時、自分の最大HP<span style=\"color: #79ff80;\">24</span>%アップ、強化阻害完全耐性を付与<br>チームに\"技タイプ\"が3体以上いる時、味方全体のディフェンス<span style=\"color: #79ff80;\">15</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分に必中を付与<br>自分がエンハンスのまま、3回ターンをまたいだ時、自分に不屈(3ターン)を付与※この効果は強化解除・強化阻害・強化制限できない</color=#f68b1e>"
+            }
+        },
+        "levelthree": {
+            "plusUltra": {
+                "name": "厄災の光塵",
+                "description": "自分以外の敵味方全体の一時的な強化<span style=\"color: #79ff80;\">1</span>個強奪<br>敵全体に<span style=\"color: #79ff80;\">450</span>%ダメージ<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<br>自分の一時的な強化が6個以上の時、自分のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<color=#f68b1e><br>▼エンハンス追加効果<br>自分以外の敵味方全体の一時的な強化全て強奪<br>このスキルに圧倒を付与</color=#f68b1e>"
+            },
+            "actionSkill1": {
+                "name": "空気砲",
+                "description": "敵単体の一時的な強化<span style=\"color: #79ff80;\">3</span>個強奪、<span style=\"color: #79ff80;\">350</span>%ダメージ、スキル威力<span style=\"color: #ff6f6f;\">30</span>%ダウン(3ターン)",
+                "coolTime": "5"
+            },
+            "actionSkill2": {
+                "name": "黒爪無窮",
+                "description": "自分以外の敵味方全体の一時的な強化<span style=\"color: #79ff80;\">1</span>個強奪<br>敵全体に<span style=\"color: #79ff80;\">250</span>%ダメージ<br>味方全体のディフェンス<span style=\"color: #79ff80;\">15</span>%アップ(3ターン)<br>自分の一時的な強化が6個以上の時、自分のHP<span style=\"color: #79ff80;\">8</span>%回復<br>自分の一時的な強化が8個以上の時、自分のHP<span style=\"color: #79ff80;\">5</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>自分の一時的な強化が10個以上の時、自分のディフェンス<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)",
+                "coolTime": "▼エンハンス追加効果"
+            },
+            "autoSkill1": {
+                "name": "蔑む瞳",
+                "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に3回攻撃しきる②バトル開始から5ターン経過)<br>自分が攻撃を3回受けきった時、ターゲットを無視してランダムな敵単体の一時的な強化<span style=\"color: #79ff80;\">2</span>個強奪<br>敵の一時的な強化が1回解除されきった時、自分のHP<span style=\"color: #79ff80;\">10</span>%回復<br>敵の一時的な強化が2回解除されきった時、自分の一時的な状態異常<span style=\"color: #79ff80;\">1</span>ターン短縮<br>自分の一時的な強化が1回解除されきった時、自分のプルスウルトラ効率<span style=\"color: #79ff80;\">10</span>%アップ(累積)、プルスウルトラ技威力<span style=\"color: #79ff80;\">30</span>%アップ(3ターン)                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +255<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +50<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +10350<br>"
+            },
+            "autoSkill2": {
+                "name": "魔王の圧",
+                "description": "自分のHPが30%以上の時、自分に挑発を付与<br>自分の最大HP<span style=\"color: #79ff80;\">20</span>%アップ<br>チームに\"技タイプ\"が2体以上いる時、自分の最大HP<span style=\"color: #79ff80;\">30</span>%アップ、強化阻害完全耐性を付与<br>チームに\"技タイプ\"が3体以上いる時、味方全体のディフェンス<span style=\"color: #79ff80;\">15</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分に必中を付与<br>自分がエンハンスのまま、3回ターンをまたいだ時、自分に不屈(3ターン)を付与※この効果は強化解除・強化阻害・強化制限できない</color=#f68b1e>"
+            }
+        },
+        "dxlevelone": {
+            "plusUltra": {
+                "name": "厄災の光塵",
+                "description": "自分以外の敵味方全体の一時的な強化<span style=\"color: #79ff80;\">1</span>個強奪<br>敵全体に<span style=\"color: #79ff80;\">450</span>%ダメージ<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<br>自分の一時的な強化が6個以上の時、自分のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<color=#f68b1e><br>▼エンハンス追加効果<br>自分以外の敵味方全体の一時的な強化全て強奪<br>このスキルに圧倒を付与</color=#f68b1e>"
+            },
+            "actionSkill1": {
+                "name": "空気砲 DX",
+                "description": "敵単体の一時的な強化<span style=\"color: #79ff80;\">3</span>個強奪、<span style=\"color: #79ff80;\">375</span>%ダメージ、スキル威力<span style=\"color: #ff6f6f;\">35</span>%ダウン(3ターン)",
+                "coolTime": "5"
+            },
+            "actionSkill2": {
+                "name": "黒爪無窮 DX",
+                "description": "自分以外の敵味方全体の一時的な強化<span style=\"color: #79ff80;\">1</span>個強奪<br>敵全体に<span style=\"color: #79ff80;\">275</span>%ダメージ<br>味方全体のディフェンス<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>自分の一時的な強化が6個以上の時、自分のHP<span style=\"color: #79ff80;\">8</span>%回復<br>自分の一時的な強化が8個以上の時、自分のHP<span style=\"color: #79ff80;\">10</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>自分の一時的な強化が10個以上の時、自分のディフェンス<span style=\"color: #79ff80;\">25</span>%アップ(3ターン)",
+                "coolTime": "▼エンハンス追加効果"
+            },
+            "autoSkill1": {
+                "name": "蔑む瞳",
+                "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に3回攻撃しきる②バトル開始から5ターン経過)<br>自分が攻撃を3回受けきった時、ターゲットを無視してランダムな敵単体の一時的な強化<span style=\"color: #79ff80;\">2</span>個強奪<br>敵の一時的な強化が1回解除されきった時、自分のHP<span style=\"color: #79ff80;\">10</span>%回復<br>敵の一時的な強化が2回解除されきった時、自分の一時的な状態異常<span style=\"color: #79ff80;\">1</span>ターン短縮<br>自分の一時的な強化が1回解除されきった時、自分のプルスウルトラ効率<span style=\"color: #79ff80;\">10</span>%アップ(累積)、プルスウルトラ技威力<span style=\"color: #79ff80;\">30</span>%アップ(3ターン)                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +255<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +50<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +10350<br>"
+            },
+            "autoSkill2": {
+                "name": "魔王の圧",
+                "description": "自分のHPが30%以上の時、自分に挑発を付与<br>自分の最大HP<span style=\"color: #79ff80;\">20</span>%アップ<br>チームに\"技タイプ\"が2体以上いる時、自分の最大HP<span style=\"color: #79ff80;\">30</span>%アップ、強化阻害完全耐性を付与<br>チームに\"技タイプ\"が3体以上いる時、味方全体のディフェンス<span style=\"color: #79ff80;\">15</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分に必中を付与<br>自分がエンハンスのまま、3回ターンをまたいだ時、自分に不屈(3ターン)を付与※この効果は強化解除・強化阻害・強化制限できない</color=#f68b1e>"
+            }
+        },
+        "dxleveltwo": {
+            "plusUltra": {
+                "name": "厄災の光塵",
+                "description": "自分以外の敵味方全体の一時的な強化<span style=\"color: #79ff80;\">1</span>個強奪<br>敵全体に<span style=\"color: #79ff80;\">450</span>%ダメージ<br>味方全体のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<br>自分の一時的な強化が6個以上の時、自分のクールタイム<span style=\"color: #79ff80;\">1</span>短縮<color=#f68b1e><br>▼エンハンス追加効果<br>自分以外の敵味方全体の一時的な強化全て強奪<br>このスキルに圧倒を付与</color=#f68b1e>"
+            },
+            "actionSkill1": {
+                "name": "空気砲 DX",
+                "description": "敵単体の一時的な強化<span style=\"color: #79ff80;\">3</span>個強奪、<span style=\"color: #79ff80;\">400</span>%ダメージ、スキル威力<span style=\"color: #ff6f6f;\">40</span>%ダウン(3ターン)",
+                "coolTime": "5"
+            },
+            "actionSkill2": {
+                "name": "黒爪無窮 DX",
+                "description": "自分以外の敵味方全体の一時的な強化<span style=\"color: #79ff80;\">1</span>個強奪<br>敵全体に<span style=\"color: #79ff80;\">300</span>%ダメージ<br>味方全体のディフェンス<span style=\"color: #79ff80;\">20</span>%アップ(3ターン)<br>自分の一時的な強化が6個以上の時、自分のHP<span style=\"color: #79ff80;\">10</span>%回復<br>自分の一時的な強化が8個以上の時、自分のHP<span style=\"color: #79ff80;\">10</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>自分の一時的な強化が10個以上の時、自分のディフェンス<span style=\"color: #79ff80;\">30</span>%アップ(3ターン)",
+                "coolTime": "▼エンハンス追加効果"
+            },
+            "autoSkill1": {
+                "name": "蔑む瞳",
+                "description": "2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に3回攻撃しきる②バトル開始から5ターン経過)<br>自分が攻撃を3回受けきった時、ターゲットを無視してランダムな敵単体の一時的な強化<span style=\"color: #79ff80;\">2</span>個強奪<br>敵の一時的な強化が1回解除されきった時、自分のHP<span style=\"color: #79ff80;\">10</span>%回復<br>敵の一時的な強化が2回解除されきった時、自分の一時的な状態異常<span style=\"color: #79ff80;\">1</span>ターン短縮<br>自分の一時的な強化が1回解除されきった時、自分のプルスウルトラ効率<span style=\"color: #79ff80;\">10</span>%アップ(累積)、プルスウルトラ技威力<span style=\"color: #79ff80;\">30</span>%アップ(3ターン)                <br><br><h5 style=\"font-family: F0T; font-size: 16px;\">Enhance Buffs</h5>                            <span style=\"font-family: F0T; font-size: 12px; color: #ff5757\">基礎攻撃力アップ</span>: +255<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57aeff\">基礎スピードアップ</span>: +50<br>                                                    <span style=\"font-family: F0T; font-size: 12px; color: #57ff68\">基礎最大HPアップ</span>: +10350<br>"
+            },
+            "autoSkill2": {
+                "name": "魔王の圧",
+                "description": "自分のHPが30%以上の時、自分に挑発を付与<br>自分の最大HP<span style=\"color: #79ff80;\">20</span>%アップ<br>チームに\"技タイプ\"が2体以上いる時、自分の最大HP<span style=\"color: #79ff80;\">30</span>%アップ、強化阻害完全耐性を付与<br>チームに\"技タイプ\"が3体以上いる時、味方全体のディフェンス<span style=\"color: #79ff80;\">15</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分に必中を付与<br>自分がエンハンスのまま、3回ターンをまたいだ時、自分に不屈(3ターン)を付与※この効果は強化解除・強化阻害・強化制限できない</color=#f68b1e>"
+            }
+        }
+    }
+}

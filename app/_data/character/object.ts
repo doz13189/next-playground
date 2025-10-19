@@ -57930,145 +57930,361 @@ export const characters: z.infer<typeof CharactersSchema> = {
           plusUltra: {
             name: "集光屈折ネビルレーザー",
             description:
-              '敵単体に<span style="color: #79ff80;">550</span>%ダメージ、高確率 (70%)で暗闇(3ターン)を付与<br>味方全体にHP<span style="color: #79ff80;">20</span>%自動回復(3ターン)を付与<br>自分以外の味方全体にくいしばり(2回)を付与<br>このスキルに必中を付与',
+              '敵単体に<span style="color: #3C9A66;">550</span>%ダメージ、高確率 (70%)で暗闇(3ターン)を付与<br>味方全体にHP<span style="color: #3C9A66;">20</span>%自動回復(3ターン)を付与<br>自分以外の味方全体にくいしばり(2回)を付与<br>このスキルに必中を付与',
           },
           actionSkill1: {
             name: "偵察",
             description:
-              '味方単体にかばう(1ターン)※この効果は強化解除・強化阻害・強化制限できない、バリア(1ターン)を付与※この効果は強化解除・強化阻害・強化制限できない<br>味方全体にHP<span style="color: #79ff80;">9</span>%自動回復(3ターン)を付与<br>自分がエンハンスでない時、味方単体のクリティカル抵抗<span style="color: #79ff80;">12</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のクリティカル抵抗<span style="color: #79ff80;">12</span>%アップ(3ターン)',
+              '味方単体にかばう(1ターン)※この効果は強化解除・強化阻害・強化制限できない、バリア(1ターン)を付与※この効果は強化解除・強化阻害・強化制限できない<br>味方全体にHP<span style="color: #3C9A66;">9</span>%自動回復(3ターン)を付与<br>自分がエンハンスでない時、味方単体のクリティカル抵抗<span style="color: #3C9A66;">12</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のクリティカル抵抗<span style="color: #3C9A66;">12</span>%アップ(3ターン)',
             coolTime: "4",
           },
           actionSkill2: {
             name: "乱反射",
             description:
-              '味方単体にかばう(1ターン)※この効果は強化解除・強化阻害・強化制限できない、回避(1ターン)を付与※この効果は強化解除・強化阻害・強化制限できない<br>自分がエンハンスでない時、味方単体のダメージ<span style="color: #79ff80;">12</span>%カット(3ターン)<br>自分以外の味方全体のパワー<span style="color: #79ff80;">25</span>%アップ(1ターン)※この効果は強化解除・強化阻害・強化制限できない<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のダメージ<span style="color: #79ff80;">12</span>%カット(3ターン)',
+              '味方単体にかばう(1ターン)※この効果は強化解除・強化阻害・強化制限できない、回避(1ターン)を付与※この効果は強化解除・強化阻害・強化制限できない<br>自分がエンハンスでない時、味方単体のダメージ<span style="color: #3C9A66;">12</span>%カット(3ターン)<br>自分以外の味方全体のパワー<span style="color: #3C9A66;">25</span>%アップ(1ターン)※この効果は強化解除・強化阻害・強化制限できない<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のダメージ<span style="color: #3C9A66;">12</span>%カット(3ターン)',
             coolTime: "6",
           },
           autoSkill1: {
             name: "存在アピール",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>自分がHP自動回復の時、味方全体のスピード<span style="color: #79ff80;">20</span>%アップ<br>自分が状態異常制限でないまま、1回ターンをまたいだ時、自分にくいしばり(2回)を付与<br>自分が状態異常制限でないまま、2回ターンをまたいだ時、味方全体に状態異常無効(1ターン)を付与※この効果はゲストでは発動しない<br>味方が2人戦闘不能になった時、自分に状態異常制限<span style="color: #79ff80;">7</span>個を付与                <br><br><h5 style="font-family: F0T; font-size: 16px;">Enhance Buffs</h5>                            <span style="font-family: F0T; font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style="font-family: F0T; font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style="font-family: F0T; font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +10350<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>自分がHP自動回復の時、味方全体のスピード<span style="color: #3C9A66;">20</span>%アップ<br>自分が状態異常制限でないまま、1回ターンをまたいだ時、自分にくいしばり(2回)を付与<br>自分が状態異常制限でないまま、2回ターンをまたいだ時、味方全体に状態異常無効(1ターン)を付与※この効果はゲストでは発動しない<br>味方が2人戦闘不能になった時、自分に状態異常制限<span style="color: #3C9A66;">7</span>個を付与                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>',
           },
           autoSkill2: {
             name: "底抜けの明るさ",
             description:
-              '自分に隠れるを付与<br>味方全体にHP<span style="color: #79ff80;">12</span>%自動回復(2ターン)を付与(最大1回)<br>2ターン毎に、味方全体に状態異常無効(1ターン)を付与(最大1回)<br>2ターン毎に、自分以外の味方全体のパワー<span style="color: #79ff80;">12</span>%アップ(最大5回)、クリティカル率<span style="color: #79ff80;">9</span>%アップ(最大5回)<br>3ターン毎に、味方全体のクールタイム<span style="color: #79ff80;">1</span>短縮(最大3回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分がダメージカットの時、自分に自然体を付与</color=#f68b1e>',
+              '自分に隠れるを付与<br>味方全体にHP<span style="color: #3C9A66;">12</span>%自動回復(2ターン)を付与(最大1回)<br>2ターン毎に、味方全体に状態異常無効(1ターン)を付与(最大1回)<br>2ターン毎に、自分以外の味方全体のパワー<span style="color: #3C9A66;">12</span>%アップ(最大5回)、クリティカル率<span style="color: #3C9A66;">9</span>%アップ(最大5回)<br>3ターン毎に、味方全体のクールタイム<span style="color: #3C9A66;">1</span>短縮(最大3回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分がダメージカットの時、自分に自然体を付与</color=#f68b1e>',
           },
         },
         leveltwo: {
           plusUltra: {
             name: "集光屈折ネビルレーザー",
             description:
-              '敵単体に<span style="color: #79ff80;">600</span>%ダメージ、高確率 (70%)で暗闇(3ターン)を付与<br>味方全体にHP<span style="color: #79ff80;">25</span>%自動回復(3ターン)を付与<br>自分以外の味方全体にくいしばり(2回)を付与<br>このスキルに必中を付与',
+              '敵単体に<span style="color: #3C9A66;">600</span>%ダメージ、高確率 (70%)で暗闇(3ターン)を付与<br>味方全体にHP<span style="color: #3C9A66;">25</span>%自動回復(3ターン)を付与<br>自分以外の味方全体にくいしばり(2回)を付与<br>このスキルに必中を付与',
           },
           actionSkill1: {
             name: "偵察",
             description:
-              '味方単体にかばう(1ターン)※この効果は強化解除・強化阻害・強化制限できない、バリア(1ターン)を付与※この効果は強化解除・強化阻害・強化制限できない<br>味方全体にHP<span style="color: #79ff80;">12</span>%自動回復(3ターン)を付与<br>自分がエンハンスでない時、味方単体のクリティカル抵抗<span style="color: #79ff80;">16</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のクリティカル抵抗<span style="color: #79ff80;">16</span>%アップ(3ターン)',
+              '味方単体にかばう(1ターン)※この効果は強化解除・強化阻害・強化制限できない、バリア(1ターン)を付与※この効果は強化解除・強化阻害・強化制限できない<br>味方全体にHP<span style="color: #3C9A66;">12</span>%自動回復(3ターン)を付与<br>自分がエンハンスでない時、味方単体のクリティカル抵抗<span style="color: #3C9A66;">16</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のクリティカル抵抗<span style="color: #3C9A66;">16</span>%アップ(3ターン)',
             coolTime: "4",
           },
           actionSkill2: {
             name: "乱反射",
             description:
-              '味方単体にかばう(1ターン)※この効果は強化解除・強化阻害・強化制限できない、回避(1ターン)を付与※この効果は強化解除・強化阻害・強化制限できない<br>自分がエンハンスでない時、味方単体のダメージ<span style="color: #79ff80;">16</span>%カット(3ターン)<br>自分以外の味方全体のパワー<span style="color: #79ff80;">30</span>%アップ(1ターン)※この効果は強化解除・強化阻害・強化制限できない<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のダメージ<span style="color: #79ff80;">16</span>%カット(3ターン)',
+              '味方単体にかばう(1ターン)※この効果は強化解除・強化阻害・強化制限できない、回避(1ターン)を付与※この効果は強化解除・強化阻害・強化制限できない<br>自分がエンハンスでない時、味方単体のダメージ<span style="color: #3C9A66;">16</span>%カット(3ターン)<br>自分以外の味方全体のパワー<span style="color: #3C9A66;">30</span>%アップ(1ターン)※この効果は強化解除・強化阻害・強化制限できない<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のダメージ<span style="color: #3C9A66;">16</span>%カット(3ターン)',
             coolTime: "5",
           },
           autoSkill1: {
             name: "存在アピール",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>自分がHP自動回復の時、味方全体のスピード<span style="color: #79ff80;">25</span>%アップ<br>自分が状態異常制限でないまま、1回ターンをまたいだ時、自分にくいしばり(2回)を付与<br>自分が状態異常制限でないまま、2回ターンをまたいだ時、味方全体に状態異常無効(1ターン)を付与※この効果はゲストでは発動しない<br>味方が2人戦闘不能になった時、自分に状態異常制限<span style="color: #79ff80;">7</span>個を付与                <br><br><h5 style="font-family: F0T; font-size: 16px;">Enhance Buffs</h5>                            <span style="font-family: F0T; font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style="font-family: F0T; font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style="font-family: F0T; font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +10350<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>自分がHP自動回復の時、味方全体のスピード<span style="color: #3C9A66;">25</span>%アップ<br>自分が状態異常制限でないまま、1回ターンをまたいだ時、自分にくいしばり(2回)を付与<br>自分が状態異常制限でないまま、2回ターンをまたいだ時、味方全体に状態異常無効(1ターン)を付与※この効果はゲストでは発動しない<br>味方が2人戦闘不能になった時、自分に状態異常制限<span style="color: #3C9A66;">7</span>個を付与                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>',
           },
           autoSkill2: {
             name: "底抜けの明るさ",
             description:
-              '自分に隠れるを付与<br>味方全体にHP<span style="color: #79ff80;">16</span>%自動回復(2ターン)を付与(最大1回)<br>2ターン毎に、味方全体に状態異常無効(1ターン)を付与(最大1回)<br>2ターン毎に、自分以外の味方全体のパワー<span style="color: #79ff80;">16</span>%アップ(最大5回)、クリティカル率<span style="color: #79ff80;">12</span>%アップ(最大5回)<br>3ターン毎に、味方全体のクールタイム<span style="color: #79ff80;">1</span>短縮(最大3回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分がダメージカットの時、自分に自然体を付与</color=#f68b1e>',
+              '自分に隠れるを付与<br>味方全体にHP<span style="color: #3C9A66;">16</span>%自動回復(2ターン)を付与(最大1回)<br>2ターン毎に、味方全体に状態異常無効(1ターン)を付与(最大1回)<br>2ターン毎に、自分以外の味方全体のパワー<span style="color: #3C9A66;">16</span>%アップ(最大5回)、クリティカル率<span style="color: #3C9A66;">12</span>%アップ(最大5回)<br>3ターン毎に、味方全体のクールタイム<span style="color: #3C9A66;">1</span>短縮(最大3回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分がダメージカットの時、自分に自然体を付与</color=#f68b1e>',
           },
         },
         levelthree: {
           plusUltra: {
             name: "集光屈折ネビルレーザー",
             description:
-              '敵単体に<span style="color: #79ff80;">650</span>%ダメージ、高確率 (70%)で暗闇(3ターン)を付与<br>味方全体にHP<span style="color: #79ff80;">30</span>%自動回復(3ターン)を付与<br>自分以外の味方全体にくいしばり(2回)を付与<br>このスキルに必中を付与',
+              '敵単体に<span style="color: #3C9A66;">650</span>%ダメージ、高確率 (70%)で暗闇(3ターン)を付与<br>味方全体にHP<span style="color: #3C9A66;">30</span>%自動回復(3ターン)を付与<br>自分以外の味方全体にくいしばり(2回)を付与<br>このスキルに必中を付与',
           },
           actionSkill1: {
             name: "偵察",
             description:
-              '味方単体にかばう(1ターン)※この効果は強化解除・強化阻害・強化制限できない、バリア(1ターン)を付与※この効果は強化解除・強化阻害・強化制限できない<br>味方全体にHP<span style="color: #79ff80;">15</span>%自動回復(3ターン)を付与<br>自分がエンハンスでない時、味方単体のクリティカル抵抗<span style="color: #79ff80;">20</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のクリティカル抵抗<span style="color: #79ff80;">20</span>%アップ(3ターン)',
+              '味方単体にかばう(1ターン)※この効果は強化解除・強化阻害・強化制限できない、バリア(1ターン)を付与※この効果は強化解除・強化阻害・強化制限できない<br>味方全体にHP<span style="color: #3C9A66;">15</span>%自動回復(3ターン)を付与<br>自分がエンハンスでない時、味方単体のクリティカル抵抗<span style="color: #3C9A66;">20</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のクリティカル抵抗<span style="color: #3C9A66;">20</span>%アップ(3ターン)',
             coolTime: "4",
           },
           actionSkill2: {
             name: "乱反射",
             description:
-              '味方単体にかばう(1ターン)※この効果は強化解除・強化阻害・強化制限できない、回避(1ターン)を付与※この効果は強化解除・強化阻害・強化制限できない<br>自分がエンハンスでない時、味方単体のダメージ<span style="color: #79ff80;">20</span>%カット(3ターン)<br>自分以外の味方全体のパワー<span style="color: #79ff80;">35</span>%アップ(1ターン)※この効果は強化解除・強化阻害・強化制限できない<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のダメージ<span style="color: #79ff80;">20</span>%カット(3ターン)',
+              '味方単体にかばう(1ターン)※この効果は強化解除・強化阻害・強化制限できない、回避(1ターン)を付与※この効果は強化解除・強化阻害・強化制限できない<br>自分がエンハンスでない時、味方単体のダメージ<span style="color: #3C9A66;">20</span>%カット(3ターン)<br>自分以外の味方全体のパワー<span style="color: #3C9A66;">35</span>%アップ(1ターン)※この効果は強化解除・強化阻害・強化制限できない<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のダメージ<span style="color: #3C9A66;">20</span>%カット(3ターン)',
             coolTime: "4",
           },
           autoSkill1: {
             name: "存在アピール",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>自分がHP自動回復の時、味方全体のスピード<span style="color: #79ff80;">30</span>%アップ<br>自分が状態異常制限でないまま、1回ターンをまたいだ時、自分にくいしばり(2回)を付与<br>自分が状態異常制限でないまま、2回ターンをまたいだ時、味方全体に状態異常無効(1ターン)を付与※この効果はゲストでは発動しない<br>味方が2人戦闘不能になった時、自分に状態異常制限<span style="color: #79ff80;">7</span>個を付与                <br><br><h5 style="font-family: F0T; font-size: 16px;">Enhance Buffs</h5>                            <span style="font-family: F0T; font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style="font-family: F0T; font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style="font-family: F0T; font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +10350<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>自分がHP自動回復の時、味方全体のスピード<span style="color: #3C9A66;">30</span>%アップ<br>自分が状態異常制限でないまま、1回ターンをまたいだ時、自分にくいしばり(2回)を付与<br>自分が状態異常制限でないまま、2回ターンをまたいだ時、味方全体に状態異常無効(1ターン)を付与※この効果はゲストでは発動しない<br>味方が2人戦闘不能になった時、自分に状態異常制限<span style="color: #3C9A66;">7</span>個を付与                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>',
           },
           autoSkill2: {
             name: "底抜けの明るさ",
             description:
-              '自分に隠れるを付与<br>味方全体にHP<span style="color: #79ff80;">20</span>%自動回復(2ターン)を付与(最大1回)<br>2ターン毎に、味方全体に状態異常無効(1ターン)を付与(最大1回)<br>2ターン毎に、自分以外の味方全体のパワー<span style="color: #79ff80;">20</span>%アップ(最大5回)、クリティカル率<span style="color: #79ff80;">15</span>%アップ(最大5回)<br>3ターン毎に、味方全体のクールタイム<span style="color: #79ff80;">1</span>短縮(最大3回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分がダメージカットの時、自分に自然体を付与</color=#f68b1e>',
+              '自分に隠れるを付与<br>味方全体にHP<span style="color: #3C9A66;">20</span>%自動回復(2ターン)を付与(最大1回)<br>2ターン毎に、味方全体に状態異常無効(1ターン)を付与(最大1回)<br>2ターン毎に、自分以外の味方全体のパワー<span style="color: #3C9A66;">20</span>%アップ(最大5回)、クリティカル率<span style="color: #3C9A66;">15</span>%アップ(最大5回)<br>3ターン毎に、味方全体のクールタイム<span style="color: #3C9A66;">1</span>短縮(最大3回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分がダメージカットの時、自分に自然体を付与</color=#f68b1e>',
           },
         },
         dxlevelone: {
           plusUltra: {
             name: "集光屈折ネビルレーザー",
             description:
-              '敵単体に<span style="color: #79ff80;">650</span>%ダメージ、高確率 (70%)で暗闇(3ターン)を付与<br>味方全体にHP<span style="color: #79ff80;">30</span>%自動回復(3ターン)を付与<br>自分以外の味方全体にくいしばり(2回)を付与<br>このスキルに必中を付与',
+              '敵単体に<span style="color: #3C9A66;">650</span>%ダメージ、高確率 (70%)で暗闇(3ターン)を付与<br>味方全体にHP<span style="color: #3C9A66;">30</span>%自動回復(3ターン)を付与<br>自分以外の味方全体にくいしばり(2回)を付与<br>このスキルに必中を付与',
           },
           actionSkill1: {
             name: "偵察 DX",
             description:
-              '味方単体にかばう(1ターン)※この効果は強化解除・強化阻害・強化制限できない、バリア(1ターン)を付与※この効果は強化解除・強化阻害・強化制限できない<br>味方全体にHP<span style="color: #79ff80;">20</span>%自動回復(3ターン)を付与<br>自分がエンハンスでない時、味方単体のクリティカル抵抗<span style="color: #79ff80;">25</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のクリティカル抵抗<span style="color: #79ff80;">25</span>%アップ(3ターン)',
+              '味方単体にかばう(1ターン)※この効果は強化解除・強化阻害・強化制限できない、バリア(1ターン)を付与※この効果は強化解除・強化阻害・強化制限できない<br>味方全体にHP<span style="color: #3C9A66;">20</span>%自動回復(3ターン)を付与<br>自分がエンハンスでない時、味方単体のクリティカル抵抗<span style="color: #3C9A66;">25</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のクリティカル抵抗<span style="color: #3C9A66;">25</span>%アップ(3ターン)',
             coolTime: "4",
           },
           actionSkill2: {
             name: "乱反射 DX",
             description:
-              '味方単体にかばう(1ターン)※この効果は強化解除・強化阻害・強化制限できない、回避(1ターン)を付与※この効果は強化解除・強化阻害・強化制限できない<br>自分がエンハンスでない時、味方単体のダメージ<span style="color: #79ff80;">25</span>%カット(3ターン)<br>自分以外の味方全体のパワー<span style="color: #79ff80;">40</span>%アップ(1ターン)※この効果は強化解除・強化阻害・強化制限できない<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のダメージ<span style="color: #79ff80;">25</span>%カット(3ターン)',
+              '味方単体にかばう(1ターン)※この効果は強化解除・強化阻害・強化制限できない、回避(1ターン)を付与※この効果は強化解除・強化阻害・強化制限できない<br>自分がエンハンスでない時、味方単体のダメージ<span style="color: #3C9A66;">25</span>%カット(3ターン)<br>自分以外の味方全体のパワー<span style="color: #3C9A66;">40</span>%アップ(1ターン)※この効果は強化解除・強化阻害・強化制限できない<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のダメージ<span style="color: #3C9A66;">25</span>%カット(3ターン)',
             coolTime: "4",
           },
           autoSkill1: {
             name: "存在アピール",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>自分がHP自動回復の時、味方全体のスピード<span style="color: #79ff80;">30</span>%アップ<br>自分が状態異常制限でないまま、1回ターンをまたいだ時、自分にくいしばり(2回)を付与<br>自分が状態異常制限でないまま、2回ターンをまたいだ時、味方全体に状態異常無効(1ターン)を付与※この効果はゲストでは発動しない<br>味方が2人戦闘不能になった時、自分に状態異常制限<span style="color: #79ff80;">7</span>個を付与                <br><br><h5 style="font-family: F0T; font-size: 16px;">Enhance Buffs</h5>                            <span style="font-family: F0T; font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style="font-family: F0T; font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style="font-family: F0T; font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +10350<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>自分がHP自動回復の時、味方全体のスピード<span style="color: #3C9A66;">30</span>%アップ<br>自分が状態異常制限でないまま、1回ターンをまたいだ時、自分にくいしばり(2回)を付与<br>自分が状態異常制限でないまま、2回ターンをまたいだ時、味方全体に状態異常無効(1ターン)を付与※この効果はゲストでは発動しない<br>味方が2人戦闘不能になった時、自分に状態異常制限<span style="color: #3C9A66;">7</span>個を付与                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>',
           },
           autoSkill2: {
             name: "底抜けの明るさ",
             description:
-              '自分に隠れるを付与<br>味方全体にHP<span style="color: #79ff80;">20</span>%自動回復(2ターン)を付与(最大1回)<br>2ターン毎に、味方全体に状態異常無効(1ターン)を付与(最大1回)<br>2ターン毎に、自分以外の味方全体のパワー<span style="color: #79ff80;">20</span>%アップ(最大5回)、クリティカル率<span style="color: #79ff80;">15</span>%アップ(最大5回)<br>3ターン毎に、味方全体のクールタイム<span style="color: #79ff80;">1</span>短縮(最大3回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分がダメージカットの時、自分に自然体を付与</color=#f68b1e>',
+              '自分に隠れるを付与<br>味方全体にHP<span style="color: #3C9A66;">20</span>%自動回復(2ターン)を付与(最大1回)<br>2ターン毎に、味方全体に状態異常無効(1ターン)を付与(最大1回)<br>2ターン毎に、自分以外の味方全体のパワー<span style="color: #3C9A66;">20</span>%アップ(最大5回)、クリティカル率<span style="color: #3C9A66;">15</span>%アップ(最大5回)<br>3ターン毎に、味方全体のクールタイム<span style="color: #3C9A66;">1</span>短縮(最大3回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分がダメージカットの時、自分に自然体を付与</color=#f68b1e>',
           },
         },
         dxleveltwo: {
           plusUltra: {
             name: "集光屈折ネビルレーザー",
             description:
-              '敵単体に<span style="color: #79ff80;">650</span>%ダメージ、高確率 (70%)で暗闇(3ターン)を付与<br>味方全体にHP<span style="color: #79ff80;">30</span>%自動回復(3ターン)を付与<br>自分以外の味方全体にくいしばり(2回)を付与<br>このスキルに必中を付与',
+              '敵単体に<span style="color: #3C9A66;">650</span>%ダメージ、高確率 (70%)で暗闇(3ターン)を付与<br>味方全体にHP<span style="color: #3C9A66;">30</span>%自動回復(3ターン)を付与<br>自分以外の味方全体にくいしばり(2回)を付与<br>このスキルに必中を付与',
           },
           actionSkill1: {
             name: "偵察 DX",
             description:
-              '味方単体にかばう(1ターン)※この効果は強化解除・強化阻害・強化制限できない、バリア(1ターン)を付与※この効果は強化解除・強化阻害・強化制限できない<br>味方全体にHP<span style="color: #79ff80;">20</span>%自動回復(3ターン)を付与<br>自分がエンハンスでない時、味方単体のクリティカル抵抗<span style="color: #79ff80;">30</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のクリティカル抵抗<span style="color: #79ff80;">30</span>%アップ(3ターン)',
+              '味方単体にかばう(1ターン)※この効果は強化解除・強化阻害・強化制限できない、バリア(1ターン)を付与※この効果は強化解除・強化阻害・強化制限できない<br>味方全体にHP<span style="color: #3C9A66;">20</span>%自動回復(3ターン)を付与<br>自分がエンハンスでない時、味方単体のクリティカル抵抗<span style="color: #3C9A66;">30</span>%アップ(3ターン)<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のクリティカル抵抗<span style="color: #3C9A66;">30</span>%アップ(3ターン)',
             coolTime: "4",
           },
           actionSkill2: {
             name: "乱反射 DX",
             description:
-              '味方単体にかばう(1ターン)※この効果は強化解除・強化阻害・強化制限できない、回避(1ターン)を付与※この効果は強化解除・強化阻害・強化制限できない<br>自分がエンハンスでない時、味方単体のダメージ<span style="color: #79ff80;">30</span>%カット(3ターン)<br>自分以外の味方全体のパワー<span style="color: #79ff80;">50</span>%アップ(1ターン)※この効果は強化解除・強化阻害・強化制限できない<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のダメージ<span style="color: #79ff80;">30</span>%カット(3ターン)',
+              '味方単体にかばう(1ターン)※この効果は強化解除・強化阻害・強化制限できない、回避(1ターン)を付与※この効果は強化解除・強化阻害・強化制限できない<br>自分がエンハンスでない時、味方単体のダメージ<span style="color: #3C9A66;">30</span>%カット(3ターン)<br>自分以外の味方全体のパワー<span style="color: #3C9A66;">50</span>%アップ(1ターン)※この効果は強化解除・強化阻害・強化制限できない<color=#f68b1e><br>▼エンハンス追加効果<br>味方全体のダメージ<span style="color: #3C9A66;">30</span>%カット(3ターン)',
             coolTime: "4",
           },
           autoSkill1: {
             name: "存在アピール",
             description:
-              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>自分がHP自動回復の時、味方全体のスピード<span style="color: #79ff80;">30</span>%アップ<br>自分が状態異常制限でないまま、1回ターンをまたいだ時、自分にくいしばり(2回)を付与<br>自分が状態異常制限でないまま、2回ターンをまたいだ時、味方全体に状態異常無効(1ターン)を付与※この効果はゲストでは発動しない<br>味方が2人戦闘不能になった時、自分に状態異常制限<span style="color: #79ff80;">7</span>個を付与                <br><br><h5 style="font-family: F0T; font-size: 16px;">Enhance Buffs</h5>                            <span style="font-family: F0T; font-size: 12px; color: #ff5757">基礎攻撃力アップ</span>: +210<br>                                                    <span style="font-family: F0T; font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style="font-family: F0T; font-size: 12px; color: #57ff68">基礎最大HPアップ</span>: +10350<br>',
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がくいしばりのまま3回ターンをまたぐ②バトル開始から5ターン経過)<br>自分がHP自動回復の時、味方全体のスピード<span style="color: #3C9A66;">30</span>%アップ<br>自分が状態異常制限でないまま、1回ターンをまたいだ時、自分にくいしばり(2回)を付与<br>自分が状態異常制限でないまま、2回ターンをまたいだ時、味方全体に状態異常無効(1ターン)を付与※この効果はゲストでは発動しない<br>味方が2人戦闘不能になった時、自分に状態異常制限<span style="color: #3C9A66;">7</span>個を付与                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +210<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +58<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>',
           },
           autoSkill2: {
             name: "底抜けの明るさ",
             description:
-              '自分に隠れるを付与<br>味方全体にHP<span style="color: #79ff80;">20</span>%自動回復(2ターン)を付与(最大1回)<br>2ターン毎に、味方全体に状態異常無効(1ターン)を付与(最大1回)<br>2ターン毎に、自分以外の味方全体のパワー<span style="color: #79ff80;">20</span>%アップ(最大5回)、クリティカル率<span style="color: #79ff80;">15</span>%アップ(最大5回)<br>3ターン毎に、味方全体のクールタイム<span style="color: #79ff80;">1</span>短縮(最大3回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分がダメージカットの時、自分に自然体を付与</color=#f68b1e>',
+              '自分に隠れるを付与<br>味方全体にHP<span style="color: #3C9A66;">20</span>%自動回復(2ターン)を付与(最大1回)<br>2ターン毎に、味方全体に状態異常無効(1ターン)を付与(最大1回)<br>2ターン毎に、自分以外の味方全体のパワー<span style="color: #3C9A66;">20</span>%アップ(最大5回)、クリティカル率<span style="color: #3C9A66;">15</span>%アップ(最大5回)<br>3ターン毎に、味方全体のクールタイム<span style="color: #3C9A66;">1</span>短縮(最大3回)<color=#f68b1e><br>▼エンハンス追加効果<br>自分がダメージカットの時、自分に自然体を付与</color=#f68b1e>',
+          },
+        },
+      },
+    },
+    {
+      id: "1194005",
+      epithet: "強襲する魔王",
+      name: "オール・フォー・ワン",
+      rarity: "ur",
+      type: "abl",
+      sex: "男",
+      skills: [
+        "強奪",
+        "圧倒",
+        "全体攻撃",
+        "クールタイム短縮",
+        "エンハンス",
+        "基礎攻撃力アップ",
+        "基礎スピードアップ",
+        "基礎最大HPアップ",
+        "HP回復",
+        "状態異常効果ターン短縮",
+        "プルスウルトラ効率アップ",
+        "プルスウルトラ技威力アップ",
+        "挑発",
+        "最大HPアップ",
+        "強化阻害完全耐性",
+        "ディフェンスアップ",
+        "必中",
+        "不屈",
+        "スキル威力ダウン",
+      ],
+      tags: ["敵＜ヴィラン＞連合", "敵＜ヴィラン＞"],
+      stats: [
+        {
+          hp: "3716",
+          power: "1081",
+          speed: "90",
+          defense: "100",
+          critical: "10",
+        },
+        {
+          hp: "10826",
+          power: "2819",
+          speed: "169",
+          defense: "100",
+          critical: "10",
+        },
+        {
+          hp: "43226",
+          power: "9099",
+          speed: "709",
+          defense: "100",
+          critical: "10",
+        },
+        {
+          hp: "52226",
+          power: "10899",
+          speed: "889",
+          defense: "100",
+          critical: "10",
+        },
+      ],
+      uniqueSkills: [
+        "自分のスキルでCHAIN成功時、自分のパワーを5%アップ、ディフェンスを5%アップ(最大6回)",
+        "自分のスキル封印、麻痺、混乱、恐怖状態になる確率を下げる",
+        "戦闘開始後、自分の状態異常を防ぐ(2回)、自分のディフェンスを10%アップ",
+        "WAVE開始後、自分のパワーを20%アップ(4ターン)",
+        "WAVE開始後、味方全体のスピードを15%アップ(2ターン)",
+        "自分のHPが50%未満の時、戦闘中に1度だけ自分にHP20%自動回復(2ターン)を付与",
+        "毎ターン、自分のディフェンスが5%アップ(最大6回)",
+      ],
+      skill: {
+        levelone: {
+          plusUltra: {
+            name: "厄災の光塵",
+            description:
+              '自分以外の敵味方全体の一時的な強化<span style="color: #3C9A66;">1</span>個強奪<br>敵全体に<span style="color: #3C9A66;">350</span>%ダメージ<br>味方全体のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分の一時的な強化が6個以上の時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<color=#f68b1e><br>▼エンハンス追加効果<br>自分以外の敵味方全体の一時的な強化全て強奪<br>このスキルに圧倒を付与</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "空気砲",
+            description:
+              '敵単体の一時的な強化<span style="color: #3C9A66;">3</span>個強奪、<span style="color: #3C9A66;">300</span>%ダメージ、スキル威力<span style="color: #ff6f6f;">20</span>%ダウン(3ターン)',
+            coolTime: "7",
+          },
+          actionSkill2: {
+            name: "黒爪無窮",
+            description:
+              '自分以外の敵味方全体の一時的な強化<span style="color: #3C9A66;">1</span>個強奪<br>敵全体に<span style="color: #3C9A66;">200</span>%ダメージ<br>味方全体のディフェンス<span style="color: #3C9A66;">9</span>%アップ(3ターン)<br>自分の一時的な強化が6個以上の時、自分のHP<span style="color: #3C9A66;">4</span>%回復<br>自分の一時的な強化が8個以上の時、自分のHP<span style="color: #3C9A66;">5</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>自分の一時的な強化が10個以上の時、自分のディフェンス<span style="color: #3C9A66;">12</span>%アップ(3ターン)',
+            coolTime: "7",
+          },
+          autoSkill1: {
+            name: "蔑む瞳",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に3回攻撃しきる②バトル開始から5ターン経過)<br>自分が攻撃を3回受けきった時、ターゲットを無視してランダムな敵単体の一時的な強化<span style="color: #3C9A66;">2</span>個強奪<br>敵の一時的な強化が1回解除されきった時、自分のHP<span style="color: #3C9A66;">6</span>%回復<br>敵の一時的な強化が2回解除されきった時、自分の一時的な状態異常<span style="color: #3C9A66;">1</span>ターン短縮<br>自分の一時的な強化が1回解除されきった時、自分のプルスウルトラ効率<span style="color: #3C9A66;">6</span>%アップ(累積)、プルスウルトラ技威力<span style="color: #3C9A66;">20</span>%アップ(3ターン)                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +255<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +50<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>',
+          },
+          autoSkill2: {
+            name: "魔王の圧",
+            description:
+              '自分のHPが30%以上の時、自分に挑発を付与<br>自分の最大HP<span style="color: #3C9A66;">12</span>%アップ<br>チームに"技タイプ"が2体以上いる時、自分の最大HP<span style="color: #3C9A66;">18</span>%アップ、強化阻害完全耐性を付与<br>チームに"技タイプ"が3体以上いる時、味方全体のディフェンス<span style="color: #3C9A66;">15</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分に必中を付与<br>自分がエンハンスのまま、3回ターンをまたいだ時、自分に不屈(3ターン)を付与※この効果は強化解除・強化阻害・強化制限できない</color=#f68b1e>',
+          },
+        },
+        leveltwo: {
+          plusUltra: {
+            name: "厄災の光塵",
+            description:
+              '自分以外の敵味方全体の一時的な強化<span style="color: #3C9A66;">1</span>個強奪<br>敵全体に<span style="color: #3C9A66;">400</span>%ダメージ<br>味方全体のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分の一時的な強化が6個以上の時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<color=#f68b1e><br>▼エンハンス追加効果<br>自分以外の敵味方全体の一時的な強化全て強奪<br>このスキルに圧倒を付与</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "空気砲",
+            description:
+              '敵単体の一時的な強化<span style="color: #3C9A66;">3</span>個強奪、<span style="color: #3C9A66;">325</span>%ダメージ、スキル威力<span style="color: #ff6f6f;">25</span>%ダウン(3ターン)',
+            coolTime: "6",
+          },
+          actionSkill2: {
+            name: "黒爪無窮",
+            description:
+              '自分以外の敵味方全体の一時的な強化<span style="color: #3C9A66;">1</span>個強奪<br>敵全体に<span style="color: #3C9A66;">225</span>%ダメージ<br>味方全体のディフェンス<span style="color: #3C9A66;">12</span>%アップ(3ターン)<br>自分の一時的な強化が6個以上の時、自分のHP<span style="color: #3C9A66;">6</span>%回復<br>自分の一時的な強化が8個以上の時、自分のHP<span style="color: #3C9A66;">5</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>自分の一時的な強化が10個以上の時、自分のディフェンス<span style="color: #3C9A66;">16</span>%アップ(3ターン)',
+            coolTime: "6",
+          },
+          autoSkill1: {
+            name: "蔑む瞳",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に3回攻撃しきる②バトル開始から5ターン経過)<br>自分が攻撃を3回受けきった時、ターゲットを無視してランダムな敵単体の一時的な強化<span style="color: #3C9A66;">2</span>個強奪<br>敵の一時的な強化が1回解除されきった時、自分のHP<span style="color: #3C9A66;">8</span>%回復<br>敵の一時的な強化が2回解除されきった時、自分の一時的な状態異常<span style="color: #3C9A66;">1</span>ターン短縮<br>自分の一時的な強化が1回解除されきった時、自分のプルスウルトラ効率<span style="color: #3C9A66;">8</span>%アップ(累積)、プルスウルトラ技威力<span style="color: #3C9A66;">25</span>%アップ(3ターン)                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +255<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +50<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>',
+          },
+          autoSkill2: {
+            name: "魔王の圧",
+            description:
+              '自分のHPが30%以上の時、自分に挑発を付与<br>自分の最大HP<span style="color: #3C9A66;">16</span>%アップ<br>チームに"技タイプ"が2体以上いる時、自分の最大HP<span style="color: #3C9A66;">24</span>%アップ、強化阻害完全耐性を付与<br>チームに"技タイプ"が3体以上いる時、味方全体のディフェンス<span style="color: #3C9A66;">15</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分に必中を付与<br>自分がエンハンスのまま、3回ターンをまたいだ時、自分に不屈(3ターン)を付与※この効果は強化解除・強化阻害・強化制限できない</color=#f68b1e>',
+          },
+        },
+        levelthree: {
+          plusUltra: {
+            name: "厄災の光塵",
+            description:
+              '自分以外の敵味方全体の一時的な強化<span style="color: #3C9A66;">1</span>個強奪<br>敵全体に<span style="color: #3C9A66;">450</span>%ダメージ<br>味方全体のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分の一時的な強化が6個以上の時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<color=#f68b1e><br>▼エンハンス追加効果<br>自分以外の敵味方全体の一時的な強化全て強奪<br>このスキルに圧倒を付与</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "空気砲",
+            description:
+              '敵単体の一時的な強化<span style="color: #3C9A66;">3</span>個強奪、<span style="color: #3C9A66;">350</span>%ダメージ、スキル威力<span style="color: #ff6f6f;">30</span>%ダウン(3ターン)',
+            coolTime: "5",
+          },
+          actionSkill2: {
+            name: "黒爪無窮",
+            description:
+              '自分以外の敵味方全体の一時的な強化<span style="color: #3C9A66;">1</span>個強奪<br>敵全体に<span style="color: #3C9A66;">250</span>%ダメージ<br>味方全体のディフェンス<span style="color: #3C9A66;">15</span>%アップ(3ターン)<br>自分の一時的な強化が6個以上の時、自分のHP<span style="color: #3C9A66;">8</span>%回復<br>自分の一時的な強化が8個以上の時、自分のHP<span style="color: #3C9A66;">5</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>自分の一時的な強化が10個以上の時、自分のディフェンス<span style="color: #3C9A66;">20</span>%アップ(3ターン)',
+            coolTime: "5",
+          },
+          autoSkill1: {
+            name: "蔑む瞳",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に3回攻撃しきる②バトル開始から5ターン経過)<br>自分が攻撃を3回受けきった時、ターゲットを無視してランダムな敵単体の一時的な強化<span style="color: #3C9A66;">2</span>個強奪<br>敵の一時的な強化が1回解除されきった時、自分のHP<span style="color: #3C9A66;">10</span>%回復<br>敵の一時的な強化が2回解除されきった時、自分の一時的な状態異常<span style="color: #3C9A66;">1</span>ターン短縮<br>自分の一時的な強化が1回解除されきった時、自分のプルスウルトラ効率<span style="color: #3C9A66;">10</span>%アップ(累積)、プルスウルトラ技威力<span style="color: #3C9A66;">30</span>%アップ(3ターン)                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +255<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +50<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>',
+          },
+          autoSkill2: {
+            name: "魔王の圧",
+            description:
+              '自分のHPが30%以上の時、自分に挑発を付与<br>自分の最大HP<span style="color: #3C9A66;">20</span>%アップ<br>チームに"技タイプ"が2体以上いる時、自分の最大HP<span style="color: #3C9A66;">30</span>%アップ、強化阻害完全耐性を付与<br>チームに"技タイプ"が3体以上いる時、味方全体のディフェンス<span style="color: #3C9A66;">15</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分に必中を付与<br>自分がエンハンスのまま、3回ターンをまたいだ時、自分に不屈(3ターン)を付与※この効果は強化解除・強化阻害・強化制限できない</color=#f68b1e>',
+          },
+        },
+        dxlevelone: {
+          plusUltra: {
+            name: "厄災の光塵",
+            description:
+              '自分以外の敵味方全体の一時的な強化<span style="color: #3C9A66;">1</span>個強奪<br>敵全体に<span style="color: #3C9A66;">450</span>%ダメージ<br>味方全体のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分の一時的な強化が6個以上の時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<color=#f68b1e><br>▼エンハンス追加効果<br>自分以外の敵味方全体の一時的な強化全て強奪<br>このスキルに圧倒を付与</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "空気砲 DX",
+            description:
+              '敵単体の一時的な強化<span style="color: #3C9A66;">3</span>個強奪、<span style="color: #3C9A66;">375</span>%ダメージ、スキル威力<span style="color: #ff6f6f;">35</span>%ダウン(3ターン)',
+            coolTime: "5",
+          },
+          actionSkill2: {
+            name: "黒爪無窮 DX",
+            description:
+              '自分以外の敵味方全体の一時的な強化<span style="color: #3C9A66;">1</span>個強奪<br>敵全体に<span style="color: #3C9A66;">275</span>%ダメージ<br>味方全体のディフェンス<span style="color: #3C9A66;">20</span>%アップ(3ターン)<br>自分の一時的な強化が6個以上の時、自分のHP<span style="color: #3C9A66;">8</span>%回復<br>自分の一時的な強化が8個以上の時、自分のHP<span style="color: #3C9A66;">10</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>自分の一時的な強化が10個以上の時、自分のディフェンス<span style="color: #3C9A66;">25</span>%アップ(3ターン)',
+            coolTime: "5",
+          },
+          autoSkill1: {
+            name: "蔑む瞳",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に3回攻撃しきる②バトル開始から5ターン経過)<br>自分が攻撃を3回受けきった時、ターゲットを無視してランダムな敵単体の一時的な強化<span style="color: #3C9A66;">2</span>個強奪<br>敵の一時的な強化が1回解除されきった時、自分のHP<span style="color: #3C9A66;">10</span>%回復<br>敵の一時的な強化が2回解除されきった時、自分の一時的な状態異常<span style="color: #3C9A66;">1</span>ターン短縮<br>自分の一時的な強化が1回解除されきった時、自分のプルスウルトラ効率<span style="color: #3C9A66;">10</span>%アップ(累積)、プルスウルトラ技威力<span style="color: #3C9A66;">30</span>%アップ(3ターン)                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +255<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +50<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>',
+          },
+          autoSkill2: {
+            name: "魔王の圧",
+            description:
+              '自分のHPが30%以上の時、自分に挑発を付与<br>自分の最大HP<span style="color: #3C9A66;">20</span>%アップ<br>チームに"技タイプ"が2体以上いる時、自分の最大HP<span style="color: #3C9A66;">30</span>%アップ、強化阻害完全耐性を付与<br>チームに"技タイプ"が3体以上いる時、味方全体のディフェンス<span style="color: #3C9A66;">15</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分に必中を付与<br>自分がエンハンスのまま、3回ターンをまたいだ時、自分に不屈(3ターン)を付与※この効果は強化解除・強化阻害・強化制限できない</color=#f68b1e>',
+          },
+        },
+        dxleveltwo: {
+          plusUltra: {
+            name: "厄災の光塵",
+            description:
+              '自分以外の敵味方全体の一時的な強化<span style="color: #3C9A66;">1</span>個強奪<br>敵全体に<span style="color: #3C9A66;">450</span>%ダメージ<br>味方全体のクールタイム<span style="color: #3C9A66;">1</span>短縮<br>自分の一時的な強化が6個以上の時、自分のクールタイム<span style="color: #3C9A66;">1</span>短縮<color=#f68b1e><br>▼エンハンス追加効果<br>自分以外の敵味方全体の一時的な強化全て強奪<br>このスキルに圧倒を付与</color=#f68b1e>',
+          },
+          actionSkill1: {
+            name: "空気砲 DX",
+            description:
+              '敵単体の一時的な強化<span style="color: #3C9A66;">3</span>個強奪、<span style="color: #3C9A66;">400</span>%ダメージ、スキル威力<span style="color: #ff6f6f;">40</span>%ダウン(3ターン)',
+            coolTime: "5",
+          },
+          actionSkill2: {
+            name: "黒爪無窮 DX",
+            description:
+              '自分以外の敵味方全体の一時的な強化<span style="color: #3C9A66;">1</span>個強奪<br>敵全体に<span style="color: #3C9A66;">300</span>%ダメージ<br>味方全体のディフェンス<span style="color: #3C9A66;">20</span>%アップ(3ターン)<br>自分の一時的な強化が6個以上の時、自分のHP<span style="color: #3C9A66;">10</span>%回復<br>自分の一時的な強化が8個以上の時、自分のHP<span style="color: #3C9A66;">10</span>%回復<color=#f68b1e><br>▼エンハンス追加効果<br>自分の一時的な強化が10個以上の時、自分のディフェンス<span style="color: #3C9A66;">30</span>%アップ(3ターン)',
+            coolTime: "5",
+          },
+          autoSkill1: {
+            name: "蔑む瞳",
+            description:
+              '2つの条件を満たした状態でターンを終了した時、自分にエンハンスを付与(①自分がプルスウルトラ技で相手に3回攻撃しきる②バトル開始から5ターン経過)<br>自分が攻撃を3回受けきった時、ターゲットを無視してランダムな敵単体の一時的な強化<span style="color: #3C9A66;">2</span>個強奪<br>敵の一時的な強化が1回解除されきった時、自分のHP<span style="color: #3C9A66;">10</span>%回復<br>敵の一時的な強化が2回解除されきった時、自分の一時的な状態異常<span style="color: #3C9A66;">1</span>ターン短縮<br>自分の一時的な強化が1回解除されきった時、自分のプルスウルトラ効率<span style="color: #3C9A66;">10</span>%アップ(累積)、プルスウルトラ技威力<span style="color: #3C9A66;">30</span>%アップ(3ターン)                <br><br><h5 >Enhance Buffs</h5>                            <span style=" font-size: 12px; color: #ff6f6f">基礎攻撃力アップ</span>: +255<br>                                                    <span style=" font-size: 12px; color: #57aeff">基礎スピードアップ</span>: +50<br>                                                    <span style=" font-size: 12px; color: #3C9A66">基礎最大HPアップ</span>: +10350<br>',
+          },
+          autoSkill2: {
+            name: "魔王の圧",
+            description:
+              '自分のHPが30%以上の時、自分に挑発を付与<br>自分の最大HP<span style="color: #3C9A66;">20</span>%アップ<br>チームに"技タイプ"が2体以上いる時、自分の最大HP<span style="color: #3C9A66;">30</span>%アップ、強化阻害完全耐性を付与<br>チームに"技タイプ"が3体以上いる時、味方全体のディフェンス<span style="color: #3C9A66;">15</span>%アップ<color=#f68b1e><br>▼エンハンス追加効果<br>自分に必中を付与<br>自分がエンハンスのまま、3回ターンをまたいだ時、自分に不屈(3ターン)を付与※この効果は強化解除・強化阻害・強化制限できない</color=#f68b1e>',
           },
         },
       },

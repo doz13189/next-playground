@@ -277,6 +277,7 @@ export const MemorySkills = z.enum([
   "プルスウルトラゲージ上昇量アップ",
   "業火命中率アップ",
   "プルスウルトラ効率アップ",
+  "プルスウルトラ技ダメージ軽減",
 ] as const);
 
 export const Tags = z.enum([
