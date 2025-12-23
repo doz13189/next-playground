@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import "./globals.css";
 
-const serviceTitle = "Search the hero";
+const serviceTitle = "test";
 const serviceDescription =
-  "僕のヒーローアカデミア ULTRA IMPACT(ヒロトラ)のプレイキャラ/メモリーを検索することができる非公式サービスです。また、リーク情報は扱いません。";
+  "テスト用の説明文です。";
 const serviceImageUrl =
   "https://placehold.jp/150x150.png";
 const serviceUrl = "https://search-the-hero.vercel.app";
@@ -44,7 +43,5 @@ export default function Layout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    { children }
-  );
+  return <>{children}</>;
 }
