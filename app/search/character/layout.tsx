@@ -5,7 +5,7 @@ const serviceDescription =
   "テスト用の説明文です。";
 const serviceImageUrl =
   "https://placehold.jp/150x150.png";
-const serviceUrl = "https://search-the-hero.vercel.app";
+const serviceUrl = "http://localhost";
 
 export const metadata: Metadata = {
   metadataBase: new URL(serviceUrl),
