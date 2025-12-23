@@ -11,7 +11,7 @@ const serviceDescription =
   "僕のヒーローアカデミア ULTRA IMPACT(ヒロトラ)のプレイキャラ/メモリーを検索することができる非公式サービスです。また、リーク情報は扱いません。";
 const serviceImageUrl =
   "https://search-the-hero.vercel.app/_next/image?url=%2Fmemory-image%2Fmemory_l_2400152.webp&w=1920&q=75";
-const serviceUrl = "http://localhost";
+const serviceUrl = "https://search-the-hero.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(serviceUrl),
